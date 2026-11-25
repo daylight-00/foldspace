@@ -101,7 +101,7 @@ def figure(d: dict) -> str:
     out, y = [], 0
     # A: reconstruction
     rows = d["reconstruction"]
-    out.append(t(10, y + 20, "A  RFD4 latent reconstruction, given the true Cα trace", "h"))
+    out.append(t(10, y + 20, "A. RFD4 latent reconstruction, given the true Cα trace", "h"))
     top, rowh = y + 34, 30
     out.append(panel_axis(top, len(rows) * rowh, 1.4, [0, 0.35, 0.7, 1.05, 1.4], lambda v: f"{v:g}", "per-residue RMSD of complete residues (Å, lower is better)"))
     for i, (label, value, cls) in enumerate(rows):
@@ -112,7 +112,7 @@ def figure(d: dict) -> str:
     y = top + len(rows) * rowh + 62
     # B: unconditional generation
     rows = d["usable"]
-    out.append(t(10, y + 20, "B  RFD4 unconditional generation", "h"))
+    out.append(t(10, y + 20, "B. RFD4 unconditional generation", "h"))
     top, rowh = y + 34, 40
     out.append(panel_axis(top, len(rows) * rowh, 192, [0, 48, 96, 144, 192], lambda v: f"{v:g}", "usable samples of 192 (first and second training seed)"))
     for i, (label, values) in enumerate(rows):
@@ -129,7 +129,7 @@ def figure(d: dict) -> str:
     y = ly + 34
     # C: ESMFold2
     rows = d["sets"]
-    out.append(t(10, y + 20, "C  ESMFold2 latent generation, re-encoded route", "h"))
+    out.append(t(10, y + 20, "C. ESMFold2 latent generation, re-encoded route", "h"))
     top, rowh = y + 34, 30
     out.append(panel_axis(top, len(rows) * rowh, 1.0, [0, 0.25, 0.5, 0.75, 1.0], lambda v: f"{v:g}", "share of the samples of a set (48 each; 24 natural chains)"))
     for i, (label, success, credited, n, cls) in enumerate(rows):
