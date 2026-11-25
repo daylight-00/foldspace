@@ -37,7 +37,9 @@ uv run --no-project --python 3.12 --with pytest --with numpy -- python -m pytest
 
 ## Status
 
-Exploratory computational research. Neither architecture achieved reliable unconditional protein generation under the tested configurations, and no experimental validation is claimed. This independent project was developed with extensive use of AI coding and research agents for implementation and experimental execution.
+Exploratory computational research. Neither architecture achieved reliable unconditional protein generation under the tested configurations, and no experimental validation is claimed.
+
+This independent project was developed with extensive use of AI coding and research agents for implementation and experimental execution.
 
 ## License
 
