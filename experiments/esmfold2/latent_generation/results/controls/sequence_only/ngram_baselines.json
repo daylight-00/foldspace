@@ -1,0 +1,21 @@
+{
+  "dev_chains": 3509,
+  "models": {
+    "bigram": {
+      "alpha": 0.5,
+      "cw_nll": 2.8968989065764403,
+      "cw_perplexity": 18.11787294487856,
+      "micro_nll": 2.929045500262898,
+      "order": 1
+    },
+    "unigram": {
+      "alpha": 0.5,
+      "cw_nll": 2.905551422300577,
+      "cw_perplexity": 18.27531829231982,
+      "micro_nll": 2.932062851577887,
+      "order": 0
+    }
+  },
+  "train_chains": 17063,
+  "uniform_nll": 2.995732273553991
+}

@@ -1,0 +1,2143 @@
+{
+  "chains": [
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s000",
+      "kind": "sample",
+      "length": 70,
+      "nll": 2.9830071926116943,
+      "plddt": {
+        "reencoded": 0.4734144449234009
+      },
+      "ptm": {
+        "reencoded": 0.14976365864276886
+      },
+      "sequence": "ANVPSTDIKFKEVVTNEWKDMIDGKDALGEFYDECKLSIPSKPYPEKRGGKAKFSSLTLDNAQTKKMKGI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s001",
+      "kind": "sample",
+      "length": 95,
+      "nll": 2.7237043380737305,
+      "plddt": {
+        "reencoded": 0.5302244365215302
+      },
+      "ptm": {
+        "reencoded": 0.2508196234703064
+      },
+      "sequence": "SDERKDALAIVRGGDEEEDDLAVAARAAVVAPQMARKSVKAVMPEKAGAEAAQPLRAAALARDWAMRSLTVALTVHARDRDLDEVQLAELTAVRA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s002",
+      "kind": "sample",
+      "length": 103,
+      "nll": 2.8186140060424805,
+      "plddt": {
+        "reencoded": 0.3605072576444126
+      },
+      "ptm": {
+        "reencoded": 0.13199934363365173
+      },
+      "sequence": "LDYRETKEMSIGTGEVSYQLSENIIESTKINVFVEMLTDSKIFDTNDEYYSDTGFETDTNFRIGGANEKLKDQTILDEAILYINEDGEMIPDVDNDEKGKIID",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s003",
+      "kind": "sample",
+      "length": 110,
+      "nll": 2.976184844970703,
+      "plddt": {
+        "reencoded": 0.31084986139427534
+      },
+      "ptm": {
+        "reencoded": 0.14227285981178284
+      },
+      "sequence": "EPSQKRYTTCIRPSWEQFWRIEEATFKAQQTEYDCYFWGGIGRFKDFYGIKLTDWWFLGGSGIIQPVNDGDSFYTVDLHKVLREKDGNHGYCCAAVDSYSGGICRKILTH",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s004",
+      "kind": "sample",
+      "length": 118,
+      "nll": 2.6302895545959473,
+      "plddt": {
+        "reencoded": 0.4963806284181142
+      },
+      "ptm": {
+        "reencoded": 0.26978427171707153
+      },
+      "sequence": "GSSMEKEGFLEGGLDGILFGNGRSRLYAGFLAGPALISALASDRAEELGRLVEVEDDVERLRALLLNALALREEAKREASALEAMDARLAEFLVFALPVDALIEWSAGVRSVLLEVAE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s005",
+      "kind": "sample",
+      "length": 123,
+      "nll": 2.2903149127960205,
+      "plddt": {
+        "reencoded": 0.6157238905022784
+      },
+      "ptm": {
+        "reencoded": 0.31132397055625916
+      },
+      "sequence": "AKVVGEVSVVRCVLGRVVGELCPAANEANAATRLQGLMGAGTAEVTPSTREGAAGRRRKATVALADVKAALAAALATAAAALAVARTAGPVRAALSADALRLDAVLPVAELAAAAAPGTAAAV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s006",
+      "kind": "sample",
+      "length": 127,
+      "nll": 3.038189172744751,
+      "plddt": {
+        "reencoded": 0.4667854330201787
+      },
+      "ptm": {
+        "reencoded": 0.1495773047208786
+      },
+      "sequence": "AEIVTDEACACQVEYDVAVREPEGRLEALEKCTSDRESSCVSHHMRFEQQSRKFSSCMDTETPLEYGGDTEMYLHGPWAPAKHEYKESTQQPSLMAHLENEGHHSLDKLDIAKTLGREQWLWSYYYE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s007",
+      "kind": "sample",
+      "length": 128,
+      "nll": 2.82148814201355,
+      "plddt": {
+        "reencoded": 0.5567965952213854
+      },
+      "ptm": {
+        "reencoded": 0.24641893804073334
+      },
+      "sequence": "MKCLKMGYENLQELLASMQKEMATKIEDKKLLNEVQSIQANIFLNEQENKNVKLEEEDENLEELVTMQLLKSNRLYGLNALEYAIALQIANKNLLSGIEDELCDGNEILELEYALPGKRAGFVKDNII",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s008",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.913245439529419,
+      "plddt": {
+        "reencoded": 0.2922016963247181
+      },
+      "ptm": {
+        "reencoded": 0.1334880143404007
+      },
+      "sequence": "TETQVNDTEVYVVYLKQVGKEGRIGTALDIVDKSLGDELEGEKVTFTQLSKVTLNIGVQHTEEMTFLLVQEVDGDEKEDSKNLLTAENVEFRLPFDREQSDTLTTANIKFRVTLDSYHALVVDYGYKWK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s009",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8562443256378174,
+      "plddt": {
+        "reencoded": 0.3875899895910145
+      },
+      "ptm": {
+        "reencoded": 0.2409810870885849
+      },
+      "sequence": "SIVLKEAAEDLKWYNKLALLEVGRAGFAIGVASCPTFLPEVTYTLQAEEGGHAEIGVAQDLLKLAALSHLLFLDPYRWGQLFEKSSVVEARAECVGRGARERLVLETFEAVTAEVAKLSKRVLTEVSFS",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s010",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.814950466156006,
+      "plddt": {
+        "reencoded": 0.3619132654149403
+      },
+      "ptm": {
+        "reencoded": 0.1892511248588562
+      },
+      "sequence": "MAAANIANSDTKNVGSIRFARPWDGELSKAKVDPVLNFKKADSGNLARDVDGKLQESKISFRTSTATDFLDVIADGKNATGTETKSAKTEREIEARHGSEAWFVLQIKDKPGDNAVIKQLKEELDKFDQ",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s011",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.837512731552124,
+      "plddt": {
+        "reencoded": 0.39062711330809335
+      },
+      "ptm": {
+        "reencoded": 0.19663502275943756
+      },
+      "sequence": "SSELPVHDSRVALIKADYAGKMRLRASGAPLDVVAAISVVDFHLRNAQLGTVHFMHSPLLKKAAWSAAKLPDEEKVYKILTTEDIKPEADFEALTLLAQELNDEAGSQADYDAANNHHLQLLTVAAMAM",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s012",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.6742632389068604,
+      "plddt": {
+        "reencoded": 0.7482639010562453
+      },
+      "ptm": {
+        "reencoded": 0.32237470149993896
+      },
+      "sequence": "AGEYALAPEELTERRRQVRTPALRKARAELSEKEEPAVVAAIPDRIKREVIEGLILADEAALGVLAKKAVVDVALDIAEVEAAEIGEVHDAEERVNREHDAAEEVALEVDGMKRVGAEELAVATVLCEE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s013",
+      "kind": "sample",
+      "length": 129,
+      "nll": 3.062816858291626,
+      "plddt": {
+        "reencoded": 0.31785536378391027
+      },
+      "ptm": {
+        "reencoded": 0.12452449649572372
+      },
+      "sequence": "GNITAPEETCWARDCHLQNYNSQIEAAKLGSQAVCTFANNCDDCCESCSYSQNSFEPCDMGYRTSCIGMSFFSCVWRHCTLSENEFCPNQCSFSQSFCIKTDPSCIDFEEMSPSLYVNKCAQYYRSYCI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s014",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.845780372619629,
+      "plddt": {
+        "reencoded": 0.3931657824405404
+      },
+      "ptm": {
+        "reencoded": 0.14803175628185272
+      },
+      "sequence": "SNEKTTALIDEEADQKYLPMVADDAVARETKKEGALGASKVKGPSATFNDASVSKLKDFTTILSGDARESLQTKYASEVLKPDGKAGAKITFDPEEEKDGVFKEEIIGEVAFLTDKLGKADAYVEEQEP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s015",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8703887462615967,
+      "plddt": {
+        "reencoded": 0.3049934746683106
+      },
+      "ptm": {
+        "reencoded": 0.1767638474702835
+      },
+      "sequence": "EAPTVLDVPANTDDSVVRGTLVVDGTTLVEVTLLLDVVNDLSTPTVATDQVLKGDGIMSAGRVMPVNYGVDVNWVKIAFDVIKHNGQTSNCPVVTFKVTISTLGFVAVTAKETVLQLDALKIKIGMITS",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s016",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.9226319789886475,
+      "plddt": {
+        "reencoded": 0.33870055994322135
+      },
+      "ptm": {
+        "reencoded": 0.16583029925823212
+      },
+      "sequence": "KPLTLNKEKWELDCVNVLDPDYNDEAFEVKNSGTKGIVLDVLPKKKWSDKTGSKQEEKLTLNLIELFGEEGDMQPSGILYDLGGQCPGVPSTVNPSDAKGICVYKELKGELKEGPSDNSPTCENVYYTL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s017",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.742448568344116,
+      "plddt": {
+        "reencoded": 0.40785794202671494
+      },
+      "ptm": {
+        "reencoded": 0.20740775763988495
+      },
+      "sequence": "DYFSDALPRESLAGLLPGALAAALCYQYDALSSGFTAYLWYDIAQFPANGASKVIALRLAHNLANSLAAGRAARAALAITLVEFEALQGLALAAITAGDALAALGSDSAADCTAAAAAVGLVAALRRSS",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s018",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.5563454627990723,
+      "plddt": {
+        "reencoded": 0.44860724238462224
+      },
+      "ptm": {
+        "reencoded": 0.25691771507263184
+      },
+      "sequence": "TLPIKLKGAIATASDAWLELAAKDEAVKASSAAGAAKARLGAREALIILNEGISTDEACALRDVAVLAQFADAAVLGAVHVVGDPEVASMAIRAVAAVKALAALNRTGTAPAGEAVVECLDAVVVRVFV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s019",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.7362112998962402,
+      "plddt": {
+        "reencoded": 0.35955498523490376
+      },
+      "ptm": {
+        "reencoded": 0.2499304711818695
+      },
+      "sequence": "AQVRSKIIRDVKHELREFNLQKRKAGRKAVEVRLDSALGEEAPEQVIIVFVVRSGDETHGDVDAGVEANVLVFGVLKAGGHTSLEVGFEDSSLDAALMTWNTLTVAYAGEGEVELDTEVEALRVDIRIE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s020",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.767857313156128,
+      "plddt": {
+        "reencoded": 0.29488817677479384
+      },
+      "ptm": {
+        "reencoded": 0.13909178972244263
+      },
+      "sequence": "VNKATEVVGATGSGRAYLQQSGFSFSMVSDGVAGQLDLWLGQSTRQSVLNGFIQSVTIGPYQGSSNARFPWQAAKAGTLSSIGSIPAGNRASKVVYSGIIVGSGDARVFAVVGSGVYGGQMVPDSGTLS",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s021",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8135125637054443,
+      "plddt": {
+        "reencoded": 0.31989701034486756
+      },
+      "ptm": {
+        "reencoded": 0.15136609971523285
+      },
+      "sequence": "AGKREITVAAVDVEDGGKRITSLLEIKVLRTGATVPFIRKEISIVKQYGSHIDNEIVAAFINSISISLLTKFVYVRIGDLKGSGKLIIVNVGRLPMAATGRILTKDIGVDEILKSVVFEFVEENDKKAI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s022",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.838364601135254,
+      "plddt": {
+        "reencoded": 0.42769912335761756
+      },
+      "ptm": {
+        "reencoded": 0.175438791513443
+      },
+      "sequence": "QRPFKPYSEDLPSQKTLSRDSKTSILGGKKELESKHEEKGCVELFDLEDEAKVLFLSEDVSSFPQKENPELKVEVVPYILKLEGNSDSSLIGATGVSTTYVLWNTEEHHPVNVLDPKGANAMQKDLQQN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s023",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.679574489593506,
+      "plddt": {
+        "reencoded": 0.3419384125822274
+      },
+      "ptm": {
+        "reencoded": 0.21614713966846466
+      },
+      "sequence": "LTPTNELIWGSPGNNLGQGTGINDVILTTGGTTSGTVGSNTAVYNGTVALFTSLFTTGFAGAAGLAQFTGEVKEVCNLTQLPAPVDAEGGKVYVTNDTLDCAIEVVTLPSLITEGEDSPILNAVIDTVG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s024",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.8434715270996094,
+      "plddt": {
+        "reencoded": 0.3469709974068862
+      },
+      "ptm": {
+        "reencoded": 0.16995808482170105
+      },
+      "sequence": "MINILTNTVINASAPPIETFISLIYIEVLKNNFKDQSEDEDILKCKAVITDEANEKAFNVKLTVEAIVIKYLQCLNRNSIGEAMNREYAYIGTTYVGSVINLKGTTTIDYEHTLIRGQIALTINGGALLA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s025",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.696298837661743,
+      "plddt": {
+        "reencoded": 0.37343469388209855
+      },
+      "ptm": {
+        "reencoded": 0.2099713534116745
+      },
+      "sequence": "EILDDELLNKAPFEEINIFNMEYGFKIKRIAIIGIPPVDVGGNKKVSKYKAEAIKEKIGINVVIQEIKIIIEAEEKIAESFLILDGEEEVRSEEVKEAILRGLEFIEQGEEEKFKIKDALEAAAIFEIIK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s026",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.8738224506378174,
+      "plddt": {
+        "reencoded": 0.39484977699243107
+      },
+      "ptm": {
+        "reencoded": 0.19118188321590424
+      },
+      "sequence": "MDLLVLQTAINREVQLGKTWSRLIHNCSITDQAVVSPSYPREPSAEITEAVHALDNGKLQRRTQVYRVEGIPTESTIHIEFAEFDKKLNGYVSKTVETITIISSVQNVDGASVFNDENEDEINVVTGPYA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s027",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.7367424964904785,
+      "plddt": {
+        "reencoded": 0.5078366871063525
+      },
+      "ptm": {
+        "reencoded": 0.21932756900787354
+      },
+      "sequence": "SVRIGNLGPGAGQTAAQYSEWYTLPGKLTDEQIASAGEAALGPAVALAYDYFYFDSIADAAEVAEEATFVDTGLTADTAKLKVDGFSTAPNKAAALFDAVLDAVQAADAKFPTAALDARDAVAAVVALAV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s028",
+      "kind": "sample",
+      "length": 137,
+      "nll": 2.6485064029693604,
+      "plddt": {
+        "reencoded": 0.3365868558413791
+      },
+      "ptm": {
+        "reencoded": 0.16175474226474762
+      },
+      "sequence": "FSAEYVFGQVTGKTVIFSDVVVLDSDRSSDLSFDGQTSGRLALGRLDHQFVYAAAHSRLAQGIRLGTVAYLGSPVAAGRSIGVFSGGEYDTASGGRLQFARAAQIERGRARVVHGVEAAAEGGGRYRLDSGPRAVAL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s029",
+      "kind": "sample",
+      "length": 150,
+      "nll": 2.7393672466278076,
+      "plddt": {
+        "reencoded": 0.39393738796313604
+      },
+      "ptm": {
+        "reencoded": 0.19436192512512207
+      },
+      "sequence": "MEKLTPEVGEIEEHLLQHRSQAALGWTEDPEARRIVKAEATLEAVGGRDIASLLAVTVKLDAVRKSKKFPSVHGQLGTEEGRVDSFSRDVNGGAIVKVEVVLGLEKDVADAYEVGKVLVEAGQSLAQLEAWLTAIGYDGLDEGGDLEGEV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s030",
+      "kind": "sample",
+      "length": 153,
+      "nll": 2.9250667095184326,
+      "plddt": {
+        "reencoded": 0.3248049881723192
+      },
+      "ptm": {
+        "reencoded": 0.15165510773658752
+      },
+      "sequence": "STLNDYIVPCILDRCTEENELILKETFHENTFFNNGINATGQIQDEGTLSLKAESHMLNSRAKTDMDSSLSQLELQDFLSKENNRIQKIKWRVINKLDVTCLLLGLHIETKNKGAVKYSFCYNASNREVRDVEDNGVKLYNESNNNTTVKLKA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s031",
+      "kind": "sample",
+      "length": 158,
+      "nll": 2.7844488620758057,
+      "plddt": {
+        "reencoded": 0.3272033550694019
+      },
+      "ptm": {
+        "reencoded": 0.1632186323404312
+      },
+      "sequence": "DYSILEFPRRLRYKRIRELGQTRYNLNASGEWDKLDDRLDPVLAILAASSALNSSLEGDYRFPFALTTQYVATVEGVQHFTLDQDALRYWFAHASTVAGAAAFTWRVRTDGNDVTFLRVLRQFPTEYVRTVIPVIGRVATALPSGKSGELYPLAGPAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s032",
+      "kind": "sample",
+      "length": 166,
+      "nll": 2.8978731632232666,
+      "plddt": {
+        "reencoded": 0.3361213171338461
+      },
+      "ptm": {
+        "reencoded": 0.1279001384973526
+      },
+      "sequence": "AVPSEAGVASGRDPWVWSGEVDTVGSKAIEYSSKLPSQGCGQGHRDSFRADLATAAHAVTCPFSGLFTKTESTDPCQQGGVVKPNGVLFTAARISLCECRSRRGGGKEFNGCQGKRFKYEAGGASVVNTLLKVSGLERSFHLEDTDGKLTAPGVLSPPAARFGHPE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s033",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.7391207218170166,
+      "plddt": {
+        "reencoded": 0.3134185427568368
+      },
+      "ptm": {
+        "reencoded": 0.15050005912780762
+      },
+      "sequence": "GMKGFRTYVAGGRIIDVIDGYNGRVVDGGDGGTAISGLDGGFIHVDELTLKRLIGDERVADVVVIDDRQIIGREFLDGEVENILRVVGGEEVPITEVLDGRIEVSSRVVKLNIEFQYIPSGDTTIGEAWFLLEVPPRSVIGQRERTEDESGLMYSDSLRGIGEETLRIG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s034",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.876613140106201,
+      "plddt": {
+        "reencoded": 0.29329878920634117
+      },
+      "ptm": {
+        "reencoded": 0.17376680672168732
+      },
+      "sequence": "STSGLRRTLPWLSSIDLYKLKVLLGSGETVGSYYEKIIVSKKLNEEADLKLGAKDFCTLDWVSQENEHSFGESGNRKYFEGTVVLLKLDPGLSYREQTVMENTFVVKASKLPVCFVKVRTLYFIFVRDVAELDEAANFLYSGHHDEEGKKAFTQELPGIYVGLTTIYQT",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s035",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.786205768585205,
+      "plddt": {
+        "reencoded": 0.3199345221709923
+      },
+      "ptm": {
+        "reencoded": 0.15932759642601013
+      },
+      "sequence": "SDKPPMLYLESDKAKIYRGKEKLLISDKNDKVFYDPQNVASLKDLTQEVVTPEPDFDQNLIRYSLFTGKGDFKLDENKNRPESQKGIDFNIYIILSKATELESEMKEEMQKIKYLRAKNDFDKDLTKNLEISQQDDDKKITINSLVLSKDEFKKVTLEAKGGFLMSKFT",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s036",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.6947286128997803,
+      "plddt": {
+        "reencoded": 0.31170378202164667
+      },
+      "ptm": {
+        "reencoded": 0.15121284127235413
+      },
+      "sequence": "GSKRTLLQGEPLRRASLELVTMRLDVLGHVPDTEERVAVLGDHPVFEADSPLEGRLVPFYRGEGPVENPDAVKVPLLLRVDVAGVATEGRVAARRSPEVGALLMIELVAGGVPEAVELPDHSGVDVLGVTAGVANHVEAEVDGREPLHWAWRGVKRVEGPYVELGEAPE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s037",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.7985332012176514,
+      "plddt": {
+        "reencoded": 0.32250712944205695
+      },
+      "ptm": {
+        "reencoded": 0.20132577419281006
+      },
+      "sequence": "EIYSVFKDGMIEIGSVGVRITPEGIKWKIALGTTNYRRGKIILDSVTDIIGFIVIIGELNPLLWKECIAKLIIRGVEVPTIKVLSLEKEEREEPVDKPVASLMAIEIFAIIGGEVIRLLVGEIEVIAEKVIFLRGGYKEKKLLVVYDNKLTHIEIDVEKEVIGVIKATY",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s038",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.903852701187134,
+      "plddt": {
+        "reencoded": 0.4274397400709299
+      },
+      "ptm": {
+        "reencoded": 0.16691558063030243
+      },
+      "sequence": "SVPNIQELALGQTFNKDSLEIADISLKQEVTTQFKKPYRNFINNAGNDDAKAVLRALSELVVNKETDGMDPSFTVGNKWMFTETNQKQMETETLTLQDMTILSIKDFGTLRENNDKQEIEVNAEESNTLIKSGGLENILQRIEIDIQETPAKAEVENANNDLNQSLKIM",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s039",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.7111945152282715,
+      "plddt": {
+        "reencoded": 0.3236310664542328
+      },
+      "ptm": {
+        "reencoded": 0.13258333504199982
+      },
+      "sequence": "MFLENTRVLELGGLGNPVRTQTLGNVARAAEWRQGVASVSGWSTALVRDGVARLLGRVKPRSPLETYLKVLVVAAGEGDHPFFAARTSKPRRLEAKVAVVREVAVHKQLKLVVLTVARRTTYAVEAVGIAEVIVEAAPLGRTAAGSSLVSGDLHLERVLGDAAVVVCVG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s040",
+      "kind": "sample",
+      "length": 171,
+      "nll": 2.8807599544525146,
+      "plddt": {
+        "reencoded": 0.47719953361659023
+      },
+      "ptm": {
+        "reencoded": 0.37100329995155334
+      },
+      "sequence": "LRMQRVDSSLAYELRESDPERPVESVVEEKIEGEPAVKQEGYAEAITHFVNQMLAEDKDVDVSFFTHGRPGRFLANYLVDGFRFAGHGRVAVKWGERLKGRDSVGRVKIWGGITVVVVHHTELYIKAKKEHGGRPVKMKPVDGKFTLVAVFVGNHRATLVSAKRGPSLEML",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s041",
+      "kind": "sample",
+      "length": 181,
+      "nll": 2.675797939300537,
+      "plddt": {
+        "reencoded": 0.3667111065835584
+      },
+      "ptm": {
+        "reencoded": 0.20561248064041138
+      },
+      "sequence": "MEVNINAKVEDFENIEKTFGVEVEEHGPVWCSPVTEGTLKVGDGVEYKKLESVSGVAVKIALGDIFSDFDEELQKRAKEVAGSEVGRDLNQGEVSKALGGEEAYVKVNEKDVKSRIKGDFDKLEDEVVFCREGDLVEVRNVREEILVDYDVKLGSGLQEAVLSPVKSVAKKVGVIHEARVI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s042",
+      "kind": "sample",
+      "length": 189,
+      "nll": 2.8677453994750977,
+      "plddt": {
+        "reencoded": 0.3452886340637056
+      },
+      "ptm": {
+        "reencoded": 0.17765484750270844
+      },
+      "sequence": "EKAEAAGVDLGHHHHPDVLFANHHTARARGLRGKINGQIDEMNYVEGDVDPAYGAFFSVVISRYSGASVAPKPLLVYIFDRDGRNPERKTRDVAARFNLVVVLQTYFTYLSEVADVEDDEGKADRWAEDLAYVSLTGKKDTDTSLEGALEAVMEAYLSSHALAAEVIIDQPSPTLLGFDTAVLGVWGAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s043",
+      "kind": "sample",
+      "length": 191,
+      "nll": 2.7076480388641357,
+      "plddt": {
+        "reencoded": 0.33190804345445485
+      },
+      "ptm": {
+        "reencoded": 0.1669154316186905
+      },
+      "sequence": "AGKHVTTAEAKTEAGLIDAREIAVTADVPGKGEAPTVLTDGPYDFDVNARRSINGLVLRGVEGAEHDRGGEVSTAADPPPDVKLVEVNEDLIDAAVFAADQLRGGLIAAHSLNAVMLDVAEAGAAVVSGNAKARPSVIEVFGTLKGVGSKAVTVDDTVSNDPFKATETEAPLSVLLSLAVVAAARGVELDA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s044",
+      "kind": "sample",
+      "length": 196,
+      "nll": 2.605131149291992,
+      "plddt": {
+        "reencoded": 0.3796091256853269
+      },
+      "ptm": {
+        "reencoded": 0.29434043169021606
+      },
+      "sequence": "GSHMIVGAMIDSFSLDGERATELAGEAADALFRAAGIHSPRIRIVADDVVKYLNGVEHPGGVVVLDTRAVLPKAVDVRTRDEGLGREEDAVTIVVSLTALPGAVAAKAYLQAAGDVADAPSAPAETGARAALGALPEAAAVRTPVAGIIVGAEGTEAGVFRAAVAAAALTRDGPLVLGLRVDAIADLSSGNLAAAL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s045",
+      "kind": "sample",
+      "length": 199,
+      "nll": 2.9015276432037354,
+      "plddt": {
+        "reencoded": 0.3307020635011807
+      },
+      "ptm": {
+        "reencoded": 0.12988920509815216
+      },
+      "sequence": "HSTTALDTIQLTKVASQIVLVTELPDDTNDTVDITEADRQLDRQSLQKRLVVGPHHLSNQVEEALQIEQISLSALVSVGCGPVMVASTPGSADAIIQGYATHGLCRQLQMISKREVAGSTLSVCGDAVLKYYPLASKDVELSAGCCLMMVSEVETDVGPMKLVVEISIQMMCIVFRNSVVTKYENRSPKDVSLVEREFQ",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s046",
+      "kind": "sample",
+      "length": 208,
+      "nll": 2.732999086380005,
+      "plddt": {
+        "reencoded": 0.3641345757417954
+      },
+      "ptm": {
+        "reencoded": 0.16506236791610718
+      },
+      "sequence": "GDSCVINGIFLQKLNNIKEILNIKKLQDVFDGEGYYIEIDDDYYAWFEGLKATEKSLTIRELISVEFLEDYPYTKLSEIEKKKEIEVDAEKMQVLNFNKDRYNKYLKIMEIKNTVNITVKFLDFALKVNKTKIGRLKMIINLYNQFGNEAGEKYDSGILSLITSIDENTEIATKTFEHLSNARLYAFKLNKIAYKAVIKSLDIESNFI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s047",
+      "kind": "sample",
+      "length": 220,
+      "nll": 2.4580416679382324,
+      "plddt": {
+        "reencoded": 0.42549551847306166
+      },
+      "ptm": {
+        "reencoded": 0.35636356472969055
+      },
+      "sequence": "DTRTVARLEAMLGVLASDAVVEGLDWSADRACEERAVVLELQAEPLLESSATATLLTEPAVARARRLSLGLAVVFLSRDDHVSLEVDGGAHLAVVEARPLDVRVLETVRLASARVVAVVDVARSVWLEGDEVDALAAERSALAAAGPDVLALDVSRGRHDADPQTLAAAVVALETRLLVTAGVAAVVLEALGAGAPAAQVAPTGRALTAQRSRLLCAEAL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s000",
+      "kind": "floor",
+      "length": 70,
+      "nll": 3.0323431491851807,
+      "plddt": {
+        "reencoded": 0.5070742066417422
+      },
+      "ptm": {
+        "reencoded": 0.19353659451007843
+      },
+      "sequence": "SNSNLDCPEADKKSLLGIIVDAFAWTKKTDVKSRYGEFEDKFKGKIEKINYQMTPKPADVMTEPGGSKKL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s001",
+      "kind": "floor",
+      "length": 95,
+      "nll": 2.6843249797821045,
+      "plddt": {
+        "reencoded": 0.5366822722711061
+      },
+      "ptm": {
+        "reencoded": 0.1797446459531784
+      },
+      "sequence": "VQLAAALERRALAGESHRALDKTELRMVRVDDTVKDQAREMIAAMLPLAGAGWLKAERADSEVADSQDADERPVAVERLKAVAVTAAADRAPVAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s002",
+      "kind": "floor",
+      "length": 103,
+      "nll": 2.92303729057312,
+      "plddt": {
+        "reencoded": 0.45157808673034594
+      },
+      "ptm": {
+        "reencoded": 0.19154123961925507
+      },
+      "sequence": "KKASINKVFDLKEDYMTITEDYRPDGEIYESNYSEDQKTTETYIEFGETIMTMVDNRTNNIDSNSEKGGEDLDILELILEIVEDQIFKSDLGFGIDIVDAGTN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s003",
+      "kind": "floor",
+      "length": 110,
+      "nll": 2.9979710578918457,
+      "plddt": {
+        "reencoded": 0.31561766226183285
+      },
+      "ptm": {
+        "reencoded": 0.17341075837612152
+      },
+      "sequence": "RWGKQFEKGIWPQCCDGTDTIDFRASTDAYDYYEVWLFFSALTNRCHKGYIFSGGWAIPKTDGEWQIEFVGYKFLNQDLSKYEPGYIQRRHECIRTVIVGSGHSLKDCGT",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s004",
+      "kind": "floor",
+      "length": 118,
+      "nll": 2.6567366123199463,
+      "plddt": {
+        "reencoded": 0.6503685328920009
+      },
+      "ptm": {
+        "reencoded": 0.3482407331466675
+      },
+      "sequence": "LFAVGLSRGDKPAELGASVGLELSEAVEEMERALLAVALKERALLDGRSAGLALLDNDAVMELSAREEDGLDRSLLVLREIGEAIARALELWVEFARERAGLEFAFGSNPYLAGFSVI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s005",
+      "kind": "floor",
+      "length": 123,
+      "nll": 2.3902828693389893,
+      "plddt": {
+        "reencoded": 0.6642468031344375
+      },
+      "ptm": {
+        "reencoded": 0.27768421173095703
+      },
+      "sequence": "EREARNVGVETAAAAVPALARAVRTQEGGPANCAVAALPAKERDSSKTAAATTVGPPAMAKRAARVLLAVVAETGVAAVLAASAVALGVRAGVLVAVRAAAALADTACTGRGALDGAALLLLA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s006",
+      "kind": "floor",
+      "length": 127,
+      "nll": 3.0066535472869873,
+      "plddt": {
+        "reencoded": 0.3476837401784311
+      },
+      "ptm": {
+        "reencoded": 0.15202343463897705
+      },
+      "sequence": "KEHMECDKEPLAPYELPCPSEQCVSEYEDVRDVTTYPRSGLMTTHHWMYHSAEDNEAETILDKALRSEKERGIEHCSRACSRHGESVQLLFMSAEEKAGSVFQWEDYGHETWYLQADKQQASLTLGY",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s007",
+      "kind": "floor",
+      "length": 128,
+      "nll": 2.8532001972198486,
+      "plddt": {
+        "reencoded": 0.6644655712880194
+      },
+      "ptm": {
+        "reencoded": 0.287502646446228
+      },
+      "sequence": "MQVLFEPGDKGEEDLELYAQGDNIREKNNIQNKGQAMNNNNILKYLKLLEIENGYVKEALTIKYLEVILTELMLQAEKMNDAILLRASLKLCKLAGKECELEMSLLNINVELEQSADFQEELAISNEK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s008",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.944902181625366,
+      "plddt": {
+        "reencoded": 0.2939018332218939
+      },
+      "ptm": {
+        "reencoded": 0.16877497732639313
+      },
+      "sequence": "DEQRYTVKDKLIAFILLELKDETQTEQSYVDIKTEEWIDGVVTFDKQNLLGRYDYEDNFSSSVVGVQGVGLEKTHKFNTFAVVRGENLSATVKNDTTEHLDTTVEQELGYERKVVDTLLGALTKMVPEL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s009",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.8613102436065674,
+      "plddt": {
+        "reencoded": 0.4097536823084188
+      },
+      "ptm": {
+        "reencoded": 0.217594712972641
+      },
+      "sequence": "LHEEAELSDVLLLLLLTLGAEVWGSAKAAYALKIYGELCLEASRARTASFFFPKSIAAEALLTTEANFAFKDTVTLVQGGKPYEVPGHQKLEKVERVCDRIVVGGAEESQVVLSVSLRALVRRGEWAEF",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s010",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9641737937927246,
+      "plddt": {
+        "reencoded": 0.4430194845957349
+      },
+      "ptm": {
+        "reencoded": 0.11604571342468262
+      },
+      "sequence": "DFRNGRAPDALDIKLVAETKDLKRNLGSDREGNKWGSSVAGSGSAESFDPIFQEPWKKDFTFDKEALLFIAESDIAREDQITLKGADTASNTGKKKNDAVQAATTIRLDINNTHEVVQVAKVAKESMKK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s011",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.944730520248413,
+      "plddt": {
+        "reencoded": 0.6327743100565534
+      },
+      "ptm": {
+        "reencoded": 0.23435649275779724
+      },
+      "sequence": "MVLSLMALATWQLQSTHVLHRVSAYNEHEPAVDEADDLVSLLRAMLNNRNMEKDAFGAPTHDEDALLKPQVSVITTSIAHQLAKVAGAAGKLIEGPALSAFFYAKELDHADDAKVDLLARYEPKASAIK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s012",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.5967841148376465,
+      "plddt": {
+        "reencoded": 0.7154684658198394
+      },
+      "ptm": {
+        "reencoded": 0.3577183485031128
+      },
+      "sequence": "DEALEEKETAVDIYAQHIAEEPRPGIAVLEEERVEVCAKKAKPLAVEAVGDHAVSEVARRAGVREGALVRLEETDLLAEEDLAEAEVKGEKVALAEMVLLAEAIVRDRETVVLAGIANPRAIDAERERA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s013",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.972747564315796,
+      "plddt": {
+        "reencoded": 0.3508297109095625
+      },
+      "ptm": {
+        "reencoded": 0.13027510046958923
+      },
+      "sequence": "PCWFNTCETNVMALFGCKFSCCEHCFQCCSAASPEFFESYICCSSSEQGCQALDCCSSRIQGRHCCYYQTCANPFNTSTIESNTSYNMIDDYQWSRLEMKSIYFSYSDRAQNCENGSAVVNKDPLEPID",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s014",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.8065013885498047,
+      "plddt": {
+        "reencoded": 0.49718062729798546
+      },
+      "ptm": {
+        "reencoded": 0.2233547419309616
+      },
+      "sequence": "ATEKDTDKEFKEYEGASEALASGGPDRTKKYVGGVSIEVFNEESLDKFGADAFYAPSVMESGALGTIAIAIIQAVKARLKVEATKKEKLETKVDKPSEKALEEPPDDQADTLFTGKDDEKVLDTLQSNA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s015",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.826519250869751,
+      "plddt": {
+        "reencoded": 0.3163598558699438
+      },
+      "ptm": {
+        "reencoded": 0.15145833790302277
+      },
+      "sequence": "DDVVVLFPTPATLILVGASFDVTMVISDHNNPDLVIGTLNDLTACNEEQIVQKVDKRVKIYVTDTKPKDGGTVVIDTGMVSELTNWKVLTGMTVVIPLKGSGNSTVVDAVTSFAVLLVQLVVATTGAAR",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s016",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9308478832244873,
+      "plddt": {
+        "reencoded": 0.5113261612348778
+      },
+      "ptm": {
+        "reencoded": 0.1560656577348709
+      },
+      "sequence": "KGLLSKLDKKEGTNGDYSELVWPVNQNAELEEYLCAQNETEPLCPEKSGLGTTGIDKGKGKWKVDNPLPTTYPSPTVSESDMIPYELDECSKKQSEKVGGKCVVLEFNFLDVLKDGNVYDIIKPGDLLN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s017",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.5156590938568115,
+      "plddt": {
+        "reencoded": 0.5065674592358197
+      },
+      "ptm": {
+        "reencoded": 0.31508103013038635
+      },
+      "sequence": "AAAALRRAGGAADLLPAALGLIATLAFYDVSAGAAAKGVHVAADTNPSSAAAATWLRALGALALAFLDQCADAVASGAATAGRCLALDALALYAESDSEFSIEYPSSLQSRILNLAGYYILFLQLARAN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s018",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.673813581466675,
+      "plddt": {
+        "reencoded": 0.5554549920466519
+      },
+      "ptm": {
+        "reencoded": 0.3163841962814331
+      },
+      "sequence": "ELAVGLSELTWLCAAVLESVEQLINKASSPLGFAAHTGTRIAPVCVADAVADVRAVGKDITAADRKTEDAEKLARNLDVLKMAAPRIDAALGVGVAVVFAAALRAVAEIAALVAKIAVAAVEGGAASAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s019",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.7737314701080322,
+      "plddt": {
+        "reencoded": 0.35380771790826043
+      },
+      "ptm": {
+        "reencoded": 0.150245800614357
+      },
+      "sequence": "RFRADILERIVVQDGELIINALFTANSRAVVGVDLVYDWSLTKKDIREDAKTGESASEHGEAHGSVEAAVRLGVGLRQVVDLRVGAGDEHAVLVELLEVSVAEMVTEERGTKNQIKFEDKATPEELFGV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s020",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.740199089050293,
+      "plddt": {
+        "reencoded": 0.30815277023370874
+      },
+      "ptm": {
+        "reencoded": 0.1923031508922577
+      },
+      "sequence": "SLAYSSSATGFVPLLINDSGQDQSTGTRGASIEMYSGLGGGGLPISWVYASPDPSQVNKSGNAVVVTGGISGAKLAGSKTSQTSFFQAIVGMARGGSGIFQFSVVWQGRAYRVVQQLDVRGSVVAGVAN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s021",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.8293397426605225,
+      "plddt": {
+        "reencoded": 0.3671762781549794
+      },
+      "ptm": {
+        "reencoded": 0.1660591959953308
+      },
+      "sequence": "IVERVTIVARLIIFTKSDLAAFFKIIPLTRNFYHSLVVNEIKRVYIAADIRDEGKGGKKLSILIGAIQTEGSGSGLLGVKTDVARRDEVDSEAGLEVKIIAVKIINFSIKVDKEVMVGIKPGTSLENVT",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s022",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.813474178314209,
+      "plddt": {
+        "reencoded": 0.49196178829947185
+      },
+      "ptm": {
+        "reencoded": 0.14830274879932404
+      },
+      "sequence": "SCVPGFPSLVDEPKSSTSNKENEYSIHNYKSDEEKERVKLSTAEPTKLRLGSKVKLLLPKADEKQMPDLHFGELNDGLFHQESPEKQVPTGGQNLDTNKQDTSLVYKLVQIVVEEGAEAFSEIWSLVLD",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s023",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.781144380569458,
+      "plddt": {
+        "reencoded": 0.3067700097034144
+      },
+      "ptm": {
+        "reencoded": 0.14810316264629364
+      },
+      "sequence": "VKCQGILIAETTSGIITVTVALPLNLFDFGASLTGADLETGSISEVAGNVTTTQPFYDNVLGTLPEVYTTVITTNGQPDGNAGGEGNTSTGVINPTGFGKGLNLCAPTEGWVLSEDDATLNLTVVAAGV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s024",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.945972204208374,
+      "plddt": {
+        "reencoded": 0.30758239535185006
+      },
+      "ptm": {
+        "reencoded": 0.13827213644981384
+      },
+      "sequence": "NAGLPDFAIKGELVNQKITLNEPNYEEYNTVKDILILIILDEVLVTAQGAQITFTCTIIAFSINMGTAERTYIAMELNDKHLNVVYKERAADECSIEGYNITITKIYGAIGVLITKNLIRSVSNLNKTSA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s025",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.612149238586426,
+      "plddt": {
+        "reencoded": 0.4171989931510045
+      },
+      "ptm": {
+        "reencoded": 0.24212247133255005
+      },
+      "sequence": "GELVIKKANELEIEGFIKEPIQFAKNLIDIVELEALRAIDIVRKIEGQNVFLDAFLAESIEKIKKAEKEFIKEGKEVIKVKNIAIPAEEIEIKEIYEGLEGFEMKAEEIIGSGPIYSDDNRKIIIAVEEF",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s026",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.97481632232666,
+      "plddt": {
+        "reencoded": 0.37677927716420245
+      },
+      "ptm": {
+        "reencoded": 0.260975182056427
+      },
+      "sequence": "DLKRGVDVAFQEVSLVFPRQTVHRHIEYKIPAIAVSDYANHNPMQLAVDLVVYNRGTTVILRSTSEWGPIDISTQTNQSLTESEPANEGIFKASVNEREGYNTKILDENSILEDIKIVTCVETGSQVTEA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s027",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.743616819381714,
+      "plddt": {
+        "reencoded": 0.3670406506611751
+      },
+      "ptm": {
+        "reencoded": 0.21417951583862305
+      },
+      "sequence": "QFGYVSKTLLFIEDWAATLDGADSKSATLAAKAAGDTPATALGDAQADATAGGAEPADYLRNYVVAFVAALGRVYDTAEEAQIGVALSGNSADVPLATAATDEPALFYAVDLPAVAVVFDAAEKKQFIAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s028",
+      "kind": "floor",
+      "length": 137,
+      "nll": 2.7053275108337402,
+      "plddt": {
+        "reencoded": 0.5294018226818447
+      },
+      "ptm": {
+        "reencoded": 0.2763850688934326
+      },
+      "sequence": "VHVPQGPSGYGQTAGFVLKSDRYGDATDGVGTYSLSLTLVAVSDAGRRFGAQDRRFAAFRAVQILVASGRSEASHAFVGVLVLDGLIGLFRLAVVAYVDAEERRIQASSISGLGSGARERGHTDQFSGAYGAAGRER",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s029",
+      "kind": "floor",
+      "length": 150,
+      "nll": 2.8459904193878174,
+      "plddt": {
+        "reencoded": 0.33872348894675575
+      },
+      "ptm": {
+        "reencoded": 0.1634567826986313
+      },
+      "sequence": "RVTEPLDKGADQAELIDGREEIWRLDATAGSQARGMESTQVRSSQLVHEKNSRGATEVAFETVVAELAVAVDELGALDGEGKELVALHVGWADGIEVLKGEKGEPVDFYLSVGIDGTKKKYLELAHVDAQEVAVEGKGPRLVVLIESLLG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s030",
+      "kind": "floor",
+      "length": 153,
+      "nll": 2.8898398876190186,
+      "plddt": {
+        "reencoded": 0.6013351115915511
+      },
+      "ptm": {
+        "reencoded": 0.20302025973796844
+      },
+      "sequence": "LALNENSANSRQKHNVGTTDGGNTLDNIAQDTNNEAKIIKVTPSEAKSENRTENTKDCTNIRDLVLQNFKNLVIENGALYQLLLDHSKVNSNSDHCIIIEMFLSSRNCLRLFLLEMEYKYKSFKKEETILYGLDVVWKVQDEERCSTGKFNLT",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s031",
+      "kind": "floor",
+      "length": 158,
+      "nll": 2.825579881668091,
+      "plddt": {
+        "reencoded": 0.33176236561959305
+      },
+      "ptm": {
+        "reencoded": 0.21504966914653778
+      },
+      "sequence": "RYYYEDTANAVWTAALLDLARITSRRGAHLDRYVTRPFGNVGRSGFYFRTTDHFNRALIDILQNTAEKYGDSLVPAELSIVQARSLPFSVTRGLQVASTWDAQSDPDRDSEYLYKALFLVPGFLIEFVREGQTALTPAATLALPVKRGVAAGLEPRWV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s032",
+      "kind": "floor",
+      "length": 166,
+      "nll": 2.8765552043914795,
+      "plddt": {
+        "reencoded": 0.33199965702482015
+      },
+      "ptm": {
+        "reencoded": 0.14390729367733002
+      },
+      "sequence": "FGSAVVVEGRECKAGKGDRSGCSDSLSASIRQRTGAKGSLYAGARVSPTQTTLLETCTKTQVGPEVPGKWHAGSARIGLHAKEGNKEDTSLFVFLVPQGSSPERSHAGALAGPGLRNPVRGPSKNLGWQFSDGGRCESLFDYVHDCFVAEFATCEPTKADVFGAVP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s033",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.759667158126831,
+      "plddt": {
+        "reencoded": 0.3180911685588092
+      },
+      "ptm": {
+        "reencoded": 0.14712101221084595
+      },
+      "sequence": "PVLDLIIVRIREVFGERRGSDIGDSREPTQFQRGIIGYWINPLDGIATIKGDSGGNDLTELRIVLVRYEHEDTIVGVILGRGDVGPFLLGVSSKGGDVEAVETDTYRDDGDERSMGEGGFQFGVDEVGDGGVEYVLELMETTELSVVGVIRIRIEIVLIENISRGAARK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s034",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9558699131011963,
+      "plddt": {
+        "reencoded": 0.48806820518871735
+      },
+      "ptm": {
+        "reencoded": 0.2666165828704834
+      },
+      "sequence": "EKFVCFLIKVRTVLDMDYRVLNPYTDGNDRGANAKISYDKYFDDILSGFLLVQSVLLGPGKKYLGAGVALLYVVLAFEIRQFVTELQLSREANEATDTTLEWELYEKSLFGVLEPIGSGRGSKCLEEVNETKHWKLFESKSGHVTTSTSSIKKGTHYFLQPTSEVKYVE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s035",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.755983591079712,
+      "plddt": {
+        "reencoded": 0.45939964329349925
+      },
+      "ptm": {
+        "reencoded": 0.15048152208328247
+      },
+      "sequence": "KEKDDISKILQDSYKKELPLLLVFFKDKVGDLLNSEPIRDDLRKYVTFDTPGTSNELQTKQKKNFPTAISKSDLRDIMNIKLIAKDKKVDNVKSFNFSAKSRKGDYIGILDLKFYNPFDKLKIVFEKQENQTNKMKEEYMPTLIEEQDGLTSEESSELEAYQDAMDLKG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s036",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.675365924835205,
+      "plddt": {
+        "reencoded": 0.3560569959103003
+      },
+      "ptm": {
+        "reencoded": 0.11923382431268692
+      },
+      "sequence": "DVGDVLGTEAGEVGWSLEQELLEGGVHVEVAEALPRKEVLARVELALLPDGGEVHPVVPKRDPLYARRVAGVFNEDSAHLLRRTIPAEDTVVARVELASVVPEPAELNESVDPRGLRLELDTRTAAAGGVMPERSEHLVPVPGVLGVFGGEPDLAYMVVVPKWGRGHGR",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s037",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.8009517192840576,
+      "plddt": {
+        "reencoded": 0.33282554802104564
+      },
+      "ptm": {
+        "reencoded": 0.20226626098155975
+      },
+      "sequence": "LTPGIVKRIELGAGETRCILIEVVEKYAIIRMIKLWKEEEFEGKGKITTTMDVKEKSILVKERVVIPNLPVLIETREILELDGGKLNYVKGIYVIGPRNAAGYAISIAIEDDLEGIIVHFIKVIIILIPSLESGEKVKDVWVVSYIKEFIDLGIVEGRVATVIEIKGLF",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s038",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9221465587615967,
+      "plddt": {
+        "reencoded": 0.4414791843947574
+      },
+      "ptm": {
+        "reencoded": 0.19039016962051392
+      },
+      "sequence": "LSEEGVNTMNAQEAELRQFQINLIEKDSVGKADEVGENGLFKLSKIQVEAYSVTQEGINALTTRTIEILLDPPTETNNDKADLGNLIFLNTNKNTDFKQIKLAVLESFVRTNDKFTTLQDNSINKEPENIKESSNQQIMQKKREIIPDMVLNGLTEWMMQETADDANAS",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s039",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.700441598892212,
+      "plddt": {
+        "reencoded": 0.3436832007395445
+      },
+      "ptm": {
+        "reencoded": 0.11801919341087341
+      },
+      "sequence": "VARSLVGRNLSGEYALGRIATRAVLLDPFRAREVHKLNDAGVRVELASVKTSVREVAPVKLGFREGHDRKGGRAVVLFLQTVAVKQIEGEADAGPALHSVYTLPAVSAEVATPVLAGVAVSVTLRRVVEAAGALLTVASPRVGTMRTLALVTVENWWGGVLCLRKEVGQ",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s040",
+      "kind": "floor",
+      "length": 171,
+      "nll": 2.9404170513153076,
+      "plddt": {
+        "reencoded": 0.3334619662566492
+      },
+      "ptm": {
+        "reencoded": 0.14224271476268768
+      },
+      "sequence": "HMKTKHDRVEHGRAGSGEMDQELLVAGTLIIVSVAVPDGLKVAERVWKIALQETDYGAVPNRFRLVPSVGPKKAAIFVGAGHEVVVFVWREASFKYIHTQLFRKMLMKNYEGVKYEDELGRASLTRPKDRKVEDRVRHGEEGVKFPVNGHEGSVTGRFFVPLGLSVESADR",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s041",
+      "kind": "floor",
+      "length": 181,
+      "nll": 2.765867233276367,
+      "plddt": {
+        "reencoded": 0.5104547243421249
+      },
+      "ptm": {
+        "reencoded": 0.13694487512111664
+      },
+      "sequence": "VLFHRVEIVDPGRENAVKREVKEAGAGCQFVVVNEIAGVLSRRVVAFVIHKRVAWQFDGMVGKLVVCVEVKEGLDGLVVDGKVGNPSEGDDEKTIVSEEAVFSGNEVAIVEEDSLEYDRKSAVFVQDIAEKKNDGYLPYGKEDLSLTEKEEGKEEVEEIVNKSTLLKIDKKKDLEGVSSEG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s042",
+      "kind": "floor",
+      "length": 189,
+      "nll": 2.9172167778015137,
+      "plddt": {
+        "reencoded": 0.49949102695026093
+      },
+      "ptm": {
+        "reencoded": 0.2086348980665207
+      },
+      "sequence": "AFGGRHEEKHANPAESEDLVGYLVVHGWAYATIQRETVRAVALADVKGKIEPVDDQGHGRRSAASIVPLDANNPDHNHSDESAEDGLDVDKIFIWEYDRLKRDAAYKGVDELETPLFSGIYFALHLLGAVYMALLVTDFNDVYAGRGLPAAALVTVAYGVRDSLSQAESTATVRVLTMKDFVTSGFEAP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s043",
+      "kind": "floor",
+      "length": 191,
+      "nll": 2.7509043216705322,
+      "plddt": {
+        "reencoded": 0.337832367545023
+      },
+      "ptm": {
+        "reencoded": 0.14299817383289337
+      },
+      "sequence": "AVDSTTKVPLKGERLLLAFNTGTADVGDPASLGEQEEGNLGGIEAEGGLVRVARATGVGVVVAREKAGEVATADLVVRVSAINAHDTDVDFLVAPTGVGAVPMKLEGINAALVSHPSAIVRKELTDANDDRSKHEGDLVASALDGIDEAAVDTVKAAAASFAFAEAALPIVTSRGVPVKDVTPAEDNLAYP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s044",
+      "kind": "floor",
+      "length": 196,
+      "nll": 2.5336897373199463,
+      "plddt": {
+        "reencoded": 0.35080281386570056
+      },
+      "ptm": {
+        "reencoded": 0.17039881646633148
+      },
+      "sequence": "VVLLYARMGPAVKTAIAIRAAYEALGRAFLAESPAVEDLAGGSGAAVTLVGGVVADGPRLDSAAPTTRQADISTPIGTGAAGVAATASELRLGRAMGADLASVDRSLAPTLAAVELGHLLKALEENAVAVSVKHDVPFLARRVDVNHVLADGAEAAVDADGEGPVVAVVITGAAIGLFDEDEIIAGGRAIRAARDP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s045",
+      "kind": "floor",
+      "length": 199,
+      "nll": 2.8857054710388184,
+      "plddt": {
+        "reencoded": 0.3243754610194633
+      },
+      "ptm": {
+        "reencoded": 0.15639141201972961
+      },
+      "sequence": "SVFSKRTTTLKSSLAALVYVQIPVGQVTTRDLLCDPNELLMAVLEKKDLSRGVILHAATSSDDQGELSSEDAFAIVVRIAVVPRQSMSVHNGHVRVTSMSNSISKVCAALTQDEEMQQLHVPDTYGRVQISLGLGIELVCDMDVVVQLKELKPPVSYCTIKRSNIEGSEILGMTAMYVQAIATEGQELQCPQVEVTDCD",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s046",
+      "kind": "floor",
+      "length": 208,
+      "nll": 2.7979917526245117,
+      "plddt": {
+        "reencoded": 0.44535564717191917
+      },
+      "ptm": {
+        "reencoded": 0.20962579548358917
+      },
+      "sequence": "IFGKELSKLIFLICLASWVILTIEFYNIIFKGNYAEPDANFLSRFNKILDKVFVNITYEIEKFGFDKKELTIVYDEKYIIIKKATGSILKLAKSMLKVALDLVEGKINRNEIEIDTDKELLEKRTVLDTNGKILQSKASSNNLMINYKDEVEQRGATYANIFNDDKKEKENTKSDKEIDFELYAGNILYYMEHIQGYSYLQTKENNIV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "decoded": null,
+      "id": "s047",
+      "kind": "floor",
+      "length": 220,
+      "nll": 2.4094038009643555,
+      "plddt": {
+        "reencoded": 0.4057933686131781
+      },
+      "ptm": {
+        "reencoded": 0.17006662487983704
+      },
+      "sequence": "LALLTRTEEVVEASLVDVAAVALVGGAAATSRDVVAARALALDAHALALDRLAVHAAVVLLEADRSLGERLPTSSSSEFPALTLEAVVLTVAGVAVLEDRREMAARAEAAVQVESPATHVVSLDVLDGLSRRAGWVRGPCADRVCAEDLGLLPRAELQLTPWRLRSRDGLATGLLVDRADAVGLQLARTAVVEVAADALRDPAVAEAAEEVVSTQLVAGA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.15134907570695655,
+        "cosine": 0.9935124742482291,
+        "relative_l2": 0.11877081232668853,
+        "relative_size": 0.11762572041108242
+      },
+      "decoded": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGEFPKGTFKRILRDAGLTEEEFHNL",
+      "id": "1WHZ_1",
+      "kind": "reference",
+      "length": 70,
+      "nll": 1.01531183719635,
+      "pair_bias_relative_l2": 0.14019237458705902,
+      "plddt": {
+        "reencoded": 0.7505526338304792
+      },
+      "ptm": {
+        "reencoded": 0.6516913175582886
+      },
+      "sequence": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGELPKGTFKRILRDAGLTEEEFHNL",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.11165776646778713,
+        "cosine": 0.9963716838417715,
+        "relative_l2": 0.08466371821357142,
+        "relative_size": 0.08541318347570509
+      },
+      "decoded": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGTLRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "id": "2ZQE_1",
+      "kind": "reference",
+      "length": 80,
+      "nll": 0.9654847979545593,
+      "pair_bias_relative_l2": 0.10513866692781448,
+      "plddt": {
+        "reencoded": 0.8027955487370491
+      },
+      "ptm": {
+        "reencoded": 0.7565929889678955
+      },
+      "sequence": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGALRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "id": "2QG1_1",
+      "kind": "reference",
+      "length": 89,
+      "nll": 0.8425995707511902,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.7208574226733004
+      },
+      "ptm": {
+        "reencoded": 0.656373918056488
+      },
+      "sequence": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.07021321144091039,
+        "cosine": 0.9985079104490977,
+        "relative_l2": 0.05276172385331009,
+        "relative_size": 0.050260439856879606
+      },
+      "decoded": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGVCYDYKIRVNCCWPMDKCA",
+      "id": "6TM6_1",
+      "kind": "reference",
+      "length": 97,
+      "nll": 0.9333383440971375,
+      "pair_bias_relative_l2": 0.06812291592359543,
+      "plddt": {
+        "reencoded": 0.6568352475608747
+      },
+      "ptm": {
+        "reencoded": 0.5705816149711609
+      },
+      "sequence": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGLCYDYKIRVNCCWPMDKCA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.06856587164661025,
+        "cosine": 0.9987900316130228,
+        "relative_l2": 0.04800084154429753,
+        "relative_size": 0.04974236264270454
+      },
+      "decoded": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKDQIVEGYYLKEPVPMQ",
+      "id": "6WAX_1",
+      "kind": "reference",
+      "length": 105,
+      "nll": 1.3591924905776978,
+      "pair_bias_relative_l2": 0.05845831707119942,
+      "plddt": {
+        "reencoded": 0.8537006556987763
+      },
+      "ptm": {
+        "reencoded": 0.8539282083511353
+      },
+      "sequence": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKEQIVEGYYLKEPVPMQ",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.1009498014040671,
+        "cosine": 0.9968234023904367,
+        "relative_l2": 0.07852891221674872,
+        "relative_size": 0.08348371690419745
+      },
+      "decoded": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPPHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "id": "4N04_1",
+      "kind": "reference",
+      "length": 111,
+      "nll": 0.9129500389099121,
+      "pair_bias_relative_l2": 0.0832253098487854,
+      "plddt": {
+        "reencoded": 0.919702021925299
+      },
+      "ptm": {
+        "reencoded": 0.9056571125984192
+      },
+      "sequence": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPEHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "id": "2P8V_1",
+      "kind": "reference",
+      "length": 117,
+      "nll": 0.26830780506134033,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8736961942452651
+      },
+      "ptm": {
+        "reencoded": 0.8778185248374939
+      },
+      "sequence": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "id": "4JP6_1",
+      "kind": "reference",
+      "length": 122,
+      "nll": 0.5945804119110107,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9311601128734526
+      },
+      "ptm": {
+        "reencoded": 0.9452903866767883
+      },
+      "sequence": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "id": "1Z9L_1",
+      "kind": "reference",
+      "length": 126,
+      "nll": 0.3199765980243683,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8032677483464045
+      },
+      "ptm": {
+        "reencoded": 0.7663090825080872
+      },
+      "sequence": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "id": "2LIS_1",
+      "kind": "reference",
+      "length": 131,
+      "nll": 2.8408830165863037,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.7803118561060374
+      },
+      "ptm": {
+        "reencoded": 0.7443289756774902
+      },
+      "sequence": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "id": "6ORC_1",
+      "kind": "reference",
+      "length": 134,
+      "nll": 1.4318407773971558,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9405974674580703
+      },
+      "ptm": {
+        "reencoded": 0.930411696434021
+      },
+      "sequence": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "id": "4JC1_1",
+      "kind": "reference",
+      "length": 138,
+      "nll": 0.5320121049880981,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9655275720617046
+      },
+      "ptm": {
+        "reencoded": 0.977527916431427
+      },
+      "sequence": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.11386631907635324,
+        "cosine": 0.9967920095410989,
+        "relative_l2": 0.08039054498898057,
+        "relative_size": 0.0821921166687181
+      },
+      "decoded": "SIKPGTYEVTSKVNGLHVGRTLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTPHGWVVPADAEELAQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "id": "3VWC_1",
+      "kind": "reference",
+      "length": 146,
+      "nll": 1.398607850074768,
+      "pair_bias_relative_l2": 0.09935367107391357,
+      "plddt": {
+        "reencoded": 0.8549273156956451
+      },
+      "ptm": {
+        "reencoded": 0.872952938079834
+      },
+      "sequence": "SIKPGTYEVTSKVNGLHVGRPLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTEHGWVVPADAEELQQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "id": "3OX5_1",
+      "kind": "reference",
+      "length": 153,
+      "nll": 0.0897701308131218,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.6291171238313313
+      },
+      "ptm": {
+        "reencoded": 0.377390056848526
+      },
+      "sequence": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0723902490445912,
+        "cosine": 0.9985279704847265,
+        "relative_l2": 0.052067273715121494,
+        "relative_size": 0.0531184390014952
+      },
+      "decoded": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSITITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "id": "1K12_1",
+      "kind": "reference",
+      "length": 158,
+      "nll": 1.5619159936904907,
+      "pair_bias_relative_l2": 0.061410244554281235,
+      "plddt": {
+        "reencoded": 0.813421418017979
+      },
+      "ptm": {
+        "reencoded": 0.8159008622169495
+      },
+      "sequence": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSVTITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.04414643774140716,
+        "cosine": 0.9995341699463873,
+        "relative_l2": 0.030322563201776002,
+        "relative_size": 0.030414655814423874
+      },
+      "decoded": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVINKSWTSPYNEKCK",
+      "id": "7B2A_1",
+      "kind": "reference",
+      "length": 162,
+      "nll": 1.50800359249115,
+      "pair_bias_relative_l2": 0.037532202899456024,
+      "plddt": {
+        "reencoded": 0.8192697020224583
+      },
+      "ptm": {
+        "reencoded": 0.8387340307235718
+      },
+      "sequence": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVVNKSWTSPYNEKCK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.10306378104411588,
+        "cosine": 0.9971343708659138,
+        "relative_l2": 0.07972886384623566,
+        "relative_size": 0.08385780991723137
+      },
+      "decoded": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLMTIVYGVK",
+      "id": "3EY5_1",
+      "kind": "reference",
+      "length": 176,
+      "nll": 1.1049599647521973,
+      "pair_bias_relative_l2": 0.08842295408248901,
+      "plddt": {
+        "reencoded": 0.9750698655843735
+      },
+      "ptm": {
+        "reencoded": 0.9868451952934265
+      },
+      "sequence": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLHTIVYGVK",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0705754732514436,
+        "cosine": 0.9985438685220221,
+        "relative_l2": 0.053797291780541275,
+        "relative_size": 0.05654655889260393
+      },
+      "decoded": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINRGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSASGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "id": "3VOR_1",
+      "kind": "reference",
+      "length": 182,
+      "nll": 1.2564181089401245,
+      "pair_bias_relative_l2": 0.0669776201248169,
+      "plddt": {
+        "reencoded": 0.9149914735948647
+      },
+      "ptm": {
+        "reencoded": 0.9393986463546753
+      },
+      "sequence": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINKGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSPSGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "id": "6Q3V_1",
+      "kind": "reference",
+      "length": 188,
+      "nll": 1.406011939048767,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8594118708625753
+      },
+      "ptm": {
+        "reencoded": 0.7315927147865295
+      },
+      "sequence": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.14363140015707326,
+        "cosine": 0.995067049388247,
+        "relative_l2": 0.10282640929125271,
+        "relative_size": 0.10947470351492486
+      },
+      "decoded": "MARIPPLIVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKIPLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "id": "2QOR_1",
+      "kind": "reference",
+      "length": 196,
+      "nll": 1.3791049718856812,
+      "pair_bias_relative_l2": 0.11988208442926407,
+      "plddt": {
+        "reencoded": 0.9574500456148264
+      },
+      "ptm": {
+        "reencoded": 0.9726653695106506
+      },
+      "sequence": "MARIPPLVVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKICLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.1438675168321855,
+        "cosine": 0.9943569365181049,
+        "relative_l2": 0.10416164377024234,
+        "relative_size": 0.10821149558814742
+      },
+      "decoded": "MRLWLIRHGETQANVDGLFSGHADTLLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMYFGDWEMRHHRDLMQEDAENYSAWCNDWQHVIPTNGEGFQAFSQRVERFIARLSEYQPYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "id": "6NRU_1",
+      "kind": "reference",
+      "length": 203,
+      "nll": 0.957760214805603,
+      "pair_bias_relative_l2": 0.1248183473944664,
+      "plddt": {
+        "reencoded": 0.9588144631514995
+      },
+      "ptm": {
+        "reencoded": 0.9788164496421814
+      },
+      "sequence": "MRLWLIRHGETQANVDGLYSGHAPTPLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEYQHYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.056226132248386324,
+        "cosine": 0.9988936418168901,
+        "relative_l2": 0.04275842342118265,
+        "relative_size": 0.038566050562925974
+      },
+      "decoded": "MRPSLKALQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "id": "3BYI_1",
+      "kind": "reference",
+      "length": 211,
+      "nll": 0.47355443239212036,
+      "pair_bias_relative_l2": 0.056222472339868546,
+      "plddt": {
+        "reencoded": 0.9654444501298298
+      },
+      "ptm": {
+        "reencoded": 0.9672871828079224
+      },
+      "sequence": "MRPSLKTLQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "id": "7L6Z_1",
+      "kind": "reference",
+      "length": 214,
+      "nll": 0.8272243738174438,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9687316991458429
+      },
+      "ptm": {
+        "reencoded": 0.98309725522995
+      },
+      "sequence": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "slurm_job": "128228"
+    },
+    {
+      "card": "NVIDIA RTX 6000 Ada Generation",
+      "consistency": {
+        "anoise_level": 0.07432938631723346,
+        "cosine": 0.9985391675228678,
+        "relative_l2": 0.05707767233654727,
+        "relative_size": 0.058271758182056856
+      },
+      "decoded": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGITRDQPFTFEDGSTACMPAMREKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "id": "4LU4_1",
+      "kind": "reference",
+      "length": 220,
+      "nll": 1.4412109851837158,
+      "pair_bias_relative_l2": 0.0705505982041359,
+      "plddt": {
+        "reencoded": 0.95114264190197
+      },
+      "ptm": {
+        "reencoded": 0.9594471454620361
+      },
+      "sequence": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGVTRDQPFTFEDGSTACMPAMRPKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "slurm_job": "128228"
+    }
+  ],
+  "experiment": "esmfold2.seqeval.fold",
+  "lm_dropout": {
+    "lm_dropout": 0.0,
+    "per_loop": true
+  },
+  "masks": {
+    "count": 10,
+    "rate": 0.15
+  },
+  "plausibility": "loaded",
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "checkpoint": {
+      "config.json": "72054c1af92f432a",
+      "identity_source": "hf-blob-sha256",
+      "model.safetensors.index.json": "5e1f94eb5cd4b0ff",
+      "resolved": "/path/to/home/workspaces/models/hf/biohub/ESMFold2",
+      "shards": {
+        "model-00001-of-00006.safetensors": "a24f050e2a2f9746b43b435c53719afc575a374fa302731b6911356a3d8b5cac",
+        "model-00002-of-00006.safetensors": "1af1615f6f6d1b3c0a24a63d9052a0ecad5b3831d1513c1a5fea73870c1bec73",
+        "model-00003-of-00006.safetensors": "357b55ec56192fd01a1cfc39a5260caf2242503ac7c554f614e43c7a469f0ced",
+        "model-00004-of-00006.safetensors": "f065aca1a13308bce41b78f728c28a0a29e3a9db6af531a74a258dbb06f8721b",
+        "model-00005-of-00006.safetensors": "e0c507dce5b2ddb22f77305607b4332506137850c5378e98e9729345264668b7",
+        "model-00006-of-00006.safetensors": "90015eb13bbeab54237b18d6748dbd47f4bfd108fdf45704d66e5c3a93f8df7c"
+      },
+      "weights_sha256": "5457987c978cce03"
+    },
+    "checkpoint_name": "ESMFold2",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "db2c4f4135ccd42d879ac3234ca18710cb337b62",
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "host": "gpu3",
+    "mode": "seqeval_fold",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "128228",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "route": "reencoded",
+  "seed": 20261122,
+  "settings": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "experiment": "esmfold2.evaluate_robustness.subspace",
+  "normalisation_digest": "4de0059e52939a17",
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "a64f066b70e25231131edb68264656212067d027",
+    "gpu": "NVIDIA RTX A5000",
+    "host": "gpu2",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "127988",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "reading": "closed-form discriminant refitted on the directions named, fitted on train, read on dev",
+  "subspaces": {
+    "full": {
+      "cw_acc": 0.9737243489140929,
+      "cw_ce": 0.1273165315204826,
+      "directions": 256,
+      "micro_acc": 0.9820280437470408,
+      "micro_ce": 0.09371044615000161,
+      "variance_share": 1.0
+    },
+    "leading_128": {
+      "cw_acc": 0.8231738511128285,
+      "cw_ce": 0.5952946389051204,
+      "directions": 128,
+      "micro_acc": 0.840790418079701,
+      "micro_ce": 0.5121234965172137,
+      "variance_share": 0.9732780943913167
+    },
+    "leading_16": {
+      "cw_acc": 0.1944226566662149,
+      "cw_ce": 2.5939541888482633,
+      "directions": 16,
+      "micro_acc": 0.19750413662835928,
+      "micro_ce": 2.573020882489001,
+      "variance_share": 0.449058879736013
+    },
+    "leading_32": {
+      "cw_acc": 0.29126194644157977,
+      "cw_ce": 2.3428288213912354,
+      "directions": 32,
+      "micro_acc": 0.28862372826910754,
+      "micro_ce": 2.319514169078868,
+      "variance_share": 0.6520289812415649
+    },
+    "leading_64": {
+      "cw_acc": 0.5111495177529858,
+      "cw_ce": 1.5505262551467451,
+      "directions": 64,
+      "micro_acc": 0.520950830588129,
+      "micro_ce": 1.4985856305700926,
+      "variance_share": 0.8424329057493204
+    },
+    "trailing_128": {
+      "cw_acc": 0.6801565093519452,
+      "cw_ce": 1.0549026021413446,
+      "directions": 128,
+      "micro_acc": 0.7000798047210265,
+      "micro_ce": 0.9631199476450761,
+      "variance_share": 0.02672190560868318
+    },
+    "trailing_64": {
+      "cw_acc": 0.28196576125248546,
+      "cw_ce": 2.3117253351537896,
+      "directions": 64,
+      "micro_acc": 0.2811384804311128,
+      "micro_ce": 2.327619213592119,
+      "variance_share": 0.004849122256816017
+    }
+  }
+}

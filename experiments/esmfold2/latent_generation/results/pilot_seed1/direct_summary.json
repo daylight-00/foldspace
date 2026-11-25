@@ -1,0 +1,52 @@
+{
+  "arms": {
+    "standardized": {
+      "controls": {
+        "mean": {
+          "plddt_median": 0.5640549306259599,
+          "share_confident": 0.3333333333333333
+        },
+        "shuffled": {
+          "plddt_median": 0.44816639227445854,
+          "share_confident": 0.0
+        }
+      },
+      "direct_fold": {
+        "plddt_median": 0.4898044820059033,
+        "ptm_median": 0.2219330444931984,
+        "share_confident": 0.0
+      },
+      "floor": {
+        "plddt_median": 0.5933189444070639,
+        "share_confident": 0.3958333333333333,
+        "success_share": 0.0
+      },
+      "reference": {
+        "chains": 24,
+        "plddt_median": 0.884973467481313,
+        "share_confident": 0.9166666666666666,
+        "success_share": 0.9166666666666666
+      },
+      "samples": 48,
+      "self_consistency": {
+        "reference_sctm_median": 0.97165,
+        "samples_sctm_median": 0.2333,
+        "samples_share_consistent": 0.0
+      },
+      "sequence": {
+        "composition_jsd_from_train": 0.0010912612006962882,
+        "eight_mer_containment_median": 0.0,
+        "mean_confidence": 0.97465,
+        "mean_pairwise_eight_mer_jaccard": 0.0,
+        "share_memorised": 0.0
+      },
+      "success_share": 0.0,
+      "verdict": {
+        "floor_success_share": 0.0,
+        "reference_success_share": 0.9166666666666666,
+        "success_share": 0.0,
+        "supported": false
+      }
+    }
+  }
+}

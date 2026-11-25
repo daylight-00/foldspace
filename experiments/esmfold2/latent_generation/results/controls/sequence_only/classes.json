@@ -1,0 +1,87 @@
+{
+  "chosen": {
+    "seed0": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": -1.7560234069824219,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.7291829466064635,
+      "supported_rule_met": false,
+      "supported_withdrawn": false,
+      "temperature": "0.8"
+    },
+    "seed1": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": 0.1386737823486328,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.6287014023984591,
+      "supported_rule_met": false,
+      "supported_withdrawn": false,
+      "temperature": "0.8"
+    }
+  },
+  "control_supported": false,
+  "overall": "at the pilot's level",
+  "per_set": {
+    "seed0_temperature0.8": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": -1.7560234069824219,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.7291829466064635,
+      "supported_rule_met": false,
+      "supported_withdrawn": false
+    },
+    "seed0_temperature1.0": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": -3.633878707885742,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.9374983734507922,
+      "supported_rule_met": false,
+      "supported_withdrawn": false
+    },
+    "seed1_temperature0.8": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": 0.1386737823486328,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.6287014023984591,
+      "supported_rule_met": false,
+      "supported_withdrawn": false
+    },
+    "seed1_temperature1.0": {
+      "above_by_plddt": false,
+      "above_by_share": false,
+      "atlas_plddt_gain": -2.960294723510742,
+      "class": "at the pilot's level",
+      "credited_share": 0.0,
+      "fisher_p": 1.0,
+      "gain_over_pilot": 0.0,
+      "mannwhitney_p": 0.8568394984192909,
+      "supported_rule_met": false,
+      "supported_withdrawn": false
+    }
+  },
+  "pilot": {
+    "atlas_plddt_median": 53.563228607177734,
+    "n": 144,
+    "successes": 0
+  }
+}

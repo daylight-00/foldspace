@@ -1,0 +1,28 @@
+{
+  "normalisation_digest": "4de0059e52939a17",
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "64a035f6c0f5fe32a89d9ce3cdb64f564abe21fc",
+    "gpu": "NVIDIA RTX A5000",
+    "host": "gpu2",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "127983",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "rows": 3232149,
+  "variance_in_leading_directions": {
+    "128": 0.9732780943913169,
+    "16": 0.44905887973601305,
+    "32": 0.6520289812415649,
+    "64": 0.8424329057493205
+  }
+}

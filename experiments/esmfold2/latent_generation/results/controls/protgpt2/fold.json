@@ -1,0 +1,2143 @@
+{
+  "chains": [
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s000",
+      "kind": "sample",
+      "length": 71,
+      "nll": 2.478235960006714,
+      "plddt": {
+        "reencoded": 0.6161356589324037
+      },
+      "ptm": {
+        "reencoded": 0.29251158237457275
+      },
+      "sequence": "LVAQVALKEARSRGMSLYDYLINLLVKEAASVSYEEFKDELPEDWRREVEALMYIKNVLIKEESPTDEDSE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s001",
+      "kind": "sample",
+      "length": 95,
+      "nll": 2.2979421615600586,
+      "plddt": {
+        "reencoded": 0.5758196570371327
+      },
+      "ptm": {
+        "reencoded": 0.4493657648563385
+      },
+      "sequence": "MAGALTVTRVAGAGRGTGLPDPALADALATLLAATLQAVAEDAAQRDDLDTGTVSMSVGTRALLDDEPRAALARAVDRVTARFRPRALDLEVAVD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s002",
+      "kind": "sample",
+      "length": 103,
+      "nll": 2.8437743186950684,
+      "plddt": {
+        "reencoded": 0.4213331587684965
+      },
+      "ptm": {
+        "reencoded": 0.2359258234500885
+      },
+      "sequence": "MDIREKLQAYNWSENPLRPEPIDEQLCELAISQDFVDVITYSAFSDEKVLERIRDSLPPGVKENVLTENKLCGRNCIILNPECLYCHGECKLQHAEGVCEHKK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s003",
+      "kind": "sample",
+      "length": 110,
+      "nll": 2.65071964263916,
+      "plddt": {
+        "reencoded": 0.7949324683709578
+      },
+      "ptm": {
+        "reencoded": 0.3496059775352478
+      },
+      "sequence": "MRLESHIVYRYRWFVIASFVMLFGCSAWRIYIGVPEDPFEGMWWLTIIFLVALPILWEGLLPPLRAAYPEPATGAPATPEHLAKLQDAKEAKKAKIARKQRKQRKASSGA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s004",
+      "kind": "sample",
+      "length": 118,
+      "nll": 2.5344982147216797,
+      "plddt": {
+        "reencoded": 0.7334994671203322
+      },
+      "ptm": {
+        "reencoded": 0.4732912480831146
+      },
+      "sequence": "MKKEFSKELYELSSHEMYESMRKEAIAPFCQALGLMWYLFGSAGIAGFFLTKGFPWSISLVLGIIAGIVNAVLLKYLNVRLENKESQKWYESGRKGKGLFMIIGGVVTVLLFAEIYLI",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s005",
+      "kind": "sample",
+      "length": 123,
+      "nll": 1.9231767654418945,
+      "plddt": {
+        "reencoded": 0.5888318799860109
+      },
+      "ptm": {
+        "reencoded": 0.4197869896888733
+      },
+      "sequence": "MHAMFAGKPSAHTRSARLSRMARSSRTLIRIGGDDPGFRASSRTFARFGGYDSGFEASRQSFARNGEHDSSLKARRRSFTRNGEYDSDLKASRQSLAGNGVYGSRFKAQRKALSRRSALFPRL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s006",
+      "kind": "sample",
+      "length": 127,
+      "nll": 2.5068204402923584,
+      "plddt": {
+        "reencoded": 0.8299607944300794
+      },
+      "ptm": {
+        "reencoded": 0.5163421630859375
+      },
+      "sequence": "MQDMNKASQTLKEDILKQPRMSGAEMIHLIVSNPGITQQEIADRFNVSPVVVSRMLNRSKEAGYLKINTETNTCYYLMLPERGKKLSSRMEQRLIEEKSHEIRKQRAPNAKTDENLWKVLQKIKDFD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s007",
+      "kind": "sample",
+      "length": 128,
+      "nll": 1.884548544883728,
+      "plddt": {
+        "reencoded": 0.860847539966926
+      },
+      "ptm": {
+        "reencoded": 0.8056297302246094
+      },
+      "sequence": "MAVVQLDRLFVAAALSFFLAGMVAEGNVRRGQALYNRCATCHSAERGGENRIGPNLWNVVDRRRASLPGYAYSPALQGTPIVWDAATLDAFLRDPSKFAPGTAMAFRGLKSDTDRDNLIGYLQSAAGR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s008",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.469632625579834,
+      "plddt": {
+        "reencoded": 0.84444404565371
+      },
+      "ptm": {
+        "reencoded": 0.31177714467048645
+      },
+      "sequence": "MSKRLWECSACSELFHSNVWLINHTEKQHPNCTGNSLQLLSTASLPDTAAASAAPHGTSTGPQGQVVPSAPPPPGPAAAETTSATTARPPVAPVSVAAPVLQAAAVSQPVVQILPISSAVGTTSSSGSFT",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s009",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.79522442817688,
+      "plddt": {
+        "reencoded": 0.45860456228256224
+      },
+      "ptm": {
+        "reencoded": 0.19559627771377563
+      },
+      "sequence": "MTCKKFLIVLLPVWLSTASSFADIVCPHENIDMNRTLAIVKEREGCWRPTWDNATVATVSVLKDDNGSAKCGMRCIYERDGFEFYRTFQTMSGKTSQYFSLKLDSGKIIARQKMRMVSSTKCNNEPYKGD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s010",
+      "kind": "sample",
+      "length": 131,
+      "nll": 2.5980000495910645,
+      "plddt": {
+        "reencoded": 0.5399121635287772
+      },
+      "ptm": {
+        "reencoded": 0.3396276831626892
+      },
+      "sequence": "MISLEDSINECFERIGHGRISHASDAREALADVLATSGLSISRSLTGYDGVLLAFQVDGERHYAGPCVSDGGSACVLHVYRVHPAQSEWQWLDRGEADASSDPLWWWLWLPTLWDAARSSRSAASGGETSA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s011",
+      "kind": "sample",
+      "length": 127,
+      "nll": 2.7671124935150146,
+      "plddt": {
+        "reencoded": 0.4662695841526422
+      },
+      "ptm": {
+        "reencoded": 0.37618303298950195
+      },
+      "sequence": "MEVVLRAVNNCQYSHDVFFGGIETVVVHGTSAGLSGALLYQLSKYLKNHGLQLNIVTVDPHLFSESLVEDIGCYCTAGSTDKINQWLLDGEPKRGHTYGSVREAVDFAVENGKRRFISPFERLDKKD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s012",
+      "kind": "sample",
+      "length": 127,
+      "nll": 2.7719197273254395,
+      "plddt": {
+        "reencoded": 0.3920344026304605
+      },
+      "ptm": {
+        "reencoded": 0.3239689767360687
+      },
+      "sequence": "MVRIIDITAIDVNNPEKSVVLDLHIKKSTGTAYNISEKMKYAKTWVKNFSESKFQYYVNFGDDKAICNAVEREYTVYIYFHIKDVNFYWEYVIKDIVNTIVQEMKEIEGVDFVFPLQKHELRVNFKK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s013",
+      "kind": "sample",
+      "length": 126,
+      "nll": 2.943610668182373,
+      "plddt": {
+        "reencoded": 0.33432405229125706
+      },
+      "ptm": {
+        "reencoded": 0.10408414155244827
+      },
+      "sequence": "MCYIVNSYDWPHEYNFAVVLGRWAVSAWKRWGHMRFHQIIYADVCFVSQKCFEHFVCVSVIALNYTCFLIPSRSFILVSLRMTVALNVRMVALGVILFSSTPICSTICVKCRHLHVRKMCNSCNMN",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s014",
+      "kind": "sample",
+      "length": 132,
+      "nll": 2.4989469051361084,
+      "plddt": {
+        "reencoded": 0.5941981503909285
+      },
+      "ptm": {
+        "reencoded": 0.2933172285556793
+      },
+      "sequence": "MKRLRIMPFLGVVVLLAGCANYYSSGYATWADSVDPTKLPKGMSQSSASAYENLNALCAKEGKRVAVASLPNASSTAPQSPGGGSRTSVGTIERSSQTAGSGAATNNPSSDVITQRIDMVCSSDVEPKAPGR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s015",
+      "kind": "sample",
+      "length": 133,
+      "nll": 2.279737710952759,
+      "plddt": {
+        "reencoded": 0.593652540131619
+      },
+      "ptm": {
+        "reencoded": 0.23604853451251984
+      },
+      "sequence": "MFLVGFLLASFSSGGFVTVSHLLASFKSRGFATVSHALACFNSGRYKHDLLTTSHFLASFKSPENALSYLLSYFKSSLFFYVTQIWLLAPWPTLRIGFGCINLQKRQKLHSIKRSSWSRKRRTHSTSSAVLRY",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s016",
+      "kind": "sample",
+      "length": 135,
+      "nll": 2.1994502544403076,
+      "plddt": {
+        "reencoded": 0.6895213471518622
+      },
+      "ptm": {
+        "reencoded": 0.14054308831691742
+      },
+      "sequence": "MFRPPDNQDTDEHGNPTNDQHTNKHEDRHVNNHDDRPVNNNDDRPVSNQDKDHTGTDQDNDCRVNDRDDHPNTTEKHITNNKDNRPKTNDHHNNNDDRPVPDDDQDDTSTTSTRQNPPTSTSNRNTTTSPHTAPP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s017",
+      "kind": "sample",
+      "length": 136,
+      "nll": 2.485185146331787,
+      "plddt": {
+        "reencoded": 0.613036593531861
+      },
+      "ptm": {
+        "reencoded": 0.35262376070022583
+      },
+      "sequence": "MFDLSLPRSQIALLSFLSIHCLAVLALSFPVMGSTWSSSLGDGPTLSRALGLLRSLAAGLLLMLAIRRLEGREGWARWGLGVLLALASGLMAWALRGAWWEFEPHWFLALKLYALIYVLVVTWDRRKPPTRVAESG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s018",
+      "kind": "sample",
+      "length": 122,
+      "nll": 2.4441070556640625,
+      "plddt": {
+        "reencoded": 0.6385398179781242
+      },
+      "ptm": {
+        "reencoded": 0.4334431290626526
+      },
+      "sequence": "MALGIISFALNFFAIFWQLTYQPSWKAFLLIIINGILFGLGLIFIMAGISLFVDTSFRERSLIIPFTLVTLMLNVAVLLTTNLLRFISGEGQMFSLLYYVFLCLIEALILFILLNRMKRNLK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s019",
+      "kind": "sample",
+      "length": 136,
+      "nll": 1.9722999334335327,
+      "plddt": {
+        "reencoded": 0.7480792734114563
+      },
+      "ptm": {
+        "reencoded": 0.19424420595169067
+      },
+      "sequence": "MKFLLRATAILLTAVSTAFGAASVEAAGHKREYRHRHDRVAVIWAPPVVALPPPPPVIYVQPMPPPVYAPAPVFVQPVYAPPPPPVYARPPIPAWYPRPVVWGPAVGVYWGPFYSCHWDHHGRWHGGYRHGCRWGY",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s020",
+      "kind": "sample",
+      "length": 137,
+      "nll": 2.629305601119995,
+      "plddt": {
+        "reencoded": 0.6075937234572251
+      },
+      "ptm": {
+        "reencoded": 0.3388010859489441
+      },
+      "sequence": "MAANTSIPGAATAEGGIGSTPNTTGSANATGTNGTGLATLPELQAGWSVQELSTTPFYYCDDPVTGKEKWRFVDDQGQKVLVSVPQGGGEINAAGYFQVSTGGRGNEGQQHNVLSPGQGLSDDGSAGAAVPEQPAGN",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s021",
+      "kind": "sample",
+      "length": 120,
+      "nll": 2.1606788635253906,
+      "plddt": {
+        "reencoded": 0.7490349580844243
+      },
+      "ptm": {
+        "reencoded": 0.6490393280982971
+      },
+      "sequence": "MAEGAPATLSMVRASLSRHGYRRRAHAWAVAARLDAIADLSGRSGSVATASAWLASVIGMEPTAAYRRLRLARALRALPGITAQLDAGQVDLAQARVVAEIAAAQTPEDDRAWVRLATRL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s022",
+      "kind": "sample",
+      "length": 120,
+      "nll": 2.9554667472839355,
+      "plddt": {
+        "reencoded": 0.41053449288010596
+      },
+      "ptm": {
+        "reencoded": 0.24115483462810516
+      },
+      "sequence": "MREYKKVITKEINYNVTLYDFPYGNHKSKVECDCLNIEKKTIFVQCKGTITRYANLAEFINATNMKRNPEGRIPKIKTFICYPNVITTKIDQYLHQVGIDLLKADRNKCENANFWIPLLD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s023",
+      "kind": "sample",
+      "length": 120,
+      "nll": 2.531085729598999,
+      "plddt": {
+        "reencoded": 0.8205647607644398
+      },
+      "ptm": {
+        "reencoded": 0.34799090027809143
+      },
+      "sequence": "MYADEVHRIVAKPYTETIEYMTDQIKKEKSKFSAVKAKYPNIPQSLIKEYVQNDNTEVVEDTDEESGEYEMVEIDNPSVKEESEEDEMDIEEVSPVEEEKIEEVEKDDPDEDDGDWNMVL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s024",
+      "kind": "sample",
+      "length": 139,
+      "nll": 2.418078899383545,
+      "plddt": {
+        "reencoded": 0.7719839268879924
+      },
+      "ptm": {
+        "reencoded": 0.3346269428730011
+      },
+      "sequence": "LSVGCFDGVKKTKERKERRRKQRKRRKKRKRKGKKEEKSLHHKIPPFCWPERRSVIAAAVIGHPTFHLRAVAKREREREKKERQSDCWFSFFFSFLHSAHCQGDNGVAIQYVCKSTRSNKKQTNKKRESVWKEKSSACV",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s025",
+      "kind": "sample",
+      "length": 140,
+      "nll": 2.5574443340301514,
+      "plddt": {
+        "reencoded": 0.7944897877318519
+      },
+      "ptm": {
+        "reencoded": 0.48618000745773315
+      },
+      "sequence": "MDQPSPETAARGRRRLTGGVVVMGVLSLLCGLATMCAPIAATTLCTVVGWVLAFVATLWARRRARSAETATPARRRAMAARVLGLIALVLTIVTLLVFVGLSLWTLYNGERIHRCLEPAGHRRSIEACRDRLENRLTIDG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s026",
+      "kind": "sample",
+      "length": 144,
+      "nll": 1.8899822235107422,
+      "plddt": {
+        "reencoded": 0.7420755467481084
+      },
+      "ptm": {
+        "reencoded": 0.30613189935684204
+      },
+      "sequence": "MKKYLLVASALMMFPAAALAQSDTTTTQATTQTATTQTETAEPAVETVESAEQTEVVEATADAAADEAAEKVKAAAAATDAPAAESDAVVAKGEAKEAADVVEEGANAAENVAEGATDGAHQAVKKVKKGKKKKAEAADEAAPQ",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s027",
+      "kind": "sample",
+      "length": 116,
+      "nll": 2.7604212760925293,
+      "plddt": {
+        "reencoded": 0.4468632910786004
+      },
+      "ptm": {
+        "reencoded": 0.2693203389644623
+      },
+      "sequence": "MAFGSFFTWLNSVCKYHKLEQIRKVTFGSADEVLKIKDLYPKVYDYNKPLSEVEEWLKDHHLINLFNGDITDKERIIFEDVYNVYKAFESDEYIFDFCIKHIEHNWEFYQEEGIEE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s028",
+      "kind": "sample",
+      "length": 144,
+      "nll": 2.0507850646972656,
+      "plddt": {
+        "reencoded": 0.7958174343738291
+      },
+      "ptm": {
+        "reencoded": 0.3322184681892395
+      },
+      "sequence": "MKHQYILLPLVLVLAFSAFPVFAGGDANAAASNLDELSNKYGIDKAAENKDSALEATGDFNMLLLYFAAVIAVIVIIAAIMIYLKNKTKAAEETVEVDDTTDTESTESEPAEETAAETETATDIDEPETEDAEAEEKPQTEEGE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s029",
+      "kind": "sample",
+      "length": 149,
+      "nll": 2.4727375507354736,
+      "plddt": {
+        "reencoded": 0.47955692154449103
+      },
+      "ptm": {
+        "reencoded": 0.25821441411972046
+      },
+      "sequence": "MKRSTVLAAVGITMTALLGAGVAQAASFPQQPVTPSGVVVTVSCVDATVTLATDDPAFLRDGDTVELSELAAEVPGGPFAESYLTISDPAAPTVTGRDVTLPQDDDMCGFEPPLVGWCIDDTQDCVVTATWADPSGTITTLVLEWDPRA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s030",
+      "kind": "sample",
+      "length": 153,
+      "nll": 2.2996468544006348,
+      "plddt": {
+        "reencoded": 0.8142822680909649
+      },
+      "ptm": {
+        "reencoded": 0.7691584825515747
+      },
+      "sequence": "MDPVTLLLEHCSETELLGVAEAWLAQARDAGEVLVAVRSLVAVARANPERLESLVGPALKRTVRGDWPSGVFAIDAVAGRADPASACRLLVQLAESEGVRAAAGALRSVATLAPHAREVIRNFVARAEAERLRGQARQVLATWKGAEPAREPA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s031",
+      "kind": "sample",
+      "length": 157,
+      "nll": 2.2861969470977783,
+      "plddt": {
+        "reencoded": 0.8486966896968283
+      },
+      "ptm": {
+        "reencoded": 0.6542764902114868
+      },
+      "sequence": "MGGVALRHCQWVLMHIHDGQAVTVEDIENRVGISRRWLAHAFHSWVGVSPKWVLNRYRMNAAVEKLRSGELLDPLTDLAIDAGYADQAHLTREFVKMTGLTPTAFRRTISTRSLETTVGPLEMTCPQTWTPSTPPKNATGTARPAPRPALPASEGSA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s032",
+      "kind": "sample",
+      "length": 166,
+      "nll": 2.4383790493011475,
+      "plddt": {
+        "reencoded": 0.39665925951607256
+      },
+      "ptm": {
+        "reencoded": 0.22361798584461212
+      },
+      "sequence": "MKRILLLSVLFLLSCTYVEPEPVDPPDQFVAAMDSDNIPFLSCMFENRNWEEAFTCFVEGGWQWDTIHSGILGRETSGTPGAEVWQRKYIFIDSVGSVRIEDPENFGYIGSGFVILEDGTDSTVVEENMTRWELRTVNGRWKLVNEWNRSNYGDYEWREKYYDAGE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s033",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.243206739425659,
+      "plddt": {
+        "reencoded": 0.7248846994349237
+      },
+      "ptm": {
+        "reencoded": 0.3163287937641144
+      },
+      "sequence": "MATVTVEPTTSGSMPQPPTSPPPKTTLSKFNPRFLTYLRPALSYPTYILIHAALSPIAAYTLHNTPTAAPTALAGTAVFYALKFLQPIVVTLLLIGAAYLTYEDWRRGQWEEWEGWRDGEGEGERREGVKKWVGWVRGGEGRRVVKAGVVLVPLAGLAFGVPWLARFWF",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s034",
+      "kind": "sample",
+      "length": 170,
+      "nll": 1.9692351818084717,
+      "plddt": {
+        "reencoded": 0.6579118931994719
+      },
+      "ptm": {
+        "reencoded": 0.4845866560935974
+      },
+      "sequence": "MIFLKKFIYILIFAPCLSFGQITQNNLSPENISFFCSKNDCKIKYSSDPCNYSNNSVLNVSTSFNEFDLYYLKIEDINGFLNFFNINSSDNLNSINIFPNPADTYINIFLPDEIKPFNIISVSDVTGKIIFSSLYKNINNFDISSFAKGLYFITLFDQNNKMIIKKFIKL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s035",
+      "kind": "sample",
+      "length": 170,
+      "nll": 2.242760419845581,
+      "plddt": {
+        "reencoded": 0.6745603207279655
+      },
+      "ptm": {
+        "reencoded": 0.45894208550453186
+      },
+      "sequence": "MSLRASTTRQRIESTRALERLGPVSLESLDPGRTTTPGLECLIDGDDVSPAVQWDGDWAAPGPHTVRFRVANTEGRWSESAPTTIHVTSPTQPLAPTVETFNPSPEIVVNDGSDPITDLKIELDGNEVDPADASGRIDTLGRGNHSIVVTATDDAGNTATDTRTLTIFTD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s036",
+      "kind": "sample",
+      "length": 167,
+      "nll": 2.662994861602783,
+      "plddt": {
+        "reencoded": 0.3417214677183928
+      },
+      "ptm": {
+        "reencoded": 0.21735326945781708
+      },
+      "sequence": "MDDILIIKPDACDVLVEFRNLPQPRLGAAERPQVWGSEVRSAMTAEAPSVAVIVDPAERASAPGIAASSTGEIHILEAAPEFDLAEALNSYFAFNAVNDQENAPVTPMEFALFHDRATLYLASGPHDGYTVMFLREEVLPRLEGKTVADVRAAMLRHRKAWGIADEA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s037",
+      "kind": "sample",
+      "length": 167,
+      "nll": 2.7879254817962646,
+      "plddt": {
+        "reencoded": 0.6858141672111557
+      },
+      "ptm": {
+        "reencoded": 0.1969251185655594
+      },
+      "sequence": "MTCHHLQEETRGRNNGTTSVTLRSTAQSMFLQLSCGDWDFLLDHQHSKLGTYNWPFIDPVPPQNPPPATTPLRELQSNSETNSLLFQNTPRDSEMTLPQDPSSGVVRSLTVPTTLSSDEDCSCKDSKSSCTCESPTCGECQFMGCLNDLLGNDLVPESGGLDQQIWA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s038",
+      "kind": "sample",
+      "length": 166,
+      "nll": 2.4985480308532715,
+      "plddt": {
+        "reencoded": 0.5786226199692991
+      },
+      "ptm": {
+        "reencoded": 0.35415953397750854
+      },
+      "sequence": "MWLGWALFIALAVESTITDRLLSISTARSEGGGVRYAAISSSYVGQLLAFGALNALGAPALAAALVYGIADILDSVAYYYLYRRPSREEVLKGLFGEESAALVARASLETWRLLGSAVLAAAVSLLWAAGAFSYLPAFILYRVLDNTLYIRVRRLLSRWRKATSFR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s039",
+      "kind": "sample",
+      "length": 166,
+      "nll": 2.9120733737945557,
+      "plddt": {
+        "reencoded": 0.36358197868229397
+      },
+      "ptm": {
+        "reencoded": 0.20642051100730896
+      },
+      "sequence": "MGSFSRHDGQILQSQLGPEGVGIQLDLQTMAGKMTPLVSAFLAAEFGVADIYIATFPVSDSSYLLPRAWLYLRNGWFSSSQPRNATPFHPSEAVGNRLSRAFLGDDGFRRLLRIERYIDEGARIWRVCPGEPPEPAWNWEGRDSICDYCPLEMGCAFRSENLHDHS",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s040",
+      "kind": "sample",
+      "length": 172,
+      "nll": 2.672409772872925,
+      "plddt": {
+        "reencoded": 0.5309604763291603
+      },
+      "ptm": {
+        "reencoded": 0.2670786678791046
+      },
+      "sequence": "MPIALPKPICQRCKDILPKDVILAKKGGETGEFGVDLCRDCFFKAAEEAVSNDEFRSKVISKIQAANLIDPDEYREDIKVALDFLSEHKTEGQIDDSDQKTKLKEKISRLIRDHEKQNLEYESKVDPNERLEPEIKLKVANDISKARGTKKSGNDYKEIDRAIDVLESYLDA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s041",
+      "kind": "sample",
+      "length": 181,
+      "nll": 2.3387885093688965,
+      "plddt": {
+        "reencoded": 0.7650597597683332
+      },
+      "ptm": {
+        "reencoded": 0.13817356526851654
+      },
+      "sequence": "MSAREYVTRKVLGPAGVAAGTSLATCRTTPTSARRAASATSSLRGGCPPAPATLTPSSSPSTKPRTPTRAPTSRLLCPARPTSPPSPPSALGALGCLGFPRCSPSLPAAAAPARRRRPRRRRLCALAARAPSRCLSGPALLACPASPSSATAARPFCRRRRDRLWHSRCRCPRCAWLRPGG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s042",
+      "kind": "sample",
+      "length": 186,
+      "nll": 2.4818460941314697,
+      "plddt": {
+        "reencoded": 0.3537529786267588
+      },
+      "ptm": {
+        "reencoded": 0.2374100685119629
+      },
+      "sequence": "MYPHLRFGEQTLGTEGADVFGRGATGRALVTTAYYPAPERRCRILPELGAGLPAGVPGDYVRSVGPVSVTGRLSAEALDRAGLHWFLHADVHGDPGTTTWEDVHTALHAGHAGPVAVLRTLREQDRLSAVLTGGGDAALCEAELPPGAEGLAAFRRRTTALLDDPDLWTDSPPSPPRLPHRPGASG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s043",
+      "kind": "sample",
+      "length": 195,
+      "nll": 2.1829373836517334,
+      "plddt": {
+        "reencoded": 0.7867835107522133
+      },
+      "ptm": {
+        "reencoded": 0.37176603078842163
+      },
+      "sequence": "MTLGQQIAHARTMKQLTQTQLAETAGVAQPTIARFERGEFTPRVDTLGSLASALKLSLQDLLPGAEPPVSTPSTLSTTSSTTPMTEADLRARAIEIYRTGRLSVDTDLIKTTLSDMVRRAQALGLQRRDASLTAAFVESSRTSEEIAQALTSAAQAMNRLQAGQRAPSARPTTTPPRQPASPERPATPPASESED",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s044",
+      "kind": "sample",
+      "length": 197,
+      "nll": 2.009676933288574,
+      "plddt": {
+        "reencoded": 0.8196661982136935
+      },
+      "ptm": {
+        "reencoded": 0.8406409025192261
+      },
+      "sequence": "MYILEIKNIHKIFHDHNYRNKVSINIAKDKSIAIVGFSGYGKTTLLNTMAGLIKLDKGEIKFLNKIILFQDAELLPNLTIEENIKLSNKNKINLYNSIINILDLNNYKHKIPNTLSGGMRQKVICIIAFALKSDILVLDEPFRSLDDNSKNSVLNLIKKIFNKNSIILVTHTDEDIHNINQIIYIHSNNSFSEISSL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s045",
+      "kind": "sample",
+      "length": 199,
+      "nll": 2.571390151977539,
+      "plddt": {
+        "reencoded": 0.5057213520584394
+      },
+      "ptm": {
+        "reencoded": 0.17151880264282227
+      },
+      "sequence": "MGLTLWLLAERRDRRRARLQATPVRGRREYRLTATADRPEQHITLAFAADAAAEPPTVPARVWMVTSQNVPLCVPEIGVALHSGLGTMLLRTSARSVTITSHLRAPTAGRPVWFPAGAVTASAVDPLIAAATAAAQTGHHQPTYPHNGYGPYEPTEPGHEPYDPGYDDRPTSPAQPSPYDDSPYDDRTPRQWPDRDDDP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s046",
+      "kind": "sample",
+      "length": 208,
+      "nll": 2.2827229499816895,
+      "plddt": {
+        "reencoded": 0.3891373578315744
+      },
+      "ptm": {
+        "reencoded": 0.266971230506897
+      },
+      "sequence": "MAALETLLGGTGSGDAWPLWHWGEALDQPAIALAGAEGPDAALHLLHQVQATLQARAGAGAGGALGTGLGGIAPAPHAPAGPATELLWRLRFPAAPSLLLAVPAPEDAPAALAALLDQLRQAGLDWQLDVAPLALASPAPLPPAAPRLAPAVLARVLGLSRLMVRWPGRGQGLEEPVLLAEGQAGQTLVWRGSDGPRYALAALGLNGL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s047",
+      "kind": "sample",
+      "length": 217,
+      "nll": 2.5368330478668213,
+      "plddt": {
+        "reencoded": 0.417159360812007
+      },
+      "ptm": {
+        "reencoded": 0.2630836069583893
+      },
+      "sequence": "MLPFGSWRVLAWTLLLPAPQVLAAEERAVQPVARLDFGVWYFEDTQWLNGGQLATGTYRYQAPDSRQLETRLQLHQVGRVPQWLGSHDQPEAELTDAAGREWQIHGRLGADGRSVESQGTWQDGTVRGSLALTPDGQGLSYLLLLPAHQRHAVFTLQGEAHGAMQPEPLRNGETVVLDHYDFAVQGMPQPLTVTPQGLLLGLPTLEGGALHRLGRIR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s000",
+      "kind": "floor",
+      "length": 71,
+      "nll": 2.8123257160186768,
+      "plddt": {
+        "reencoded": 0.45648089974698886
+      },
+      "ptm": {
+        "reencoded": 0.18899337947368622
+      },
+      "sequence": "PEGENVRIVEVLEDLYLDKFSSRADELYEMEMENVAVYSESYLEATSEEKARISDLKIAQRWKPALVKLDL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s001",
+      "kind": "floor",
+      "length": 95,
+      "nll": 2.4529225826263428,
+      "plddt": {
+        "reencoded": 0.38605164163991024
+      },
+      "ptm": {
+        "reencoded": 0.16805188357830048
+      },
+      "sequence": "ATTVLTATTERSDGDMVMLTLREQLLDADALRAPAARSARAVGAARVALADDLDQVGVETPGDDAAAPGVDGLALAGRRLTARTRLVLFADAVAP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s002",
+      "kind": "floor",
+      "length": 103,
+      "nll": 2.966503143310547,
+      "plddt": {
+        "reencoded": 0.36401052020707175
+      },
+      "ptm": {
+        "reencoded": 0.15896278619766235
+      },
+      "sequence": "YLLCHGLPQEKLYEVAPKSKIERKKCIEIGYTRTNHPEILERLNLANFVEEKVQCDKEDLQDLAPENVHIFCCADSMCPGSSQLGCDVERERVWNPNDILESI",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s003",
+      "kind": "floor",
+      "length": 110,
+      "nll": 2.998520612716675,
+      "plddt": {
+        "reencoded": 0.3743497127836401
+      },
+      "ptm": {
+        "reencoded": 0.18819355964660645
+      },
+      "sequence": "KIGSADIEMSLRRKRQELACQVWVGAGAWGPIILIVSSTLKAVYRKKADKPWQPRFAGAVYPEMPRLFSALGLIEAETTFAAIWEEMIHAPKRYWYPLHFLFARLLPPKA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s004",
+      "kind": "floor",
+      "length": 118,
+      "nll": 2.969773530960083,
+      "plddt": {
+        "reencoded": 0.35724264307547426
+      },
+      "ptm": {
+        "reencoded": 0.15087302029132843
+      },
+      "sequence": "ISYIFMLKRWSGVNESLVRLFGAKIAKEGEKVLIKGFGVYGLIYTSLLEPSALQIFGHGFEFWKILLAAEFSLYIVYYGEWEPQIMKLSIEGLSCKLLAVTANENLFSMGAGKMKRVM",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s005",
+      "kind": "floor",
+      "length": 123,
+      "nll": 2.769651412963867,
+      "plddt": {
+        "reencoded": 0.6173491051526574
+      },
+      "ptm": {
+        "reencoded": 0.20869377255439758
+      },
+      "sequence": "AGTSERMAGRARQQLESGMLDAFGRDYSSRSIARRSRGKARTAGKFHSRSSSSFFRKRFGHSNASANRRATSRGFLDQLRFALTSSYDAADSRRPREAYNIADFGGLHLLVPKSGRMRFSKGP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s006",
+      "kind": "floor",
+      "length": 127,
+      "nll": 2.947995662689209,
+      "plddt": {
+        "reencoded": 0.6478733502504394
+      },
+      "ptm": {
+        "reencoded": 0.17397208511829376
+      },
+      "sequence": "DGRISNLSELCQPKTMQSSQEVQIQAKMGPISMENDGEQINFKEKDLRFERMSKHDTTNDKTLTLNISPKVYKKRLSWEEVRGNQPEMLRRNALLDVHLLKVVMIATIYIAKIQPEARKESMNRYAK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s007",
+      "kind": "floor",
+      "length": 128,
+      "nll": 2.925062656402588,
+      "plddt": {
+        "reencoded": 0.3863153128186241
+      },
+      "ptm": {
+        "reencoded": 0.20788834989070892
+      },
+      "sequence": "MGALSRDNMAKNLAQGGWPPANCAILAFAGAEGQLTLRTFFGAARVSVDGRAVDTILVVGAGNLTAQFLSGDLALAVQFRVDDRGPAYYEPALAGYRWVKPRMSTRECSYRSDNRDPLARNISHFALR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s008",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.684487819671631,
+      "plddt": {
+        "reencoded": 0.8303745911671565
+      },
+      "ptm": {
+        "reencoded": 0.28002214431762695
+      },
+      "sequence": "TCHPQALQILASTHALSPAPHHAASKTRPTSTPVCSSITQTVAAVPAPGPQSAQPPLAVQVGLPSTAFVPSSVAAPTPTVVANSNSSWAEVDSWREALATACEMNLSSLISQASEPGGLNGKSTTGGVPF",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s009",
+      "kind": "floor",
+      "length": 130,
+      "nll": 3.052978515625,
+      "plddt": {
+        "reencoded": 0.3814603995818358
+      },
+      "ptm": {
+        "reencoded": 0.15127606689929962
+      },
+      "sequence": "ESATTGDCCMKSATSVDSAGQRDMEGYFVSSNEAKTWGNGMTENCVAQRVENTFFPLYPYTHIMFGALLNLLIIRADSSCDVKRRTSIIWDDKKRKCFIFVKLQERTYNTVLWVPIKGDRLMMSKSKCPK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s010",
+      "kind": "floor",
+      "length": 131,
+      "nll": 2.82297420501709,
+      "plddt": {
+        "reencoded": 0.3952704832981561
+      },
+      "ptm": {
+        "reencoded": 0.1739732027053833
+      },
+      "sequence": "AWAEDGSHADSSDGVRAAAHARADSYLGSGVVIFSINALPITSDVTSWGDELQYAPAAWSVMQRDLCTWGHPWEDSLSQVFGVRAGLSCRIEEWRSWLLDGDLPSYCHESESRHGASALRALLGIESRTGL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s011",
+      "kind": "floor",
+      "length": 127,
+      "nll": 2.971496820449829,
+      "plddt": {
+        "reencoded": 0.3271566440505306
+      },
+      "ptm": {
+        "reencoded": 0.1671922355890274
+      },
+      "sequence": "IQDVPILPFEESVTVYRLGSEREKVRRFKTQVVVETRSCNKYVKEGLSYKKLEARGHGLLVCGIQDHNNYMDSDHTNFADDSLLFGDLAHIAGIGTLKLNASGYPQLDAEGWGVHTVNFLVGVSFSC",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s012",
+      "kind": "floor",
+      "length": 127,
+      "nll": 2.9366424083709717,
+      "plddt": {
+        "reencoded": 0.30984165513609335
+      },
+      "ptm": {
+        "reencoded": 0.15605667233467102
+      },
+      "sequence": "DQVIKHKFEKVENEYTIQNEIPKDKVSNFICSEKYFVLDVVVSWTFYTKMYNYVKVVKAHELGVHNENIVMLGLYFRDIRAADNGVIKDFMNTKAIKVSEEPYQKDIIAYITKSEIIFWNVDRFKYT",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s013",
+      "kind": "floor",
+      "length": 126,
+      "nll": 3.0145483016967773,
+      "plddt": {
+        "reencoded": 0.40062977255336824
+      },
+      "ptm": {
+        "reencoded": 0.16705861687660217
+      },
+      "sequence": "LMWGILSTIHPVRMITHVRLFSFWVSHSRSVRYLFVCICLSRCCWTGMSVKSVYLRVMAFRVISFNLVAHILVNDTISVQMNINELCCYAVPHEAVCANKFGCVDSQWCNYIFCAFRVMPNKKHYA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s014",
+      "kind": "floor",
+      "length": 132,
+      "nll": 2.905515432357788,
+      "plddt": {
+        "reencoded": 0.39622449536215176
+      },
+      "ptm": {
+        "reencoded": 0.08275222778320312
+      },
+      "sequence": "YSMTIKADAASPLLGLRWVCLTMTGVNDTRSSRVAKGPQSGGSKLGMPVLSGSASSAVCQAASPVKTSGEFSSILSNPTARMQQGSIALDSGVENKVSSEPVDPTVRRYAGYEAAASGNCATPNDPAKINRY",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s015",
+      "kind": "floor",
+      "length": 133,
+      "nll": 2.8059141635894775,
+      "plddt": {
+        "reencoded": 0.44571515200729656
+      },
+      "ptm": {
+        "reencoded": 0.22998552024364471
+      },
+      "sequence": "WVLLRHFSFHSSVPSLALVCGSSPYLCHLTTFDRLSAFNWRLTLLHVYANFIRGRRGLSFGLTLTASFSAVVKYSSILYQSPEGSMFFLFSLSQKALRATGRSQKKGHAIHYKFLRAINKFLSTKSWFTKSSS",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s016",
+      "kind": "floor",
+      "length": 135,
+      "nll": 2.530308485031128,
+      "plddt": {
+        "reencoded": 0.8169031514061822
+      },
+      "ptm": {
+        "reencoded": 0.15249371528625488
+      },
+      "sequence": "DPANPDQPNVQDDTKETTVQHKDRTTRPTNVTNNTHGETNDNSQESTNMDRTHKPHGPHVDPDSCSNTHPHDNSNPTNNNNDDNRDTDINHNQRDDDSTDNRRKQRPHDPDPTDDHRTDDTNRPKHDNNNVFDTP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s017",
+      "kind": "floor",
+      "length": 136,
+      "nll": 2.682624101638794,
+      "plddt": {
+        "reencoded": 0.5577905574703917
+      },
+      "ptm": {
+        "reencoded": 0.2744489014148712
+      },
+      "sequence": "LFRLIASTARVSWALLFSSIESLCWPSGLVAPLAWWYLSMHSLLLSMKRLAMALGGFLMVAHGRRRLLPVWEFSDVDLGLSWLRLPLAWLRSEPALETALRAGFDLAEALKILLIYGVQGSGWPTGGVLALGTRRA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s018",
+      "kind": "floor",
+      "length": 122,
+      "nll": 2.7699759006500244,
+      "plddt": {
+        "reencoded": 0.5438306211936669
+      },
+      "ptm": {
+        "reencoded": 0.28361886739730835
+      },
+      "sequence": "QKLLNLLAFLYLMWEFFAFIIATGLGFMFNSGVLTLSVKFTEVGAINLALLSIFRLPTMSLIIIQWLRISIISRLNLLLMLGMENVVIFRTFPFIAYLLLQICTYRIGFALLKFGFINDISL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s019",
+      "kind": "floor",
+      "length": 136,
+      "nll": 2.8384201526641846,
+      "plddt": {
+        "reencoded": 0.32130171939292373
+      },
+      "ptm": {
+        "reencoded": 0.10958413779735565
+      },
+      "sequence": "RVVYPHPIMGPTPAACAWVEVLGGTHFYKLPPPRRFAYPAMAGWAPVPRQHFVLVGVAVIWRHAYELRCGAVYPGAHWFWPAPVGPASAPHYHGSPVPVIVQVGPWVVPRDDPLPPSPYRKWRYYAPRYAHTPIAP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s020",
+      "kind": "floor",
+      "length": 137,
+      "nll": 2.7971343994140625,
+      "plddt": {
+        "reencoded": 0.3117293457697778
+      },
+      "ptm": {
+        "reencoded": 0.14553403854370117
+      },
+      "sequence": "GTEVGAAETQWPTNAATSIQNQAVPPSGWQDDYGGTGNSGITGAQRDGGMYFACAGEPQVAGLELGGLAPSSPPVALEGTTHALKGKQDQVTFQLGYDVSNPPANVATDNSVKLSGTVGGTTSGGNIEFGSEAGRNQ",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s021",
+      "kind": "floor",
+      "length": 120,
+      "nll": 2.5533204078674316,
+      "plddt": {
+        "reencoded": 0.42887056842446325
+      },
+      "ptm": {
+        "reencoded": 0.24099260568618774
+      },
+      "sequence": "AQDRAPIAHLSMLAVAPTDLDHRWARAWAVSGALSVRSPLQVARAAREWGMGSSGLQADVILVAALRTTGLLAAARTTRRALARPERTVAGEAIGMSYAVIRALDAADRRLAQAEYARSA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s022",
+      "kind": "floor",
+      "length": 120,
+      "nll": 2.970825672149658,
+      "plddt": {
+        "reencoded": 0.34090808729330696
+      },
+      "ptm": {
+        "reencoded": 0.11995255947113037
+      },
+      "sequence": "ICFERARDKYPGPENQLCNGQIIYEDNNDKRTKAATEWNPYFKRNKVNKTTIDFPLVKTKLEIVNSTNLCKTDFEALGYMIIVIKYNHNVLMTKLQVKPILFIYIGHEDTYIRNKICKAC",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s023",
+      "kind": "floor",
+      "length": 120,
+      "nll": 2.918062448501587,
+      "plddt": {
+        "reencoded": 0.4707927120228608
+      },
+      "ptm": {
+        "reencoded": 0.14614251255989075
+      },
+      "sequence": "PEREPDEENVKLKDSVTDSEKVYIVAYADEKPSGEDEQQIKIKIEIKDKKNYFQTHVNSNYEEEVDEMMEIAEDTVSEEVPVPDSTEDENMEPMYETLYGIIWEAVEKDKEVDDVMEDSE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s024",
+      "kind": "floor",
+      "length": 139,
+      "nll": 2.951512336730957,
+      "plddt": {
+        "reencoded": 0.5583542102961232
+      },
+      "ptm": {
+        "reencoded": 0.24705620110034943
+      },
+      "sequence": "RVKIKGKAKKSWERSVEKRNVGRAKKKAVKEGWSKSKSHCRHLCKECCPAATRCARKHCKRTFGLKEKGQQVLFFNFKSVVQESVRRHFKTGFLQRIRIDKAKSREKKFYASSREIWSRFHDVRHPNTPREEEPSDQKR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s025",
+      "kind": "floor",
+      "length": 140,
+      "nll": 2.770656108856201,
+      "plddt": {
+        "reencoded": 0.47466748165232797
+      },
+      "ptm": {
+        "reencoded": 0.23325340449810028
+      },
+      "sequence": "EEQLVRLAPRVLTRAILLLWGWLRGIIRTFFAGGTCACCSRVTARHVRAEADMSVGLPLILTHGSTPTVTMAITEVRLYACAVAVLRTLTRMRAARDGLGNPLRARARWSAGDALMAVNPVELVGAGRTICVLLETRSLR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s026",
+      "kind": "floor",
+      "length": 144,
+      "nll": 2.4540560245513916,
+      "plddt": {
+        "reencoded": 0.7699651225573487
+      },
+      "ptm": {
+        "reencoded": 0.37143659591674805
+      },
+      "sequence": "VQEDAMGAEALAAKKFATASNAEAAYANVEQDSALPVVLAEVDDTVEDAPQAVTTAAKGEEQPTTKMAVEDHTGDEAGAAKQEAKVQKEAAAAAVKVQTTAETEVSKAAAAADPKGTEAEVELAEATATMAAKKATKATAAKTS",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s027",
+      "kind": "floor",
+      "length": 116,
+      "nll": 2.9439857006073,
+      "plddt": {
+        "reencoded": 0.34871836494782876
+      },
+      "ptm": {
+        "reencoded": 0.2000262439250946
+      },
+      "sequence": "STYAYHLYLHYSWFFGPKDHDFEWKNQVICCILEIEDEKEINYRSTEVEGHEPLEEATLILKENIKSFNILKEDHGLDKYMKFKFFNWVYRNFIFSYDFKIAEVEGIKDVDQDVEV",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s028",
+      "kind": "floor",
+      "length": 144,
+      "nll": 2.7577013969421387,
+      "plddt": {
+        "reencoded": 0.40464465878903866
+      },
+      "ptm": {
+        "reencoded": 0.13482993841171265
+      },
+      "sequence": "QDLDDDLIDATAVFSLANTDAAEEAKVGEVAEIANELDTILVAYTIEAVAFIKSGAMETKTMEESGALEALFPFGNEKDSVEEIEVTIYYEIDETFIALTDAPAPVGAAEQTAAELNDSAMNPYLKLELEAETPKTSNHAKKTE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s029",
+      "kind": "floor",
+      "length": 149,
+      "nll": 2.795161724090576,
+      "plddt": {
+        "reencoded": 0.3235709246173001
+      },
+      "ptm": {
+        "reencoded": 0.1518194079399109
+      },
+      "sequence": "GTDPGVCSTTPVPLVSAAVAVQFMTAQVVTTPAMILSGTALAPVSLDPGIGDVAVTFTVTRVDRCVVDCCEDDLDLVIIPLDWTPTEFSAGDAPQARVDPRPTQPGEEQATDGTAASGLGALSDMLTVLKATAFADEVDPWYWTSETGL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s030",
+      "kind": "floor",
+      "length": 153,
+      "nll": 2.62972092628479,
+      "plddt": {
+        "reencoded": 0.44333484427991254
+      },
+      "ptm": {
+        "reencoded": 0.25047796964645386
+      },
+      "sequence": "SVEFAPMAARQAERGRVRLRAPEALGLCHCWPRAETAASVAQEVRSTSIVERAAEAGRDVAREDVEALASQALLDRASENAAWATRKLLKPLRRGEVLVDDIGVAAVAGSAVEVAPVLPELVARQLLGALLNGGALVRAFVTGTHWPAREAPL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s031",
+      "kind": "floor",
+      "length": 157,
+      "nll": 2.925589084625244,
+      "plddt": {
+        "reencoded": 0.3594385399750084
+      },
+      "ptm": {
+        "reencoded": 0.1776348054409027
+      },
+      "sequence": "VVLLYMCTEVMFKTEHRMASASIPQTQDAQRRQLAWTIKVDRTNETHTHTVAETINLRPIWDYRSSLSGRSLARGADAVITESLGPPMNPDVTGLGGPELHKGPGHWHSSLEANMLARWLAGAAVPEPAPRADPWRRFTGTKLTFLTARTAVVVCGP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s032",
+      "kind": "floor",
+      "length": 166,
+      "nll": 3.020742893218994,
+      "plddt": {
+        "reencoded": 0.30715406210307616
+      },
+      "ptm": {
+        "reencoded": 0.13689257204532623
+      },
+      "sequence": "RQANEADINDLRNQPDVEYMPTLEVYGVLFLSPNLLICEGAETFDKPRGGGGSTVIGMGHFRDETEGSDCFWGETNSWRMMWVFNDYPFVKEEITSRSRNNYLNIWKLCRDEWDTFWWGIFSVEGETYIQWLPELSPLKYEGEARGIDVVRVVFEVSSAVTYSIED",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s033",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9159834384918213,
+      "plddt": {
+        "reencoded": 0.3353544910102201
+      },
+      "ptm": {
+        "reencoded": 0.1129145398736
+      },
+      "sequence": "GLIERVPQKTAEYKPFLVGVPWARWLAVGRLWRVRTFPVMPLLPLKGILHMFTIVLQIEVKTYQAAAPAYVALSNGLLVVRGTTSWGAWAGLETRPTHTYGEAGKLAGTPTEFGAYGSPTAGGDYVPSLLKTLRPTIFPAREWEAATSGERDVWVPPALYEPRSNFTFW",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s034",
+      "kind": "floor",
+      "length": 170,
+      "nll": 2.6604959964752197,
+      "plddt": {
+        "reencoded": 0.38350794034845687
+      },
+      "ptm": {
+        "reencoded": 0.2369934320449829
+      },
+      "sequence": "NQYEKDGSITNIFIDPIFKNYDQIPVYKSINSIFCNASFSGSLCKLNLKTPFLIMSLLNYCISNISLIKIISIESSYYVDFPINSLFDFFANESILTNILVTSYQFFPKNNFINKIPNNDKNFKVKFSFELIYDLFNGADNSNINPKLKMFINCIISNFIKDLDSNGFTF",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s035",
+      "kind": "floor",
+      "length": 170,
+      "nll": 2.7764837741851807,
+      "plddt": {
+        "reencoded": 0.39906312937245647
+      },
+      "ptm": {
+        "reencoded": 0.1306769698858261
+      },
+      "sequence": "GTTPTRRVSGHDATPTALRTISPGPLTPGTSLVLRQHVLSGDARPLETDDTFNISVPWATDPSIGTWAEGSDADVGGAQWLVIGTEAVDSTDVGCREEFELPLGFRTKPTNDDEDANATEARRPGNLTNAASRLIPSITPTVDTVSVDIVDRMRNHLQEPSDTDTSIITE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s036",
+      "kind": "floor",
+      "length": 167,
+      "nll": 2.857515811920166,
+      "plddt": {
+        "reencoded": 0.4001846484795302
+      },
+      "ptm": {
+        "reencoded": 0.21477212011814117
+      },
+      "sequence": "SPFLVPALPDAAASVVIIKVPTHIGELEAAEVDGLQMALEPSHHAERAFTNLAAAEDRVDDPIIAWLSSLAYESTYAEEECNGTVAVDPLMHLFADDADFESAAEGRRLAREIRALVNPTAAAQFGVPQYPTFEVWMVAKLRRPGNRSMNERRLGPFAGIDKDMAVI",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s037",
+      "kind": "floor",
+      "length": 167,
+      "nll": 2.943575620651245,
+      "plddt": {
+        "reencoded": 0.5575960358816706
+      },
+      "ptm": {
+        "reencoded": 0.17178207635879517
+      },
+      "sequence": "SGDRLPDDPDPEMGSYVRESRGGQPSEKNWSSENASINWGISVEAFSTDTEPETPPLLSKDTCNGLCDLMQMLGRTQQCKTQFQLGGQSLCCTSSSVFNRPQNSTFQTCPDSLSLSNLNPLTDDPQFNDTHLSPHTHMQVHLATSPCTLLDCGVTETLWCVERLTPL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s038",
+      "kind": "floor",
+      "length": 166,
+      "nll": 2.7794189453125,
+      "plddt": {
+        "reencoded": 0.5171107626463993
+      },
+      "ptm": {
+        "reencoded": 0.25386494398117065
+      },
+      "sequence": "RELSGDSSLVLTRKQLNLEVPVLSALLAIYARYAKSARRWVLVFVGATEGLGSLWLTGYIVLAALAIGAALRAAPTASLYYFSFSSGWRAYIRAARALLLVFGALSLYAITEDALIRGIFPYRDLDSLSSRAMVAAWEEGAAITLYWALGNVLYSRGRARESFLAV",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s039",
+      "kind": "floor",
+      "length": 166,
+      "nll": 2.9233779907226562,
+      "plddt": {
+        "reencoded": 0.29956591802548216
+      },
+      "ptm": {
+        "reencoded": 0.11927937716245651
+      },
+      "sequence": "DRFSGCIPLSWRDTPIRKATWHFRHCGGRPRGAASWTAELGPLDWFLNVVFSYRGNSRPMQAGGAIFQGCLDSSYMGYGILVEPNLRAVQYFSDPEHFDLRCLFLSRPLNGLDSDAASESRQNAGPSEETMIAPEYVQQLWMGPISEVEHPLGLLDRADIISAREF",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s040",
+      "kind": "floor",
+      "length": 172,
+      "nll": 2.8861117362976074,
+      "plddt": {
+        "reencoded": 0.44235816008822865
+      },
+      "ptm": {
+        "reencoded": 0.19729268550872803
+      },
+      "sequence": "LRDDKTEVLRICFLESQPSIADRSDPIHKLKIIKASDAKKGEESGGQKRYAEMNIIVLKDGISPIEPKIVKEKTADQGELCEVYGVDNLGIDIKHSADFENEADFSSEKDREDEFKKREIDYSDFPANNVVKLEPKKKLADDNTCQALDIERKLQIELALKVCRYRTALPKD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s041",
+      "kind": "floor",
+      "length": 181,
+      "nll": 2.357699394226074,
+      "plddt": {
+        "reencoded": 0.8056967278211815
+      },
+      "ptm": {
+        "reencoded": 0.14258739352226257
+      },
+      "sequence": "RARWRRAAWVARPGRRRPAPTLGSGPRARAGTPYCARPLLRAPPPSRPGCPLASPRRASMTFRDRLTSKLARGAAFSPCPASSKATRLSARACARPSTCCPLSTAASCARSSSSCPSPPTAVATALCPLTRLPLTCLLPRVPTTLSSCAAGRCLSTGAESLTPRAGHRRARPASPPGPGRR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s042",
+      "kind": "floor",
+      "length": 186,
+      "nll": 2.711923122406006,
+      "plddt": {
+        "reencoded": 0.2862993051768631
+      },
+      "ptm": {
+        "reencoded": 0.12869793176651
+      },
+      "sequence": "VVERMWPAAAERGDQAWVDAVDGPTLVRSGSSCTPGPALEGYALHEDETPLGLLGTALGGQARVTRHLRGARGLFTRDGATRTLYYDEGARHTHAHPEPGRLGAPTHGGSFPSVITLPTVAVVHEPGGLCPELLWLDRRDALAATVFPLVYRGRPLPGAGGRLDLSEDDPRDHSAAALATTFPPAG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s043",
+      "kind": "floor",
+      "length": 195,
+      "nll": 2.7766950130462646,
+      "plddt": {
+        "reencoded": 0.7822578084774506
+      },
+      "ptm": {
+        "reencoded": 0.3164736330509186
+      },
+      "sequence": "TLVRALATDLDPSDTQPTLQMAPTPESRLTLQQKSKTSTAILLLLASTTRVAIQQATTADRGRQAALQLMMDLSTGDNPITRPRAAAMRGFAVRSASARAFESPTVTSSLVAATQRGLQRPQSKTTGASPTPRLTTEEPEGTTFSAEAEVMLAPQLRRAEEGSREYLSDSPPPDAIAAIIQQERLEAPHTGSTRS",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s044",
+      "kind": "floor",
+      "length": 197,
+      "nll": 2.6951193809509277,
+      "plddt": {
+        "reencoded": 0.4295544305126074
+      },
+      "ptm": {
+        "reencoded": 0.32991117238998413
+      },
+      "sequence": "IILVLLALKYVNHLKHENIGLVNIINLNILKIISYQNEITSEIKYNDALISFNLTLADFDSRIHPDKLTCFKFIINIKDLPNTGSFVSLNKLLKDTDILKISQNDTHHNLVISNSISKIGSIEISIYKLNLGMGSEQRFIKRGNPSSIYNHDMKIIKLIKGKEKEKHIIFETNINNNDIKVDLNYAINANKLSMFNA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s045",
+      "kind": "floor",
+      "length": 199,
+      "nll": 2.8226091861724854,
+      "plddt": {
+        "reencoded": 0.46258735252385164
+      },
+      "ptm": {
+        "reencoded": 0.15917587280273438
+      },
+      "sequence": "CAQRDPSMRLWLWWTTNLAINSLELPHTTIGYQVGHSYTQGGPDPASLRPFTGAAMRLTRIPYTYPATVVSDDLRQYPPMAGEDEGTVAHEGPDDRLRGSPQDPPASATVLARDQYFTAPDAEDPAPDGYPRVPLRHPSHHPRLPETATRVPHTLPTATPAADDAWLVPSAAERARIAEVVGRGDRAQAARVRYATTPR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s046",
+      "kind": "floor",
+      "length": 208,
+      "nll": 2.532489538192749,
+      "plddt": {
+        "reencoded": 0.31892197471685135
+      },
+      "ptm": {
+        "reencoded": 0.15327395498752594
+      },
+      "sequence": "ETRRLAADRLGATLGGHLLQEPGLPGARGTQAPHQLIASEHWAQGWAPAAEAQPLLRPLYLLSALQGAAHAWLAITRVGLPSADGALAAGARVLFLLRLPAQLVLAAPADGPGADLLEAPGGSLLLLGEALAGGDRPPSVLWVPADGPGALVAGMPQLTALALWWRAGAPGALARLQGAPQLDGVNETPAPALWGAAVGAPMPALLDE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "decoded": null,
+      "id": "s047",
+      "kind": "floor",
+      "length": 217,
+      "nll": 2.831990957260132,
+      "plddt": {
+        "reencoded": 0.343696932844852
+      },
+      "ptm": {
+        "reencoded": 0.16619138419628143
+      },
+      "sequence": "GSRDLQGFAGGPQRQEFPVDWHTNLVGLPAWTHPVRYALLELAGLLPPQGLGAEPLDVTVQVVDFTWRETRPHAPGHALYRGQDVLQQYGSQELTLLGQLAQEQPYGEGFSARRPMPQTQLHGRAQRLLSTYTVLAAHGEMGDVGVVRSGLLGPDVAWFPEALHSDEDTITQRLWALRGSLLWGALWGLLETLHGTARVAQQPRQLGAIMNRLQETD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.1510225774489966,
+        "cosine": 0.9934816285787935,
+        "relative_l2": 0.11902999163582,
+        "relative_size": 0.11791733022434217
+      },
+      "decoded": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGEFPKGTFKRILRDAGLTEEEFHNL",
+      "id": "1WHZ_1",
+      "kind": "reference",
+      "length": 70,
+      "nll": 1.014923334121704,
+      "pair_bias_relative_l2": 0.1405840665102005,
+      "plddt": {
+        "reencoded": 0.7570007162434714
+      },
+      "ptm": {
+        "reencoded": 0.6592354774475098
+      },
+      "sequence": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGELPKGTFKRILRDAGLTEEEFHNL",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.11136855625875053,
+        "cosine": 0.9963953240960937,
+        "relative_l2": 0.08443296396090588,
+        "relative_size": 0.08522554295655257
+      },
+      "decoded": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGTLRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "id": "2ZQE_1",
+      "kind": "reference",
+      "length": 80,
+      "nll": 0.9688211679458618,
+      "pair_bias_relative_l2": 0.10469857603311539,
+      "plddt": {
+        "reencoded": 0.8030186429619789
+      },
+      "ptm": {
+        "reencoded": 0.7557706832885742
+      },
+      "sequence": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGALRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "id": "2QG1_1",
+      "kind": "reference",
+      "length": 89,
+      "nll": 0.8448714017868042,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.7188149171598842
+      },
+      "ptm": {
+        "reencoded": 0.6549132466316223
+      },
+      "sequence": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.06946221863518892,
+        "cosine": 0.9985278354263694,
+        "relative_l2": 0.05238876720973119,
+        "relative_size": 0.04995362646483752
+      },
+      "decoded": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGVCYDYKIRVNCCWPMDKCA",
+      "id": "6TM6_1",
+      "kind": "reference",
+      "length": 97,
+      "nll": 0.9403437376022339,
+      "pair_bias_relative_l2": 0.06772037595510483,
+      "plddt": {
+        "reencoded": 0.6602296789282376
+      },
+      "ptm": {
+        "reencoded": 0.5732279419898987
+      },
+      "sequence": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGLCYDYKIRVNCCWPMDKCA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.06846336501384333,
+        "cosine": 0.9988164709617778,
+        "relative_l2": 0.04753785292608931,
+        "relative_size": 0.04929267510377606
+      },
+      "decoded": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKDQIVEGYYLKEPVPMQ",
+      "id": "6WAX_1",
+      "kind": "reference",
+      "length": 105,
+      "nll": 1.3568365573883057,
+      "pair_bias_relative_l2": 0.05756595730781555,
+      "plddt": {
+        "reencoded": 0.8571880638599396
+      },
+      "ptm": {
+        "reencoded": 0.8596745729446411
+      },
+      "sequence": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKEQIVEGYYLKEPVPMQ",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.10061263847402158,
+        "cosine": 0.9968351276673202,
+        "relative_l2": 0.0783392239366959,
+        "relative_size": 0.08327518064171291
+      },
+      "decoded": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPPHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "id": "4N04_1",
+      "kind": "reference",
+      "length": 111,
+      "nll": 0.9101235866546631,
+      "pair_bias_relative_l2": 0.08295931667089462,
+      "plddt": {
+        "reencoded": 0.9227339056161072
+      },
+      "ptm": {
+        "reencoded": 0.9079993963241577
+      },
+      "sequence": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPEHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "id": "2P8V_1",
+      "kind": "reference",
+      "length": 117,
+      "nll": 0.2645386755466461,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8808281072694012
+      },
+      "ptm": {
+        "reencoded": 0.8846911787986755
+      },
+      "sequence": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "id": "4JP6_1",
+      "kind": "reference",
+      "length": 122,
+      "nll": 0.5930624604225159,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9310466251412376
+      },
+      "ptm": {
+        "reencoded": 0.945460319519043
+      },
+      "sequence": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "id": "1Z9L_1",
+      "kind": "reference",
+      "length": 126,
+      "nll": 0.3191712498664856,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.804215176237954
+      },
+      "ptm": {
+        "reencoded": 0.7675732970237732
+      },
+      "sequence": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "id": "2LIS_1",
+      "kind": "reference",
+      "length": 131,
+      "nll": 2.8409640789031982,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.7732817605706571
+      },
+      "ptm": {
+        "reencoded": 0.7448605895042419
+      },
+      "sequence": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "id": "6ORC_1",
+      "kind": "reference",
+      "length": 134,
+      "nll": 1.4323116540908813,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9413647825148568
+      },
+      "ptm": {
+        "reencoded": 0.9315919876098633
+      },
+      "sequence": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "id": "4JC1_1",
+      "kind": "reference",
+      "length": 138,
+      "nll": 0.5326667428016663,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.965558061565178
+      },
+      "ptm": {
+        "reencoded": 0.977661669254303
+      },
+      "sequence": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.1134697747644992,
+        "cosine": 0.9968012859991882,
+        "relative_l2": 0.08030620312873904,
+        "relative_size": 0.08214225026779322
+      },
+      "decoded": "SIKPGTYEVTSKVNGLHVGRTLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTPHGWVVPADAEELAQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "id": "3VWC_1",
+      "kind": "reference",
+      "length": 146,
+      "nll": 1.396494746208191,
+      "pair_bias_relative_l2": 0.09937454015016556,
+      "plddt": {
+        "reencoded": 0.8576027542760928
+      },
+      "ptm": {
+        "reencoded": 0.8742313385009766
+      },
+      "sequence": "SIKPGTYEVTSKVNGLHVGRPLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTEHGWVVPADAEELQQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "id": "3OX5_1",
+      "kind": "reference",
+      "length": 153,
+      "nll": 0.08986613154411316,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.6379196392554863
+      },
+      "ptm": {
+        "reencoded": 0.37686675786972046
+      },
+      "sequence": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.07140275928834386,
+        "cosine": 0.9985678099046834,
+        "relative_l2": 0.051329163095919624,
+        "relative_size": 0.05233928422846412
+      },
+      "decoded": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSITITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "id": "1K12_1",
+      "kind": "reference",
+      "length": 158,
+      "nll": 1.560608148574829,
+      "pair_bias_relative_l2": 0.06019839271903038,
+      "plddt": {
+        "reencoded": 0.9476612489434737
+      },
+      "ptm": {
+        "reencoded": 0.9646645784378052
+      },
+      "sequence": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSVTITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.04360389597212041,
+        "cosine": 0.9995383779255732,
+        "relative_l2": 0.030111767444391112,
+        "relative_size": 0.030191828640960653
+      },
+      "decoded": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVINKSWTSPYNEKCK",
+      "id": "7B2A_1",
+      "kind": "reference",
+      "length": 162,
+      "nll": 1.5095419883728027,
+      "pair_bias_relative_l2": 0.03755588456988335,
+      "plddt": {
+        "reencoded": 0.820390471153789
+      },
+      "ptm": {
+        "reencoded": 0.840485155582428
+      },
+      "sequence": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVVNKSWTSPYNEKCK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.10254440343131971,
+        "cosine": 0.9971609301590093,
+        "relative_l2": 0.07940895026291718,
+        "relative_size": 0.08353548717215796
+      },
+      "decoded": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLMTIVYGVK",
+      "id": "3EY5_1",
+      "kind": "reference",
+      "length": 176,
+      "nll": 1.105185627937317,
+      "pair_bias_relative_l2": 0.08812746405601501,
+      "plddt": {
+        "reencoded": 0.9747761782597412
+      },
+      "ptm": {
+        "reencoded": 0.9866834282875061
+      },
+      "sequence": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLHTIVYGVK",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.07123313702693061,
+        "cosine": 0.9984937086107883,
+        "relative_l2": 0.05464339474390491,
+        "relative_size": 0.05742441492866626
+      },
+      "decoded": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINRGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSASGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "id": "3VOR_1",
+      "kind": "reference",
+      "length": 182,
+      "nll": 1.2574962377548218,
+      "pair_bias_relative_l2": 0.06815090775489807,
+      "plddt": {
+        "reencoded": 0.9156381623758064
+      },
+      "ptm": {
+        "reencoded": 0.9389301538467407
+      },
+      "sequence": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINKGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSPSGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "id": "6Q3V_1",
+      "kind": "reference",
+      "length": 188,
+      "nll": 1.405592441558838,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8714936889232473
+      },
+      "ptm": {
+        "reencoded": 0.7427197694778442
+      },
+      "sequence": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.1448355761409135,
+        "cosine": 0.9949670860764726,
+        "relative_l2": 0.10382040454207812,
+        "relative_size": 0.11053218767252607
+      },
+      "decoded": "MARIPPLIVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKIPLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "id": "2QOR_1",
+      "kind": "reference",
+      "length": 196,
+      "nll": 1.3778914213180542,
+      "pair_bias_relative_l2": 0.12103995680809021,
+      "plddt": {
+        "reencoded": 0.9568523086455404
+      },
+      "ptm": {
+        "reencoded": 0.9718626141548157
+      },
+      "sequence": "MARIPPLVVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKICLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.14396604575749322,
+        "cosine": 0.994349202088992,
+        "relative_l2": 0.10419391337104238,
+        "relative_size": 0.10823983669525342
+      },
+      "decoded": "MRLWLIRHGETQANVDGLFSGHADTLLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMYFGDWEMRHHRDLMQEDAENYSAWCNDWQHVIPTNGEGFQAFSQRVERFIARLSEYQPYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "id": "6NRU_1",
+      "kind": "reference",
+      "length": 203,
+      "nll": 0.9582586884498596,
+      "pair_bias_relative_l2": 0.124893918633461,
+      "plddt": {
+        "reencoded": 0.9585971841083959
+      },
+      "ptm": {
+        "reencoded": 0.9780043363571167
+      },
+      "sequence": "MRLWLIRHGETQANVDGLYSGHAPTPLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEYQHYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.055962135812563985,
+        "cosine": 0.9989120868338976,
+        "relative_l2": 0.04226393032473108,
+        "relative_size": 0.03813568475226547
+      },
+      "decoded": "MRPSLKALQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "id": "3BYI_1",
+      "kind": "reference",
+      "length": 211,
+      "nll": 0.47461238503456116,
+      "pair_bias_relative_l2": 0.05562368780374527,
+      "plddt": {
+        "reencoded": 0.9661601779020228
+      },
+      "ptm": {
+        "reencoded": 0.9663602709770203
+      },
+      "sequence": "MRPSLKTLQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "id": "7L6Z_1",
+      "kind": "reference",
+      "length": 214,
+      "nll": 0.8279898762702942,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9692106102114526
+      },
+      "ptm": {
+        "reencoded": 0.9834645986557007
+      },
+      "sequence": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "slurm_job": "128600"
+    },
+    {
+      "card": "NVIDIA RTX A5000",
+      "consistency": {
+        "anoise_level": 0.0730021069789641,
+        "cosine": 0.9986064701727468,
+        "relative_l2": 0.055688469483047884,
+        "relative_size": 0.056847072508900524
+      },
+      "decoded": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGITRDQPFTFEDGSTACMPAMREKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "id": "4LU4_1",
+      "kind": "reference",
+      "length": 220,
+      "nll": 1.4445029497146606,
+      "pair_bias_relative_l2": 0.06893236190080643,
+      "plddt": {
+        "reencoded": 0.9520766521042043
+      },
+      "ptm": {
+        "reencoded": 0.9606667160987854
+      },
+      "sequence": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGVTRDQPFTFEDGSTACMPAMRPKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "slurm_job": "128600"
+    }
+  ],
+  "experiment": "esmfold2.seqeval.fold",
+  "lm_dropout": {
+    "lm_dropout": 0.0,
+    "per_loop": true
+  },
+  "masks": {
+    "count": 10,
+    "rate": 0.15
+  },
+  "plausibility": "loaded",
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "checkpoint": {
+      "config.json": "72054c1af92f432a",
+      "identity_source": "hf-blob-sha256",
+      "model.safetensors.index.json": "5e1f94eb5cd4b0ff",
+      "resolved": "/path/to/home/workspaces/models/hf/biohub/ESMFold2",
+      "shards": {
+        "model-00001-of-00006.safetensors": "a24f050e2a2f9746b43b435c53719afc575a374fa302731b6911356a3d8b5cac",
+        "model-00002-of-00006.safetensors": "1af1615f6f6d1b3c0a24a63d9052a0ecad5b3831d1513c1a5fea73870c1bec73",
+        "model-00003-of-00006.safetensors": "357b55ec56192fd01a1cfc39a5260caf2242503ac7c554f614e43c7a469f0ced",
+        "model-00004-of-00006.safetensors": "f065aca1a13308bce41b78f728c28a0a29e3a9db6af531a74a258dbb06f8721b",
+        "model-00005-of-00006.safetensors": "e0c507dce5b2ddb22f77305607b4332506137850c5378e98e9729345264668b7",
+        "model-00006-of-00006.safetensors": "90015eb13bbeab54237b18d6748dbd47f4bfd108fdf45704d66e5c3a93f8df7c"
+      },
+      "weights_sha256": "5457987c978cce03"
+    },
+    "checkpoint_name": "ESMFold2",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "f5bec4917cacb7cf74c0ec0b39161d0236afc26c",
+    "gpu": "NVIDIA RTX A5000",
+    "host": "gpu2",
+    "mode": "seqeval_fold",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "128600",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "route": "reencoded",
+  "seed": 20261122,
+  "settings": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic": true
+  }
+}

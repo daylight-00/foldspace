@@ -1,0 +1,357 @@
+{
+  "ambiguity": {
+    "max_sequence_identity_of_a_pair": 0.12857142857142856,
+    "swaps_with_reference_folds_alike_at_0.3": 0,
+    "swaps_with_reference_folds_alike_at_0.4": 0,
+    "swaps_with_reference_folds_alike_at_0.5": 0,
+    "tm_between_the_two_deposited_structures": {
+      "median": 0.12783039699836002,
+      "n": 48,
+      "q25": 0.11184326656838418,
+      "q75": 0.14213346734933816
+    },
+    "tm_between_the_two_reference_folds": {
+      "median": 0.13082987017298367,
+      "n": 48,
+      "q25": 0.10231848776635961,
+      "q75": 0.15167179075947218
+    }
+  },
+  "backends": [
+    "global_kabsch",
+    "tmscore_search",
+    "usalign_identity",
+    "usalign_free"
+  ],
+  "classification_by_threshold": {
+    "global_kabsch": {
+      "0.3": {
+        "both": 0,
+        "follow_the_single": 25,
+        "keep_the_sequences_fold": 4,
+        "neither": 19,
+        "swaps": 48
+      },
+      "0.4": {
+        "both": 0,
+        "follow_the_single": 24,
+        "keep_the_sequences_fold": 3,
+        "neither": 21,
+        "swaps": 48
+      },
+      "0.5": {
+        "both": 0,
+        "follow_the_single": 23,
+        "keep_the_sequences_fold": 3,
+        "neither": 22,
+        "swaps": 48
+      },
+      "0.6": {
+        "both": 0,
+        "follow_the_single": 21,
+        "keep_the_sequences_fold": 2,
+        "neither": 25,
+        "swaps": 48
+      },
+      "0.7": {
+        "both": 0,
+        "follow_the_single": 16,
+        "keep_the_sequences_fold": 2,
+        "neither": 30,
+        "swaps": 48
+      }
+    },
+    "tmscore_search": {
+      "0.3": {
+        "both": 0,
+        "follow_the_single": 28,
+        "keep_the_sequences_fold": 8,
+        "neither": 12,
+        "swaps": 48
+      },
+      "0.4": {
+        "both": 0,
+        "follow_the_single": 26,
+        "keep_the_sequences_fold": 4,
+        "neither": 18,
+        "swaps": 48
+      },
+      "0.5": {
+        "both": 0,
+        "follow_the_single": 24,
+        "keep_the_sequences_fold": 3,
+        "neither": 21,
+        "swaps": 48
+      },
+      "0.6": {
+        "both": 0,
+        "follow_the_single": 23,
+        "keep_the_sequences_fold": 3,
+        "neither": 22,
+        "swaps": 48
+      },
+      "0.7": {
+        "both": 0,
+        "follow_the_single": 20,
+        "keep_the_sequences_fold": 3,
+        "neither": 25,
+        "swaps": 48
+      }
+    },
+    "usalign_free": {
+      "0.3": {
+        "both": 20,
+        "follow_the_single": 23,
+        "keep_the_sequences_fold": 4,
+        "neither": 1,
+        "swaps": 48
+      },
+      "0.4": {
+        "both": 1,
+        "follow_the_single": 26,
+        "keep_the_sequences_fold": 5,
+        "neither": 16,
+        "swaps": 48
+      },
+      "0.5": {
+        "both": 0,
+        "follow_the_single": 25,
+        "keep_the_sequences_fold": 4,
+        "neither": 19,
+        "swaps": 48
+      },
+      "0.6": {
+        "both": 0,
+        "follow_the_single": 24,
+        "keep_the_sequences_fold": 3,
+        "neither": 21,
+        "swaps": 48
+      },
+      "0.7": {
+        "both": 0,
+        "follow_the_single": 21,
+        "keep_the_sequences_fold": 3,
+        "neither": 24,
+        "swaps": 48
+      }
+    },
+    "usalign_identity": {
+      "0.3": {
+        "both": 1,
+        "follow_the_single": 28,
+        "keep_the_sequences_fold": 7,
+        "neither": 12,
+        "swaps": 48
+      },
+      "0.4": {
+        "both": 0,
+        "follow_the_single": 26,
+        "keep_the_sequences_fold": 4,
+        "neither": 18,
+        "swaps": 48
+      },
+      "0.5": {
+        "both": 0,
+        "follow_the_single": 24,
+        "keep_the_sequences_fold": 3,
+        "neither": 21,
+        "swaps": 48
+      },
+      "0.6": {
+        "both": 0,
+        "follow_the_single": 23,
+        "keep_the_sequences_fold": 3,
+        "neither": 22,
+        "swaps": 48
+      },
+      "0.7": {
+        "both": 0,
+        "follow_the_single": 20,
+        "keep_the_sequences_fold": 3,
+        "neither": 25,
+        "swaps": 48
+      }
+    }
+  },
+  "confidence_by_outcome": {
+    "follow": {
+      "n": 23,
+      "plddt": {
+        "median": 0.5604770542681217,
+        "n": 23,
+        "q25": 0.4051219628216364,
+        "q75": 0.7071027218674619
+      },
+      "ptm": {
+        "median": 0.532558023929596,
+        "n": 23,
+        "q25": 0.19143467396497726,
+        "q75": 0.707831084728241
+      }
+    },
+    "keep": {
+      "n": 3,
+      "plddt": {
+        "median": 0.8120665483176708,
+        "n": 3,
+        "q25": 0.7416952430788013,
+        "q75": 0.8295271969089906
+      },
+      "ptm": {
+        "median": 0.7584524750709534,
+        "n": 3,
+        "q25": 0.6703789234161377,
+        "q75": 0.8233237266540527
+      }
+    },
+    "neither": {
+      "n": 22,
+      "plddt": {
+        "median": 0.4264145470255024,
+        "n": 22,
+        "q25": 0.37156452150023606,
+        "q75": 0.47254996106519803
+      },
+      "ptm": {
+        "median": 0.1498740240931511,
+        "n": 22,
+        "q25": 0.12329771928489208,
+        "q75": 0.2115134298801422
+      }
+    }
+  },
+  "delta_tm": {
+    "definition": "TM(swap, ref) - TM(no prior, ref)",
+    "spread": {
+      "median": -0.029749578522638355,
+      "n": 48,
+      "q25": -0.08100668961014965,
+      "q75": -0.00600332457737433
+    }
+  },
+  "f": {
+    "by_backend": {
+      "global_kabsch": {
+        "median": 1.0345678529176472,
+        "n": 46,
+        "q25": 1.0067206222906502,
+        "q75": 1.0866796418552767
+      },
+      "tmscore_search": {
+        "median": 1.0706892547467037,
+        "n": 46,
+        "q25": 1.0161767048560422,
+        "q75": 1.1297481466999728
+      },
+      "usalign_free": {
+        "median": 1.027971796645449,
+        "n": 46,
+        "q25": 0.9883287639019711,
+        "q75": 1.0743043193589255
+      },
+      "usalign_identity": {
+        "median": 1.0593109532710085,
+        "n": 46,
+        "q25": 1.0140331627323684,
+        "q75": 1.1166511866765765
+      }
+    },
+    "defined": 46,
+    "definition": "(1 - TM(swap, ref)) / (1 - TM(no prior, ref)); undefined when 1 - TM(no prior, ref) < 0.02",
+    "median_ci95_over_pairs": {
+      "high": 1.0408641350410113,
+      "low": 1.0155537966409303,
+      "resamples": 10000
+    },
+    "spread": {
+      "median": 1.0345678529176472,
+      "n": 46,
+      "q25": 1.0067206222906502,
+      "q75": 1.0866796418552767
+    },
+    "undefined": [
+      {
+        "length": 199,
+        "pair": 6,
+        "sequence": "6Z0C_1",
+        "swap": "BA",
+        "tm_no_prior_to_ref": 0.9825828362643744
+      },
+      {
+        "length": 90,
+        "pair": 10,
+        "sequence": "5WD8_1",
+        "swap": "BA",
+        "tm_no_prior_to_ref": 0.9970770991137076
+      }
+    ]
+  },
+  "follow_share_ci95_over_pairs": {
+    "high": 0.6458333333333334,
+    "low": 0.3125,
+    "resamples": 10000
+  },
+  "pair_level_outcomes": {
+    "follow+follow": 8,
+    "follow+keep": 1,
+    "follow+neither": 6,
+    "keep+neither": 2,
+    "neither+neither": 7
+  },
+  "pairs": 24,
+  "runs": [
+    "experiments/esmfold2/interface_validation/results/contribution"
+  ],
+  "single_distance": {
+    "by_outcome": {
+      "follow": {
+        "median": 1.3585085984471372,
+        "n": 23,
+        "q25": 1.3101928963523857,
+        "q75": 1.427150534588515
+      },
+      "keep": {
+        "median": 1.293600480610302,
+        "n": 3,
+        "q25": 1.2485511269579634,
+        "q75": 1.3282356240030264
+      },
+      "neither": {
+        "median": 1.3525728902190157,
+        "n": 22,
+        "q25": 1.317346278348269,
+        "q75": 1.3745833360124113
+      }
+    },
+    "unit": "mean row distance between the swap's two singles / sqrt(256) in standardised units"
+  },
+  "swaps": 48,
+  "tm_definition": "TM of the first fold against the second, normalised by the second's length; identity correspondence for global_kabsch, tmscore_search and usalign_identity",
+  "tm_swap_to_own_ref": {
+    "global_kabsch": {
+      "median": 0.14057231336015547,
+      "n": 48,
+      "q25": 0.11397069593690318,
+      "q75": 0.16946609338278634
+    },
+    "tmscore_search": {
+      "median": 0.1808471268859807,
+      "n": 48,
+      "q25": 0.15879798289333333,
+      "q75": 0.24326936956825523
+    },
+    "usalign_free": {
+      "median": 0.29464999999999997,
+      "n": 48,
+      "q25": 0.260625,
+      "q75": 0.3252
+    },
+    "usalign_identity": {
+      "median": 0.18835,
+      "n": 48,
+      "q25": 0.1673,
+      "q75": 0.24385
+    }
+  },
+  "usalign_available": true
+}

@@ -1,0 +1,519 @@
+{
+  "binary": "/path/to/foldspace/cache/tools/mmseqs-18-8cc5c/mmseqs",
+  "cluster": {
+    "coverage": 0.8,
+    "identity": 0.3
+  },
+  "search": {
+    "alignment_mode": 3,
+    "copy_coverage": 0.8,
+    "copy_identity": 0.9,
+    "evalue": 0.001,
+    "sensitivity": 7.5
+  },
+  "sets": {
+    "standardized": {
+      "clusters_30": 48,
+      "copies": 0,
+      "hits": {
+        "s000": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s001": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s002": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s003": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s004": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s005": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s006": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s007": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s008": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s009": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s010": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s011": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s012": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s013": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s014": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s015": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s016": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s017": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s018": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s019": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s020": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s021": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s022": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s023": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s024": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s025": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s026": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s027": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s028": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s029": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s030": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s031": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s032": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s033": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s034": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s035": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s036": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s037": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s038": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s039": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s040": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s041": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s042": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s043": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s044": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s045": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s046": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        },
+        "s047": {
+          "alignment_length": 0,
+          "bits": 0.0,
+          "copy": false,
+          "evalue": null,
+          "identity": 0.0,
+          "query_coverage": 0.0,
+          "target": null,
+          "target_coverage": 0.0
+        }
+      },
+      "identity": {
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "n": 48,
+        "p10": 0.0,
+        "p90": 0.0,
+        "share_below_0_3": 1.0,
+        "share_none": 1.0
+      },
+      "n": 48
+    }
+  },
+  "target": {
+    "sequences": 17063,
+    "table": "data/corpus/train_sequences.tsv"
+  },
+  "tool": "mmseqs",
+  "version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f"
+}

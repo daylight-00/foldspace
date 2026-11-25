@@ -1,0 +1,2719 @@
+{
+  "chains": [
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2612267779283344,
+        "cosine": 0.24407094342668575,
+        "relative_l2": 1.2750431430569071,
+        "relative_size": 1.0536848026226078
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3702653659081172,
+        "cosine": 0.007202149691098689,
+        "relative_l2": 1.4562515404491063
+      },
+      "decoded": null,
+      "id": "s000",
+      "kind": "sample",
+      "length": 70,
+      "nll": 2.859893798828125,
+      "pair_bias_relative_l2": 1.2421433925628662,
+      "plddt": {
+        "reencoded": 0.4232759956802641
+      },
+      "ptm": {
+        "reencoded": 0.22618098556995392
+      },
+      "sequence": "TNLKLAKYSNCVSCSGGGDFTGESDLREACRTHPEAAFMGCLNPNFTAIGYGGNEAKSEFAQRLQQLASQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.279637624388567,
+        "cosine": 0.19785257618154017,
+        "relative_l2": 1.250397825366427,
+        "relative_size": 1.1028574027261633
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.34767569431888,
+        "cosine": 0.0020452489545849943,
+        "relative_l2": 1.4283563694411752
+      },
+      "decoded": null,
+      "id": "s001",
+      "kind": "sample",
+      "length": 95,
+      "nll": 2.928992986679077,
+      "pair_bias_relative_l2": 1.290065050125122,
+      "plddt": {
+        "reencoded": 0.4750939943288502
+      },
+      "ptm": {
+        "reencoded": 0.24642743170261383
+      },
+      "sequence": "GPYSDKEEADLNTDLAAYQNQHETDYYEKLNPVWSRVLNLGLTTDEELGKFKQYRWLLNMHGAEEGATFIYDNLGKPWPRFDDRRYNAYEREYGC",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2606173559109504,
+        "cosine": 0.19507484221287297,
+        "relative_l2": 1.429690252710676,
+        "relative_size": 1.1305458603393548
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3687045227177308,
+        "cosine": -0.0023351117460475982,
+        "relative_l2": 1.5353736847240416
+      },
+      "decoded": null,
+      "id": "s002",
+      "kind": "sample",
+      "length": 103,
+      "nll": 2.9106638431549072,
+      "pair_bias_relative_l2": 1.3161176443099976,
+      "plddt": {
+        "reencoded": 0.3689570450088353
+      },
+      "ptm": {
+        "reencoded": 0.1993527114391327
+      },
+      "sequence": "MEILSEHTPSVKPVLKDGKGPVMIHVEGFTAAYLQRILNSKRRGCLSAKHLVKPSEDHAFHVVIQPFQGGPGASQEKVGATGPVVTLDEPVQGEEIYVEPARH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2175193080740312,
+        "cosine": 0.26605973591985754,
+        "relative_l2": 1.1677071293253372,
+        "relative_size": 0.9793538788309556
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3171767423196659,
+        "cosine": 0.0613698112863857,
+        "relative_l2": 1.3236815680414649
+      },
+      "decoded": null,
+      "id": "s003",
+      "kind": "sample",
+      "length": 110,
+      "nll": 2.8849055767059326,
+      "pair_bias_relative_l2": 1.2296504974365234,
+      "plddt": {
+        "reencoded": 0.38389336358417164
+      },
+      "ptm": {
+        "reencoded": 0.23981550335884094
+      },
+      "sequence": "GKDVQTVRITCMSDLKKKFQKALSDLLFRAHQRGLYILNSEEAEERGIRDILCVFHCGYNQKEKMKFVLVSRTYKELMETGALLEFVLTEEDGGIQFGFLQLDTESHHHH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.9698105863842608,
+        "cosine": 0.6045214974716502,
+        "relative_l2": 0.8712135006331599,
+        "relative_size": 0.7640631398419102
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3183579452934218,
+        "cosine": 0.21462816030461668,
+        "relative_l2": 1.2514561865533982
+      },
+      "decoded": null,
+      "id": "s004",
+      "kind": "sample",
+      "length": 118,
+      "nll": 2.7274563312530518,
+      "pair_bias_relative_l2": 0.8295053243637085,
+      "plddt": {
+        "reencoded": 0.5083124607296313
+      },
+      "ptm": {
+        "reencoded": 0.40345731377601624
+      },
+      "sequence": "GMLSLTDFLERLKRESQEFASATPLRSIFPFRNIEDILDVLVASFQGTHADVYPQMPSSAVKALILSCISSCNFTSLPAGIYKKIAQLSAKVDDPSYGENYREFVIALFSQLVRALDV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2542757560776374,
+        "cosine": 0.15613896771685037,
+        "relative_l2": 1.3025397273340618,
+        "relative_size": 1.1058397184645563
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3420083884007004,
+        "cosine": -0.004705871960655458,
+        "relative_l2": 1.4318981608498744
+      },
+      "decoded": null,
+      "id": "s005",
+      "kind": "sample",
+      "length": 123,
+      "nll": 2.876851797103882,
+      "pair_bias_relative_l2": 1.3152676820755005,
+      "plddt": {
+        "reencoded": 0.33584105096212247
+      },
+      "ptm": {
+        "reencoded": 0.15033751726150513
+      },
+      "sequence": "TENRWSPVDLQPDTEEAVGKVTCYMATEPLSDMRTEFFTEDVESCTPGTYFNPEILEEDEAMSSGIECAWQPESKDSMKIECSSGKWQGLPIKAVCGRTYPPMDPDESAYYLNADATHLSFSL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2994878829461078,
+        "cosine": 0.13698982783879712,
+        "relative_l2": 1.3782109856454792,
+        "relative_size": 1.1781577462716715
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.363371340849852,
+        "cosine": 0.025867224746144238,
+        "relative_l2": 1.4759326844921634
+      },
+      "decoded": null,
+      "id": "s006",
+      "kind": "sample",
+      "length": 127,
+      "nll": 2.882296085357666,
+      "pair_bias_relative_l2": 1.298159122467041,
+      "plddt": {
+        "reencoded": 0.42138005840027426
+      },
+      "ptm": {
+        "reencoded": 0.2545608878135681
+      },
+      "sequence": "SHNMSSVELTSHQVIAFSLLEQPSIEEALKLVDHTRAELEPSWSRVVKFLRGFVYAWGAFMPRGRGVKSGPKHPVWKYYDSGMHNILALVDQVIEEGLKASDLERFQLSNTAPSKKGAYGLRFEMCR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.3089446938148324,
+        "cosine": 0.10747895028764134,
+        "relative_l2": 1.4736877345224628,
+        "relative_size": 1.2029849030722213
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3678850967141198,
+        "cosine": -0.018045822849895372,
+        "relative_l2": 1.5470344577312078
+      },
+      "decoded": null,
+      "id": "s007",
+      "kind": "sample",
+      "length": 128,
+      "nll": 2.8956422805786133,
+      "pair_bias_relative_l2": 1.3445847034454346,
+      "plddt": {
+        "reencoded": 0.38530002150218934
+      },
+      "ptm": {
+        "reencoded": 0.1633017361164093
+      },
+      "sequence": "RTGSYKIGPATGACKPSTGPPVSTNEAANNAWFAQWKCKAGWSGKFVFSGADFLDCGSCFGLLVSNATAQQNNANYERLALVSLLAFASGESSADAFSNYPNSFETDMQGESGPKSPGLDMHSISPGQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2372260224294203,
+        "cosine": 0.2929335212960162,
+        "relative_l2": 1.2780129288485715,
+        "relative_size": 1.0612201610852692
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3509569666827053,
+        "cosine": 0.08493128806124851,
+        "relative_l2": 1.4387067221143777
+      },
+      "decoded": null,
+      "id": "s008",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.9425933361053467,
+      "pair_bias_relative_l2": 1.158994197845459,
+      "plddt": {
+        "reencoded": 0.39519710295884186
+      },
+      "ptm": {
+        "reencoded": 0.2079363763332367
+      },
+      "sequence": "GMARGNMVYPRAPGMLQALSDRLVEQFEVMQSLVGSHLILELVNHDPLASANIEPQRIVPKCESGKKAHSFWHTYNVPLISALTNGSPADHPAGADPLDKRTRYLFDKLLEKFAADQEDHMAWYNEVYR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.3086688216043363,
+        "cosine": 0.14661159608515706,
+        "relative_l2": 1.3736408301052923,
+        "relative_size": 1.1805228094983535
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.362692331228363,
+        "cosine": -0.0018133234444820778,
+        "relative_l2": 1.5085336941662628
+      },
+      "decoded": null,
+      "id": "s009",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8957462310791016,
+      "pair_bias_relative_l2": 1.3417969942092896,
+      "plddt": {
+        "reencoded": 0.33165828202121944
+      },
+      "ptm": {
+        "reencoded": 0.17253388464450836
+      },
+      "sequence": "RKTLTKDMMTGHLGGFKVNASLVKRSGLMTDYEYMPGHAVVRIDGQPLIAGEGDKRCAQDYRGPPIDDGPNEGQRISMLITGDPTQNGEVLQLKPGKARLMALMPAGITITEDQIVKLGGEDSDIWRLE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2516301520628645,
+        "cosine": 0.2329923533612882,
+        "relative_l2": 1.2260928491744845,
+        "relative_size": 1.020788552864587
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3316500582221573,
+        "cosine": 0.06656349115983172,
+        "relative_l2": 1.3508770615677779
+      },
+      "decoded": null,
+      "id": "s010",
+      "kind": "sample",
+      "length": 129,
+      "nll": 3.0236754417419434,
+      "pair_bias_relative_l2": 1.2212655544281006,
+      "plddt": {
+        "reencoded": 0.3685664508000825
+      },
+      "ptm": {
+        "reencoded": 0.1846117228269577
+      },
+      "sequence": "NSKWAPCCYTHSKLPHAKEQSAACTEKWSCYDNPYNCSTHKDGIRHALINLFEPIDFCTGEDEFIHSRFSLSVLAIELENEISKEECKSVAMDSPGIRDEDFEASGYVYIKENKKDLIQSCEDLLMATK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.268817397401485,
+        "cosine": 0.21275359142586578,
+        "relative_l2": 1.2640721317313626,
+        "relative_size": 1.1472692657478736
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3567939834477885,
+        "cosine": 0.0378121123478259,
+        "relative_l2": 1.4561438627989014
+      },
+      "decoded": null,
+      "id": "s011",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.860971689224243,
+      "pair_bias_relative_l2": 1.2848094701766968,
+      "plddt": {
+        "reencoded": 0.3496428977611453
+      },
+      "ptm": {
+        "reencoded": 0.19236503541469574
+      },
+      "sequence": "DLQEEVDVLYITYRFTADIDGTVRFGYRDNKSDWFFIKEAGALRLKTVPAQKSLFLKVDWQDDIPERLLEEARLHGNIEIQFNETTCQNFVNHKVGEGHGFMFWAFFTYDSKGNFQLWKTEALTMQPKL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.0580450066261935,
+        "cosine": 0.5155090136507662,
+        "relative_l2": 0.9782490851540286,
+        "relative_size": 0.8782950837117145
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3241080445532591,
+        "cosine": 0.1867633666683267,
+        "relative_l2": 1.301747588548633
+      },
+      "decoded": null,
+      "id": "s012",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8550686836242676,
+      "pair_bias_relative_l2": 0.9255738258361816,
+      "plddt": {
+        "reencoded": 0.44861883248469625
+      },
+      "ptm": {
+        "reencoded": 0.32843685150146484
+      },
+      "sequence": "SATEMFKEMSKMLKELRPHLQDSSKSIILFDTCFTIFPKNWETGDNEEIVTQIAFSHGAKNVNEEGAEYLLENIRKAGEPWSGLVKKAHIMKRFLYLKISSDLMRDLLLFLEEKETKFEYFEQEREEGR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.00136541391642,
+        "cosine": 0.5947038671382834,
+        "relative_l2": 0.9032759220842257,
+        "relative_size": 0.7688746569141537
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3187504799515384,
+        "cosine": 0.19825166981257486,
+        "relative_l2": 1.279072513850316
+      },
+      "decoded": null,
+      "id": "s013",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.7751777172088623,
+      "pair_bias_relative_l2": 0.8467007875442505,
+      "plddt": {
+        "reencoded": 0.4900540007177249
+      },
+      "ptm": {
+        "reencoded": 0.31886136531829834
+      },
+      "sequence": "TISKSWKQRLKNLLPHHSNSMDKNIACSMIIDMLLSPNTELVYDIAEIAREQGADPKKADKAVLLLSEAFNSIIRKISNDPDKLNQVANVKFPFVLQYLFESRTQVSMERAVDEAIERALIVKIENLNK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2551565959932272,
+        "cosine": 0.2575427962524087,
+        "relative_l2": 1.3052357562483579,
+        "relative_size": 1.1077375412013224
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3579107099274916,
+        "cosine": 0.06440196842763228,
+        "relative_l2": 1.4680774553692888
+      },
+      "decoded": null,
+      "id": "s014",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.758390188217163,
+      "pair_bias_relative_l2": 1.243288278579712,
+      "plddt": {
+        "reencoded": 0.4531599826128908
+      },
+      "ptm": {
+        "reencoded": 0.23826611042022705
+      },
+      "sequence": "ANQTAKRTQVLQKLAQKLAPTSKPTLDEEFAGLLSRQQVKGTITNDLPGITFNAPAAWRLKEDGGKSGTKQYEDTLAELVMAGAIKWHNYQASPGVQYLMGGKEGQDDFAQALVEQTFDRFKETTLAGV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.26428721024157,
+        "cosine": 0.21029878850499592,
+        "relative_l2": 1.3062804811744229,
+        "relative_size": 1.1598987680234112
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3651798025175184,
+        "cosine": -0.011978017754666103,
+        "relative_l2": 1.5241663095376081
+      },
+      "decoded": null,
+      "id": "s015",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.691100835800171,
+      "pair_bias_relative_l2": 1.2851930856704712,
+      "plddt": {
+        "reencoded": 0.4539286709109018
+      },
+      "ptm": {
+        "reencoded": 0.3097439408302307
+      },
+      "sequence": "GMIESNAVNTNMPELKEKLRLIWEKAKAYLDEDGKIDIPKELPPFAVDKAFYEDAEVFINTGLVEVNLNYGIDGKAFEPTQLILQRVSAELYPEEQMDWEILSALTEILKLTEDRREELREKVLKLLNK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.3056897644209287,
+        "cosine": 0.19097022576829703,
+        "relative_l2": 1.377499151375461,
+        "relative_size": 1.176385683909942
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3845357825124498,
+        "cosine": -0.01806450987107438,
+        "relative_l2": 1.5552877752817387
+      },
+      "decoded": null,
+      "id": "s016",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.6742303371429443,
+      "pair_bias_relative_l2": 1.3241311311721802,
+      "plddt": {
+        "reencoded": 0.3665481705305188
+      },
+      "ptm": {
+        "reencoded": 0.1845763474702835
+      },
+      "sequence": "APAEVTEVRLPAGDGLRLNVRSIKRLLDAAPSLKKPKEPAKVKEVLKAVPKQFPFDEETEPFPRGVDLFNLPADLGRLRGEIVLAEIWDLETSDILRHLARGWKRVTRTVRLSPGEKVVFEGSPYIEHF",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2927241002093188,
+        "cosine": 0.10989026025210254,
+        "relative_l2": 1.4966005255103687,
+        "relative_size": 1.157216699997548
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3723822525046239,
+        "cosine": -0.01646044740793461,
+        "relative_l2": 1.522696750061671
+      },
+      "decoded": null,
+      "id": "s017",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.985935688018799,
+      "pair_bias_relative_l2": 1.3240829706192017,
+      "plddt": {
+        "reencoded": 0.30265800135080206
+      },
+      "ptm": {
+        "reencoded": 0.1290803849697113
+      },
+      "sequence": "GSVIYSPEQLWEGSVLLYYAAANQLKMDWSIIQRQKDGTAVGSTGRGQCFDEGSASISAKRTAFSDSWIQCKEVRPGAPKKEVPPYGQHPGILTEGGQCSTDKGYVVFAALREKDMAYRKPMQIKCPLE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.291285548761257,
+        "cosine": 0.12169279004453622,
+        "relative_l2": 1.5095776658516458,
+        "relative_size": 1.1617415230976451
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.366190593127965,
+        "cosine": 0.014683043520293006,
+        "relative_l2": 1.511752139065248
+      },
+      "decoded": null,
+      "id": "s018",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.7659213542938232,
+      "pair_bias_relative_l2": 1.3510565757751465,
+      "plddt": {
+        "reencoded": 0.36642856630244
+      },
+      "ptm": {
+        "reencoded": 0.1717212051153183
+      },
+      "sequence": "REPEAIAARVGNDPAGIKSALNAFGGIEGALNAGGQVATANVREGFRVFIDISSRPIGLARAEMFEHEVVKALAQRGDMVGARPGHGSRTKVIAEQYGSAATLVDADAVHGGQTVWTPWARAELMQRLD",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.225416413405716,
+        "cosine": 0.18417350381371522,
+        "relative_l2": 1.284335852785146,
+        "relative_size": 1.0385869119557098
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3427101262428993,
+        "cosine": -0.01284331922614272,
+        "relative_l2": 1.4116294499349265
+      },
+      "decoded": null,
+      "id": "s019",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.905728340148926,
+      "pair_bias_relative_l2": 1.3153852224349976,
+      "plddt": {
+        "reencoded": 0.3312408691921899
+      },
+      "ptm": {
+        "reencoded": 0.1368817389011383
+      },
+      "sequence": "TRCLWQESGCPPAKGCSSYPLLSSCSPSEGKADDDNDSGNTGLPCKYRYYDAGKKISGNENAAATFHRRGRVKMYLCGDAECCKVPNLICASCEPDSKSAFCPDGKLTDCSSYWKCKANKVDITICTDL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.3126444219767706,
+        "cosine": 0.12281479441704653,
+        "relative_l2": 1.3916004482174908,
+        "relative_size": 1.2235239601572305
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.371742587201199,
+        "cosine": 0.014708508002962363,
+        "relative_l2": 1.5108705434300833
+      },
+      "decoded": null,
+      "id": "s020",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.7945828437805176,
+      "pair_bias_relative_l2": 1.313231348991394,
+      "plddt": {
+        "reencoded": 0.41748832778413164
+      },
+      "ptm": {
+        "reencoded": 0.2313080132007599
+      },
+      "sequence": "MLIDVVKGHLVTMQPYIEGDIDITECLKAGLNATFSEDKGVSNEELAAFYRDVKGWEVNDIGCITKEGAPAHNEIAGGMTTADGQDEVIRDWGLPDGEFPRGLIEWLGYEVIQSSTAADGSVLEATLEG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2459342962643776,
+        "cosine": 0.2047088809779806,
+        "relative_l2": 1.3503017493849943,
+        "relative_size": 1.1753154958486487
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3599004077688903,
+        "cosine": -0.03078111716452539,
+        "relative_l2": 1.5683249516123152
+      },
+      "decoded": null,
+      "id": "s021",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.729917526245117,
+      "pair_bias_relative_l2": 1.3040200471878052,
+      "plddt": {
+        "reencoded": 0.36136765997539194
+      },
+      "ptm": {
+        "reencoded": 0.2683231830596924
+      },
+      "sequence": "MFDASWLNKSTGQEIDFENNGKKVSTTSVDSGSVDVSVGGGDTWSDQAPNLNQLVAVARIAFLSGNSDELVEFGDQASGNSSGWQVTLKVPENFPPGKWKMGVYDAVDNGIKVDANKTRRFIGTARIVS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.284843653820833,
+        "cosine": 0.16118409245136658,
+        "relative_l2": 1.4742084762420629,
+        "relative_size": 1.1812413795719476
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3786863767595137,
+        "cosine": 0.018422993520491558,
+        "relative_l2": 1.5414805426720326
+      },
+      "decoded": null,
+      "id": "s022",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.8920984268188477,
+      "pair_bias_relative_l2": 1.2883487939834595,
+      "plddt": {
+        "reencoded": 0.33236810056738153
+      },
+      "ptm": {
+        "reencoded": 0.19355177879333496
+      },
+      "sequence": "HRLVNLAMPPVNHVNDPTNTMVMVMQLLGVKRSLNDGAEGVLQPYDALRAILKENYLSSNGGGATKFPSNVELYQHMVPWQKLGQPVHLLSVKGRSGFHVKSKNTLGVLAKPEADVELGALIVTHDVPN",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.9849781525011616,
+        "cosine": 0.6112219008614391,
+        "relative_l2": 0.8489168186507079,
+        "relative_size": 0.7450005732148481
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.294896868015106,
+        "cosine": 0.24060997337637655,
+        "relative_l2": 1.2101306711891646
+      },
+      "decoded": null,
+      "id": "s023",
+      "kind": "sample",
+      "length": 129,
+      "nll": 2.805854320526123,
+      "pair_bias_relative_l2": 0.762519121170044,
+      "plddt": {
+        "reencoded": 0.4735396691533022
+      },
+      "ptm": {
+        "reencoded": 0.23658570647239685
+      },
+      "sequence": "NRDFLVLLNNDATWAFLEAYRKTVEDSLDPESLVLLEKQQRLRQVGYVKSSCPGASGVYEHVYDTENGTWIYINDPRFIGFVKMAKDQDERKSTRNTLQDIVAKLDSYESGISKYLRRYLNSLVAIIHQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2112287424365231,
+        "cosine": 0.307718356207665,
+        "relative_l2": 1.2896584950003775,
+        "relative_size": 1.095472477706918
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3743846316828578,
+        "cosine": 0.07575758674681275,
+        "relative_l2": 1.4929909455998103
+      },
+      "decoded": null,
+      "id": "s024",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.804351806640625,
+      "pair_bias_relative_l2": 1.1124687194824219,
+      "plddt": {
+        "reencoded": 0.3648613816270461
+      },
+      "ptm": {
+        "reencoded": 0.20284883677959442
+      },
+      "sequence": "PPNLSDLYQSLTDATILTTNLQFSDYASFVIRLDALRNYRTVVVEPDAAEITLLKEPNAKAVGSLPLLDIANANVSLDHLDAGASLTTDEQRLANAGLYGFLDHEEAIRHLLQLAKMLGQGAVFDDKLET",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.239773746632168,
+        "cosine": 0.2557331262911383,
+        "relative_l2": 1.3481457707364617,
+        "relative_size": 1.1249819583044744
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3792294267855787,
+        "cosine": 0.05568271888711051,
+        "relative_l2": 1.5061830711346262
+      },
+      "decoded": null,
+      "id": "s025",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.8989694118499756,
+      "pair_bias_relative_l2": 1.2158749103546143,
+      "plddt": {
+        "reencoded": 0.32303386823489116
+      },
+      "ptm": {
+        "reencoded": 0.17243550717830658
+      },
+      "sequence": "AKATYFQKPYREEADKTAIRMKILPGGQPFDSSNFYPEVTYRDTDVTDLLEYFFDAEGKEQGYCVALDPQGEYNDIDFAEQRVKPGRGFDIYGQVFYPYELASDNSGSTRPVVRSVVPHGIALKEFSKSQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2671211274571712,
+        "cosine": 0.19451973418905802,
+        "relative_l2": 1.397328362215241,
+        "relative_size": 1.1861860451359703
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3692877831577048,
+        "cosine": 0.0440531281324777,
+        "relative_l2": 1.5277021656759215
+      },
+      "decoded": null,
+      "id": "s026",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.8847551345825195,
+      "pair_bias_relative_l2": 1.2668718099594116,
+      "plddt": {
+        "reencoded": 0.3533363988766303
+      },
+      "ptm": {
+        "reencoded": 0.17805275321006775
+      },
+      "sequence": "HERAIFVEGSYRVVEKCTENTFPGITTVYFGEEVGVNKKDLGYIPKRGAIGHWVNVAPGRRGYRVFEGLVHTHAADPIPFPGTVYHIPVVIPIKGEEVETLVPGFTWSTVDALRADELLARAALEHYGFQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2466383964348817,
+        "cosine": 0.21609332825521632,
+        "relative_l2": 1.2535605053313783,
+        "relative_size": 1.0648466722023349
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3366001579080493,
+        "cosine": 0.003261692169324798,
+        "relative_l2": 1.4193026212281337
+      },
+      "decoded": null,
+      "id": "s027",
+      "kind": "sample",
+      "length": 130,
+      "nll": 2.743917226791382,
+      "pair_bias_relative_l2": 1.3014334440231323,
+      "plddt": {
+        "reencoded": 0.41494320929050443
+      },
+      "ptm": {
+        "reencoded": 0.2668326795101166
+      },
+      "sequence": "MISMPEKKVFVFTTGKFPSKSLKDEMRELFQVVSVFFNTQDKTCPCGLIKQIEDQIKKLIEDMQNGQPVVGFISSADGISIILDDAGKPFPQSMRILNGKAKFDYQFTSEKFELAYETLIKFINDALIQK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.0435773376769304,
+        "cosine": 0.540992721415547,
+        "relative_l2": 0.9521218735019824,
+        "relative_size": 0.7914391195857445
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.2907609692690933,
+        "cosine": 0.24859144809073214,
+        "relative_l2": 1.212291151652909
+      },
+      "decoded": null,
+      "id": "s028",
+      "kind": "sample",
+      "length": 137,
+      "nll": 2.7912075519561768,
+      "pair_bias_relative_l2": 0.8610900044441223,
+      "plddt": {
+        "reencoded": 0.34230035771853734
+      },
+      "ptm": {
+        "reencoded": 0.21825380623340607
+      },
+      "sequence": "GPALSEQTQHLSEQGSGTEPGSEKLDIIDGYLGTVASFPGGDSVTGACTLLAYEGQAKQLVKDGALWLFSLNTGTEKVFKVVKVIYENTGANKTTIFNTAAAGASVVDASNLEFIRQNPDAVIHLERGSEFKGLLVA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2714101504620579,
+        "cosine": 0.15290146517107928,
+        "relative_l2": 1.374942193981297,
+        "relative_size": 1.1316552725443834
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3527235552312618,
+        "cosine": -0.002447375365793024,
+        "relative_l2": 1.476003047157593
+      },
+      "decoded": null,
+      "id": "s029",
+      "kind": "sample",
+      "length": 150,
+      "nll": 2.8691141605377197,
+      "pair_bias_relative_l2": 1.2739808559417725,
+      "plddt": {
+        "reencoded": 0.3728144804636637
+      },
+      "ptm": {
+        "reencoded": 0.20658665895462036
+      },
+      "sequence": "LSFVAAAKDGTLVNLDATMQDALANGLLAYEMAVVSAQGSKNCQTSFTLEVPPQGFHRVCGTAELQLVSVCDSKAPDECLSDRYIFLNSVLAEGEVLHDTLIRMIEAEWSAEGMKRAGVNGFYSELYLRAYAGQEQEPVHLHHSVNGSEI",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2275349140577587,
+        "cosine": 0.2975899881267467,
+        "relative_l2": 1.3072318620237615,
+        "relative_size": 1.113302449069518
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3864594790716283,
+        "cosine": 0.04857153125489416,
+        "relative_l2": 1.5245932033328868
+      },
+      "decoded": null,
+      "id": "s030",
+      "kind": "sample",
+      "length": 153,
+      "nll": 2.902107000350952,
+      "pair_bias_relative_l2": 1.1827298402786255,
+      "plddt": {
+        "reencoded": 0.35223376156847463
+      },
+      "ptm": {
+        "reencoded": 0.22596858441829681
+      },
+      "sequence": "TYPKVYGSIEIKSDEPGTQAPETQSSEDVMEWFKSVGPDTLIKSGPIIPATQATYVLAYYKIQKGSSKAFNILVLEARDNMDERGEPVFLGEYSSSKAAKAGISFQFELAFDNGDELPNPKSTLSPENIKGMFRWNANSKIYLQGLKEVSVCT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2517412961663672,
+        "cosine": 0.20630756589866941,
+        "relative_l2": 1.362012516045883,
+        "relative_size": 1.0962093630803078
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3579802340072336,
+        "cosine": 0.039223696219822655,
+        "relative_l2": 1.462187282996258
+      },
+      "decoded": null,
+      "id": "s031",
+      "kind": "sample",
+      "length": 158,
+      "nll": 2.874454975128174,
+      "pair_bias_relative_l2": 1.255185842514038,
+      "plddt": {
+        "reencoded": 0.32445488172241405
+      },
+      "ptm": {
+        "reencoded": 0.17087619006633759
+      },
+      "sequence": "NAPYAGKFSDRLSQDEFLVLIQLEKPQRDAITRKCLLVRIKIPNQVVILNGEPSHTGAHRHGHLHGGVKDEYNCDNITRIHNLDTSKTRFSLWLPLKVNVQAEQKLTVNNEAAVEVKGLREYDEEEIAEMGNLVELRRPSLVNGVFTDGNAFSYAPKK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2452196547399295,
+        "cosine": 0.248010329673605,
+        "relative_l2": 1.3941370610397883,
+        "relative_size": 1.1390231159557362
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3951824199738156,
+        "cosine": 0.013058618413109185,
+        "relative_l2": 1.5618375663392103
+      },
+      "decoded": null,
+      "id": "s032",
+      "kind": "sample",
+      "length": 166,
+      "nll": 2.864044666290283,
+      "pair_bias_relative_l2": 1.257057547569275,
+      "plddt": {
+        "reencoded": 0.3220657519547336
+      },
+      "ptm": {
+        "reencoded": 0.1898876577615738
+      },
+      "sequence": "QNSKVIIVAKNMKVTFTVYDSQLQNQNSADSNVTITQATSRNGDTFNDKAFITFTTCELYYEDPDTIKIFNDTGNKSRGEYDGKVSSINSVGECLQVEIPTEHKPDKAGSSRLKVKYARKFKGFDPLAYKFTLLGEGSTTLTVRPSQTLLGESHRSYSITAIVPLT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2783394479615933,
+        "cosine": 0.14629558365665704,
+        "relative_l2": 1.3460077615434047,
+        "relative_size": 1.1560691235136369
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.347108786965006,
+        "cosine": -0.014425371935102458,
+        "relative_l2": 1.4817558066860563
+      },
+      "decoded": null,
+      "id": "s033",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.788769483566284,
+      "pair_bias_relative_l2": 1.3080968856811523,
+      "plddt": {
+        "reencoded": 0.38238495940992817
+      },
+      "ptm": {
+        "reencoded": 0.2318640649318695
+      },
+      "sequence": "TVASMEELVAVYNDAQAANKLLAYENQTVLGTWHTEFATLALAGANEQLQKKGKYIVGLGDIDPSKLGAPRDKSDNATLPPGRVVTVYIPKMESQQGGDADITTFDVQTVKLIKEYKDFCFIGEDSYEKVKDSAGLRLIVPLPAAGENRKDVLALIEKGYVREGTYLKV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2899188827995307,
+        "cosine": 0.21388836081762858,
+        "relative_l2": 1.362758680191542,
+        "relative_size": 1.1722707840906317
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.374159198173052,
+        "cosine": -0.0048392978499216255,
+        "relative_l2": 1.5597747980697902
+      },
+      "decoded": null,
+      "id": "s034",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.9034695625305176,
+      "pair_bias_relative_l2": 1.3012707233428955,
+      "plddt": {
+        "reencoded": 0.330338480821728
+      },
+      "ptm": {
+        "reencoded": 0.22297406196594238
+      },
+      "sequence": "TSPDIIIIGDDGMGAKELIQEIHEKLGLSCYIATTDGTQSLIEIAFAGHDVTFSVLSTMSGEECRTKINEVGINPEASLKINPAPYALGRPAKVVSIAYWERVDKFKDEYSVVANVIAVDKFKGLEAKVHALVISVAYGSADEIELEDEEELFRSITKVIVLAAQVEDL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2742772863186587,
+        "cosine": 0.15643893808753967,
+        "relative_l2": 1.3599028913129194,
+        "relative_size": 1.115060983972493
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3477533119142584,
+        "cosine": 0.022132462673009775,
+        "relative_l2": 1.4448134250892786
+      },
+      "decoded": null,
+      "id": "s035",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.862316846847534,
+      "pair_bias_relative_l2": 1.284866213798523,
+      "plddt": {
+        "reencoded": 0.33203873417433905
+      },
+      "ptm": {
+        "reencoded": 0.1676671952009201
+      },
+      "sequence": "GLPEHKHRQSWLEKTSVEFMALRLEVPIEIEDNGNDWNRVRLEYPEDQNIQRYPGVACLNYAIPRNALRTREKSQMRVSFLAAKVPLPSHSGMVSELLHFDFAPLESTVAQFFAAYDEDALASANPHASWAKIAHELSTQEHGLAISKYQSPQITQGKRRSWKWLEEKI",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2909976172097726,
+        "cosine": 0.15771343550508113,
+        "relative_l2": 1.3791999580304788,
+        "relative_size": 1.180345611461042
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3538111710468548,
+        "cosine": 0.01827808127550886,
+        "relative_l2": 1.502435744364159
+      },
+      "decoded": null,
+      "id": "s036",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.8708412647247314,
+      "pair_bias_relative_l2": 1.3080402612686157,
+      "plddt": {
+        "reencoded": 0.3400669676312328
+      },
+      "ptm": {
+        "reencoded": 0.18807069957256317
+      },
+      "sequence": "SPANTAIDWLLEYPEVLGGTVRPYVSRPVLVARETPRLKEGDKRAAALRKMARRLQAAPQYGATAQPHPEEGSLEARAQRLLYVETAKFKTIVNVDLYLRFEERPVLGASSGPFYIVAFVETRLAHRLALGDQYADGSVHPGAQMTQVSGRYNAREWICKYDRANLEGA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.196282137705311,
+        "cosine": 0.3502465732584705,
+        "relative_l2": 1.1882085556526667,
+        "relative_size": 1.017931844287164
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3389114982540768,
+        "cosine": 0.07753849075622977,
+        "relative_l2": 1.4315785521213622
+      },
+      "decoded": null,
+      "id": "s037",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.834980010986328,
+      "pair_bias_relative_l2": 1.1494766473770142,
+      "plddt": {
+        "reencoded": 0.6394563017512215
+      },
+      "ptm": {
+        "reencoded": 0.2424691617488861
+      },
+      "sequence": "LVPKGLFRSEPIKYDAEDKEEITDEMLKMGPTDLIENKIIELERKEHRQKVEPPLEEWVNDTAECRNSRGLEVANIKFYDEKLYLIDIVICITTTDKTASLEKTIAEYKAIINYIQGMIHSSEVELHEYEEPFDESISEINKLKGSILLKAIESANKYSNSSRLSFSLS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.268986846738708,
+        "cosine": 0.20168775540262404,
+        "relative_l2": 1.3995603461667618,
+        "relative_size": 1.178366155886706
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.379539179598534,
+        "cosine": 0.003154154348832988,
+        "relative_l2": 1.5613915259811337
+      },
+      "decoded": null,
+      "id": "s038",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.868530511856079,
+      "pair_bias_relative_l2": 1.3082762956619263,
+      "plddt": {
+        "reencoded": 0.3243930903235836
+      },
+      "ptm": {
+        "reencoded": 0.19923260807991028
+      },
+      "sequence": "MEKYILLVGSGSSYSMFTHAVGSRLKRYFMSENVCSQIHSGTGTKIIHKDKVAAYRIGPHGDHMGQAKKVAQEGNAVVIRASLELPGDINLLYDNIKKLTKADLCCINVKTTIDNGMYLITAFYANPTVSPQEVFGLHYEMEGLNRNPQHQIWAGNEEGFVSDYIYQNL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2789774067025315,
+        "cosine": 0.17247134450067697,
+        "relative_l2": 1.3778133978625704,
+        "relative_size": 1.1808069001141241
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3845737207373747,
+        "cosine": 0.012563451271102928,
+        "relative_l2": 1.5173182068312219
+      },
+      "decoded": null,
+      "id": "s039",
+      "kind": "sample",
+      "length": 169,
+      "nll": 2.847400665283203,
+      "pair_bias_relative_l2": 1.3328499794006348,
+      "plddt": {
+        "reencoded": 0.40169597906473825
+      },
+      "ptm": {
+        "reencoded": 0.23365160822868347
+      },
+      "sequence": "TTKFWLVNNVSSGHDIRILKQLRNRAREYELVNFYFPGLLNKRTEFRDRDFSFQGFSTGVHRDETELRQAIEEGILIIVNSPRDALLDKKKRRFVWYGSAIAVQLKERAKHLLEIEHNKENFALAETINAQIGNHISQIAYRANKYGKYDVRAVAAVRRFMQQLRIEKA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.296573647712685,
+        "cosine": 0.1582597000323772,
+        "relative_l2": 1.3615651477474553,
+        "relative_size": 1.1289915674184583
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3661909132061072,
+        "cosine": 0.011539927553861278,
+        "relative_l2": 1.4640951323515208
+      },
+      "decoded": null,
+      "id": "s040",
+      "kind": "sample",
+      "length": 171,
+      "nll": 2.97922420501709,
+      "pair_bias_relative_l2": 1.322849154472351,
+      "plddt": {
+        "reencoded": 0.32963808761005514
+      },
+      "ptm": {
+        "reencoded": 0.14347535371780396
+      },
+      "sequence": "HLTCRNMRLSRTLRNPNLLIECQKKNSCCGQCEFACKLRVIEAWLFGSINGEHEARRQALDRYLGVVCNCSHSHPDGNSNWVGYTCNFCQDGCYNKSYERAGEIQYIAKLTFLNNHSPWATYYNVTLLSCQDRTEQYTCFGAPVTATCGVVGNCLWNSQGYRVCTTSNSHH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2302458767665532,
+        "cosine": 0.22760294914829207,
+        "relative_l2": 1.443177569615832,
+        "relative_size": 1.1676989601977783
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3953052362330391,
+        "cosine": 0.023777927915802653,
+        "relative_l2": 1.5774958499820837
+      },
+      "decoded": null,
+      "id": "s041",
+      "kind": "sample",
+      "length": 181,
+      "nll": 2.8186707496643066,
+      "pair_bias_relative_l2": 1.2411807775497437,
+      "plddt": {
+        "reencoded": 0.424284566337891
+      },
+      "ptm": {
+        "reencoded": 0.37208977341651917
+      },
+      "sequence": "MNYAMLAYGYNSETTEFLSLIKRVARNSPNLKKSIAELVLLLAEADQKRHLTLKLGSAEVFYEAYILTLESEALIHIGKGFRPRSTTYLIQLGGDAQQGALLTEGGPEEVLWFDFGLRAYGSLVATEEALLRILQQLQANEHGGINDVARASQANALGLSLVCGCWINEEHADKLVSELLR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.272735163410919,
+        "cosine": 0.14355555170734272,
+        "relative_l2": 1.476436680177374,
+        "relative_size": 1.1952566157008482
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3738178436681805,
+        "cosine": 0.00036658373922891514,
+        "relative_l2": 1.5599136983954425
+      },
+      "decoded": null,
+      "id": "s042",
+      "kind": "sample",
+      "length": 189,
+      "nll": 2.904918909072876,
+      "pair_bias_relative_l2": 1.3094019889831543,
+      "plddt": {
+        "reencoded": 0.3226794833859439
+      },
+      "ptm": {
+        "reencoded": 0.22002793848514557
+      },
+      "sequence": "MVIALLSGSSAGKYLEFRAYATKYDDGVFGNQSIVALALGVDMETLNNRLDKKRGLVVSTWDSLREFGRPYHTILIDGGEDRNAMLPYSYHRGTTEGVWRWKIGVETDLHYLELEPYPELADYVENRPPHKCHFIAKYNHQNAELTCFEVLQKFKSENLKELTHFLFSVLQACTEYAKRQNSSILYNVH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2660984603491974,
+        "cosine": 0.19100941035764715,
+        "relative_l2": 1.3336831480229738,
+        "relative_size": 1.1662306528779713
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3554268740869724,
+        "cosine": -0.009246033288019963,
+        "relative_l2": 1.5175497561211153
+      },
+      "decoded": null,
+      "id": "s043",
+      "kind": "sample",
+      "length": 191,
+      "nll": 2.7687418460845947,
+      "pair_bias_relative_l2": 1.3043142557144165,
+      "plddt": {
+        "reencoded": 0.41784373144204706
+      },
+      "ptm": {
+        "reencoded": 0.25815507769584656
+      },
+      "sequence": "DQQMEEVWSFPSKRRLIQELAGEPDGDPYREEYAELLAEQFKESVTDMRKHGLRNAFRIERSGTWQYFWIYEPEDPKNFLFVVYARSTGDLLGKKRFHLYGTLLYDAVKAHGLTADDLRKWHRNPQIIELSMETLVKRGVMLAKRLRDEAAKAGFPEKTLISSKLLEQSGELHEKKRVKEKGIYDRVIVVP",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.9507331248943464,
+        "cosine": 0.6335024190175285,
+        "relative_l2": 0.8512366866278286,
+        "relative_size": 0.710165012290918
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.309478998566596,
+        "cosine": 0.22490595273475308,
+        "relative_l2": 1.2401105442124258
+      },
+      "decoded": null,
+      "id": "s044",
+      "kind": "sample",
+      "length": 196,
+      "nll": 2.978454113006592,
+      "pair_bias_relative_l2": 0.7888655066490173,
+      "plddt": {
+        "reencoded": 0.2835164464706061
+      },
+      "ptm": {
+        "reencoded": 0.15917851030826569
+      },
+      "sequence": "SYFFSIWTISGLNVFYDLEAYLNSTDGCDIVYKSTYPTGDLKVYGLICYDHGKKFTLPQPNPKTVTLLDGELLIQIVKAKAPGQGYIGTTWCGIYVGKAYQYEGLNGSYNFDGENWEPKYPNYDTSAAVAIAVRTDEQLYKATYWGYNWGYAVKHSYRAIQNGKFYYKEPPSSADFTFGSTTVDQSKDMNTFEGAK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2780290260335851,
+        "cosine": 0.18236122072029085,
+        "relative_l2": 1.395598153627704,
+        "relative_size": 1.186737558313228
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3693518078456879,
+        "cosine": 0.0217166313645635,
+        "relative_l2": 1.524710211911814
+      },
+      "decoded": null,
+      "id": "s045",
+      "kind": "sample",
+      "length": 199,
+      "nll": 2.8877110481262207,
+      "pair_bias_relative_l2": 1.277694821357727,
+      "plddt": {
+        "reencoded": 0.3935302210662832
+      },
+      "ptm": {
+        "reencoded": 0.23895873129367828
+      },
+      "sequence": "NELFDHLNLHITIDATETQTITDIDALFNHITGIEFIKDCVDSYIRATARGLAVRFAKELGFIPPERGENMSKHIISTNDLDMPATELDKEQAIWFYLDGGIDPSMQAHPHLPKGGGAIDFTTLTLHVRVRMQGGQAGKHPTMVDDLEQISLTDITVDEMHEHLRKLLKVHTEPQISDASSTHTDPLGDRVGIIKIIKS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2179763688201268,
+        "cosine": 0.23534476768649423,
+        "relative_l2": 1.2078460058373723,
+        "relative_size": 1.0382486895758203
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.3368585242247104,
+        "cosine": 0.016532518073834917,
+        "relative_l2": 1.387856465229197
+      },
+      "decoded": null,
+      "id": "s046",
+      "kind": "sample",
+      "length": 208,
+      "nll": 2.9843008518218994,
+      "pair_bias_relative_l2": 1.2658822536468506,
+      "plddt": {
+        "reencoded": 0.31218771335597223
+      },
+      "ptm": {
+        "reencoded": 0.18470893800258636
+      },
+      "sequence": "MKSYYLRVKQPLNGLNTVDQIQIYRIYAGGPNKDVQGNGCIRARFGWQAPFKQRKDHFHVSIKYYTKLEFKDYVLGEITVQKDMKPGEFYEILLVVLLDGRRPVSSCQINLYALTTENYELNCDMEGYKLRQWIQDDYFMPKKTNLIEGDNYVDLSYFLQGKLQLSMLTFLHFSVRYPEGGYMVDLNLMTFVPEALCEMPQTSMGVQA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 1.2889839911367793,
+        "cosine": 0.12206026773534355,
+        "relative_l2": 1.431827112371366,
+        "relative_size": 1.2108473739094343
+      },
+      "consistency_unpaired": {
+        "anoise_level": 1.355162893304324,
+        "cosine": -0.025547038068615288,
+        "relative_l2": 1.5499336095778573
+      },
+      "decoded": null,
+      "id": "s047",
+      "kind": "sample",
+      "length": 220,
+      "nll": 2.9060006141662598,
+      "pair_bias_relative_l2": 1.325551986694336,
+      "plddt": {
+        "reencoded": 0.31783442266962747
+      },
+      "ptm": {
+        "reencoded": 0.17549630999565125
+      },
+      "sequence": "STWTTKVKVYADGYLIAKLMLVSAGDFFDKLEGATLPVDTIFEMGEVISNINGTGKVQNSSTALDAGVKENKVVLVKKPSFKQSPFLIPAEIARDVNFTIAVMIDLQDTSLGKTLKDLPGSDIPELSNWDLSDNLEERLRLLEDPNKRQYPKEPWNSLLPRSLTAYSAEEQYDEIYNAVWQMGGLSLAMTSGYAVHGYLWFSKSRQMSTYVLFTFEKRKF",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s000",
+      "kind": "floor",
+      "length": 70,
+      "nll": 2.9196386337280273,
+      "plddt": {
+        "reencoded": 0.41100324647767206
+      },
+      "ptm": {
+        "reencoded": 0.1353955715894699
+      },
+      "sequence": "CAFNAEENFGFYAEEKAMQSLQNTGLQSSHCGLATGVRPKLNQSAYCTGGPRLAKCNRFLTSGGSIADDE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s001",
+      "kind": "floor",
+      "length": 95,
+      "nll": 2.9287405014038086,
+      "plddt": {
+        "reencoded": 0.35980584495945983
+      },
+      "ptm": {
+        "reencoded": 0.1483546644449234
+      },
+      "sequence": "KQMEDFNARAHRPDYGKWAEAERDERGEYYQLIRLPYLSRWDKYTFYNETELEQVLYGGKTYLEFLVNNPKNPGNLAWDDSYALLGETDGCTNDH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s002",
+      "kind": "floor",
+      "length": 103,
+      "nll": 2.935194492340088,
+      "plddt": {
+        "reencoded": 0.3596545046972997
+      },
+      "ptm": {
+        "reencoded": 0.2115975022315979
+      },
+      "sequence": "KHGEAFFKYSGPVIKPARCAKGLVHEVIIYSFGSLEKPKDQSHQVRIQLVEERGGMVGLVHEDEPSGQLVGETTIEMPTDRATQAPSVLVGPHKVHALNPVPA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s003",
+      "kind": "floor",
+      "length": 110,
+      "nll": 2.9516422748565674,
+      "plddt": {
+        "reencoded": 0.39551501978527415
+      },
+      "ptm": {
+        "reencoded": 0.20897777378559113
+      },
+      "sequence": "EFYQKIKTEHHKRDTFSCFDDGCQSRHLFYLVIAQLHKTQILRVMGTLVFEELKQFGEKIHSEGLMKLLFNREGGLVRMDSEQSVYKATLELTCAIEDGRDNHGAEVLLK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s004",
+      "kind": "floor",
+      "length": 118,
+      "nll": 2.9176995754241943,
+      "plddt": {
+        "reencoded": 0.32995575552774686
+      },
+      "ptm": {
+        "reencoded": 0.13970687985420227
+      },
+      "sequence": "LVASFDQLAMTGAPYAIIDNVFVLARVKGIDCDRYAPSISYKCEDPLLPIKLEFRNSELLSLSMFAFQASTASLIVLESRIFQQEYTDRVRVESPTANLALSKFSLHVSISDKGPGFQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s005",
+      "kind": "floor",
+      "length": 123,
+      "nll": 3.063053846359253,
+      "plddt": {
+        "reencoded": 0.3571310910752149
+      },
+      "ptm": {
+        "reencoded": 0.12388060241937637
+      },
+      "sequence": "SMSALARHPYTLEAESTEVPKSCYSTFEGCMPTEPDDYELDTQRVGEAEYWWVMIPLKFSCEGGISCTANDPKTWVAALSSSCILMPNPEQDAKDSEEGTSERKIDNPLGPEEVMTTDDQYFF",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s006",
+      "kind": "floor",
+      "length": 127,
+      "nll": 2.9648821353912354,
+      "plddt": {
+        "reencoded": 0.38103803816273457
+      },
+      "ptm": {
+        "reencoded": 0.24076764285564423
+      },
+      "sequence": "PPLEKWAFSKPSDGPEQVQRMYLPEVNETLRAMGDMRILDSRFSEWGGCGVSLSARTASNLSIAIVFKLHGWTASSAGEERLMKHHQVLFVKSYRVLAKAFVLYENHVVKPRILFSQGHDEYKLGSE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s007",
+      "kind": "floor",
+      "length": 128,
+      "nll": 2.938260555267334,
+      "plddt": {
+        "reencoded": 0.3250758039066568
+      },
+      "ptm": {
+        "reencoded": 0.12371715903282166
+      },
+      "sequence": "VVSKSDSPFTFACSWFASATESGLLPPAPEGKFEAAASLETMNQGSITAPQAFIGDSVSATGGYNNSSQNPGKGGACYTAAPSKRAGNQNLSGCDMNGGGDLRAFVSCNQLESWKLYHKFDLPWSFAN",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s008",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.98885440826416,
+      "plddt": {
+        "reencoded": 0.3554412905097932
+      },
+      "ptm": {
+        "reencoded": 0.1424383670091629
+      },
+      "sequence": "LELERGGLHVHVFHKEALKLVPIVACRSEARMLVLSYQHEAATLAVDPAESPQDGNWDAVKDNIEPSLKTTDAYESDALKGQNLNYNRIDPHSPMFHLPASQGADQMIRYLPVPWYKAGRFLNRSMGFM",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s009",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.936342477798462,
+      "plddt": {
+        "reencoded": 0.32604013602862986
+      },
+      "ptm": {
+        "reencoded": 0.1470731645822525
+      },
+      "sequence": "GGDTIILRDLTRYADKRSGPEGMAEIFQAIYHPKGLQNYGVVGSDEEGTGGERHDKLMKRLPPDDRGIDGGQGCDNIQVRGMILPAGEITPLKTSKWKTKMTNATVMMRQDDLEMQGLVPVLASILPAL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s010",
+      "kind": "floor",
+      "length": 129,
+      "nll": 3.012133836746216,
+      "plddt": {
+        "reencoded": 0.32908213635285694
+      },
+      "ptm": {
+        "reencoded": 0.18073560297489166
+      },
+      "sequence": "AEDKEKEALKSCPCPLKEKELSSACHIFYLEFCSFPYDNCIETFCMHFTPYEKSKAEHNAEEICVLNSSDDSWLVCSDRITIKYRPDHQGASEIIVRNADGHKNSAGLTLKLIIDDAQYWESSKEGNMT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s011",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9556047916412354,
+      "plddt": {
+        "reencoded": 0.41732394579769105
+      },
+      "ptm": {
+        "reencoded": 0.26107051968574524
+      },
+      "sequence": "FKGYETRKNLPTEHFVLEFLVVLGSQWWNNTTAQAKAKILRYFTLEKMLFPNLDKVRFEQLFREGADQCVADGRFQKTYDTEIDWDDQMFFKIGAEDIKHALNFGLWGSTSFNTDVPRLYDQVIGEIEH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s012",
+      "kind": "floor",
+      "length": 129,
+      "nll": 3.0086426734924316,
+      "plddt": {
+        "reencoded": 0.3501849942660147
+      },
+      "ptm": {
+        "reencoded": 0.18926633894443512
+      },
+      "sequence": "GKHEILEQMNPKFEFRHVMLGIETNASEKTTFFLELEGECFAQFKERDPKGIWLDKKMSLKAPKTINYNKRLSLFSFDWLEVKRYMAETFKRSASMERSESLQNVLIEEEELLGLEIYEIITSGKDAHD",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s013",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.8993005752563477,
+      "plddt": {
+        "reencoded": 0.4367303859817889
+      },
+      "ptm": {
+        "reencoded": 0.18215370178222656
+      },
+      "sequence": "RKKMRSLKEMLDNASKNSQIYLNHKNVIDDASDKKPPALLLILELIEDTLVIPALNFEVNQIISIQISVDVMEAQNRTKVIALLNIGASSLASKALHPAFFKRDFKVYENKIPQTEECRENASWMRDSV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s014",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.8813979625701904,
+      "plddt": {
+        "reencoded": 0.4295669262723405
+      },
+      "ptm": {
+        "reencoded": 0.16909697651863098
+      },
+      "sequence": "DFTMVQPGGAYQELGRALSVHVWQAGEATQKGDIGAQVLRNFLARFTGFKEDATKANAPGKLQDAEEKQRDYALNDQGLQLETKAAQILTKKTLDTFENSQEQPVKKATSVAPLMPWIGKTTLLTYGGS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s015",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.834092140197754,
+      "plddt": {
+        "reencoded": 0.37951639664265535
+      },
+      "ptm": {
+        "reencoded": 0.24794623255729675
+      },
+      "sequence": "EKEYWRPISYNELVSILKKQIDFLLKAALQDEKNDLEEDEAGLLLNTLVLPALEEIKIELLDEPNMNVGNKRQYFEMRVSIGEANGAFALTFWDVEPREKLAPIDAKTETELLMVKYIREKIVPKDTEG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s016",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.864196300506592,
+      "plddt": {
+        "reencoded": 0.38993907194266947
+      },
+      "ptm": {
+        "reencoded": 0.20281477272510529
+      },
+      "sequence": "RWVTLERPLRPPKLTASAEAYLFEIFFHVLNSKPDLDPGTDVAGIVAFPFLKELRRAQVALKEDGDKPLHEELSGESVSERALIIDVNFGEPEAGVRALLKERWVRDPLTKGPLKRTKGEKRPPVVRIV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s017",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.957265853881836,
+      "plddt": {
+        "reencoded": 0.41745666893877725
+      },
+      "ptm": {
+        "reencoded": 0.18330761790275574
+      },
+      "sequence": "IYYAAQVAYYAAWSALTGTKPAEKGPPGYRISHSSDGSMREGGGGSELIMKLKEAASSQQKLDKQVIGMLACTSAFQIRKKRPRIFIVDPNKSYPELWVRDSLVGQVGGECEETGDFDKPPQTQVQCWC",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s018",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.7732226848602295,
+      "plddt": {
+        "reencoded": 0.3319075582332389
+      },
+      "ptm": {
+        "reencoded": 0.167380690574646
+      },
+      "sequence": "EAAGRELIRDIKLKGMADPGTVFSDEVARGAALAQVRGNIEQGDWMEPGRTRMTRTGVPRVALFAARSENGSVGRIRAEIATHAPAVAKGAQAAQGELVGFAFQLWYPVNLHGAAVDIDGEHNIAVSGS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s019",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.889157772064209,
+      "plddt": {
+        "reencoded": 0.33799539749012436
+      },
+      "ptm": {
+        "reencoded": 0.1467416137456894
+      },
+      "sequence": "GYPGCEKPLRYNRIDTDDCYVLLDRFNGTAKKVCKDLIAWCGLSCYTVETPKGACDSKANSCNMKPWEKCISSYDDCLFGDPSTTGENNEPYGGISPKPAAASKGCKLDASQRCSSSSACDCLHCRKSA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s020",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9000940322875977,
+      "plddt": {
+        "reencoded": 0.3089741378329521
+      },
+      "ptm": {
+        "reencoded": 0.14154933393001556
+      },
+      "sequence": "TEAILGSLEQYKDMSQLEACSEKGLVVRDYCAVSITLDDGNEFDVAALDAMLEPNLMKGIGIEGWVVQRFTTEIGETAIGTDEWDEGNVKVLDEASGDPAGIGPVKFHPWAGTNGHEGALTIGREIIDY",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s021",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.806964635848999,
+      "plddt": {
+        "reencoded": 0.3700938488161841
+      },
+      "ptm": {
+        "reencoded": 0.19216777384281158
+      },
+      "sequence": "KKGGFVASGNVLAILGNGVKMTRRTWVVYDFEGLKKVDLEWDMDASSAQAAIIDSSGQEVGDFNFVGQWSDTPLWNEFNTLANKQNARNGAISSVSSDVVRTDNTVSSSVPGIVKPQENDPKGGDGTFS",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s022",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9308927059173584,
+      "plddt": {
+        "reencoded": 0.3135091608115869
+      },
+      "ptm": {
+        "reencoded": 0.15631833672523499
+      },
+      "sequence": "HVELGYAHAKSKSGVTMMPVLNYVGSDAVLLVAFESRKNWGHLPMFVLNVGGNNEPSAVEKTQQPILPVVNLNPPHLKGLVALAGTHLNDVLVNQDGQNTRTLYSAKDLVPHKGLRGSIVMLMKPRQED",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s023",
+      "kind": "floor",
+      "length": 129,
+      "nll": 2.9448940753936768,
+      "plddt": {
+        "reencoded": 0.32300306232862697
+      },
+      "ptm": {
+        "reencoded": 0.1202838197350502
+      },
+      "sequence": "RRPNLLTILIRGQELADVYDDFMFTSSIGLESSLVEKNVTDPDDKEKGSARLCGEYQVVDLKSYANESSILASRRAEDRHAVDWQNQIRFPKKLYLQARITNWFIVVYLENVQVKTDYLGNGSYHKLYT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s024",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.8325836658477783,
+      "plddt": {
+        "reencoded": 0.4555071513240154
+      },
+      "ptm": {
+        "reencoded": 0.2571829557418823
+      },
+      "sequence": "FQDNIYNLLIGTVQLLDSLVFRTLNTATREAAILSLLGYERLALSTPAMDLIGNYEDSVTLQLNPDQTNKAAQAAKFSTDLVSLYDVTLKPALNHLARHAPADEEAEDDGHKFVEPDGALRSLLLIVADG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s025",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.96636962890625,
+      "plddt": {
+        "reencoded": 0.3249303386761592
+      },
+      "ptm": {
+        "reencoded": 0.17856904864311218
+      },
+      "sequence": "AGKDSDSYDIKADFNQFQEPFVIFLPAYYSGRGGRQILGPGEPGGDGSTVFSVFERPQEQADSFEAKIYNSDDRTSYFQTYQKDKEHGACNLVAELVTEAYPFMDEPRAPLYKYVITTPRLVVEKKVDYR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s026",
+      "kind": "floor",
+      "length": 130,
+      "nll": 2.8408398628234863,
+      "plddt": {
+        "reencoded": 0.3084353582217143
+      },
+      "ptm": {
+        "reencoded": 0.1473778933286667
+      },
+      "sequence": "YPHFVLDPDRTLEIFVPYGREGIRHPFFPVDQLWGITIPLIVGHEGEVAPLEFVRVTEIEAEPDVANANPNYAGVHAEVVYGKRTGWTYAVIGGSTKLEVKYVKRKGVAAHRLESTGFFTVAGCTRGHEI",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s027",
+      "kind": "floor",
+      "length": 130,
+      "nll": 3.0185797214508057,
+      "plddt": {
+        "reencoded": 0.3343036873982503
+      },
+      "ptm": {
+        "reencoded": 0.13825909793376923
+      },
+      "sequence": "YKKEDSQESDIKNGSSFLGEITLGIINPKVQRLPKNTFQKSIMISVLKKKADFIDEGQQELPIVMEAIIFDPSFLKFKKQTFMFPGAMFEVFTLVICSQRGDGFCILPQAFYTQDMKKVDALNESTDVIK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s028",
+      "kind": "floor",
+      "length": 137,
+      "nll": 2.895193338394165,
+      "plddt": {
+        "reencoded": 0.37897025135746837
+      },
+      "ptm": {
+        "reencoded": 0.1309746354818344
+      },
+      "sequence": "LQEGAVKKVTNAQNHGLEETEVEIAGSTVHTWSAFKLLYSFTLKNDGNGKKNGKIGEDTAEKTSARLLPRPADTCVVGIEGLSDTASVGQGQSPLASGSPLNLIDVAFDVIFGSITLGQFVFAGQLELGAYAYETVA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s029",
+      "kind": "floor",
+      "length": 150,
+      "nll": 2.8960609436035156,
+      "plddt": {
+        "reencoded": 0.3191183446844419
+      },
+      "ptm": {
+        "reencoded": 0.1770285815000534
+      },
+      "sequence": "DLEEVQALDLYYWCPESKVLHEYTMGVASNSAGARLLILDTECQYHSTDLLLMAQGGEAFGKHIGRNAAQVVIESQGLVNELGAVMLSRQGTASVEVCRSGFKVYFSSEAPTFTPFHVAVEDAVGNMLLASDAKLDESANIARNECQLPH",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s030",
+      "kind": "floor",
+      "length": 153,
+      "nll": 2.995487928390503,
+      "plddt": {
+        "reencoded": 0.3051672485334421
+      },
+      "ptm": {
+        "reencoded": 0.13488876819610596
+      },
+      "sequence": "KLPTAETTLNEEQFGALKPGFGSAQAKIDPSEPININEEQVSINFAFAVSKKPMKMGKYKEKSLAVSDRSWLMFVPNDPSIATGVDYQSQKYAGVEKGGDSPDNSEQAFGIFKSSLLKCPLYESNTGESTYISRIYGLEIAYTDELIVVWRPT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s031",
+      "kind": "floor",
+      "length": 158,
+      "nll": 2.9473462104797363,
+      "plddt": {
+        "reencoded": 0.32920438956610765
+      },
+      "ptm": {
+        "reencoded": 0.1341913938522339
+      },
+      "sequence": "GESAGHEVKIKKLPRPCNSNTNNNDLLSRKLLIEQELILPIDVDASRVDMQTWEQRVTERQPDAVKDKAANSRTPKLVPEAYYEPRFDHCHLNVTLVTEFIGKGLFLFALGDNRQYAKEVKNGNYELVHGAINARGNLQSKHGEIFVERLLVVIHSTG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s032",
+      "kind": "floor",
+      "length": 166,
+      "nll": 2.8561456203460693,
+      "plddt": {
+        "reencoded": 0.29285924612398606
+      },
+      "ptm": {
+        "reencoded": 0.13569332659244537
+      },
+      "sequence": "DSNGLDHNPEVITSNNKFAVTKLSLRTFKAKSHPIIVGSQSIGVENQSYRFTIKDSYYKKLSDNKLLKATCASTTKCQLDQTGNATAQFDTYSGEVSNGQNEVSKLTRTFFYEVTTVYYPDVVGSIGTADPKEKMVDDINFRLPGRIQAETELSTKLITRFISGPT",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s033",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.952373504638672,
+      "plddt": {
+        "reencoded": 0.3527057066824309
+      },
+      "ptm": {
+        "reencoded": 0.17816653847694397
+      },
+      "sequence": "FIQIYVATYRKKPVLLKEYKIIDTFVPLGLLYPTDSVLKDLEAKAREQTKTLEYIGQQEAKDITKLGLEGPALAPYMSVSVFDNKGDGDAIECASTNDKGAYTNGAGINALTLLVFQTRMAEPTDSAYQDVEGKVNVVLSWEEKLGVVQVRDAKRPAGKELADNGHAGV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s034",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9441299438476562,
+      "plddt": {
+        "reencoded": 0.32978462890760435
+      },
+      "ptm": {
+        "reencoded": 0.22206781804561615
+      },
+      "sequence": "REDKAKQGAEVIAYGWKTIYGRTVASVIGVYFAHDVGLEIILVKTAKILHHVRIVLLDVTDKFVNAGVSEGAICIDEIGECNVNAEISPIEVPSEVVSLKSGAESTYIMYKFGEDAKLDAPMISIKFPTGDEIDIPLLASEDEQSANQTEVALLFISLADRTSLAEEEK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s035",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9118309020996094,
+      "plddt": {
+        "reencoded": 0.45311950579197446
+      },
+      "ptm": {
+        "reencoded": 0.26364317536354065
+      },
+      "sequence": "SSVAASALEPAGLGESWAEGADIVSPNKDWLLREWYLFEQANFMGRPKEIDPQEHQRCHEWIENNPQLHAQKILAQVVRMHSQRERERNPAIQRNSLKVTEYLLHRASSNYWEPVGHKPIQRYTEAYAKLIEDVLFSFILREHLPTDLTSAGMFPVSSAKAKADKLSTF",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s036",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.8042006492614746,
+      "plddt": {
+        "reencoded": 0.30899728296776496
+      },
+      "ptm": {
+        "reencoded": 0.13663972914218903
+      },
+      "sequence": "RRSGKQPVAYNLAGRKIRDSYAFNLLEGVQFEYRFPRAGLLYHIETAAPEFVAAVGLPLALAEAQGEKRYGAAHVVDLDREVPLPMERATGLENALRVPLGPPLAMGAKTILAYSAPEHQDAQRIEGWRTRRGQVTKADTSVAWLTTPRDYAVEVYRQELKSSCYSVRN",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s037",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.945544481277466,
+      "plddt": {
+        "reencoded": 0.37330215578601206
+      },
+      "ptm": {
+        "reencoded": 0.18275140225887299
+      },
+      "sequence": "KLYEEPYKMSTRTNIADNKIITHLSNISSVNKESIEIEIVEWESSMKHEDERIKYFLEPKIVCLAETIEIGEQLDGTEANKRVTILLEAFILPEVDTKNSGYSHSDLREDDIVISESIIYPKFLQEMADKFYKNKCGGRTLKELSAKRPENYIESAEADKLEIEPLSLL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s038",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9408936500549316,
+      "plddt": {
+        "reencoded": 0.3371724928095496
+      },
+      "ptm": {
+        "reencoded": 0.19503962993621826
+      },
+      "sequence": "YLLAADALKFFNFEYKTPVMKEDEAGVIAGIGCPGILGNSACANPRYGPKITMEKNVVSRKSNHQLGHVIKQKVIQLINQGAFESVLGIDEHSDYNIRYSCSQTYYQENMSVFMYGTHEVYQNLVAAGPTGNGMTSLIIDKMYGLRHHREHGKASLILLNTTWKSDIVD",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s039",
+      "kind": "floor",
+      "length": 169,
+      "nll": 2.9213454723358154,
+      "plddt": {
+        "reencoded": 0.6544781734604808
+      },
+      "ptm": {
+        "reencoded": 0.22844107449054718
+      },
+      "sequence": "NQKRNRILIHLAFLSKVYNVLVAFAQRRTIINILVWIWVYFLLIAGDDEKIDTDFLAQAEEKRSAGKMFQNDKQRKKPIFKLIFKQGQATARANDEANYIFNFVPNGRAVHLKEHGIRGLRATRHRSLVQEYERRLYSGSEALRTVESNATEIHRVKSDYREENGLEFR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s040",
+      "kind": "floor",
+      "length": 171,
+      "nll": 2.9970412254333496,
+      "plddt": {
+        "reencoded": 0.32163936405154
+      },
+      "ptm": {
+        "reencoded": 0.14441244304180145
+      },
+      "sequence": "NHVVLADWILQNHDSLFRTARSTYGRCTYFKPKRAVTMQNVGPCALYCLNHEPNRNCCSCGLTTENLYNWEAGLRQSQITRLFHGNVILNWGSGEEVVGCQYSSTRHCDGCESQTCAKNPGARHAECTNCYKYLCNYWTIVNCLLFGCTSCRNSSDRIVQASFHYQKELGN",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s041",
+      "kind": "floor",
+      "length": 181,
+      "nll": 2.8448617458343506,
+      "plddt": {
+        "reencoded": 0.3758902669940864
+      },
+      "ptm": {
+        "reencoded": 0.19350779056549072
+      },
+      "sequence": "GHYVFSVICNKILEASNRHGPILFLFALGSLLDLLTERGQDATAGTAPRRKHYSNLLLTMIASVGELGYRSLLQAGAQKYEEQEISCSLEAGHLYSIEGIWSPLEEAELLRNVKLSAALLTAEIEQLVQALGTARQLGENFRTYKLLVFAEEATKADKMLNYNIVQWGGVEGRNLAALDLD",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s042",
+      "kind": "floor",
+      "length": 189,
+      "nll": 3.011209011077881,
+      "plddt": {
+        "reencoded": 0.30716226364254323
+      },
+      "ptm": {
+        "reencoded": 0.17603211104869843
+      },
+      "sequence": "RLNIELMPDYGACVLLFRSQNLWERKCNDELDGGHVVSSHGPEASGVSYSYQRNEAKKEFYYYLVFRTNRKMMDHKVGAPTFLVELEGWVIVKLYLCRQHNAVKTLHNRFLLAAYIYEAWEGNYYALGFISDLLETANGTEKDHRDAHLVIKITQHEKALELRIDLTPGQTYSGLSTKSPTPDNSVFFE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s043",
+      "kind": "floor",
+      "length": 191,
+      "nll": 2.9480526447296143,
+      "plddt": {
+        "reencoded": 0.3677467474450616
+      },
+      "ptm": {
+        "reencoded": 0.1700996458530426
+      },
+      "sequence": "KVKHDAMPKGQQWHDDLNVTQYAPPQRYLRRTLIGYELRRWNISLWREAKIEGLIEERDKPDFLAKDESFPEKFVGLDAIAGLAMQLSEGSLRHEEIEFKVFDAKYRLLSHLKPANTGLVFVGYSFELYLKHEQRGIAALVRKVRRDKVYKQEIPWKETGMKFDGPTKEASVETLRYERDRLSGSTMVEEL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s044",
+      "kind": "floor",
+      "length": 196,
+      "nll": 2.888810873031616,
+      "plddt": {
+        "reencoded": 0.28292315856230504
+      },
+      "ptm": {
+        "reencoded": 0.14682719111442566
+      },
+      "sequence": "DIKFYGSFWAETGKTSTYQGYGGDYNKEIELLPDAQETNRYFYKGYGSKKDAKWASNYEEYMILQYAYFYNPLHYWVCSTDYGDKTGDLKLVEVQIYCTVEVTCPVTADLDAAIINFPAQLVGTLKIGGKGYHTAGYNTSALVIWTFYGQSSIDSNWTNPRPGQAFSTPSPTYLNGFYGVDSGDAPYKNKKFKVIL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s045",
+      "kind": "floor",
+      "length": 199,
+      "nll": 2.9498727321624756,
+      "plddt": {
+        "reencoded": 0.35685656807530464
+      },
+      "ptm": {
+        "reencoded": 0.21166329085826874
+      },
+      "sequence": "KTQEIDGLISPIGHQMLQRVERDIKSKETSAEVLGDSLAPEGVRDVTLIMKLIIRNADFTSLHEVGGEIFAIKHWVAIHPLTVPCEHKIINDFIIDLLPTEQLSDGTIGINLRIGQAQRRHQTSHAMSHKDPNIDTHIMDDVLTLTYAAKPHEGATMDIETALDLILLDFFAMTGPDPHHNTFRTKFTESDYGTGDGDK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s046",
+      "kind": "floor",
+      "length": 208,
+      "nll": 3.0581955909729004,
+      "plddt": {
+        "reencoded": 0.30460134327698213
+      },
+      "ptm": {
+        "reencoded": 0.14677470922470093
+      },
+      "sequence": "KKIEPQGCGKQNLYLHEGGLSVIDLKTLFNGNVRLKDRPGWESMQQDGHIYLLGLSTSYEELLNDAQLVILTYDPMERKATDRMFDGLVADFLPILDCFGTPTYVVHPRKTMNQCFGSIKGFNQQYICVAYMKIYDVLQQTTMYFLVKFGYYNVMDNAKNWGRSEFKMFMLRYYLVRVKRQEEYAVGPKQINPQLIYSDVLLQSEPEY",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "decoded": null,
+      "id": "s047",
+      "kind": "floor",
+      "length": 220,
+      "nll": 2.9023914337158203,
+      "plddt": {
+        "reencoded": 0.36905263330448757
+      },
+      "ptm": {
+        "reencoded": 0.15960144996643066
+      },
+      "sequence": "DKESTATVTPMNLPSGPSNGSLKPNMEFPINTRVQKELFASVGYEYDLLEWYNSLGTELILRQPRKSGPYKGSAWGQLLTKIWTMLLRGNPEGSEESIDLMVATAKEQGYVFFGFNLAFKDLMLTYDPFVDNSELVVSLEASKVEIVSNWKDSTAMNTDTHDFLFRIAIGVVSKAVKTKSDDSVYAPVKDWKEYRKGYIADKDLTALIRLILSQLFQQAL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.151042695424961,
+        "cosine": 0.9935003098826022,
+        "relative_l2": 0.11903361922960319,
+        "relative_size": 0.11788932218088195
+      },
+      "decoded": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGEFPKGTFKRILRDAGLTEEEFHNL",
+      "id": "1WHZ_1",
+      "kind": "reference",
+      "length": 70,
+      "nll": 1.0138119459152222,
+      "pair_bias_relative_l2": 0.14044475555419922,
+      "plddt": {
+        "reencoded": 0.7510421897683824
+      },
+      "ptm": {
+        "reencoded": 0.6518422961235046
+      },
+      "sequence": "MWMPPRPEEVARKLRRLGFVERMAKGGHRLYTHPDGRIVVVPFHSGELPKGTFKRILRDAGLTEEEFHNL",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.11247201262364352,
+        "cosine": 0.9963064086527421,
+        "relative_l2": 0.08542692281482347,
+        "relative_size": 0.08621136541309621
+      },
+      "decoded": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGTLRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "id": "2ZQE_1",
+      "kind": "reference",
+      "length": 80,
+      "nll": 0.9663582444190979,
+      "pair_bias_relative_l2": 0.1061924397945404,
+      "plddt": {
+        "reencoded": 0.8025862894952297
+      },
+      "ptm": {
+        "reencoded": 0.7560694217681885
+      },
+      "sequence": "VKEVDLRGLTVAEALLEVDQALEEARALGLSTLRLLHGKGTGALRQAIREALRRDKRVESFADAPPGEGGHGVTVVALRP",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "id": "2QG1_1",
+      "kind": "reference",
+      "length": 89,
+      "nll": 0.8412219285964966,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.721318634708276
+      },
+      "ptm": {
+        "reencoded": 0.6564600467681885
+      },
+      "sequence": "DTLTIGLQKKPGKGLGLSIVGKRNDTGVFVSDIVKGGIADADGRLMQGDQILMVNGEDVRNATQEAVAALLKCSLGTVTLEVGRISTYV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.07021532659567913,
+        "cosine": 0.9985011680268219,
+        "relative_l2": 0.05281969743980937,
+        "relative_size": 0.050331356801527304
+      },
+      "decoded": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGVCYDYKIRVNCCWPMDKCA",
+      "id": "6TM6_1",
+      "kind": "reference",
+      "length": 97,
+      "nll": 0.9394274950027466,
+      "pair_bias_relative_l2": 0.06802386790513992,
+      "plddt": {
+        "reencoded": 0.6569119977582362
+      },
+      "ptm": {
+        "reencoded": 0.570662260055542
+      },
+      "sequence": "ALCCLWSDWINEDHPSSGSDDGDRETFDGVCGAPEDIECRSVKDPHLSLEQLGQKVQCDVSVGFICKNEDQFGNGPFGLCYDYKIRVNCCWPMDKCA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.06862262891000705,
+        "cosine": 0.998801173844064,
+        "relative_l2": 0.04791935774800226,
+        "relative_size": 0.049686063298200446
+      },
+      "decoded": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKDQIVEGYYLKEPVPMQ",
+      "id": "6WAX_1",
+      "kind": "reference",
+      "length": 105,
+      "nll": 1.3583509922027588,
+      "pair_bias_relative_l2": 0.058008819818496704,
+      "plddt": {
+        "reencoded": 0.8534225957734244
+      },
+      "ptm": {
+        "reencoded": 0.8535192608833313
+      },
+      "sequence": "GREEDPHEGKIWFHGKISKQEAYNLLMTVGQVSSFLVRPSDNTPGDYSLYFRTNENIQRFKISPTPNNQFMMGGRYYNSIGDIIDHYRKEQIVEGYYLKEPVPMQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.10066442525347412,
+        "cosine": 0.996839397517773,
+        "relative_l2": 0.07836533678144034,
+        "relative_size": 0.08330622584239887
+      },
+      "decoded": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPPHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "id": "4N04_1",
+      "kind": "reference",
+      "length": 111,
+      "nll": 0.9114404916763306,
+      "pair_bias_relative_l2": 0.08286920189857483,
+      "plddt": {
+        "reencoded": 0.9199225080979837
+      },
+      "ptm": {
+        "reencoded": 0.9056846499443054
+      },
+      "sequence": "SLNLFAGVAVGDFGAALAWYRSLLGAEPTFYPHETEAVWQLEEGRLLYIVERPEHAGHAMQTLIVEDLDAVLSGASERGVEAAKQETYANGVRKVTYLDPDGSEIAFGEVP",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "id": "2P8V_1",
+      "kind": "reference",
+      "length": 117,
+      "nll": 0.26961225271224976,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8769580826290653
+      },
+      "ptm": {
+        "reencoded": 0.882850706577301
+      },
+      "sequence": "STAREQPIFSTRAHVFQIDPATKRNWIPAGKHALTVSYFYDATRNVYRIISIGGAKAIINSTVTPNMTFTKTSQKFGQWADSRANTVYGLGFASEQHLTQFAEKFQEVKEAARLARE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "id": "4JP6_1",
+      "kind": "reference",
+      "length": 122,
+      "nll": 0.5938686728477478,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9307440362992834
+      },
+      "ptm": {
+        "reencoded": 0.9447115063667297
+      },
+      "sequence": "QSASNVRATYHFYNAQQNGWDLRKVSAYCATWDADKPYSWRSKYGWTAFCGPVGPHGRAACGKCLRVTNTKTRAETTVRIVDQCSNGGLDLDWSVFKKLDTDGSGYLRGHLIVNYQFVNCGN",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "id": "1Z9L_1",
+      "kind": "reference",
+      "length": 126,
+      "nll": 0.3159240186214447,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8029085977209939
+      },
+      "ptm": {
+        "reencoded": 0.7658465504646301
+      },
+      "sequence": "HMAKHEQILVLDPPSDLKFKGPFTDVVTTNLKLQNPSDRKVCFKVKTTAPRRYCVRPNSGVIDPGSIVTVSVMLQPFDYDPNEKSKHKFMVQTIFAPPNISDMEAVWKEAKPDELMDSKLRCVFEM",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "id": "2LIS_1",
+      "kind": "reference",
+      "length": 131,
+      "nll": 2.8402013778686523,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.7616603629279682
+      },
+      "ptm": {
+        "reencoded": 0.7232428193092346
+      },
+      "sequence": "HYVEPKFLNKAFEVALKVQIIAGFDRGLVKWLRVHGRTLSTVQKKALYFVNRRYMQTHWANYMLWINKKIDALGRTPVVGDYTRLGAEIGRRIDMAYFYDFLKDKNMIPKYLPYMEEINRMRPADVPVKYM",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "id": "6ORC_1",
+      "kind": "reference",
+      "length": 134,
+      "nll": 1.430761694908142,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9373759613997901
+      },
+      "ptm": {
+        "reencoded": 0.9257608652114868
+      },
+      "sequence": "DVLRDLMDLKSNADSGDVSAQFELSRRYLNGDGLEQNDDEAIRWLRMAAEGGLPRAQAGLGWMYAAGRGVNKDETLSFSWYERAAVAGFPVAQYMLGRYYEKGIGVAKDRVLAKEWYEKAAAQGNEKAKKRLQD",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "id": "4JC1_1",
+      "kind": "reference",
+      "length": 138,
+      "nll": 0.5332624912261963,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9654970873093259
+      },
+      "ptm": {
+        "reencoded": 0.9775266647338867
+      },
+      "sequence": "PLIVPYNLPLPGGVVPRMLITILGTVKPNANRIALDFQRGNDVAFHFNPRFNENNRRVIVCNTKLDNNWGREERQSVFPFESGKPFKIQVLVEPDHFKVAVNDAHLLQYNHRVKKLNEISKLGISGDIDLTSASYTMI",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.1137252898863858,
+        "cosine": 0.9967796815450901,
+        "relative_l2": 0.0806246822799183,
+        "relative_size": 0.08248087289370941
+      },
+      "decoded": "SIKPGTYEVTSKVNGLHVGRTLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTPHGWVVPADAEELAQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "id": "3VWC_1",
+      "kind": "reference",
+      "length": 146,
+      "nll": 1.3973606824874878,
+      "pair_bias_relative_l2": 0.09984362870454788,
+      "plddt": {
+        "reencoded": 0.8575029324178827
+      },
+      "ptm": {
+        "reencoded": 0.8741158843040466
+      },
+      "sequence": "SIKPGTYEVTSKVNGLHVGRPLAEDRSLLPKRIRVLPEDNNSGNSWVVEKDDDAYILYCKGAPVAPQEGKLFADLLGNMEDKKWIVTHQPQHGENVFTVVNASTEHGWVVPADAEELQQVEVRPLIAAPSYPPRYPATELFTFTQV",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "id": "3OX5_1",
+      "kind": "reference",
+      "length": 153,
+      "nll": 0.08862254023551941,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.6333731553133797
+      },
+      "ptm": {
+        "reencoded": 0.3804810047149658
+      },
+      "sequence": "MDRSLRPEEIEELREAFREFDKDKDGYINCRDLGNCMRTMGYMPTEMELIELSQQINMNLGGHVDFDDFVELMGPKLLAETADMIGVKELRDAFREFDTNGDGEISTSELREAMRKLLGHQVGHRDIEEIIRDVDLNGDGRVDFEEFVRMMSR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.07193230789443779,
+        "cosine": 0.9985604897645711,
+        "relative_l2": 0.05140959938136243,
+        "relative_size": 0.052443169438622886
+      },
+      "decoded": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSITITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "id": "1K12_1",
+      "kind": "reference",
+      "length": 158,
+      "nll": 1.5605193376541138,
+      "pair_bias_relative_l2": 0.060612455010414124,
+      "plddt": {
+        "reencoded": 0.7971536603909505
+      },
+      "ptm": {
+        "reencoded": 0.7975519299507141
+      },
+      "sequence": "VIPEGYTQENVAVRGKATQSAQLRGEHAANSEASNAIDGNRDSNFYHGSCTHSSGQANPWWRVDLLQVYTITSVTITNRGDCCGERISGAEINIGQHLASNGVNNPECSVIGSMATGETKTFHCPAPMIGRYVVTYLPTSESLHLCEVEVNVDKPAAA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.04357130248826301,
+        "cosine": 0.9995418532818441,
+        "relative_l2": 0.030081875864189065,
+        "relative_size": 0.030165397167094217
+      },
+      "decoded": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVINKSWTSPYNEKCK",
+      "id": "7B2A_1",
+      "kind": "reference",
+      "length": 162,
+      "nll": 1.5093365907669067,
+      "pair_bias_relative_l2": 0.03738568723201752,
+      "plddt": {
+        "reencoded": 0.8214254066532041
+      },
+      "ptm": {
+        "reencoded": 0.8408081531524658
+      },
+      "sequence": "KQEEPDYPINKFMNTTDEIWVFRTTQENVQKCKKDKNKYMTTSATFFTRSHEEQDQIHEQELVGKFANFYDKPDGVYDRIDITGDKTGVYEEALAYASKENTCGVVGVWAFDGETTVVWRELRVRNRPNDATKVDEMCKKKFDDYVQVVNKSWTSPYNEKCK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.10251564975327437,
+        "cosine": 0.9971760063843879,
+        "relative_l2": 0.0792175224889461,
+        "relative_size": 0.08333198380390866
+      },
+      "decoded": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLMTIVYGVK",
+      "id": "3EY5_1",
+      "kind": "reference",
+      "length": 176,
+      "nll": 1.1073644161224365,
+      "pair_bias_relative_l2": 0.08777772635221481,
+      "plddt": {
+        "reencoded": 0.974911667406559
+      },
+      "ptm": {
+        "reencoded": 0.9865894317626953
+      },
+      "sequence": "IRFQPITTSDVQHYKFMEELLVESFPPEEYRELEHLREYTDRIGNFHNNIIFDDDLPIGFITYWDFDEFYYVEHFATNPALRNGGYGKRTLEHLCEFLKRPIVLEVERPVEEMAKRRINFYQRHGFTLWEKDYYQPPYKEGDDFLPMYLMVHGNLDAEKDYEGIRHKLHTIVYGVK",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.06995886372245833,
+        "cosine": 0.9985600665074794,
+        "relative_l2": 0.053488062742849396,
+        "relative_size": 0.05620333334963265
+      },
+      "decoded": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINRGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSASGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "id": "3VOR_1",
+      "kind": "reference",
+      "length": 182,
+      "nll": 1.2555687427520752,
+      "pair_bias_relative_l2": 0.06656862050294876,
+      "plddt": {
+        "reencoded": 0.9147219826559444
+      },
+      "ptm": {
+        "reencoded": 0.9391301870346069
+      },
+      "sequence": "GSDSRTVSELVTNTNTIRVAMKDAYQRDGKYPDYQAPLSLTADSIKTDSTGIAVAQLVQLGKLTPDEARNGISGDYIGIGGAITSSGSTINKGFAMELNGLSQEQCRSILGQVGDNWEYVAVGTSPSGSYDALSAGAVNMLAATDNTTILRSLAANGQVSLTAEKILKTCTATVNSITLASR",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "id": "6Q3V_1",
+      "kind": "reference",
+      "length": 188,
+      "nll": 1.4084564447402954,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.8688614254302167
+      },
+      "ptm": {
+        "reencoded": 0.74057537317276
+      },
+      "sequence": "GSDEFTAPAEKAELLEQSRGRIEGLFGVSLAVLGALGAEEPLPARIWLQLCGAQEAVHSAKEYIKGICEPELEERECYPKDMHCIFVGAESLFLKSLIQDTCADLCILDIGLLGIRGSAEAVVMARSHIQQFVKLFENKENLPSSQKESEVKREFKQFVEAHADNYTMDLLILPTSLKKELLTLTQGE",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.1421224208626358,
+        "cosine": 0.9951566000814409,
+        "relative_l2": 0.10206796128882491,
+        "relative_size": 0.10863564726081533
+      },
+      "decoded": "MARIPPLIVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKIPLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "id": "2QOR_1",
+      "kind": "reference",
+      "length": 196,
+      "nll": 1.3787662982940674,
+      "pair_bias_relative_l2": 0.11882679164409637,
+      "plddt": {
+        "reencoded": 0.9557110825363471
+      },
+      "ptm": {
+        "reencoded": 0.9723291397094727
+      },
+      "sequence": "MARIPPLVVCGPSGVGKGTLIKKVLSEFPSRFRFSISCTTRNKREKETNGVDYYFVDKDDFERKLKEGQFLEFDKYANNFYGTLKSEYDLAVGEGKICLFEMNINGVKQLKESKHIQDGIYIFVKPPSIDILLGRLKNRNTEKPEEINKRMQELTREMDEADKVGFNYFIVNDDLARTYAELREYLLGSYPQLRGG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.14394239915806867,
+        "cosine": 0.9943154833813644,
+        "relative_l2": 0.10449440218576117,
+        "relative_size": 0.10855029542564881
+      },
+      "decoded": "MRLWLIRHGETQANVDGLFSGHADTLLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMYFGDWEMRHHRDLMQEDAENYSAWCNDWQHVIPTNGEGFQAFSQRVERFIARLSEYQPYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "id": "6NRU_1",
+      "kind": "reference",
+      "length": 203,
+      "nll": 0.9577997922897339,
+      "pair_bias_relative_l2": 0.1251898556947708,
+      "plddt": {
+        "reencoded": 0.9614695210762212
+      },
+      "ptm": {
+        "reencoded": 0.9792404770851135
+      },
+      "sequence": "MRLWLIRHGETQANVDGLYSGHAPTPLTARGIEQAQNLHTLLDDVSFDLVLCSELERAQHTARLVLSDRQLPVHIIPELNEMFFGDWEMRHHRDLMQEDAENYSAWCNDWQHAIPTNGEGFQAFSQRVERFIARLSEYQHYQNILIVSHQGVLSLLIARLIGMPAESMWHFRVDQGCWSAIDINQKFATLRVLNSRAIGVENA",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.05554745972263691,
+        "cosine": 0.9989315589898311,
+        "relative_l2": 0.041915105487342695,
+        "relative_size": 0.037797977458730446
+      },
+      "decoded": "MRPSLKALQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "id": "3BYI_1",
+      "kind": "reference",
+      "length": 211,
+      "nll": 0.4730319082736969,
+      "pair_bias_relative_l2": 0.05537662282586098,
+      "plddt": {
+        "reencoded": 0.9658151172913646
+      },
+      "ptm": {
+        "reencoded": 0.9631250500679016
+      },
+      "sequence": "MRPSLKTLQEKGLIKDQIFGSHLHKVCERENSTVPWFVKQCIEAVEKRGLDVDGIYRVSGNLATIQKLRFIVNQEEKLNLDDSQWEDIHVVTGALKMFFRELPEPLFPYSFFEQFVEAIKKQDNNTRIEAVKSLVQKLPPPNRDTMKVLFGHLTKIVAKASKNLMSTQSLGIVFGPTLLRAENETGNMAIHMVYQNQIAELMLSEYSKIFG",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.0,
+        "cosine": 1.0,
+        "relative_l2": 0.0,
+        "relative_size": 0.0
+      },
+      "decoded": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "id": "7L6Z_1",
+      "kind": "reference",
+      "length": 214,
+      "nll": 0.8288237452507019,
+      "pair_bias_relative_l2": 0.0,
+      "plddt": {
+        "reencoded": 0.9689166086299397
+      },
+      "ptm": {
+        "reencoded": 0.9829901456832886
+      },
+      "sequence": "MNFPQLSKEVAEDEAEVILHTSQGDIRIKLFPKLAPLAVENFLTHAKEGYYNGITFHRVIDGFMVQTGDPKGDGTGGQSIWHDKDKTKDKGTGFKNEITPYLYNIRGALAMANTGQPNTNGSQFFINQNSTDTSSKLPTSKYPQKIIEAYKEGGNPSLDGKHPVFGQVIGGMDVVDKIAKAEKDEKDKPTTAITIDSIEVVKDYDFKSENLYFQ",
+      "slurm_job": "129067"
+    },
+    {
+      "card": "NVIDIA H100 PCIe",
+      "consistency": {
+        "anoise_level": 0.07495042358394965,
+        "cosine": 0.9985034077281759,
+        "relative_l2": 0.057641328802391194,
+        "relative_size": 0.05883780265868014
+      },
+      "decoded": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGITRDQPFTFEDGSTACMPAMREKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "id": "4LU4_1",
+      "kind": "reference",
+      "length": 220,
+      "nll": 1.441987156867981,
+      "pair_bias_relative_l2": 0.07156294584274292,
+      "plddt": {
+        "reencoded": 0.9518585056066513
+      },
+      "ptm": {
+        "reencoded": 0.959744930267334
+      },
+      "sequence": "HHMEHNYFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHNTFEWAGVTRDQPFTFEDGSTACMPAMRPKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQGLSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYASIEAMQHNNPEPMKDLFEDITHPQKSLLLKEFISQ",
+      "slurm_job": "129067"
+    }
+  ],
+  "experiment": "esmfold2.seqeval.fold",
+  "lm_dropout": {
+    "lm_dropout": 0.0,
+    "per_loop": true
+  },
+  "masks": {
+    "count": 10,
+    "rate": 0.15
+  },
+  "plausibility": "loaded",
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "checkpoint": {
+      "config.json": "72054c1af92f432a",
+      "identity_source": "hf-blob-sha256",
+      "model.safetensors.index.json": "5e1f94eb5cd4b0ff",
+      "resolved": "/path/to/home/workspaces/models/hf/biohub/ESMFold2",
+      "shards": {
+        "model-00001-of-00006.safetensors": "a24f050e2a2f9746b43b435c53719afc575a374fa302731b6911356a3d8b5cac",
+        "model-00002-of-00006.safetensors": "1af1615f6f6d1b3c0a24a63d9052a0ecad5b3831d1513c1a5fea73870c1bec73",
+        "model-00003-of-00006.safetensors": "357b55ec56192fd01a1cfc39a5260caf2242503ac7c554f614e43c7a469f0ced",
+        "model-00004-of-00006.safetensors": "f065aca1a13308bce41b78f728c28a0a29e3a9db6af531a74a258dbb06f8721b",
+        "model-00005-of-00006.safetensors": "e0c507dce5b2ddb22f77305607b4332506137850c5378e98e9729345264668b7",
+        "model-00006-of-00006.safetensors": "90015eb13bbeab54237b18d6748dbd47f4bfd108fdf45704d66e5c3a93f8df7c"
+      },
+      "weights_sha256": "5457987c978cce03"
+    },
+    "checkpoint_name": "ESMFold2",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "c14164487671e96eea2bb09f56c79d9fbff2c3ea",
+    "gpu": "NVIDIA H100 PCIe",
+    "host": "gpu1",
+    "mode": "seqeval_fold",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "129067",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "route": "reencoded",
+  "seed": 20261122,
+  "settings": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic": true
+  }
+}

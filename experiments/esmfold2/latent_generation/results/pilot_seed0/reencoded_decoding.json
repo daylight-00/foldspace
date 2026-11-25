@@ -1,0 +1,20 @@
+{
+  "whitened": {
+    "accuracy_max": 1.0,
+    "accuracy_median": 1.0,
+    "accuracy_min": 0.9940828402366864,
+    "samples": 48
+  },
+  "whitened_with_sequence_loss": {
+    "accuracy_max": 1.0,
+    "accuracy_median": 1.0,
+    "accuracy_min": 0.9881656804733728,
+    "samples": 48
+  },
+  "standardized": {
+    "accuracy_max": 1.0,
+    "accuracy_median": 1.0,
+    "accuracy_min": 0.9921259842519685,
+    "samples": 48
+  }
+}

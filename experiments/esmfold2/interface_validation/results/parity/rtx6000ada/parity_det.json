@@ -1,0 +1,692 @@
+{
+  "cache_check": {
+    "all_within": true,
+    "chains": [
+      {
+        "exact": false,
+        "id": "1O82_1",
+        "length": 70,
+        "max_abs": 3.814697265625e-06,
+        "max_abs_over_max": 6.893002065763789e-08,
+        "rel_l2": 6.143532325225813e-08,
+        "within": true
+      },
+      {
+        "exact": false,
+        "id": "3K1X_1",
+        "length": 130,
+        "max_abs": 3.814697265625e-06,
+        "max_abs_over_max": 7.900703952722188e-08,
+        "rel_l2": 6.055767897191087e-08,
+        "within": true
+      },
+      {
+        "exact": false,
+        "id": "5CCS_1",
+        "length": 164,
+        "max_abs": 7.62939453125e-06,
+        "max_abs_over_max": 1.385154838494755e-07,
+        "rel_l2": 6.094545250916844e-08,
+        "within": true
+      },
+      {
+        "exact": false,
+        "id": "8DI1_1",
+        "length": 220,
+        "max_abs": 7.62939453125e-06,
+        "max_abs_over_max": 1.1375651895951462e-07,
+        "rel_l2": 6.004286725419203e-08,
+        "within": true
+      }
+    ],
+    "skipped": false,
+    "tensor_tolerance": 4.76837158203125e-07
+  },
+  "experiment": "esmfold2.validate_interface.parity",
+  "lite_backbone": {
+    "freed_gib": 11.917187690734863,
+    "present_after": false,
+    "present_before": true
+  },
+  "lm_dropout": {
+    "lm_dropout": 0.0,
+    "per_loop": true
+  },
+  "provenance": {
+    "allow_dirty": false,
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "checkpoint": {
+      "config.json": "72054c1af92f432a",
+      "identity_source": "hf-blob-sha256",
+      "model.safetensors.index.json": "5e1f94eb5cd4b0ff",
+      "resolved": "/path/to/home/workspaces/models/hf/biohub/ESMFold2",
+      "shards": {
+        "model-00001-of-00006.safetensors": "a24f050e2a2f9746b43b435c53719afc575a374fa302731b6911356a3d8b5cac",
+        "model-00002-of-00006.safetensors": "1af1615f6f6d1b3c0a24a63d9052a0ecad5b3831d1513c1a5fea73870c1bec73",
+        "model-00003-of-00006.safetensors": "357b55ec56192fd01a1cfc39a5260caf2242503ac7c554f614e43c7a469f0ced",
+        "model-00004-of-00006.safetensors": "f065aca1a13308bce41b78f728c28a0a29e3a9db6af531a74a258dbb06f8721b",
+        "model-00005-of-00006.safetensors": "e0c507dce5b2ddb22f77305607b4332506137850c5378e98e9729345264668b7",
+        "model-00006-of-00006.safetensors": "90015eb13bbeab54237b18d6748dbd47f4bfd108fdf45704d66e5c3a93f8df7c"
+      },
+      "weights_sha256": "5457987c978cce03"
+    },
+    "checkpoint_name": "ESMFold2",
+    "cuda": "13.2",
+    "cuda_available": true,
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "flash_attn_present": false,
+    "foldspace": "afcd2bee0541d7e686c383b34f137658c9c5b2bf",
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "host": "gpu4",
+    "mode": "parity",
+    "python": "3.14.6",
+    "reproducible_tree": true,
+    "slurm_job": "127765",
+    "torch": "2.14.0+cu132",
+    "transformer_engine_present": false,
+    "xformers_present": false
+  },
+  "records": [
+    {
+      "fp32_single_vs_model_single": {
+        "exact": false,
+        "max_abs": 0.19134902954101562,
+        "max_abs_over_max": 0.0034477302620002817,
+        "rel_l2": 0.0026835160105107858
+      },
+      "id": "1WHZ_1",
+      "length": 70,
+      "observed_in_forward": {
+        "autocast": true,
+        "output_dtype": "torch.float32",
+        "stack_dtype": "torch.float32"
+      },
+      "observed_single": {
+        "exact": true,
+        "max_abs": 0.0,
+        "max_abs_over_max": 0.0,
+        "rel_l2": 0.0
+      },
+      "plddt": {
+        "native": 0.7497467458248138,
+        "other_seed": 0.7489218711853027,
+        "repeat": 0.7497467458248138,
+        "single": 0.7497467458248138,
+        "single_fp32": 0.7505759119987487,
+        "single_lite": 0.7497467458248138,
+        "stack": 0.7497467458248138
+      },
+      "ptm": {
+        "native": 0.6522644758224487,
+        "other_seed": 0.6520372033119202,
+        "repeat": 0.6522644758224487,
+        "single": 0.6522644758224487,
+        "single_fp32": 0.653125524520874,
+        "single_lite": 0.6522644758224487,
+        "stack": 0.6522644758224487
+      },
+      "single_dtype": "torch.bfloat16",
+      "single_roundtrip_exact": true,
+      "structure": {
+        "other_seed": {
+          "ca_lddt": 0.9904,
+          "ca_rmsd": 0.32091020413353033,
+          "ca_tm": 0.9886459813703222,
+          "identical": false,
+          "max_atom_shift": 46.659536088313494,
+          "rms_atom_shift": 19.39925765496362
+        },
+        "repeat": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 2.5488308367605623e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 2.5488308367605623e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single_fp32": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.009975490758223203,
+          "ca_tm": 0.9999882953445688,
+          "identical": false,
+          "max_atom_shift": 0.27174550834886396,
+          "rms_atom_shift": 0.12323799162107288
+        },
+        "single_lite": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 2.5488308367605623e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "stack": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 2.5488308367605623e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        }
+      },
+      "tensor": {
+        "single_lite_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        },
+        "single_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        }
+      }
+    },
+    {
+      "fp32_single_vs_model_single": {
+        "exact": false,
+        "max_abs": 0.23807144165039062,
+        "max_abs_over_max": 0.004232381184895833,
+        "rel_l2": 0.002653743466350032
+      },
+      "id": "4NWH_1",
+      "length": 129,
+      "observed_in_forward": {
+        "autocast": true,
+        "output_dtype": "torch.float32",
+        "stack_dtype": "torch.float32"
+      },
+      "observed_single": {
+        "exact": true,
+        "max_abs": 0.0,
+        "max_abs_over_max": 0.0,
+        "rel_l2": 0.0
+      },
+      "plddt": {
+        "native": 0.9800368085388065,
+        "other_seed": 0.9797648635021475,
+        "repeat": 0.9800368085388065,
+        "single": 0.9800368085388065,
+        "single_fp32": 0.9800329106722692,
+        "single_lite": 0.9800368085388065,
+        "stack": 0.9800368085388065
+      },
+      "ptm": {
+        "native": 0.9914607405662537,
+        "other_seed": 0.9912953972816467,
+        "repeat": 0.9914607405662537,
+        "single": 0.9914607405662537,
+        "single_fp32": 0.9913943409919739,
+        "single_lite": 0.9914607405662537,
+        "stack": 0.9914607405662537
+      },
+      "single_dtype": "torch.bfloat16",
+      "single_roundtrip_exact": true,
+      "structure": {
+        "other_seed": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.08407803619355589,
+          "ca_tm": 0.9996029565567867,
+          "identical": false,
+          "max_atom_shift": 41.405906663827494,
+          "rms_atom_shift": 21.18062555594617
+        },
+        "repeat": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 7.738257275314719e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 7.738257275314719e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single_fp32": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.005110673915455457,
+          "ca_tm": 0.9999985282052427,
+          "identical": false,
+          "max_atom_shift": 0.1497920632576958,
+          "rms_atom_shift": 0.060432448821359896
+        },
+        "single_lite": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 7.738257275314719e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "stack": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 7.738257275314719e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        }
+      },
+      "tensor": {
+        "single_lite_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        },
+        "single_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        }
+      }
+    },
+    {
+      "fp32_single_vs_model_single": {
+        "exact": false,
+        "max_abs": 0.28842926025390625,
+        "max_abs_over_max": 0.004437373234675481,
+        "rel_l2": 0.0025516796617142713
+      },
+      "id": "4M5H_1",
+      "length": 159,
+      "observed_in_forward": {
+        "autocast": true,
+        "output_dtype": "torch.float32",
+        "stack_dtype": "torch.float32"
+      },
+      "observed_single": {
+        "exact": true,
+        "max_abs": 0.0,
+        "max_abs_over_max": 0.0,
+        "rel_l2": 0.0
+      },
+      "plddt": {
+        "native": 0.9684393732052929,
+        "other_seed": 0.96859968720742,
+        "repeat": 0.9684393732052929,
+        "single": 0.9684393732052929,
+        "single_fp32": 0.9684204691610996,
+        "single_lite": 0.9684393732052929,
+        "stack": 0.9684393732052929
+      },
+      "ptm": {
+        "native": 0.9861142039299011,
+        "other_seed": 0.9863036274909973,
+        "repeat": 0.9861142039299011,
+        "single": 0.9861142039299011,
+        "single_fp32": 0.9861285090446472,
+        "single_lite": 0.9861142039299011,
+        "stack": 0.9861142039299011
+      },
+      "single_dtype": "torch.bfloat16",
+      "single_roundtrip_exact": true,
+      "structure": {
+        "other_seed": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.12052733018223348,
+          "ca_tm": 0.9993448353549181,
+          "identical": false,
+          "max_atom_shift": 41.80646554104207,
+          "rms_atom_shift": 22.79099741478051
+        },
+        "repeat": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 1.0027017848207291e-14,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 1.0027017848207291e-14,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single_fp32": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.0030501658861458,
+          "ca_tm": 0.9999995787360323,
+          "identical": false,
+          "max_atom_shift": 0.14808576363845258,
+          "rms_atom_shift": 0.07828324847452499
+        },
+        "single_lite": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 1.0027017848207291e-14,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "stack": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 1.0027017848207291e-14,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        }
+      },
+      "tensor": {
+        "single_lite_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        },
+        "single_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        }
+      }
+    },
+    {
+      "fp32_single_vs_model_single": {
+        "exact": false,
+        "max_abs": 0.2636451721191406,
+        "max_abs_over_max": 0.004286913367790904,
+        "rel_l2": 0.0025492793022673403
+      },
+      "id": "4LU4_1",
+      "length": 220,
+      "observed_in_forward": {
+        "autocast": true,
+        "output_dtype": "torch.float32",
+        "stack_dtype": "torch.float32"
+      },
+      "observed_single": {
+        "exact": true,
+        "max_abs": 0.0,
+        "max_abs_over_max": 0.0,
+        "rel_l2": 0.0
+      },
+      "plddt": {
+        "native": 0.9377632406624881,
+        "other_seed": 0.9516087933020159,
+        "repeat": 0.9377632406624881,
+        "single": 0.9377632406624881,
+        "single_fp32": 0.9376765516671267,
+        "single_lite": 0.9377632406624881,
+        "stack": 0.9377632406624881
+      },
+      "ptm": {
+        "native": 0.9346889853477478,
+        "other_seed": 0.9596244096755981,
+        "repeat": 0.9346889853477478,
+        "single": 0.9346889853477478,
+        "single_fp32": 0.934664785861969,
+        "single_lite": 0.9346889853477478,
+        "stack": 0.9346889853477478
+      },
+      "single_dtype": "torch.bfloat16",
+      "single_roundtrip_exact": true,
+      "structure": {
+        "other_seed": {
+          "ca_lddt": 0.9673334647221127,
+          "ca_rmsd": 5.208241925255146,
+          "ca_tm": 0.8129695915309985,
+          "identical": false,
+          "max_atom_shift": 54.076605685674785,
+          "rms_atom_shift": 29.31474353684985
+        },
+        "repeat": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 4.3076211136892415e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 4.3076211136892415e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "single_fp32": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 0.010049750145402764,
+          "ca_tm": 0.9999966754366335,
+          "identical": false,
+          "max_atom_shift": 0.3456471453714023,
+          "rms_atom_shift": 0.17196366596627094
+        },
+        "single_lite": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 4.3076211136892415e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        },
+        "stack": {
+          "ca_lddt": 1.0,
+          "ca_rmsd": 4.3076211136892415e-15,
+          "ca_tm": 1.0,
+          "identical": true,
+          "max_atom_shift": 0.0,
+          "rms_atom_shift": 0.0
+        }
+      },
+      "tensor": {
+        "single_lite_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        },
+        "single_vs_stack": {
+          "exact": true,
+          "max_abs": 0.0,
+          "max_abs_over_max": 0.0,
+          "rel_l2": 0.0
+        }
+      }
+    }
+  ],
+  "seeds": {
+    "other": 20261120,
+    "reference": 20261119
+  },
+  "settings": {
+    "cublas_workspace_config": ":4096:8",
+    "deterministic": true
+  },
+  "shim_dtype": "float32",
+  "verdict": {
+    "all_observed_exact": true,
+    "all_roundtrips_exact": true,
+    "all_routes_within": true,
+    "all_tensors_within": true,
+    "chains": [
+      {
+        "id": "1WHZ_1",
+        "length": 70,
+        "observed_single_exact": true,
+        "repeat_floor": 0.0,
+        "routes": {
+          "single": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "single_lite": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "stack": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          }
+        },
+        "single_roundtrip_exact": true,
+        "tensors": {
+          "single_lite_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          },
+          "single_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          }
+        }
+      },
+      {
+        "id": "4NWH_1",
+        "length": 129,
+        "observed_single_exact": true,
+        "repeat_floor": 0.0,
+        "routes": {
+          "single": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "single_lite": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "stack": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          }
+        },
+        "single_roundtrip_exact": true,
+        "tensors": {
+          "single_lite_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          },
+          "single_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          }
+        }
+      },
+      {
+        "id": "4M5H_1",
+        "length": 159,
+        "observed_single_exact": true,
+        "repeat_floor": 0.0,
+        "routes": {
+          "single": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "single_lite": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "stack": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          }
+        },
+        "single_roundtrip_exact": true,
+        "tensors": {
+          "single_lite_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          },
+          "single_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          }
+        }
+      },
+      {
+        "id": "4LU4_1",
+        "length": 220,
+        "observed_single_exact": true,
+        "repeat_floor": 0.0,
+        "routes": {
+          "single": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "single_lite": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          },
+          "stack": {
+            "allowed": 0.001,
+            "max_atom_shift": 0.0,
+            "within": true
+          }
+        },
+        "single_roundtrip_exact": true,
+        "tensors": {
+          "single_lite_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          },
+          "single_vs_stack": {
+            "exact": true,
+            "max_abs": 0.0,
+            "max_abs_over_max": 0.0,
+            "rel_l2": 0.0,
+            "within": true
+          }
+        }
+      }
+    ],
+    "structure_abs_tol": 0.001,
+    "structure_repeat_factor": 3.0,
+    "tensor_tolerance": 4.76837158203125e-07
+  }
+}

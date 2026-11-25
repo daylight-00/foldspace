@@ -1,0 +1,148 @@
+{
+  "arms": {
+    "whitened": {
+      "controls": {
+        "mean": {
+          "plddt_median": 0.6475968607339593,
+          "share_confident": 0.4166666666666667
+        },
+        "shuffled": {
+          "plddt_median": 0.44487201326008385,
+          "share_confident": 0.0
+        }
+      },
+      "direct_fold": {
+        "plddt_median": 0.4600733392943557,
+        "ptm_median": 0.19965354353189468,
+        "share_confident": 0.0
+      },
+      "floor": {
+        "plddt_median": 0.6401755325633924,
+        "share_confident": 0.4375,
+        "success_share": 0.0
+      },
+      "reference": {
+        "chains": 24,
+        "plddt_median": 0.884973467481313,
+        "share_confident": 0.9166666666666666,
+        "success_share": 0.9166666666666666
+      },
+      "samples": 48,
+      "self_consistency": {
+        "reference_sctm_median": 0.97165,
+        "samples_sctm_median": 0.2296,
+        "samples_share_consistent": 0.0
+      },
+      "sequence": {
+        "composition_jsd_from_train": 0.0017500343297248812,
+        "eight_mer_containment_median": 0.0,
+        "mean_confidence": 0.98555,
+        "mean_pairwise_eight_mer_jaccard": 0.0,
+        "share_memorised": 0.0
+      },
+      "success_share": 0.0,
+      "verdict": {
+        "floor_success_share": 0.0,
+        "reference_success_share": 0.9166666666666666,
+        "success_share": 0.0,
+        "supported": false
+      }
+    },
+    "whitened_with_sequence_loss": {
+      "controls": {
+        "mean": {
+          "plddt_median": 0.591113406231633,
+          "share_confident": 0.4166666666666667
+        },
+        "shuffled": {
+          "plddt_median": 0.45407216928612726,
+          "share_confident": 0.0
+        }
+      },
+      "direct_fold": {
+        "plddt_median": 0.4661549915301352,
+        "ptm_median": 0.19815907627344131,
+        "share_confident": 0.020833333333333332
+      },
+      "floor": {
+        "plddt_median": 0.6256688659967378,
+        "share_confident": 0.375,
+        "success_share": 0.0
+      },
+      "reference": {
+        "chains": 24,
+        "plddt_median": 0.884973467481313,
+        "share_confident": 0.9166666666666666,
+        "success_share": 0.9166666666666666
+      },
+      "samples": 48,
+      "self_consistency": {
+        "reference_sctm_median": 0.97165,
+        "samples_sctm_median": 0.21565,
+        "samples_share_consistent": 0.0
+      },
+      "sequence": {
+        "composition_jsd_from_train": 0.0022332886013474978,
+        "eight_mer_containment_median": 0.0,
+        "mean_confidence": 0.96245,
+        "mean_pairwise_eight_mer_jaccard": 0.0,
+        "share_memorised": 0.0
+      },
+      "success_share": 0.0,
+      "verdict": {
+        "floor_success_share": 0.0,
+        "reference_success_share": 0.9166666666666666,
+        "success_share": 0.0,
+        "supported": false
+      }
+    },
+    "standardized": {
+      "controls": {
+        "mean": {
+          "plddt_median": 0.5881603639786868,
+          "share_confident": 0.3958333333333333
+        },
+        "shuffled": {
+          "plddt_median": 0.4364038272714031,
+          "share_confident": 0.0
+        }
+      },
+      "direct_fold": {
+        "plddt_median": 0.4686180862569504,
+        "ptm_median": 0.22995680570602417,
+        "share_confident": 0.0
+      },
+      "floor": {
+        "plddt_median": 0.603309087137168,
+        "share_confident": 0.3541666666666667,
+        "success_share": 0.0
+      },
+      "reference": {
+        "chains": 24,
+        "plddt_median": 0.884973467481313,
+        "share_confident": 0.9166666666666666,
+        "success_share": 0.9166666666666666
+      },
+      "samples": 48,
+      "self_consistency": {
+        "reference_sctm_median": 0.97165,
+        "samples_sctm_median": 0.22775,
+        "samples_share_consistent": 0.0
+      },
+      "sequence": {
+        "composition_jsd_from_train": 0.002521695740657635,
+        "eight_mer_containment_median": 0.0,
+        "mean_confidence": 0.9756,
+        "mean_pairwise_eight_mer_jaccard": 0.0,
+        "share_memorised": 0.0
+      },
+      "success_share": 0.0,
+      "verdict": {
+        "floor_success_share": 0.0,
+        "reference_success_share": 0.9166666666666666,
+        "success_share": 0.0,
+        "supported": false
+      }
+    }
+  }
+}
