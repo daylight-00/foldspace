@@ -6,7 +6,7 @@ Designs and evaluation criteria are in [methods.md](methods.md). Each experiment
 
 ![Key results](figures/results.svg)
 
-*Drawn by [`scripts/make_figures.py`](../scripts/make_figures.py) from the committed records. A: reconstruction given the true Cα trace; the 32-channel type-only value is the mean of the two decoders the flows used. B: usable samples of 192. C: samples of the re-encoded route that pass the success rule (outlined) and the credit rule (filled). The sample counts of B and C are defined differently and are not comparable.*
+*A: reconstruction given the true Cα trace; the 32-channel type-only value is the mean of the two decoders the flows used. B: usable samples of 192. C: samples of the re-encoded route that pass the success rule (outlined) and the credit rule (filled). The sample counts of B and C are defined differently and are not comparable.*
 
 ## Architecture A: RFD4 latent adaptation
 
