@@ -1,0 +1,68 @@
+[project]
+name = "foldspace"
+version = "0.1.0"
+description = "Pretrained protein representations as generative latents: RFD4 latent adaptation and ESMFold2 latent generation"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "daylight-00" }]
+requires-python = ">=3.12"
+dependencies = [
+    # The folding substrate. Consumed as an external package; never vendored.
+    "esm>=3.4",
+    "atomworks>=2.2",
+    "biotite",
+    "numpy",
+    "torch",
+]
+
+[project.urls]
+Repository = "https://github.com/daylight-00/foldspace"
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-xdist",
+    "ruff==0.16.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.optional-dependencies]
+# The folding substrate the esmfold2 package loads the model through (esmfold2_atomworks), at the revision the runs used.
+esmfold2 = [
+    "esmfold2-atomworks @ git+https://github.com/daylight-00/esmfold2-atomworks.git@8deb4c21350d52ee308b139d400d0feb85b44073",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/foldspace"]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py312"
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+extend-select = ["I", "F401"]
+ignore = [
+    "E741", # variables like "L"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers --strict-config"
+markers = [
+    # Needs nothing but this repository and numpy -- no esm, no atomworks, no
+    # torch, no weights, no network.
+    "offline: runs without the upstream stack installed",
+    "weights: reads the ESMFold2 / ESMC checkpoints from disk (no GPU)",
+    "gpu: requires a GPU and the weights",
+    "slow: takes more than a few seconds",
+]
