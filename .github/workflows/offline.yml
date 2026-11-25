@@ -1,0 +1,26 @@
+name: offline
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      # Only the tests that need nothing but this repository and numpy: no GPU, no weights, no upstream source trees.
+      - name: offline tests
+        env:
+          PYTHONPATH: src
+        run: uv run --no-project --python 3.12 --with pytest --with numpy -- python -m pytest -m offline -q
+      # The wheel holds what the code imports: install it alone, without the substrate, and import what needs only numpy.
+      - name: wheel installs and imports
+        run: |
+          uv build --wheel --out-dir dist
+          uv venv --python 3.12 /tmp/wheel-env
+          uv pip install --python /tmp/wheel-env/bin/python --no-deps dist/*.whl
+          uv pip install --python /tmp/wheel-env/bin/python numpy
+          cd /tmp && /tmp/wheel-env/bin/python -c "import foldspace.esmfold2.seqeval, foldspace.esmfold2.perturb, foldspace.esmfold2.batching, foldspace.evaluation.geometry, foldspace.rfd4; print('wheel imports ok')"
