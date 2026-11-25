@@ -1,0 +1,12 @@
+native_continuation s1/1600 scale 1: data variance 6.93, final state variance 6.93 (7 snapshots); clean prediction's variance by t: 0.00:0.01, 0.05:1.53, 0.18:3.15, 0.38:4.20, 0.65:6.31, 0.82:6.87, 0.98:6.94; state's variance by t: 0.00:31.91, 0.06:22.05, 0.19:2.39, 0.40:1.19, 0.67:2.95, 0.83:4.82, 1.00:6.93
+esmc_only s2/1600 scale 1: data variance 33.72, final state variance 13.45 (7 snapshots); clean prediction's variance by t: 0.00:0.18, 0.05:3.99, 0.18:7.73, 0.38:9.63, 0.65:12.28, 0.82:13.04, 0.98:13.42; state's variance by t: 0.00:31.91, 0.06:22.08, 0.19:2.51, 0.40:1.91, 0.67:5.68, 0.83:9.07, 1.00:13.45
+esmc_only s2/3200 scale 1: data variance 33.72, final state variance 2.28 (7 snapshots); clean prediction's variance by t: 0.00:0.17, 0.05:4.02, 0.18:6.40, 0.38:2.34, 0.65:2.69, 0.82:2.36, 0.98:2.28; state's variance by t: 0.00:31.91, 0.06:22.06, 0.19:2.46, 0.40:0.85, 0.67:1.38, 0.83:1.74, 1.00:2.28
+esmc_only s1/3200 scale 1: data variance 34.10, final state variance 1.96 (7 snapshots); clean prediction's variance by t: 0.00:0.15, 0.05:3.35, 0.18:5.67, 0.38:1.92, 0.65:2.41, 0.82:2.18, 0.98:1.97; state's variance by t: 0.00:31.91, 0.06:22.05, 0.19:2.43, 0.40:0.78, 0.67:1.25, 0.83:1.64, 1.00:1.96
+esmc_only s2/3200 scale 8: data variance 33.72, final state variance 17.38 (7 snapshots); clean prediction's variance by t: 0.00:0.17, 0.05:4.66, 0.18:11.27, 0.38:13.43, 0.65:16.77, 0.82:17.01, 0.98:17.35; state's variance by t: 0.00:31.91, 0.06:158.63, 0.19:18.46, 0.40:5.97, 0.67:8.90, 0.83:12.42, 1.00:17.38
+collapse time of s2/3200 against esmc_only s2/1600 scale 1: 0.375
+collapse time of s1/3200 against esmc_only s2/1600 scale 1: 0.375
+collapse time of s2/3200 scale 8 against esmc_only s2/1600 scale 1: none
+s2/1600 calibrated: usable 51 against 43 uncalibrated (best uncalibrated 43; lost 12, gained 20, exact p 0.215, flat) -> recovers; by rule calibrated chain 189 sequence 142 designable 70 usable 51; uncalibrated 189 91 74 43
+s2/3200 calibrated: usable 3 against 1 uncalibrated (best uncalibrated 43; lost 0, gained 2, exact p 0.5, flat) -> none; by rule calibrated chain 191 sequence 114 designable 6 usable 3; uncalibrated 191 1 4 1
+s1/3200 calibrated: usable 0 against 0 uncalibrated (best uncalibrated 11; lost 0, gained 0, exact p 1, flat) -> none; by rule calibrated chain 185 sequence 159 designable 4 usable 0; uncalibrated 185 2 8 0
+row 3: the coupling of Cα and latent itself fails: the reuse of the pretrained flow for this latent ends

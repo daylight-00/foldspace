@@ -1,0 +1,10 @@
+native_continuation (the native continuation, seed 1) unconditional at scale 1: 142 usable of 192
+s1: esmc_only 2 and type_only 0 usable of 192 at scale 1 (passes usable gate: esmc_only False, type_only False); esmc_only on scale_scan by scale {'1.0': 0, '4.0': 2, '8.0': 4} of 96, heat ratio 0.0 (passes heat gate: False); esmc_only against type_only: level (esmc_only only 2, type_only only 0, exact p 0.5)
+   esmc_only against native_continuation: esmc_only only 2, native_continuation only 142, exact p 9.36e-40
+   esmc_only: {"samples": 192, "entropy_mean_bits": 2.407, "below_3_bits": 163, "readout_agrees_with_decoder": 0.583}
+   type_only: {"samples": 192, "entropy_mean_bits": 2.266, "below_3_bits": 192, "readout_agrees_with_decoder": 0.081}
+s2: esmc_only 43 and type_only 0 usable of 192 at scale 1 (passes usable gate: esmc_only False, type_only False); esmc_only on scale_scan by scale {'1.0': 19, '4.0': 30, '8.0': 19} of 96, heat ratio 0.633 (passes heat gate: False); esmc_only against type_only: above (esmc_only only 43, type_only only 0, exact p 2.27e-13)
+   esmc_only against native_continuation: esmc_only only 15, native_continuation only 114, exact p 5.05e-20
+   esmc_only: {"samples": 192, "entropy_mean_bits": 3.236, "below_3_bits": 38, "readout_agrees_with_decoder": 0.35}
+   type_only: {"samples": 192, "entropy_mean_bits": 2.496, "below_3_bits": 190, "readout_agrees_with_decoder": 0.186}
+outcome neither_generates: neither the ESMC latent nor its control generates: the full-width layout cannot be retargeted by this recipe, with or without ESMC

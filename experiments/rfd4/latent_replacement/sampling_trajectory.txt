@@ -1,0 +1,29 @@
+esmc_only s1: usable 1 after 800 updates, 2 after 1,600 (flat: lost 0, gained 1, exact p 1); mean share of Ca steps in range 1.000 then 0.999
+   by_rule_800: chain 191 sequence 34 designable 10 usable 1
+   by_rule_1600: chain 188 sequence 3 designable 19 usable 2
+   codes_800: channel mean at most 0.47 (abs), spread 0.34 to 0.93, participation ratio 6.3
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.45, 6-10 0.26, 11-20 0.24, 21-32 0.18; squared offset of the mean: 1-5 0.53, 6-10 0.18, 11-20 0.41, 21-32 0.07
+   codes_1600: channel mean at most 0.75 (abs), spread 0.23 to 0.54, participation ratio 8.7
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.11, 6-10 0.14, 11-20 0.13, 21-32 0.12; squared offset of the mean: 1-5 1.96, 6-10 0.61, 11-20 0.88, 21-32 0.71
+esmc_only s2: usable 4 after 800 updates, 43 after 1,600 (rises: lost 3, gained 42, exact p 8.65e-10); mean share of Ca steps in range 1.000 then 0.999
+   by_rule_800: chain 191 sequence 35 designable 13 usable 4
+   by_rule_1600: chain 189 sequence 91 designable 74 usable 43
+   codes_800: channel mean at most 0.56 (abs), spread 0.30 to 1.05, participation ratio 7.0
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.60, 6-10 0.33, 11-20 0.27, 21-32 0.15; squared offset of the mean: 1-5 0.63, 6-10 0.25, 11-20 0.24, 21-32 0.11
+   codes_1600: channel mean at most 0.35 (abs), spread 0.40 to 0.97, participation ratio 11.4
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.46, 6-10 0.36, 11-20 0.46, 21-32 0.24; squared offset of the mean: 1-5 0.25, 6-10 0.34, 11-20 0.37, 21-32 0.21
+type_only s1: usable 0 after 800 updates, 0 after 1,600 (flat: lost 0, gained 0, exact p 1); mean share of Ca steps in range 0.735 then 0.570; start: neither
+   by_rule_800: chain 0 sequence 0 designable 0 usable 0
+   by_rule_1600: chain 0 sequence 0 designable 0 usable 0
+   codes_800: channel mean at most 0.63 (abs), spread 0.40 to 1.01, participation ratio 5.5
+      distance to the nearest table row 1.02, 1.51, 4.07 (10th, 50th, 90th percentile), second nearest 5.51, within 1.5 of a row 0.495; sequence of nearest rows: passes 0, kinds 5.6, top share 0.43, entropy 2.00 bits
+   codes_1600: channel mean at most 1.15 (abs), spread 0.44 to 1.30, participation ratio 4.2
+      distance to the nearest table row 0.32, 0.43, 0.71 (10th, 50th, 90th percentile), second nearest 6.25, within 1.5 of a row 1.000; sequence of nearest rows: passes 0, kinds 8.3, top share 0.45, entropy 2.27 bits
+type_only s2: usable 0 after 800 updates, 0 after 1,600 (flat: lost 0, gained 0, exact p 1); mean share of Ca steps in range 0.815 then 0.607; start: neither
+   by_rule_800: chain 0 sequence 0 designable 0 usable 0
+   by_rule_1600: chain 0 sequence 0 designable 0 usable 0
+   codes_800: channel mean at most 1.02 (abs), spread 0.33 to 0.90, participation ratio 5.4
+      distance to the nearest table row 1.39, 3.70, 4.59 (10th, 50th, 90th percentile), second nearest 5.35, within 1.5 of a row 0.125; sequence of nearest rows: passes 0, kinds 4.2, top share 0.62, entropy 1.39 bits
+   codes_1600: channel mean at most 1.08 (abs), spread 0.54 to 1.22, participation ratio 4.5
+      distance to the nearest table row 0.33, 0.44, 0.69 (10th, 50th, 90th percentile), second nearest 6.24, within 1.5 of a row 1.000; sequence of nearest rows: passes 0, kinds 9.0, top share 0.33, entropy 2.50 bits
+budget: undetermined

@@ -1,0 +1,38 @@
+native_continuation s1: chain 189 sequence 148 designable 184 usable 142 of 192
+   decoder_sequence: passes 148, kinds 17.3, top share 0.21, entropy 3.56 bits
+   readout_sequence: passes 148, kinds 17.3, top share 0.21, entropy 3.56 bits
+   geometry: ca_step_mean 3.825, ca_step_std 0.042, ca_step_in_3p6_4p0 1.000, n_ca_mean 1.466, ca_c_mean 1.527, c_n_next_mean 1.339, rg_ratio 0.982
+   codes: channel mean at most 0.10 (abs), spread 0.18 to 0.99, participation ratio 10.8
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.93, 6-10 0.60, 11-20 1.31, 21-32 17.52; squared offset of the mean: 1-5 0.00, 6-10 0.01, 11-20 0.00, 21-32 0.00
+esmc_only s1: chain 188 sequence 3 designable 19 usable 2 of 192
+   decoder_sequence: passes 3, kinds 10.8, top share 0.46, entropy 2.41 bits
+   readout_sequence: passes 0, kinds 3.8, top share 0.79, entropy 0.89 bits
+   geometry: ca_step_mean 3.790, ca_step_std 0.046, ca_step_in_3p6_4p0 0.999, n_ca_mean 1.280, ca_c_mean 1.376, c_n_next_mean 2.035, rg_ratio 0.914
+   codes: channel mean at most 0.75 (abs), spread 0.23 to 0.54, participation ratio 8.7
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.11, 6-10 0.14, 11-20 0.13, 21-32 0.12; squared offset of the mean: 1-5 1.96, 6-10 0.61, 11-20 0.88, 21-32 0.71
+   step 0 (latent, Ca skill vs x_t): t=0.1 -0.005, -0.100; t=0.5 -0.042, 0.718; t=0.9 -0.013, 0.185
+   loss: first_50 57.08, last_50_of_leg_1 47.24, last_50_of_leg_2 40.08
+esmc_only s2: chain 189 sequence 91 designable 74 usable 43 of 192
+   decoder_sequence: passes 91, kinds 15.1, top share 0.24, entropy 3.24 bits
+   readout_sequence: passes 0, kinds 9.9, top share 0.50, entropy 2.05 bits
+   geometry: ca_step_mean 3.803, ca_step_std 0.053, ca_step_in_3p6_4p0 0.999, n_ca_mean 1.451, ca_c_mean 1.503, c_n_next_mean 1.430, rg_ratio 0.941
+   codes: channel mean at most 0.35 (abs), spread 0.40 to 0.97, participation ratio 11.4
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.46, 6-10 0.36, 11-20 0.46, 21-32 0.24; squared offset of the mean: 1-5 0.25, 6-10 0.34, 11-20 0.37, 21-32 0.21
+   step 0 (latent, Ca skill vs x_t): t=0.1 -0.002, -0.099; t=0.5 -0.043, 0.717; t=0.9 -0.015, 0.226
+   loss: first_50 57.67, last_50_of_leg_1 46.65, last_50_of_leg_2 39.70
+type_only s1: chain 0 sequence 0 designable 0 usable 0 of 192
+   decoder_sequence: passes 0, kinds 8.3, top share 0.45, entropy 2.27 bits
+   readout_sequence: passes 0, kinds 6.9, top share 0.50, entropy 1.99 bits
+   geometry: ca_step_mean 3.926, ca_step_std 0.159, ca_step_in_3p6_4p0 0.570, n_ca_mean 1.189, ca_c_mean 1.261, c_n_next_mean 3.130, rg_ratio 1.085
+   codes: channel mean at most 1.15 (abs), spread 0.44 to 1.30, participation ratio 4.2
+      distance to the nearest table row 0.32, 0.43, 0.71 (10th, 50th, 90th percentile), second nearest 6.25, within 1.5 of a row 1.000; sequence of nearest rows: passes 0, kinds 8.3, top share 0.45, entropy 2.27 bits
+   step 0 (latent, Ca skill vs x_t): t=0.1 -0.003, -0.099; t=0.5 -0.078, 0.705; t=0.9 -0.496, 0.243
+   loss: first_50 58.69, last_50_of_leg_1 30.62, last_50_of_leg_2 20.32
+type_only s2: chain 0 sequence 0 designable 0 usable 0 of 192
+   decoder_sequence: passes 0, kinds 9.0, top share 0.33, entropy 2.50 bits
+   readout_sequence: passes 0, kinds 7.4, top share 0.37, entropy 2.30 bits
+   geometry: ca_step_mean 3.892, ca_step_std 0.174, ca_step_in_3p6_4p0 0.607, n_ca_mean 1.225, ca_c_mean 1.278, c_n_next_mean 3.110, rg_ratio 1.064
+   codes: channel mean at most 1.08 (abs), spread 0.54 to 1.22, participation ratio 4.5
+      distance to the nearest table row 0.33, 0.44, 0.69 (10th, 50th, 90th percentile), second nearest 6.24, within 1.5 of a row 1.000; sequence of nearest rows: passes 0, kinds 9.0, top share 0.33, entropy 2.50 bits
+   step 0 (latent, Ca skill vs x_t): t=0.1 -0.003, -0.099; t=0.5 -0.078, 0.705; t=0.9 -0.496, 0.243
+   loss: first_50 59.79, last_50_of_leg_1 31.60, last_50_of_leg_2 22.05

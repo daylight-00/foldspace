@@ -1,0 +1,43 @@
+rule: at least 8 more one way than the other, exact two-sided p below 0.05; usable = chain rule, sequence rule and a fold within 2 A of its own backbone; update 1600
+learned_posterior_hybrid-s1     scale_scan latent  1.0: chain  96 sequence  52 designable  88 usable  49 of 96
+learned_posterior_hybrid-s1     scale_scan latent  4.0: chain  93 sequence  62 designable  84 usable  55 of 96
+learned_posterior_hybrid-s1     scale_scan latent  8.0: chain  96 sequence  73 designable  83 usable  61 of 96
+learned_posterior_hybrid-s1     unconditional latent  1.0: chain 189 sequence 107 designable 173 usable  89 of 192
+learned_posterior_hybrid-s1     unconditional latent  8.0: chain 191 sequence 150 designable 174 usable 133 of 192
+contextual_hybrid-s1    scale_scan latent  1.0: chain  86 sequence  44 designable  91 usable  38 of 96
+contextual_hybrid-s1    scale_scan latent  4.0: chain  91 sequence  62 designable  91 usable  57 of 96
+contextual_hybrid-s1    scale_scan latent  8.0: chain  89 sequence  83 designable  85 usable  67 of 96
+contextual_hybrid-s1    unconditional latent  1.0: chain 181 sequence  84 designable 178 usable  72 of 192
+contextual_hybrid-s1    unconditional latent  8.0: chain 184 sequence 159 designable 174 usable 137 of 192
+native_continuation-s1  scale_scan latent  1.0: chain  95 sequence  68 designable  95 usable  67 of 96
+native_continuation-s1  scale_scan latent  4.0: chain  95 sequence  77 designable  93 usable  74 of 96
+native_continuation-s1  scale_scan latent  8.0: chain  94 sequence  82 designable  91 usable  77 of 96
+native_continuation-s1  unconditional latent  1.0: chain 189 sequence 148 designable 184 usable 142 of 192
+native_continuation-s1  unconditional latent  8.0: chain 191 sequence 158 designable 182 usable 149 of 192
+identity_hybrid-s1    scale_scan latent  1.0: chain  96 sequence  92 designable  86 usable  82 of 96
+identity_hybrid-s1    scale_scan latent  4.0: chain  93 sequence  91 designable  87 usable  81 of 96
+identity_hybrid-s1    scale_scan latent  8.0: chain  93 sequence  93 designable  73 usable  68 of 96
+identity_hybrid-s1    unconditional latent  1.0: chain 188 sequence 170 designable 174 usable 151 of 192
+tuned scale: learned_posterior_hybrid 8.0, contextual_hybrid 8.0, native_continuation 8.0, identity_hybrid 1.0
+unconditional, each at its tuned scale: learned_posterior_hybrid against contextual_hybrid: lost 38, gained 34, exact p 0.724 -> level
+unconditional, both at the release's own scale 1: learned_posterior_hybrid against contextual_hybrid: lost 32, gained 49, exact p 0.0748 -> level
+unconditional, each at its tuned scale: learned_posterior_hybrid against native_continuation: lost 43, gained 27, exact p 0.0722 -> level
+unconditional, both at the release's own scale 1: learned_posterior_hybrid against native_continuation: lost 72, gained 19, exact p 1.97e-08 -> below
+unconditional, each at its tuned scale: learned_posterior_hybrid against identity_hybrid: lost 46, gained 28, exact p 0.0474 -> below
+unconditional, both at the release's own scale 1: learned_posterior_hybrid against identity_hybrid: lost 81, gained 19, exact p 2.7e-10 -> below
+heat_free (unconditional at 1, against native_continuation): fails
+held_backbones native-release           designable  80 of 96
+held_backbones native_continuation-s1-release       designable  84 of 96
+held_backbones contextual_hybrid-s1-release         designable  81 of 96
+held_backbones contextual_hybrid_noise0.2-s1-release       designable  78 of 96
+held_backbones identity_hybrid-s1-release         designable   2 of 96
+held_backbones deterministic_hybrid-s1-release          designable  71 of 96
+held_backbones learned_posterior_hybrid-s1-release          designable  83 of 96
+held_backbones, learned_posterior_hybrid-s1-release against native_continuation-s1-release: lost 3, gained 2, exact p 1 -> level
+held_backbones, learned_posterior_hybrid-s1-release against contextual_hybrid-s1-release: lost 6, gained 8, exact p 0.791 -> level
+held_backbones, learned_posterior_hybrid-s1-release against contextual_hybrid_noise0.2-s1-release: lost 3, gained 8, exact p 0.227 -> level
+held_backbones, learned_posterior_hybrid-s1-release against identity_hybrid-s1-release: lost 0, gained 81, exact p 8.27e-25 -> above
+held_backbones, learned_posterior_hybrid-s1-release against deterministic_hybrid-s1-release: lost 1, gained 13, exact p 0.00183 -> above
+held_backbones, learned_posterior_hybrid-s1-release against native-release: lost 4, gained 7, exact p 0.549 -> level
+designer (against the release flow): holds
+outcome: designer only

@@ -1,0 +1,1856 @@
+{
+ "sets": {
+  "design_panel_primary": {
+   "atlas_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.7708333333333334,
+     "had_it_and_kept_it": 55,
+     "lost": 6,
+     "gained": 19,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.01463329792022705,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.8333333333333334,
+     "had_it_and_kept_it": 55,
+     "lost": 6,
+     "gained": 25,
+     "never_had_it": 10,
+     "exact_p_two_sided": 0.0008779102936387062,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 57,
+     "lost": 4,
+     "gained": 22,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.0005335211753845215,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.8333333333333334,
+     "had_it_and_kept_it": 69,
+     "lost": 5,
+     "gained": 11,
+     "never_had_it": 11,
+     "exact_p_two_sided": 0.210113525390625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 72,
+     "lost": 2,
+     "gained": 7,
+     "never_had_it": 15,
+     "exact_p_two_sided": 0.1796875,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.8333333333333334,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 74,
+     "lost": 6,
+     "gained": 5,
+     "never_had_it": 11,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 57,
+     "lost": 4,
+     "gained": 22,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.0005335211753845215,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 68,
+     "lost": 6,
+     "gained": 11,
+     "never_had_it": 11,
+     "exact_p_two_sided": 0.332305908203125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.8229166666666666,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 72,
+     "lost": 7,
+     "gained": 7,
+     "never_had_it": 10,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.8333333333333334,
+     "share_after": 0.8229166666666666,
+     "had_it_and_kept_it": 74,
+     "lost": 6,
+     "gained": 5,
+     "never_had_it": 11,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.84375,
+     "had_it_and_kept_it": 58,
+     "lost": 3,
+     "gained": 23,
+     "never_had_it": 12,
+     "exact_p_two_sided": 8.797645568847656e-05,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.84375,
+     "had_it_and_kept_it": 67,
+     "lost": 7,
+     "gained": 14,
+     "never_had_it": 8,
+     "exact_p_two_sided": 0.18924713134765625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.8333333333333334,
+     "share_after": 0.84375,
+     "had_it_and_kept_it": 71,
+     "lost": 9,
+     "gained": 10,
+     "never_had_it": 6,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.6979166666666666,
+     "had_it_and_kept_it": 48,
+     "lost": 13,
+     "gained": 19,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.37708558747544885,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6354166666666666,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 54,
+     "lost": 7,
+     "gained": 17,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.06391465663909912,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.6979166666666666,
+     "had_it_and_kept_it": 60,
+     "lost": 14,
+     "gained": 7,
+     "never_had_it": 15,
+     "exact_p_two_sided": 0.18924713134765625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 62,
+     "lost": 12,
+     "gained": 9,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.6636238098144531,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.8229166666666666,
+     "share_after": 0.6979166666666666,
+     "had_it_and_kept_it": 63,
+     "lost": 16,
+     "gained": 4,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.01181793212890625,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "native_identity_control>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.8229166666666666,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 67,
+     "lost": 12,
+     "gained": 4,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.076812744140625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6979166666666666,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 59,
+     "lost": 8,
+     "gained": 12,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.5034446716308594,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.8333333333333334,
+     "share_after": 0.6979166666666666,
+     "had_it_and_kept_it": 63,
+     "lost": 17,
+     "gained": 4,
+     "never_had_it": 12,
+     "exact_p_two_sided": 0.007197380065917969,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "type_shuffled_hybrid>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.8229166666666666,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 65,
+     "lost": 14,
+     "gained": 6,
+     "never_had_it": 11,
+     "exact_p_two_sided": 0.11531829833984375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.6979166666666666,
+     "share_after": 0.84375,
+     "had_it_and_kept_it": 63,
+     "lost": 4,
+     "gained": 18,
+     "never_had_it": 11,
+     "exact_p_two_sided": 0.004343509674072266,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    }
+   },
+   "ef2_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.65625,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 56,
+     "lost": 7,
+     "gained": 15,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.13380050659179688,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.65625,
+     "share_after": 0.8541666666666666,
+     "had_it_and_kept_it": 59,
+     "lost": 4,
+     "gained": 23,
+     "never_had_it": 10,
+     "exact_p_two_sided": 0.000310748815536499,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.65625,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 57,
+     "lost": 6,
+     "gained": 21,
+     "never_had_it": 12,
+     "exact_p_two_sided": 0.005924612283706665,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.8541666666666666,
+     "had_it_and_kept_it": 66,
+     "lost": 5,
+     "gained": 16,
+     "never_had_it": 9,
+     "exact_p_two_sided": 0.02660369873046875,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 68,
+     "lost": 3,
+     "gained": 10,
+     "never_had_it": 15,
+     "exact_p_two_sided": 0.09228515625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.8541666666666666,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 71,
+     "lost": 11,
+     "gained": 7,
+     "never_had_it": 7,
+     "exact_p_two_sided": 0.480682373046875,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.65625,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 57,
+     "lost": 6,
+     "gained": 21,
+     "never_had_it": 12,
+     "exact_p_two_sided": 0.005924612283706665,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 61,
+     "lost": 10,
+     "gained": 17,
+     "never_had_it": 8,
+     "exact_p_two_sided": 0.24778856337070465,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.8125,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 67,
+     "lost": 11,
+     "gained": 11,
+     "never_had_it": 7,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.8541666666666666,
+     "share_after": 0.8125,
+     "had_it_and_kept_it": 72,
+     "lost": 10,
+     "gained": 6,
+     "never_had_it": 8,
+     "exact_p_two_sided": 0.454498291015625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    }
+   },
+   "complex_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 7,
+     "lost": 4,
+     "gained": 37,
+     "never_had_it": 48,
+     "exact_p_two_sided": 1.0258372640237212e-07,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.6770833333333334,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 56,
+     "never_had_it": 29,
+     "exact_p_two_sided": 1.1879386363489175e-14,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 32,
+     "never_had_it": 53,
+     "exact_p_two_sided": 6.938353180885315e-08,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.6770833333333334,
+     "had_it_and_kept_it": 40,
+     "lost": 4,
+     "gained": 25,
+     "never_had_it": 27,
+     "exact_p_two_sided": 0.00010371580719947815,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 33,
+     "lost": 11,
+     "gained": 8,
+     "never_had_it": 44,
+     "exact_p_two_sided": 0.6476058959960938,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.6770833333333334,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 39,
+     "lost": 26,
+     "gained": 2,
+     "never_had_it": 29,
+     "exact_p_two_sided": 3.032386302947998e-06,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 45,
+     "never_had_it": 40,
+     "exact_p_two_sided": 1.6044054973463062e-11,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 38,
+     "lost": 6,
+     "gained": 16,
+     "never_had_it": 36,
+     "exact_p_two_sided": 0.052478790283203125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4270833333333333,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 38,
+     "lost": 3,
+     "gained": 16,
+     "never_had_it": 39,
+     "exact_p_two_sided": 0.004425048828125,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6770833333333334,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 51,
+     "lost": 14,
+     "gained": 3,
+     "never_had_it": 28,
+     "exact_p_two_sided": 0.012725830078125,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "native>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.6145833333333334,
+     "had_it_and_kept_it": 10,
+     "lost": 1,
+     "gained": 49,
+     "never_had_it": 36,
+     "exact_p_two_sided": 9.059419880941277e-14,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.6145833333333334,
+     "had_it_and_kept_it": 37,
+     "lost": 7,
+     "gained": 22,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.008130058646202087,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.6770833333333334,
+     "share_after": 0.6145833333333334,
+     "had_it_and_kept_it": 51,
+     "lost": 14,
+     "gained": 8,
+     "never_had_it": 23,
+     "exact_p_two_sided": 0.28627872467041016,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 7,
+     "lost": 4,
+     "gained": 37,
+     "never_had_it": 48,
+     "exact_p_two_sided": 1.0258372640237212e-07,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.65625,
+     "had_it_and_kept_it": 8,
+     "lost": 3,
+     "gained": 55,
+     "never_had_it": 30,
+     "exact_p_two_sided": 2.2598589666245061e-13,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 31,
+     "lost": 13,
+     "gained": 13,
+     "never_had_it": 39,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.65625,
+     "had_it_and_kept_it": 39,
+     "lost": 5,
+     "gained": 24,
+     "never_had_it": 28,
+     "exact_p_two_sided": 0.0005461126565933228,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_identity_control>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4270833333333333,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 32,
+     "lost": 9,
+     "gained": 12,
+     "never_had_it": 43,
+     "exact_p_two_sided": 0.6636238098144531,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4270833333333333,
+     "share_after": 0.65625,
+     "had_it_and_kept_it": 37,
+     "lost": 4,
+     "gained": 26,
+     "never_had_it": 29,
+     "exact_p_two_sided": 5.947612226009369e-05,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.65625,
+     "had_it_and_kept_it": 40,
+     "lost": 4,
+     "gained": 23,
+     "never_had_it": 29,
+     "exact_p_two_sided": 0.000310748815536499,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6770833333333334,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 41,
+     "lost": 24,
+     "gained": 3,
+     "never_had_it": 28,
+     "exact_p_two_sided": 4.9233436584472656e-05,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "type_shuffled_hybrid>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.5625,
+     "share_after": 0.65625,
+     "had_it_and_kept_it": 47,
+     "lost": 7,
+     "gained": 16,
+     "never_had_it": 26,
+     "exact_p_two_sided": 0.0931396484375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.6145833333333334,
+     "had_it_and_kept_it": 37,
+     "lost": 7,
+     "gained": 22,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.008130058646202087,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    }
+   },
+   "ef2_complex_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.4166666666666667,
+     "had_it_and_kept_it": 7,
+     "lost": 4,
+     "gained": 33,
+     "never_had_it": 52,
+     "exact_p_two_sided": 1.0843941709026694e-06,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.6875,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 57,
+     "never_had_it": 28,
+     "exact_p_two_sided": 6.144390551909851e-15,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.4375,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 33,
+     "never_had_it": 52,
+     "exact_p_two_sided": 3.6729034036397934e-08,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4166666666666667,
+     "share_after": 0.6875,
+     "had_it_and_kept_it": 36,
+     "lost": 4,
+     "gained": 30,
+     "never_had_it": 26,
+     "exact_p_two_sided": 6.16488978266716e-06,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.4166666666666667,
+     "share_after": 0.4375,
+     "had_it_and_kept_it": 31,
+     "lost": 9,
+     "gained": 11,
+     "never_had_it": 45,
+     "exact_p_two_sided": 0.8238029479980469,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.6875,
+     "share_after": 0.4375,
+     "had_it_and_kept_it": 39,
+     "lost": 27,
+     "gained": 3,
+     "never_had_it": 27,
+     "exact_p_two_sided": 8.430331945419312e-06,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.11458333333333333,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 9,
+     "lost": 2,
+     "gained": 44,
+     "never_had_it": 41,
+     "exact_p_two_sided": 3.0752289603697136e-11,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4166666666666667,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 34,
+     "lost": 6,
+     "gained": 19,
+     "never_had_it": 37,
+     "exact_p_two_sided": 0.01463329792022705,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4375,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 37,
+     "lost": 5,
+     "gained": 16,
+     "never_had_it": 38,
+     "exact_p_two_sided": 0.02660369873046875,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6875,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 49,
+     "lost": 17,
+     "gained": 4,
+     "never_had_it": 26,
+     "exact_p_two_sided": 0.007197380065917969,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    }
+   },
+   "counts": {
+    "own": {
+     "atlas": 70,
+     "esmfold2": null
+    },
+    "native": {
+     "atlas": 61,
+     "esmfold2": 63
+    },
+    "native_continuation": {
+     "atlas": 74,
+     "esmfold2": 71
+    },
+    "contextual_hybrid": {
+     "atlas": 80,
+     "esmfold2": 82
+    },
+    "native_identity_control": {
+     "atlas": 79,
+     "esmfold2": 78
+    },
+    "type_shuffled_hybrid": {
+     "atlas": 79,
+     "esmfold2": 78
+    },
+    "contextual_hybrid_seed2": {
+     "atlas": 67,
+     "esmfold2": null
+    },
+    "type_shuffled_hybrid_seed2": {
+     "atlas": 71,
+     "esmfold2": null
+    },
+    "ProteinMPNN": {
+     "atlas": 81,
+     "esmfold2": null
+    }
+   }
+  },
+  "design_panel_replication": {
+   "atlas_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.7708333333333334,
+     "had_it_and_kept_it": 57,
+     "lost": 5,
+     "gained": 17,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.01690053939819336,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 58,
+     "lost": 4,
+     "gained": 13,
+     "never_had_it": 21,
+     "exact_p_two_sided": 0.049041748046875,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 55,
+     "lost": 7,
+     "gained": 16,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.0931396484375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 66,
+     "lost": 8,
+     "gained": 5,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.5810546875,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 65,
+     "lost": 9,
+     "gained": 6,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.60723876953125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 61,
+     "lost": 10,
+     "gained": 10,
+     "never_had_it": 15,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 58,
+     "lost": 4,
+     "gained": 13,
+     "never_had_it": 21,
+     "exact_p_two_sided": 0.049041748046875,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 67,
+     "lost": 7,
+     "gained": 4,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.548828125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 63,
+     "lost": 8,
+     "gained": 8,
+     "never_had_it": 17,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.7395833333333334,
+     "had_it_and_kept_it": 64,
+     "lost": 7,
+     "gained": 7,
+     "never_had_it": 18,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.78125,
+     "had_it_and_kept_it": 59,
+     "lost": 3,
+     "gained": 16,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.004425048828125,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.78125,
+     "had_it_and_kept_it": 69,
+     "lost": 5,
+     "gained": 6,
+     "never_had_it": 16,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.78125,
+     "had_it_and_kept_it": 67,
+     "lost": 4,
+     "gained": 8,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.3876953125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.7083333333333334,
+     "had_it_and_kept_it": 53,
+     "lost": 9,
+     "gained": 15,
+     "never_had_it": 19,
+     "exact_p_two_sided": 0.30745625495910645,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.6458333333333334,
+     "share_after": 0.71875,
+     "had_it_and_kept_it": 58,
+     "lost": 4,
+     "gained": 11,
+     "never_had_it": 23,
+     "exact_p_two_sided": 0.11846923828125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.7083333333333334,
+     "had_it_and_kept_it": 62,
+     "lost": 12,
+     "gained": 6,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.237884521484375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7708333333333334,
+     "share_after": 0.71875,
+     "had_it_and_kept_it": 64,
+     "lost": 10,
+     "gained": 5,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.3017578125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.7083333333333334,
+     "had_it_and_kept_it": 58,
+     "lost": 13,
+     "gained": 10,
+     "never_had_it": 15,
+     "exact_p_two_sided": 0.6776394844055176,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.71875,
+     "had_it_and_kept_it": 61,
+     "lost": 10,
+     "gained": 8,
+     "never_had_it": 17,
+     "exact_p_two_sided": 0.8145294189453125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7083333333333334,
+     "share_after": 0.71875,
+     "had_it_and_kept_it": 60,
+     "lost": 8,
+     "gained": 9,
+     "never_had_it": 19,
+     "exact_p_two_sided": 1.0,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.7083333333333334,
+     "had_it_and_kept_it": 61,
+     "lost": 10,
+     "gained": 7,
+     "never_had_it": 18,
+     "exact_p_two_sided": 0.629058837890625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "type_shuffled_hybrid>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.71875,
+     "had_it_and_kept_it": 63,
+     "lost": 8,
+     "gained": 6,
+     "never_had_it": 19,
+     "exact_p_two_sided": 0.79052734375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.7083333333333334,
+     "share_after": 0.78125,
+     "had_it_and_kept_it": 63,
+     "lost": 5,
+     "gained": 12,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.143463134765625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    }
+   },
+   "ef2_pairs": {},
+   "complex_pairs": {
+    "native>native_continuation": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.5,
+     "had_it_and_kept_it": 7,
+     "lost": 1,
+     "gained": 41,
+     "never_had_it": 47,
+     "exact_p_two_sided": 1.9554136088117957e-11,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.59375,
+     "had_it_and_kept_it": 6,
+     "lost": 2,
+     "gained": 51,
+     "never_had_it": 37,
+     "exact_p_two_sided": 3.1796787425264483e-13,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 7,
+     "lost": 1,
+     "gained": 37,
+     "never_had_it": 51,
+     "exact_p_two_sided": 2.837623469531536e-10,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.59375,
+     "had_it_and_kept_it": 37,
+     "lost": 11,
+     "gained": 20,
+     "never_had_it": 28,
+     "exact_p_two_sided": 0.14961278438568115,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 35,
+     "lost": 13,
+     "gained": 9,
+     "never_had_it": 39,
+     "exact_p_two_sided": 0.5234670639038086,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>native_identity_control": {
+     "pairs": 96,
+     "share_before": 0.59375,
+     "share_after": 0.4583333333333333,
+     "had_it_and_kept_it": 35,
+     "lost": 22,
+     "gained": 9,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.029449373483657837,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "native>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 6,
+     "lost": 2,
+     "gained": 47,
+     "never_had_it": 41,
+     "exact_p_two_sided": 4.355626970209414e-12,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 42,
+     "lost": 6,
+     "gained": 11,
+     "never_had_it": 37,
+     "exact_p_two_sided": 0.332305908203125,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 38,
+     "lost": 6,
+     "gained": 15,
+     "never_had_it": 37,
+     "exact_p_two_sided": 0.0783538818359375,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>type_shuffled_hybrid": {
+     "pairs": 96,
+     "share_before": 0.59375,
+     "share_after": 0.5520833333333334,
+     "had_it_and_kept_it": 44,
+     "lost": 13,
+     "gained": 9,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.5234670639038086,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 7,
+     "lost": 1,
+     "gained": 47,
+     "never_had_it": 41,
+     "exact_p_two_sided": 3.481659405224491e-13,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 37,
+     "lost": 11,
+     "gained": 17,
+     "never_had_it": 31,
+     "exact_p_two_sided": 0.34492845088243484,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.59375,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 43,
+     "lost": 14,
+     "gained": 11,
+     "never_had_it": 28,
+     "exact_p_two_sided": 0.6900379657745361,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 5,
+     "lost": 3,
+     "gained": 36,
+     "never_had_it": 52,
+     "exact_p_two_sided": 3.608874976634979e-08,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.08333333333333333,
+     "share_after": 0.625,
+     "had_it_and_kept_it": 8,
+     "lost": 0,
+     "gained": 52,
+     "never_had_it": 36,
+     "exact_p_two_sided": 4.440892098500626e-16,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_continuation>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 31,
+     "lost": 17,
+     "gained": 10,
+     "never_had_it": 38,
+     "exact_p_two_sided": 0.24778856337070465,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_continuation>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.5,
+     "share_after": 0.625,
+     "had_it_and_kept_it": 42,
+     "lost": 6,
+     "gained": 18,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.022655844688415527,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "native_identity_control>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 27,
+     "lost": 17,
+     "gained": 14,
+     "never_had_it": 38,
+     "exact_p_two_sided": 0.720100131817162,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "native_identity_control>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4583333333333333,
+     "share_after": 0.625,
+     "had_it_and_kept_it": 38,
+     "lost": 6,
+     "gained": 22,
+     "never_had_it": 30,
+     "exact_p_two_sided": 0.0037191659212112427,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.4270833333333333,
+     "share_after": 0.625,
+     "had_it_and_kept_it": 36,
+     "lost": 5,
+     "gained": 24,
+     "never_had_it": 31,
+     "exact_p_two_sided": 0.0005461126565933228,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid>contextual_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.59375,
+     "share_after": 0.4270833333333333,
+     "had_it_and_kept_it": 35,
+     "lost": 22,
+     "gained": 6,
+     "never_had_it": 33,
+     "exact_p_two_sided": 0.0037191659212112427,
+     "gain_by_rule": false,
+     "loss_by_rule": true
+    },
+    "type_shuffled_hybrid>type_shuffled_hybrid_seed2": {
+     "pairs": 96,
+     "share_before": 0.5520833333333334,
+     "share_after": 0.625,
+     "had_it_and_kept_it": 46,
+     "lost": 7,
+     "gained": 14,
+     "never_had_it": 29,
+     "exact_p_two_sided": 0.18924713134765625,
+     "gain_by_rule": false,
+     "loss_by_rule": false
+    },
+    "contextual_hybrid_seed2>ProteinMPNN": {
+     "pairs": 96,
+     "share_before": 0.4270833333333333,
+     "share_after": 0.5625,
+     "had_it_and_kept_it": 35,
+     "lost": 6,
+     "gained": 19,
+     "never_had_it": 36,
+     "exact_p_two_sided": 0.01463329792022705,
+     "gain_by_rule": true,
+     "loss_by_rule": false
+    }
+   },
+   "ef2_complex_pairs": {},
+   "counts": {
+    "own": {
+     "atlas": 58,
+     "esmfold2": null
+    },
+    "native": {
+     "atlas": 62,
+     "esmfold2": null
+    },
+    "native_continuation": {
+     "atlas": 74,
+     "esmfold2": null
+    },
+    "contextual_hybrid": {
+     "atlas": 71,
+     "esmfold2": null
+    },
+    "native_identity_control": {
+     "atlas": 71,
+     "esmfold2": null
+    },
+    "type_shuffled_hybrid": {
+     "atlas": 71,
+     "esmfold2": null
+    },
+    "contextual_hybrid_seed2": {
+     "atlas": 68,
+     "esmfold2": null
+    },
+    "type_shuffled_hybrid_seed2": {
+     "atlas": 69,
+     "esmfold2": null
+    },
+    "ProteinMPNN": {
+     "atlas": 75,
+     "esmfold2": null
+    }
+   }
+  }
+ },
+ "rules": {
+  "learned_posterior_hybrid_not_below_native": {
+   "design_panel_primary": null,
+   "design_panel_replication": null
+  },
+  "native_identity_control_not_below_native": {
+   "design_panel_primary": {
+    "holds": true,
+    "gained": 22,
+    "lost": 4,
+    "p": 0.0005335211753845215
+   },
+   "design_panel_replication": {
+    "holds": true,
+    "gained": 16,
+    "lost": 7,
+    "p": 0.0931396484375
+   }
+  },
+  "contextual_hybrid_against_native_continuation": {
+   "design_panel_primary": {
+    "outcome": "contextual_above_native_continuation",
+    "gained": 25,
+    "lost": 4,
+    "p": 0.00010371580719947815,
+    "status": "descriptive: the property was defined after the panel was read",
+    "ESMFold2": {
+     "on P": {
+      "gained": 30,
+      "lost": 4,
+      "p": 6.16488978266716e-06,
+      "native_continuation above by the rule": false
+     },
+     "on the count": {
+      "gained": 16,
+      "lost": 5,
+      "p": 0.02660369873046875,
+      "native_continuation above by the rule": false
+     },
+     "contradicts": false
+    }
+   },
+   "design_panel_replication": {
+    "outcome": "contextual_level_with_native_continuation",
+    "gained": 20,
+    "lost": 11,
+    "p": 0.14961278438568115,
+    "status": "descriptive: the property was defined after the panel was read"
+   }
+  },
+  "contextual_hybrid_against_native_identity_control": {
+   "design_panel_primary": {
+    "outcome": "contextual_above_native_identity_control",
+    "native_identity_control_gained": 2,
+    "native_identity_control_lost": 26,
+    "p": 3.032386302947998e-06,
+    "status": "descriptive"
+   },
+   "design_panel_replication": {
+    "outcome": "contextual_above_native_identity_control",
+    "native_identity_control_gained": 9,
+    "native_identity_control_lost": 22,
+    "p": 0.029449373483657837,
+    "status": "descriptive"
+   }
+  },
+  "first_seed_comparison": {
+   "design_panel_primary": {
+    "outcome": "contextual_above_type_shuffled",
+    "contextual_hybrid_only": 14,
+    "type_shuffled_hybrid_only": 3,
+    "net_contextual_hybrid_minus_type_shuffled_hybrid": 11,
+    "net_interval_95": [
+     2.2,
+     15.7
+    ],
+    "p": 0.012725830078125,
+    "type_shuffled_hybrid_not_below_the_release_by_the_rule": true,
+    "status": "standard",
+    "type_shuffled_against_native_identity_control": {
+     "type_shuffled_hybrid_only": 16,
+     "native_identity_control_only": 3,
+     "p": 0.004425048828125,
+     "outcome": "type_shuffled_hybrid above native_identity_control"
+    }
+   },
+   "design_panel_replication": {
+    "outcome": "contextual_ahead_rule_not_met",
+    "contextual_hybrid_only": 13,
+    "type_shuffled_hybrid_only": 9,
+    "net_contextual_hybrid_minus_type_shuffled_hybrid": 4,
+    "net_interval_95": [
+     -6.0,
+     12.9
+    ],
+    "p": 0.5234670639038086,
+    "type_shuffled_hybrid_not_below_the_release_by_the_rule": true,
+    "status": "descriptive",
+    "type_shuffled_against_native_identity_control": {
+     "type_shuffled_hybrid_only": 15,
+     "native_identity_control_only": 6,
+     "p": 0.0783538818359375,
+     "outcome": "neither"
+    }
+   }
+  },
+  "second_seed_comparison": {
+   "design_panel_primary": {
+    "outcome": "contextual_not_ahead",
+    "contextual_hybrid_only": 4,
+    "type_shuffled_hybrid_only": 23,
+    "net_contextual_hybrid_minus_type_shuffled_hybrid": -19,
+    "net_per_96": -19.0,
+    "net_interval_95": [
+     -24.7,
+     -8.8
+    ],
+    "p": 0.000310748815536499,
+    "pairs": 96,
+    "contextual_hybrid_seed2_not_below_the_release_by_the_rule": true,
+    "type_shuffled_hybrid_seed2_not_below_the_release_by_the_rule": true,
+    "status": "descriptive",
+    "against_native_identity_control": {
+     "type_shuffled_hybrid_seed2_only": 26,
+     "native_identity_control_only": 4,
+     "p": 5.947612226009369e-05,
+     "outcome": "type_shuffled_hybrid_seed2 above native_identity_control"
+    }
+   },
+   "design_panel_replication": {
+    "outcome": "contextual_not_ahead",
+    "contextual_hybrid_only": 5,
+    "type_shuffled_hybrid_only": 24,
+    "net_contextual_hybrid_minus_type_shuffled_hybrid": -19,
+    "net_per_96": -19.0,
+    "net_interval_95": [
+     -25.6,
+     -8.3
+    ],
+    "p": 0.0005461126565933228,
+    "pairs": 96,
+    "contextual_hybrid_seed2_not_below_the_release_by_the_rule": true,
+    "type_shuffled_hybrid_seed2_not_below_the_release_by_the_rule": true,
+    "status": "standard",
+    "against_native_identity_control": {
+     "type_shuffled_hybrid_seed2_only": 22,
+     "native_identity_control_only": 6,
+     "p": 0.0037191659212112427,
+     "outcome": "type_shuffled_hybrid_seed2 above native_identity_control"
+    }
+   }
+  },
+  "net_by_seed_and_panel": {
+   "cells": {
+    "s1,design_panel_primary": {
+     "contextual_hybrid_only": 14,
+     "type_shuffled_hybrid_only": 3,
+     "net_contextual_hybrid_minus_type_shuffled_hybrid": 11,
+     "net_per_96": 11.0,
+     "net_interval_95": [
+      2.2,
+      15.7
+     ],
+     "p": 0.012725830078125,
+     "pairs": 96
+    },
+    "s1,design_panel_replication": {
+     "contextual_hybrid_only": 13,
+     "type_shuffled_hybrid_only": 9,
+     "net_contextual_hybrid_minus_type_shuffled_hybrid": 4,
+     "net_per_96": 4.0,
+     "net_interval_95": [
+      -6.0,
+      12.9
+     ],
+     "p": 0.5234670639038086,
+     "pairs": 96
+    },
+    "s2,design_panel_primary": {
+     "contextual_hybrid_only": 4,
+     "type_shuffled_hybrid_only": 23,
+     "net_contextual_hybrid_minus_type_shuffled_hybrid": -19,
+     "net_per_96": -19.0,
+     "net_interval_95": [
+      -24.7,
+      -8.8
+     ],
+     "p": 0.000310748815536499,
+     "pairs": 96
+    },
+    "s2,design_panel_replication": {
+     "contextual_hybrid_only": 5,
+     "type_shuffled_hybrid_only": 24,
+     "net_contextual_hybrid_minus_type_shuffled_hybrid": -19,
+     "net_per_96": -19.0,
+     "net_interval_95": [
+      -25.6,
+      -8.3
+     ],
+     "p": 0.0005461126565933228,
+     "pairs": 96
+    }
+   },
+   "pooled_seed1_primary_and_seed2_replication": {
+    "contextual_hybrid_only": 19,
+    "type_shuffled_hybrid_only": 27,
+    "net_contextual_hybrid_minus_type_shuffled_hybrid": -8,
+    "net_per_96": -4.0,
+    "net_interval_95": [
+     -21.2,
+     6.2
+    ],
+    "p": 0.3019956131896606,
+    "pairs": 192
+   }
+  },
+  "net_by_seed_panel_and_length": {
+   "s1,design_panel_primary": {
+    "by_length": {
+     "90": {
+      "backbones": 24,
+      "contextual_hybrid_only": 4,
+      "type_shuffled_hybrid_only": 0,
+      "net": 4
+     },
+     "130": {
+      "backbones": 24,
+      "contextual_hybrid_only": 3,
+      "type_shuffled_hybrid_only": 1,
+      "net": 2
+     },
+     "170": {
+      "backbones": 24,
+      "contextual_hybrid_only": 4,
+      "type_shuffled_hybrid_only": 1,
+      "net": 3
+     },
+     "210": {
+      "backbones": 24,
+      "contextual_hybrid_only": 3,
+      "type_shuffled_hybrid_only": 1,
+      "net": 2
+     }
+    },
+    "bins": 4,
+    "bins_with_a_positive_net": 4
+   },
+   "s1,design_panel_replication": {
+    "by_length": {
+     "90": {
+      "backbones": 24,
+      "contextual_hybrid_only": 4,
+      "type_shuffled_hybrid_only": 4,
+      "net": 0
+     },
+     "130": {
+      "backbones": 24,
+      "contextual_hybrid_only": 2,
+      "type_shuffled_hybrid_only": 1,
+      "net": 1
+     },
+     "170": {
+      "backbones": 24,
+      "contextual_hybrid_only": 3,
+      "type_shuffled_hybrid_only": 3,
+      "net": 0
+     },
+     "210": {
+      "backbones": 24,
+      "contextual_hybrid_only": 4,
+      "type_shuffled_hybrid_only": 1,
+      "net": 3
+     }
+    },
+    "bins": 4,
+    "bins_with_a_positive_net": 2
+   },
+   "s2,design_panel_primary": {
+    "by_length": {
+     "90": {
+      "backbones": 24,
+      "contextual_hybrid_only": 0,
+      "type_shuffled_hybrid_only": 7,
+      "net": -7
+     },
+     "130": {
+      "backbones": 24,
+      "contextual_hybrid_only": 0,
+      "type_shuffled_hybrid_only": 8,
+      "net": -8
+     },
+     "170": {
+      "backbones": 24,
+      "contextual_hybrid_only": 3,
+      "type_shuffled_hybrid_only": 5,
+      "net": -2
+     },
+     "210": {
+      "backbones": 24,
+      "contextual_hybrid_only": 1,
+      "type_shuffled_hybrid_only": 3,
+      "net": -2
+     }
+    },
+    "bins": 4,
+    "bins_with_a_positive_net": 0
+   },
+   "s2,design_panel_replication": {
+    "by_length": {
+     "90": {
+      "backbones": 24,
+      "contextual_hybrid_only": 1,
+      "type_shuffled_hybrid_only": 7,
+      "net": -6
+     },
+     "130": {
+      "backbones": 24,
+      "contextual_hybrid_only": 2,
+      "type_shuffled_hybrid_only": 6,
+      "net": -4
+     },
+     "170": {
+      "backbones": 24,
+      "contextual_hybrid_only": 1,
+      "type_shuffled_hybrid_only": 5,
+      "net": -4
+     },
+     "210": {
+      "backbones": 24,
+      "contextual_hybrid_only": 1,
+      "type_shuffled_hybrid_only": 6,
+      "net": -5
+     }
+    },
+    "bins": 4,
+    "bins_with_a_positive_net": 0
+   }
+  },
+  "joint_patterns": {
+   "s1,design_panel_primary": {
+    "order": [
+     "native_identity_control",
+     "type_shuffled_hybrid",
+     "contextual_hybrid"
+    ],
+    "counts": {
+     "111": 38,
+     "101": 1,
+     "100": 2,
+     "011": 13,
+     "010": 3,
+     "001": 13,
+     "000": 26
+    }
+   },
+   "s1,design_panel_replication": {
+    "order": [
+     "native_identity_control",
+     "type_shuffled_hybrid",
+     "contextual_hybrid"
+    ],
+    "counts": {
+     "111": 31,
+     "110": 7,
+     "101": 4,
+     "100": 2,
+     "011": 13,
+     "010": 2,
+     "001": 9,
+     "000": 28
+    }
+   },
+   "s2,design_panel_primary": {
+    "order": [
+     "native_identity_control",
+     "type_shuffled_hybrid_seed2",
+     "contextual_hybrid_seed2"
+    ],
+    "counts": {
+     "111": 30,
+     "110": 7,
+     "101": 2,
+     "100": 2,
+     "011": 10,
+     "010": 16,
+     "001": 2,
+     "000": 27
+    }
+   },
+   "s2,design_panel_replication": {
+    "order": [
+     "native_identity_control",
+     "type_shuffled_hybrid_seed2",
+     "contextual_hybrid_seed2"
+    ],
+    "counts": {
+     "111": 25,
+     "110": 13,
+     "101": 2,
+     "100": 4,
+     "011": 11,
+     "010": 11,
+     "001": 3,
+     "000": 27
+    }
+   }
+  },
+  "native_continuation_offered_as_designer": {
+   "outcome": "not read here: needs the earlier design set, which this record does not hold"
+  },
+  "native_continuation_default_designer": {
+   "outcome": "not read here: needs the earlier design set, which this record does not hold"
+  }
+ }
+}

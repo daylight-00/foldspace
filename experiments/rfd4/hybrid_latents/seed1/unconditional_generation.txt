@@ -1,0 +1,29 @@
+rule: at least 8 more one way than the other, exact two-sided p below 0.05; usable = chain rule, sequence rule and a fold within 2 A of its own backbone; update 1600
+deterministic_hybrid-s1     scale_scan latent  1.0: chain  92 sequence  36 designable  88 usable  31 of 96
+deterministic_hybrid-s1     scale_scan latent  4.0: chain  89 sequence  59 designable  91 usable  53 of 96
+deterministic_hybrid-s1     scale_scan latent  8.0: chain  93 sequence  76 designable  87 usable  67 of 96
+deterministic_hybrid-s1     unconditional latent  1.0: chain 183 sequence  67 designable 186 usable  62 of 192
+deterministic_hybrid-s1     unconditional latent  8.0: chain 181 sequence 154 designable 180 usable 137 of 192
+deterministic_hybrid-s1     tuned scale: 8.0
+contextual_hybrid-s1    scale_scan latent  1.0: chain  86 sequence  44 designable  91 usable  38 of 96
+contextual_hybrid-s1    scale_scan latent  4.0: chain  91 sequence  62 designable  91 usable  57 of 96
+contextual_hybrid-s1    scale_scan latent  8.0: chain  89 sequence  83 designable  85 usable  67 of 96
+contextual_hybrid-s1    unconditional latent  1.0: chain 181 sequence  84 designable 178 usable  72 of 192
+contextual_hybrid-s1    unconditional latent  8.0: chain 184 sequence 159 designable 174 usable 137 of 192
+contextual_hybrid-s1    tuned scale: 8.0
+identity_hybrid-s1    scale_scan latent  1.0: chain  96 sequence  92 designable  86 usable  82 of 96
+identity_hybrid-s1    scale_scan latent  4.0: chain  93 sequence  91 designable  87 usable  81 of 96
+identity_hybrid-s1    scale_scan latent  8.0: chain  93 sequence  93 designable  73 usable  68 of 96
+identity_hybrid-s1    unconditional latent  1.0: chain 188 sequence 170 designable 174 usable 151 of 192
+identity_hybrid-s1    tuned scale: 1.0
+native_continuation-s1  scale_scan latent  1.0: chain  95 sequence  68 designable  95 usable  67 of 96
+native_continuation-s1  scale_scan latent  4.0: chain  95 sequence  77 designable  93 usable  74 of 96
+native_continuation-s1  scale_scan latent  8.0: chain  94 sequence  82 designable  91 usable  77 of 96
+native_continuation-s1  unconditional latent  1.0: chain 189 sequence 148 designable 184 usable 142 of 192
+native_continuation-s1  unconditional latent  8.0: chain 191 sequence 158 designable 182 usable 149 of 192
+native_continuation-s1  tuned scale: 8.0
+s1 contextual_vs_deterministic: contextual_hybrid against deterministic_hybrid (unconditional at tuned scale): lost 37, gained 37, exact p 1 -> neither
+s1 contextual_vs_identity: contextual_hybrid against identity_hybrid (unconditional at tuned scale): lost 44, gained 30, exact p 0.13 -> no_difference
+s1 contextual_vs_native_continuation: contextual_hybrid against native_continuation (unconditional at tuned scale): lost 42, gained 30, exact p 0.195 -> not_below
+s1 diversity: structure clusters contextual_hybrid 121, native_continuation 110 -> at_least_0.8_of_native_continuation
+second seed opens (s1 contextual_vs_deterministic = gain): False

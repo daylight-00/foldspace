@@ -1,0 +1,142 @@
+== panel design_panel_primary: designable = within 2 A of the backbone; P = designable and at least 3.0 bits of composition entropy
+label                designable    P   median scRMSD  median entropy  mean pLDDT
+own                         70    7            0.64            2.47        89.9
+native                      61   11            0.62            2.43        89.1
+native_continuation                     74   44            0.79            3.10        94.6
+native_identity_control                         79   41            0.67            3.03        94.5
+contextual_hybrid                       80   65            0.78            3.23        95.2
+type_shuffled_hybrid                       79   54            0.73            3.17        95.3
+contextual_hybrid_seed2                      67   44            0.89            3.07        90.8
+type_shuffled_hybrid_seed2                      71   63            0.73            3.39        94.3
+ProteinMPNN                        81   59            0.71            3.16        95.6
+release-scale1              65   27            0.80            2.81        90.6
+release-official            63   26            0.74            2.82        89.4
+base-official           67   10            0.62            2.43        89.9
+native_continuation-official            71   45            0.74            3.13        94.2
+ProteinMPNN-T0.2                   80   59            0.66            3.19        95.5
+ProteinMPNN-T0.3                   80   65            0.72            3.27        95.5
+  [p] release-scale1 against native: lost 4, gained 20, exact p 0.00154; release-scale1 above by the rule True, native above by the rule False
+  [designable] release-scale1 against native: lost 11, gained 15, exact p 0.557; release-scale1 above by the rule False, native above by the rule False
+  [p] release-official against base-official: lost 4, gained 20, exact p 0.00154; release-official above by the rule True, base-official above by the rule False
+  [designable] release-official against base-official: lost 13, gained 9, exact p 0.523; release-official above by the rule False, base-official above by the rule False
+  [p] release-official against release-scale1: lost 4, gained 3, exact p 1; release-official above by the rule False, release-scale1 above by the rule False
+  [designable] release-official against release-scale1: lost 7, gained 5, exact p 0.774; release-official above by the rule False, release-scale1 above by the rule False
+  [p] base-official against native: lost 1, gained 0, exact p 1; base-official above by the rule False, native above by the rule False
+  [designable] base-official against native: lost 0, gained 6, exact p 0.0312; base-official above by the rule False, native above by the rule False
+  [p] native_continuation-official against release-official: lost 1, gained 20, exact p 2.1e-05; native_continuation-official above by the rule True, release-official above by the rule False
+  [designable] native_continuation-official against release-official: lost 6, gained 14, exact p 0.115; native_continuation-official above by the rule False, release-official above by the rule False
+  [p] native_continuation against release-scale1: lost 4, gained 21, exact p 0.000911; native_continuation above by the rule True, release-scale1 above by the rule False
+  [designable] native_continuation against release-scale1: lost 4, gained 13, exact p 0.049; native_continuation above by the rule True, release-scale1 above by the rule False
+  [p] ProteinMPNN against release-official: lost 2, gained 35, exact p 1.02e-08; ProteinMPNN above by the rule True, release-official above by the rule False
+  [designable] ProteinMPNN against release-official: lost 3, gained 21, exact p 0.000277; ProteinMPNN above by the rule True, release-official above by the rule False
+  [p] contextual_hybrid against release-official: lost 1, gained 40, exact p 3.82e-11; contextual_hybrid above by the rule True, release-official above by the rule False
+  [designable] contextual_hybrid against release-official: lost 1, gained 18, exact p 7.63e-05; contextual_hybrid above by the rule True, release-official above by the rule False
+  [p] contextual_hybrid_seed2 against release-official: lost 8, gained 26, exact p 0.00294; contextual_hybrid_seed2 above by the rule True, release-official above by the rule False
+  [designable] contextual_hybrid_seed2 against release-official: lost 9, gained 13, exact p 0.523; contextual_hybrid_seed2 above by the rule False, release-official above by the rule False
+  [p] type_shuffled_hybrid against release-official: lost 1, gained 29, exact p 5.77e-08; type_shuffled_hybrid above by the rule True, release-official above by the rule False
+  [designable] type_shuffled_hybrid against release-official: lost 2, gained 18, exact p 0.000402; type_shuffled_hybrid above by the rule True, release-official above by the rule False
+  [p] type_shuffled_hybrid_seed2 against release-official: lost 1, gained 38, exact p 1.46e-10; type_shuffled_hybrid_seed2 above by the rule True, release-official above by the rule False
+  [designable] type_shuffled_hybrid_seed2 against release-official: lost 4, gained 12, exact p 0.0768; type_shuffled_hybrid_seed2 above by the rule False, release-official above by the rule False
+  [p] contextual_hybrid_seed2 against contextual_hybrid: lost 24, gained 3, exact p 4.92e-05; contextual_hybrid_seed2 above by the rule False, contextual_hybrid above by the rule True
+  [designable] contextual_hybrid_seed2 against contextual_hybrid: lost 17, gained 4, exact p 0.0072; contextual_hybrid_seed2 above by the rule False, contextual_hybrid above by the rule True
+  [p] type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 7, gained 16, exact p 0.0931; type_shuffled_hybrid_seed2 above by the rule False, type_shuffled_hybrid above by the rule False
+  [designable] type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 14, gained 6, exact p 0.115; type_shuffled_hybrid_seed2 above by the rule False, type_shuffled_hybrid above by the rule False
+  [p] contextual_hybrid against type_shuffled_hybrid: lost 3, gained 14, exact p 0.0127; contextual_hybrid above by the rule True, type_shuffled_hybrid above by the rule False
+  [designable] contextual_hybrid against type_shuffled_hybrid: lost 5, gained 6, exact p 1; contextual_hybrid above by the rule False, type_shuffled_hybrid above by the rule False
+  [p] contextual_hybrid_seed2 against type_shuffled_hybrid_seed2: lost 23, gained 4, exact p 0.000311; contextual_hybrid_seed2 above by the rule False, type_shuffled_hybrid_seed2 above by the rule True
+  [designable] contextual_hybrid_seed2 against type_shuffled_hybrid_seed2: lost 12, gained 8, exact p 0.503; contextual_hybrid_seed2 above by the rule False, type_shuffled_hybrid_seed2 above by the rule False
+  [p] ProteinMPNN-T0.2 against ProteinMPNN: lost 5, gained 5, exact p 1; ProteinMPNN-T0.2 above by the rule False, ProteinMPNN above by the rule False
+  [designable] ProteinMPNN-T0.2 against ProteinMPNN: lost 2, gained 1, exact p 1; ProteinMPNN-T0.2 above by the rule False, ProteinMPNN above by the rule False
+  [p] ProteinMPNN-T0.3 against ProteinMPNN: lost 5, gained 11, exact p 0.21; ProteinMPNN-T0.3 above by the rule False, ProteinMPNN above by the rule False
+  [designable] ProteinMPNN-T0.3 against ProteinMPNN: lost 6, gained 5, exact p 1; ProteinMPNN-T0.3 above by the rule False, ProteinMPNN above by the rule False
+== panel design_panel_replication: designable = within 2 A of the backbone; P = designable and at least 3.0 bits of composition entropy
+label                designable    P   median scRMSD  median entropy  mean pLDDT
+own                         58   13            1.07            2.49        88.6
+native                      62    8            0.78            2.44        89.4
+native_continuation                     74   48            0.69            3.15        94.3
+native_identity_control                         71   44            0.78            3.06        93.9
+contextual_hybrid                       71   57            0.77            3.29        95.0
+type_shuffled_hybrid                       71   53            0.75            3.22        94.3
+contextual_hybrid_seed2                      68   41            0.95            3.09        91.9
+type_shuffled_hybrid_seed2                      69   60            0.75            3.39        94.6
+ProteinMPNN                        75   54            0.62            3.18        94.8
+release-scale1              66   37            1.00            2.93        91.9
+release-official            62   36            0.93            2.94        91.8
+base-official           58    8            0.90            2.46        89.0
+native_continuation-official            72   48            0.83            3.15        93.7
+ProteinMPNN-T0.2                   76   61            0.63            3.25        94.8
+ProteinMPNN-T0.3                   73   58            0.71            3.33        95.4
+  [p] release-scale1 against native: lost 1, gained 30, exact p 2.98e-08; release-scale1 above by the rule True, native above by the rule False
+  [designable] release-scale1 against native: lost 9, gained 13, exact p 0.523; release-scale1 above by the rule False, native above by the rule False
+  [p] release-official against base-official: lost 1, gained 29, exact p 5.77e-08; release-official above by the rule True, base-official above by the rule False
+  [designable] release-official against base-official: lost 7, gained 11, exact p 0.481; release-official above by the rule False, base-official above by the rule False
+  [p] release-official against release-scale1: lost 5, gained 4, exact p 1; release-official above by the rule False, release-scale1 above by the rule False
+  [designable] release-official against release-scale1: lost 8, gained 4, exact p 0.388; release-official above by the rule False, release-scale1 above by the rule False
+  [p] base-official against native: lost 0, gained 0, exact p 1; base-official above by the rule False, native above by the rule False
+  [designable] base-official against native: lost 4, gained 0, exact p 0.125; base-official above by the rule False, native above by the rule False
+  [p] native_continuation-official against release-official: lost 3, gained 15, exact p 0.00754; native_continuation-official above by the rule True, release-official above by the rule False
+  [designable] native_continuation-official against release-official: lost 5, gained 15, exact p 0.0414; native_continuation-official above by the rule True, release-official above by the rule False
+  [p] native_continuation against release-scale1: lost 7, gained 18, exact p 0.0433; native_continuation above by the rule True, release-scale1 above by the rule False
+  [designable] native_continuation against release-scale1: lost 6, gained 14, exact p 0.115; native_continuation above by the rule False, release-scale1 above by the rule False
+  [p] ProteinMPNN against release-official: lost 8, gained 26, exact p 0.00294; ProteinMPNN above by the rule True, release-official above by the rule False
+  [designable] ProteinMPNN against release-official: lost 2, gained 15, exact p 0.00235; ProteinMPNN above by the rule True, release-official above by the rule False
+  [p] contextual_hybrid against release-official: lost 7, gained 28, exact p 0.000508; contextual_hybrid above by the rule True, release-official above by the rule False
+  [designable] contextual_hybrid against release-official: lost 4, gained 13, exact p 0.049; contextual_hybrid above by the rule True, release-official above by the rule False
+  [p] contextual_hybrid_seed2 against release-official: lost 13, gained 18, exact p 0.473; contextual_hybrid_seed2 above by the rule False, release-official above by the rule False
+  [designable] contextual_hybrid_seed2 against release-official: lost 8, gained 14, exact p 0.286; contextual_hybrid_seed2 above by the rule False, release-official above by the rule False
+  [p] type_shuffled_hybrid against release-official: lost 5, gained 22, exact p 0.00151; type_shuffled_hybrid above by the rule True, release-official above by the rule False
+  [designable] type_shuffled_hybrid against release-official: lost 4, gained 13, exact p 0.049; type_shuffled_hybrid above by the rule True, release-official above by the rule False
+  [p] type_shuffled_hybrid_seed2 against release-official: lost 3, gained 27, exact p 8.43e-06; type_shuffled_hybrid_seed2 above by the rule True, release-official above by the rule False
+  [designable] type_shuffled_hybrid_seed2 against release-official: lost 3, gained 10, exact p 0.0923; type_shuffled_hybrid_seed2 above by the rule False, release-official above by the rule False
+  [p] contextual_hybrid_seed2 against contextual_hybrid: lost 22, gained 6, exact p 0.00372; contextual_hybrid_seed2 above by the rule False, contextual_hybrid above by the rule True
+  [designable] contextual_hybrid_seed2 against contextual_hybrid: lost 10, gained 7, exact p 0.629; contextual_hybrid_seed2 above by the rule False, contextual_hybrid above by the rule False
+  [p] type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 7, gained 14, exact p 0.189; type_shuffled_hybrid_seed2 above by the rule False, type_shuffled_hybrid above by the rule False
+  [designable] type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 8, gained 6, exact p 0.791; type_shuffled_hybrid_seed2 above by the rule False, type_shuffled_hybrid above by the rule False
+  [p] contextual_hybrid against type_shuffled_hybrid: lost 9, gained 13, exact p 0.523; contextual_hybrid above by the rule False, type_shuffled_hybrid above by the rule False
+  [designable] contextual_hybrid against type_shuffled_hybrid: lost 7, gained 7, exact p 1; contextual_hybrid above by the rule False, type_shuffled_hybrid above by the rule False
+  [p] contextual_hybrid_seed2 against type_shuffled_hybrid_seed2: lost 24, gained 5, exact p 0.000546; contextual_hybrid_seed2 above by the rule False, type_shuffled_hybrid_seed2 above by the rule True
+  [designable] contextual_hybrid_seed2 against type_shuffled_hybrid_seed2: lost 9, gained 8, exact p 1; contextual_hybrid_seed2 above by the rule False, type_shuffled_hybrid_seed2 above by the rule False
+  [p] ProteinMPNN-T0.2 against ProteinMPNN: lost 2, gained 9, exact p 0.0654; ProteinMPNN-T0.2 above by the rule False, ProteinMPNN above by the rule False
+  [designable] ProteinMPNN-T0.2 against ProteinMPNN: lost 4, gained 5, exact p 1; ProteinMPNN-T0.2 above by the rule False, ProteinMPNN above by the rule False
+  [p] ProteinMPNN-T0.3 against ProteinMPNN: lost 4, gained 8, exact p 0.388; ProteinMPNN-T0.3 above by the rule False, ProteinMPNN above by the rule False
+  [designable] ProteinMPNN-T0.3 against ProteinMPNN: lost 7, gained 5, exact p 0.774; ProteinMPNN-T0.3 above by the rule False, ProteinMPNN above by the rule False
+== panel design_panel_primary: designable and at least b bits of composition entropy (descriptive: the rules use 3.0)
+label                   2.0   2.5   3.0   3.5
+own                      60    38     7     0
+native                   50    33    11     0
+native_continuation                  72    65    44     5
+native_identity_control                      75    64    41     6
+contextual_hybrid                    80    78    65    12
+type_shuffled_hybrid                    79    74    54    13
+contextual_hybrid_seed2                   64    59    44    11
+type_shuffled_hybrid_seed2                   71    69    63    22
+ProteinMPNN                     81    77    59     7
+release-scale1           62    52    27     5
+release-official         61    51    26     6
+base-official        56    34    10     0
+native_continuation-official         70    65    45     9
+ProteinMPNN-T0.2                80    77    59     6
+ProteinMPNN-T0.3                80    80    65    10
+== panel design_panel_replication: designable and at least b bits of composition entropy (descriptive: the rules use 3.0)
+label                   2.0   2.5   3.0   3.5
+own                      51    37    13     0
+native                   52    37     8     1
+native_continuation                  72    66    48    11
+native_identity_control                      69    60    44    10
+contextual_hybrid                    71    70    57    17
+type_shuffled_hybrid                    71    68    53    13
+contextual_hybrid_seed2                   68    61    41     7
+type_shuffled_hybrid_seed2                   69    68    60    25
+ProteinMPNN                     75    72    54     8
+release-scale1           64    53    37    12
+release-official         60    52    36     9
+base-official        49    33     8     0
+native_continuation-official         70    66    48    14
+ProteinMPNN-T0.2                76    74    61     9
+ProteinMPNN-T0.3                73    73    58    19
+== controls
+regression (base under the arms' recipe against the stored reading): {"design_panel_primary": null, "design_panel_replication": {"designs": 96, "identical": 96, "residues": 14400, "residues_differing": 0, "valid": true}}
+the weights each new reading stands on: {"design_panel_primary": {"release-scale1": {"ok": true, "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0", "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"}, "release-official": {"ok": true, "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0", "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"}, "base-official": {"ok": true, "bundle": null, "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"}, "native_continuation-official": {"ok": true, "bundle": null, "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"}}, "design_panel_replication": {"release-scale1": {"ok": true, "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0", "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"}, "release-official": {"ok": true, "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0", "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"}, "base-official": {"ok": true, "bundle": null, "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"}, "base-scale1": {"ok": true, "bundle": null, "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"}, "native_continuation-official": {"ok": true, "bundle": null, "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"}}}
+== rules
+designer_default: {"outcome": "native_continuation stays the default", "native_continuation_above_release_official_on_P": {"design_panel_primary": true, "design_panel_replication": true}, "native_continuation_above_release_scale1_on_P": {"design_panel_primary": true, "design_panel_replication": true}}
+scale_proposal_gate: {"outcome": "no scale proposal for contextual_hybrid", "contextual_hybrid_above_release_on_P": {"design_panel_primary": true, "design_panel_replication": true}, "contextual_hybrid_seed2_above_release_on_P": {"design_panel_primary": true, "design_panel_replication": false}, "type_shuffled_hybrid_both_seeds_above_release_on_P": {"design_panel_primary": true, "design_panel_replication": true}, "seed_mean_net_contextual_hybrid_over_type_shuffled_hybrid": {"design_panel_primary": {"nets": [11, -19], "mean": -4.0}, "design_panel_replication": {"nets": [4, -19], "mean": -7.5}}}

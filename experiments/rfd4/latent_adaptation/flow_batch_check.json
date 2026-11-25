@@ -1,0 +1,405 @@
+{
+ "seconds": 12.6,
+ "chains": [
+  {
+   "id": "2QK0_1",
+   "tokens": 73,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 2.9e-06",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "73 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-2.608825298011652e-06",
+      "-3.382120041806047e-07",
+      "-4.2422641399753047e-07"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 219,
+     "entries": 219,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 73,
+     "entries": 73,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "6D6E_1",
+   "tokens": 129,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 6.7e-06",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "129 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-2.5243759864679305e-06",
+      "-6.547928023792338e-06",
+      "1.689910845925624e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 387,
+     "entries": 387,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 129,
+     "entries": 129,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "4G4B_1",
+   "tokens": 129,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 6.7e-06",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "129 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-3.070831269269547e-07",
+      "-6.41441329207737e-06",
+      "1.7604827462491812e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 387,
+     "entries": 387,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 129,
+     "entries": 129,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "5R85_1",
+   "tokens": 152,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 3.1e-05",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "152 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "1.3527750297726016e-06",
+      "2.957512333523482e-05",
+      "7.151756108214613e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 456,
+     "entries": 456,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 152,
+     "entries": 152,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "5SOZ_1",
+   "tokens": 169,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 1.2e-05",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "169 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "1.1963124052272178e-05",
+      "1.8520847788749961e-06",
+      "3.1866313747741515e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 507,
+     "entries": 507,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 169,
+     "entries": 169,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "4WH6_1",
+   "tokens": 200,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 1.5e-05",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "200 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-1.4405606634682044e-05",
+      "-6.692358056170633e-06",
+      "3.1451952509087278e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 600,
+     "entries": 600,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 200,
+     "entries": 200,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "1YP9_1",
+   "tokens": 223,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 7.9e-06",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "223 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-6.6273582888243254e-06",
+      "-7.8181237768149e-06",
+      "4.281802830519155e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 669,
+     "entries": 669,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 223,
+     "entries": 223,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "4LE8_1",
+   "tokens": 300,
+   "compared": {
+    "atom37_mask": "0 entries differ",
+    "residue_type": "0 entries differ",
+    "token_type": "0 entries differ",
+    "chain_iid": "0 entries differ",
+    "charge": "0 entries differ",
+    "ground_truth_element": "0 entries differ",
+    "incident_bond_type_counts": "0 entries differ",
+    "supports_local_latent": "0 entries differ",
+    "is_in_context_conditioning": "0 entries differ",
+    "is_resolved_mask": "0 entries differ",
+    "coords": "max abs difference 9.5e-06",
+    "token_bond_path_length": "0 entries differ",
+    "canonical_polymer_ordering": "0 entries differ",
+    "molecule_iid": "0 entries differ",
+    "molecule_entity_id": "300 entries differ (built here: [0], the pipeline's: [1])",
+    "tok_idx": "0 entries differ"
+   },
+   "differing": [
+    "molecule_entity_id"
+   ],
+   "pipeline_keys_not_built_here_and_not_default": {
+    "centroid_of_atoms_without_coordinate_conditioning": {
+     "entries_not_default": 3,
+     "entries": 3,
+     "example_values": [
+      "-2.0678512555605266e-06",
+      "3.812998784269439e-06",
+      "7.656569323444273e-06"
+     ]
+    },
+    "condition_ChainCentroid_1_atom": {
+     "entries_not_default": 900,
+     "entries": 900,
+     "example_values": [
+      "nan"
+     ]
+    },
+    "condition_index-group_1_token": {
+     "entries_not_default": 300,
+     "entries": 300,
+     "example_values": [
+      "0"
+     ]
+    }
+   }
+  }
+ ]
+}

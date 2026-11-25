@@ -1,0 +1,270 @@
+Starting weights (zero-shot), skill over the x_t predictor
+  native_continuation t=0.1: bb_ca -0.074, active_channels -0.001, prior_channels 0.001
+  native_continuation t=0.3: bb_ca 0.732, active_channels 0.033, prior_channels 0.001
+  native_continuation t=0.5: bb_ca 0.960, active_channels 0.153, prior_channels 0.002
+  native_continuation t=0.7: bb_ca 0.991, active_channels 0.265, prior_channels 0.006
+  native_continuation t=0.9: bb_ca 0.974, active_channels 0.185, prior_channels 0.031
+  esmc_residual8 t=0.1: bb_ca -0.095, sequence_channels -0.002, residual_channels -0.003
+  esmc_residual8 t=0.3: bb_ca 0.606, sequence_channels -0.016, residual_channels -0.010
+  esmc_residual8 t=0.5: bb_ca 0.751, sequence_channels -0.048, residual_channels -0.027
+  esmc_residual8 t=0.7: bb_ca 0.657, sequence_channels -0.055, residual_channels -0.029
+  esmc_residual8 t=0.9: bb_ca 0.250, sequence_channels -0.047, residual_channels 0.039
+  inplace_hybrid t=0.1: bb_ca -0.074, code_channels 0.003, native_kept_channels -0.013
+  inplace_hybrid t=0.3: bb_ca 0.734, code_channels 0.001, native_kept_channels -0.055
+  inplace_hybrid t=0.5: bb_ca 0.957, code_channels -0.015, native_kept_channels -0.079
+  inplace_hybrid t=0.7: bb_ca 0.985, code_channels -0.054, native_kept_channels -0.166
+  inplace_hybrid t=0.9: bb_ca 0.938, code_channels -0.096, native_kept_channels -0.426
+  type_only_residual8 t=0.1: bb_ca -0.087, sequence_channels -0.038, residual_channels 0.001
+  type_only_residual8 t=0.3: bb_ca 0.635, sequence_channels -0.071, residual_channels 0.014
+  type_only_residual8 t=0.5: bb_ca 0.794, sequence_channels -0.130, residual_channels 0.009
+  type_only_residual8 t=0.7: bb_ca 0.733, sequence_channels -0.192, residual_channels -0.016
+  type_only_residual8 t=0.9: bb_ca 0.343, sequence_channels -0.553, residual_channels 0.032
+
+After the updates, skill over the x_t predictor
+  native_continuation t=0.1: bb_ca 0.139, active_channels 0.002, prior_channels 0.000
+  native_continuation t=0.3: bb_ca 0.746, active_channels 0.038, prior_channels 0.001
+  native_continuation t=0.5: bb_ca 0.970, active_channels 0.194, prior_channels 0.003
+  native_continuation t=0.7: bb_ca 0.989, active_channels 0.257, prior_channels 0.005
+  native_continuation t=0.9: bb_ca 0.968, active_channels 0.174, prior_channels 0.029
+  esmc_residual8 t=0.1: bb_ca 0.127, sequence_channels 0.013, residual_channels 0.006
+  esmc_residual8 t=0.3: bb_ca 0.789, sequence_channels 0.254, residual_channels 0.232
+  esmc_residual8 t=0.5: bb_ca 0.981, sequence_channels 0.603, residual_channels 0.676
+  esmc_residual8 t=0.7: bb_ca 0.985, sequence_channels 0.411, residual_channels 0.637
+  esmc_residual8 t=0.9: bb_ca 0.939, sequence_channels 0.080, residual_channels 0.298
+  esmc_residual8_scratch t=0.1: bb_ca 0.079, sequence_channels 0.009, residual_channels -0.018
+  esmc_residual8_scratch t=0.3: bb_ca 0.626, sequence_channels 0.201, residual_channels 0.093
+  esmc_residual8_scratch t=0.5: bb_ca 0.781, sequence_channels 0.529, residual_channels 0.308
+  esmc_residual8_scratch t=0.7: bb_ca 0.730, sequence_channels 0.358, residual_channels 0.265
+  esmc_residual8_scratch t=0.9: bb_ca 0.276, sequence_channels 0.034, residual_channels 0.075
+  inplace_hybrid t=0.1: bb_ca 0.107, code_channels 0.009, native_kept_channels 0.006
+  inplace_hybrid t=0.3: bb_ca 0.782, code_channels 0.190, native_kept_channels 0.179
+  inplace_hybrid t=0.5: bb_ca 0.986, code_channels 0.613, native_kept_channels 0.737
+  inplace_hybrid t=0.7: bb_ca 0.991, code_channels 0.421, native_kept_channels 0.812
+  inplace_hybrid t=0.9: bb_ca 0.965, code_channels 0.077, native_kept_channels 0.582
+  type_only_residual8 t=0.1: bb_ca 0.153, sequence_channels 0.020, residual_channels 0.009
+  type_only_residual8 t=0.3: bb_ca 0.763, sequence_channels 0.395, residual_channels 0.222
+  type_only_residual8 t=0.5: bb_ca 0.978, sequence_channels 0.973, residual_channels 0.662
+  type_only_residual8 t=0.7: bb_ca 0.984, sequence_channels 0.997, residual_channels 0.634
+  type_only_residual8 t=0.9: bb_ca 0.923, sequence_channels 0.964, residual_channels 0.343
+
+After the updates, secondary: skill over the joint predictor of the token's own noisy latent
+  native_continuation t=0.1: active_channels 0.002, prior_channels -0.001
+  native_continuation t=0.3: active_channels 0.039, prior_channels 0.002
+  native_continuation t=0.5: active_channels 0.364, prior_channels 0.217
+  native_continuation t=0.7: active_channels 0.809, prior_channels 0.747
+  native_continuation t=0.9: active_channels 0.983, prior_channels 0.980
+  esmc_residual8 t=0.1: sequence_channels 0.004, residual_channels 0.001
+  esmc_residual8 t=0.3: sequence_channels 0.088, residual_channels 0.153
+  esmc_residual8 t=0.5: sequence_channels 0.289, residual_channels 0.571
+  esmc_residual8 t=0.7: sequence_channels 0.622, residual_channels 0.780
+  esmc_residual8 t=0.9: sequence_channels 0.953, residual_channels 0.962
+  esmc_residual8_scratch t=0.1: sequence_channels 0.000, residual_channels -0.023
+  esmc_residual8_scratch t=0.3: sequence_channels 0.023, residual_channels -0.001
+  esmc_residual8_scratch t=0.5: sequence_channels 0.156, residual_channels 0.082
+  esmc_residual8_scratch t=0.7: sequence_channels 0.587, residual_channels 0.554
+  esmc_residual8_scratch t=0.9: sequence_channels 0.951, residual_channels 0.950
+  inplace_hybrid t=0.1: code_channels -0.000, native_kept_channels 0.005
+  inplace_hybrid t=0.3: code_channels 0.037, native_kept_channels 0.158
+  inplace_hybrid t=0.5: code_channels 0.200, native_kept_channels 0.688
+  inplace_hybrid t=0.7: code_channels 0.495, native_kept_channels 0.860
+  inplace_hybrid t=0.9: code_channels 0.937, native_kept_channels 0.969
+  type_only_residual8 t=0.1: sequence_channels -0.001, residual_channels 0.003
+  type_only_residual8 t=0.3: sequence_channels 0.009, residual_channels 0.127
+  type_only_residual8 t=0.5: sequence_channels 0.018, residual_channels 0.513
+  type_only_residual8 t=0.7: sequence_channels -32514086177.327, residual_channels 0.533
+  type_only_residual8 t=0.9: sequence_channels -68523466452.604, residual_channels 0.878
+
+  esmc_residual8 minus esmc_residual8_scratch, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: +0.048 [+0.038, +0.058]
+    bb_ca              t=0.3: +0.163 [+0.155, +0.171]
+    bb_ca              t=0.5: +0.200 [+0.198, +0.203]
+    bb_ca              t=0.7: +0.255 [+0.253, +0.258]
+    bb_ca              t=0.9: +0.663 [+0.660, +0.666]
+    sequence_channels  t=0.1: +0.003 [+0.003, +0.004]
+                         over the joint predictor: +0.003 [+0.003, +0.004]
+    sequence_channels  t=0.3: +0.053 [+0.049, +0.057]
+                         over the joint predictor: +0.065 [+0.060, +0.070]
+    sequence_channels  t=0.5: +0.074 [+0.073, +0.076]
+                         over the joint predictor: +0.133 [+0.131, +0.136]
+    sequence_channels  t=0.7: +0.053 [+0.052, +0.055]
+                         over the joint predictor: +0.034 [+0.033, +0.036]
+    sequence_channels  t=0.9: +0.046 [+0.045, +0.047]
+                         over the joint predictor: +0.002 [+0.002, +0.002]
+    residual_channels  t=0.1: +0.023 [+0.022, +0.024]
+                         over the joint predictor: +0.023 [+0.022, +0.025]
+    residual_channels  t=0.3: +0.139 [+0.131, +0.147]
+                         over the joint predictor: +0.154 [+0.145, +0.162]
+    residual_channels  t=0.5: +0.369 [+0.364, +0.372]
+                         over the joint predictor: +0.489 [+0.482, +0.495]
+    residual_channels  t=0.7: +0.372 [+0.368, +0.376]
+                         over the joint predictor: +0.226 [+0.222, +0.229]
+    residual_channels  t=0.9: +0.223 [+0.220, +0.226]
+                         over the joint predictor: +0.012 [+0.012, +0.012]
+
+  native_continuation minus esmc_residual8, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: +0.012 [+0.006, +0.018]
+    bb_ca              t=0.3: -0.043 [-0.051, -0.037]
+    bb_ca              t=0.5: -0.012 [-0.014, -0.010]
+    bb_ca              t=0.7: +0.004 [+0.004, +0.004]
+    bb_ca              t=0.9: +0.029 [+0.028, +0.030]
+
+  native_continuation minus esmc_residual8_scratch, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: +0.060 [+0.051, +0.069]
+    bb_ca              t=0.3: +0.120 [+0.112, +0.127]
+    bb_ca              t=0.5: +0.189 [+0.185, +0.192]
+    bb_ca              t=0.7: +0.259 [+0.257, +0.262]
+    bb_ca              t=0.9: +0.692 [+0.689, +0.695]
+
+  esmc_residual8 minus type_only_residual8, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: -0.026 [-0.033, -0.018]
+    bb_ca              t=0.3: +0.026 [+0.019, +0.033]
+    bb_ca              t=0.5: +0.003 [+0.002, +0.004]
+    bb_ca              t=0.7: +0.002 [+0.001, +0.002]
+    bb_ca              t=0.9: +0.015 [+0.014, +0.017]
+    sequence_channels  t=0.1: -0.007 [-0.009, -0.006]
+                         over the joint predictor: +0.004 [+0.004, +0.005]
+    sequence_channels  t=0.3: -0.140 [-0.146, -0.135]
+                         over the joint predictor: +0.079 [+0.074, +0.083]
+    sequence_channels  t=0.5: -0.370 [-0.373, -0.367]
+                         over the joint predictor: +0.271 [+0.229, +0.315]
+    sequence_channels  t=0.7: -0.586 [-0.590, -0.581]
+                         over the joint predictor: +32514086177.949 [+31514701858.941, +33591155339.665]
+    sequence_channels  t=0.9: -0.884 [-0.886, -0.882]
+                         over the joint predictor: +68523466453.557 [+67461968558.418, +69642351172.152]
+    residual_channels  t=0.1: -0.003 [-0.004, -0.002]
+                         over the joint predictor: -0.002 [-0.003, -0.001]
+    residual_channels  t=0.3: +0.010 [+0.004, +0.016]
+                         over the joint predictor: +0.026 [+0.020, +0.032]
+    residual_channels  t=0.5: +0.015 [+0.011, +0.018]
+                         over the joint predictor: +0.058 [+0.053, +0.063]
+    residual_channels  t=0.7: +0.003 [+0.001, +0.006]
+                         over the joint predictor: +0.247 [+0.243, +0.250]
+    residual_channels  t=0.9: -0.045 [-0.050, -0.041]
+                         over the joint predictor: +0.084 [+0.082, +0.085]
+
+  inplace_hybrid minus esmc_residual8, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: -0.020 [-0.028, -0.013]
+    bb_ca              t=0.3: -0.007 [-0.014, +0.000]
+    bb_ca              t=0.5: +0.004 [+0.003, +0.005]
+    bb_ca              t=0.7: +0.005 [+0.005, +0.006]
+    bb_ca              t=0.9: +0.026 [+0.026, +0.027]
+
+  inplace_hybrid minus native_continuation, paired bootstrap over 256 dev chains (95 % interval):
+    bb_ca              t=0.1: -0.032 [-0.040, -0.025]
+    bb_ca              t=0.3: +0.036 [+0.030, +0.043]
+    bb_ca              t=0.5: +0.016 [+0.015, +0.018]
+    bb_ca              t=0.7: +0.001 [+0.001, +0.002]
+    bb_ca              t=0.9: -0.003 [-0.003, -0.002]
+
+Transfer (esmc_residual8 above esmc_residual8_scratch in the Cα mode and in the sequence channels at every t of 0.3 or more, each interval above zero):
+  OBSERVED
+
+Type-only comparison (esmc_residual8 against the identity code type_only_residual8): esmc_residual8's skill over the joint predictor exceeds type_only_residual8's in the sequence channels, the paired 95 % interval above zero at every t of 0.5 or more
+  ESMC's code is easier to generate than the identity code
+  the joint predictor's error over the marginals' (sequence channels), esmc_residual8 / type_only_residual8: t=0.5: 0.56 / 0.03, t=0.7: 1.56 / 0.00, t=0.9: 19.66 / 0.00
+  -> at t = 0.5, 0.7, 0.9 the joint predictor is weaker than the marginals or nearly exact for a code: the rule as fixed is read there against a baseline that does not measure the flow, and its verdict is not a finding
+
+In-place comparison (in-place layout against esmc_residual8): inplace_hybrid's Cα-mode skill exceeds esmc_residual8's, the paired 95 % interval above zero at every t of 0.3 or more
+  not shown; t=0.3: -0.007 [-0.014, +0.000]
+
+Backbone skill kept (what the retarget keeps): esmc_residual8's Cα-mode skill is at least 0.8 of native_continuation's at every t of 0.3 or more
+  t=0.3: esmc_residual8/native_continuation = 1.058
+  t=0.5: esmc_residual8/native_continuation = 1.012
+  t=0.7: esmc_residual8/native_continuation = 0.996
+  t=0.9: esmc_residual8/native_continuation = 0.970
+  -> kept: True
+
+Code skill learned (what the retarget learns): esmc_residual8's skill over the joint predictor of the token's own noisy latent, in the sequence channels and in the residual channels, has its 95 % bootstrap interval above zero at every t of 0.5 or more
+  sequence_channels t=0.5: +0.289 [+0.286, +0.293]   (the joint predictor's error is 0.56 of the marginals')
+  sequence_channels t=0.7: +0.622 [+0.620, +0.623]   (the joint predictor's error is 1.56 of the marginals': not a usable baseline here)
+  sequence_channels t=0.9: +0.953 [+0.953, +0.954]   (the joint predictor's error is 19.66 of the marginals': not a usable baseline here)
+  residual_channels t=0.5: +0.571 [+0.565, +0.577]   (the joint predictor's error is 0.75 of the marginals')
+  residual_channels t=0.7: +0.780 [+0.777, +0.782]   (the joint predictor's error is 1.65 of the marginals': not a usable baseline here)
+  residual_channels t=0.9: +0.962 [+0.962, +0.963]   (the joint predictor's error is 18.59 of the marginals': not a usable baseline here)
+  -> learned: yes
+  -> at the times where the joint predictor is a usable baseline: no failure
+
+Token baseline. The final checkpoints read again with the learned token-only baseline
+  native_continuation: the model's error in the two readings of the same checkpoint differs by at most 0.0e+00 (relative, summed over the chains)
+  native_continuation t=0.1: active_channels +0.002 [+0.001, +0.002], prior_channels -0.001 [-0.001, -0.001]
+  native_continuation t=0.3: active_channels +0.038 [+0.035, +0.040], prior_channels +0.000 [-0.000, +0.000]
+  native_continuation t=0.5: active_channels +0.191 [+0.185, +0.196], prior_channels +0.001 [+0.001, +0.001]
+  native_continuation t=0.7: active_channels +0.250 [+0.247, +0.253], prior_channels +0.001 [+0.001, +0.001]
+  native_continuation t=0.9: active_channels +0.156 [+0.155, +0.158], prior_channels -0.001 [-0.002, -0.001]
+  esmc_residual8: the model's error in the two readings of the same checkpoint differs by at most 0.0e+00 (relative, summed over the chains)
+  esmc_residual8 t=0.1: sequence_channels +0.004 [+0.003, +0.005], residual_channels +0.001 [+0.001, +0.002]
+  esmc_residual8 t=0.3: sequence_channels +0.089 [+0.084, +0.095], residual_channels +0.153 [+0.144, +0.162]
+  esmc_residual8 t=0.5: sequence_channels +0.214 [+0.211, +0.218], residual_channels +0.526 [+0.519, +0.532]
+  esmc_residual8 t=0.7: sequence_channels +0.119 [+0.116, +0.123], residual_channels +0.451 [+0.444, +0.458]
+  esmc_residual8 t=0.9: sequence_channels +0.018 [+0.017, +0.019], residual_channels +0.131 [+0.128, +0.134]
+  inplace_hybrid: the model's error in the two readings of the same checkpoint differs by at most 0.0e+00 (relative, summed over the chains)
+  inplace_hybrid t=0.1: code_channels +0.000 [-0.000, +0.001], native_kept_channels +0.006 [+0.005, +0.007]
+  inplace_hybrid t=0.3: code_channels +0.039 [+0.034, +0.044], native_kept_channels +0.160 [+0.149, +0.170]
+  inplace_hybrid t=0.5: code_channels +0.170 [+0.162, +0.179], native_kept_channels +0.677 [+0.667, +0.686]
+  inplace_hybrid t=0.7: code_channels +0.063 [+0.060, +0.067], native_kept_channels +0.735 [+0.727, +0.742]
+  inplace_hybrid t=0.9: code_channels +0.007 [+0.006, +0.008], native_kept_channels +0.492 [+0.485, +0.499]
+  type_only_residual8: the model's error in the two readings of the same checkpoint differs by at most 0.0e+00 (relative, summed over the chains)
+  type_only_residual8 t=0.1: sequence_channels -0.000 [-0.000, +0.000], residual_channels +0.004 [+0.003, +0.004]
+  type_only_residual8 t=0.3: sequence_channels +0.013 [+0.008, +0.016], residual_channels +0.128 [+0.120, +0.136]
+  type_only_residual8 t=0.5: sequence_channels +0.135 [+0.099, +0.171], residual_channels +0.516 [+0.511, +0.521]
+  type_only_residual8 t=0.7: sequence_channels -2.012 [-2.058, -1.953], residual_channels +0.476 [+0.471, +0.481]
+  type_only_residual8 t=0.9: sequence_channels -3.808 [-3.841, -3.772], residual_channels +0.208 [+0.204, +0.212]
+
+Code skill learned over the token-only baseline (what the retarget learns): esmc_residual8's skill over the token-only baseline, in the sequence channels and in the residual channels, has its 95 % interval above zero at t = 0.3 and 0.5
+  -> learned: yes
+
+Variance explained (esmc_residual8 against the identity code type_only_residual8; a description, no rule: the baseline of a code that its own noisy latent identifies all but exactly leaves a skill unbounded below, so that a skill over a baseline does not rank two codes). The share of the clean latent's variance each flow explains in the sequence channels (the latents have unit spread per channel), beside its skill over the token-only baseline and that baseline's error over the marginals'
+  t=0.1: variance explained esmc_residual8 +0.021, type_only_residual8 +0.028 (esmc_residual8 - type_only_residual8 -0.007 [-0.009, -0.006]); the token-only baseline's error over the marginals': esmc_residual8 0.99, type_only_residual8 0.98
+  t=0.3: variance explained esmc_residual8 +0.372, type_only_residual8 +0.494 (esmc_residual8 - type_only_residual8 -0.121 [-0.127, -0.116]); the token-only baseline's error over the marginals': esmc_residual8 0.82, type_only_residual8 0.61
+  t=0.5: variance explained esmc_residual8 +0.806, type_only_residual8 +0.987 (esmc_residual8 - type_only_residual8 -0.181 [-0.183, -0.179]); the token-only baseline's error over the marginals': esmc_residual8 0.51, type_only_residual8 0.03   (type_only_residual8's baseline is all but exact here: its skill is not read)
+  t=0.7: variance explained esmc_residual8 +0.912, type_only_residual8 +1.000 (esmc_residual8 - type_only_residual8 -0.087 [-0.088, -0.087]); the token-only baseline's error over the marginals': esmc_residual8 0.67, type_only_residual8 0.00   (type_only_residual8's baseline is all but exact here: its skill is not read)
+  t=0.9: variance explained esmc_residual8 +0.989, type_only_residual8 +1.000 (esmc_residual8 - type_only_residual8 -0.011 [-0.011, -0.011]); the token-only baseline's error over the marginals': esmc_residual8 0.94, type_only_residual8 0.01   (type_only_residual8's baseline is all but exact here: its skill is not read)
+
+Gain. what the updates changed, in the final reading's token-only baseline units: (E_start - E_end) / E_tok, paired over the chains
+  native_continuation t=0.1: active_channels +0.003 [+0.003, +0.003], prior_channels -0.001 [-0.001, -0.000]
+  native_continuation t=0.3: active_channels +0.005 [+0.004, +0.007], prior_channels -0.000 [-0.000, -0.000]
+  native_continuation t=0.5: active_channels +0.041 [+0.036, +0.046], prior_channels +0.000 [+0.000, +0.000]
+  native_continuation t=0.7: active_channels -0.008 [-0.009, -0.006], prior_channels -0.001 [-0.001, -0.001]
+  native_continuation t=0.9: active_channels -0.011 [-0.011, -0.010], prior_channels -0.002 [-0.002, -0.002]
+  esmc_residual8 t=0.1: sequence_channels +0.015 [+0.014, +0.016], residual_channels +0.008 [+0.007, +0.009]
+  esmc_residual8 t=0.3: sequence_channels +0.331 [+0.323, +0.338], residual_channels +0.267 [+0.258, +0.276]
+  esmc_residual8 t=0.5: sequence_channels +1.288 [+1.274, +1.302], residual_channels +1.031 [+1.019, +1.042]
+  esmc_residual8 t=0.7: sequence_channels +0.697 [+0.687, +0.707], residual_channels +1.008 [+0.996, +1.019]
+  esmc_residual8 t=0.9: sequence_channels +0.135 [+0.133, +0.137], residual_channels +0.320 [+0.314, +0.326]
+  inplace_hybrid t=0.1: code_channels +0.006 [+0.006, +0.007], native_kept_channels +0.019 [+0.018, +0.020]
+  inplace_hybrid t=0.3: code_channels +0.224 [+0.218, +0.230], native_kept_channels +0.240 [+0.231, +0.249]
+  inplace_hybrid t=0.5: code_channels +1.343 [+1.322, +1.366], native_kept_channels +1.004 [+0.987, +1.022]
+  inplace_hybrid t=0.7: code_channels +0.768 [+0.758, +0.778], native_kept_channels +1.385 [+1.370, +1.400]
+  inplace_hybrid t=0.9: code_channels +0.187 [+0.184, +0.189], native_kept_channels +1.228 [+1.216, +1.239]
+  type_only_residual8 t=0.1: sequence_channels +0.059 [+0.058, +0.061], residual_channels +0.007 [+0.007, +0.008]
+  type_only_residual8 t=0.3: sequence_channels +0.761 [+0.749, +0.772], residual_channels +0.234 [+0.225, +0.242]
+  type_only_residual8 t=0.5: sequence_channels +35.319 [+33.883, +36.825], residual_channels +0.934 [+0.925, +0.943]
+  type_only_residual8 t=0.7: sequence_channels +1205.106 [+1180.865, +1223.271], residual_channels +0.930 [+0.919, +0.940]
+  type_only_residual8 t=0.9: sequence_channels +200.060 [+198.426, +201.770], residual_channels +0.375 [+0.368, +0.381]
+
+Samples (a chain: 99 % of the Cα steps in 3.6-4.0 Å, none above 4.5 Å, no Cα pair under 3.0 Å beyond two residues; a sequence: 15 kinds, none over a quarter)
+  native_continuation samples: 32 samples, chains 0.94, sequence not collapsed 0.91, both 0.88 -> feasible: True
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 11.6 / 5.1, 0.10; 120 (8): 14.7 / 10.8, 0.09; 160 (8): 15.1 / 5.3, 0.08; 200 (8): 15.5 / 10.1, 0.08
+      judge (atlasfold-monomer): 32 scored, scRMSD median 0.41 Å (p10 0.29, p90 1.05), under 2 Å 0.91, scTM median 0.991, pLDDT median 97.8
+  native_continuation samples_readout: 32 samples, chains 0.94, sequence not collapsed 0.91, both 0.88 -> feasible: True
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 11.6 / 5.1, 0.10; 120 (8): 14.7 / 10.8, 0.09; 160 (8): 15.1 / 5.3, 0.08; 200 (8): 15.5 / 10.1, 0.08
+      judge (atlasfold-monomer): 32 scored, scRMSD median 0.41 Å (p10 0.29, p90 1.05), under 2 Å 0.91, scTM median 0.991, pLDDT median 97.8
+  esmc_residual8 samples: 32 samples, chains 0.28, sequence not collapsed 0.38, both 0.06 -> feasible: False
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 11.2 / 7.3, 0.10; 120 (8): 14.9 / 9.6, 0.09; 160 (8): 14.7 / 11.6, 0.11; 200 (8): 14.7 / 10.3, 0.13
+      judge (atlasfold-monomer): 32 scored, scRMSD median 0.61 Å (p10 0.41, p90 14.96), under 2 Å 0.81, scTM median 0.984, pLDDT median 95.8
+  esmc_residual8_scratch samples: 32 samples, chains 0.00, sequence not collapsed 0.00, both 0.00 -> feasible: False
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 34.7 / 22.8, 0.17; 120 (8): 31.9 / 17.4, 0.21; 160 (8): 30.3 / 21.0, 0.20; 200 (8): 31.2 / 24.9, 0.20
+      judge (atlasfold-monomer): 32 scored, scRMSD median 38.44 Å (p10 27.60, p90 46.58), under 2 Å 0.00, scTM median 0.121, pLDDT median 66.6
+  inplace_hybrid samples: 32 samples, chains 0.53, sequence not collapsed 0.22, both 0.19 -> feasible: False
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 11.0 / 6.0, 0.13; 120 (8): 14.3 / 9.4, 0.12; 160 (8): 14.6 / 9.9, 0.15; 200 (8): 15.4 / 11.6, 0.15
+      judge (atlasfold-monomer): 32 scored, scRMSD median 0.48 Å (p10 0.31, p90 0.85), under 2 Å 0.97, scTM median 0.989, pLDDT median 97.2
+  type_only_residual8 samples: 32 samples, chains 0.00, sequence not collapsed 0.03, both 0.00 -> feasible: False
+      diversity (mean / smallest pairwise Cα RMSD in Å, mean pairwise sequence identity), by length: 80 (8): 9.7 / 4.4, 0.19; 120 (8): 14.0 / 9.2, 0.16; 160 (8): 15.1 / 11.6, 0.15; 200 (8): 16.9 / 12.8, 0.15
+      judge (atlasfold-monomer): 32 scored, scRMSD median 0.82 Å (p10 0.57, p90 1.61), under 2 Å 0.91, scTM median 0.966, pLDDT median 94.3
+
+Budget. Throughput and the budget's axes
+  native_continuation: updates_total 800, chains_per_update 8, example_slots 25600, distinct_presentations 6400, residues 1172823, residues_squared 235901619, gpu_hours 2.617, step_seconds_median 2.52, step_seconds_p90 4.838, peak_allocated_gb 30.55
+  esmc_residual8: updates_total 800, chains_per_update 8, example_slots 25600, distinct_presentations 6400, residues 1172823, residues_squared 235901619, gpu_hours 2.544, step_seconds_median 2.441, step_seconds_p90 4.68, peak_allocated_gb 30.56
+  esmc_residual8_scratch: updates_total 800, chains_per_update 8, example_slots 25600, distinct_presentations 6400, residues 1172823, residues_squared 235901619, gpu_hours 2.553, step_seconds_median 2.445, step_seconds_p90 4.683, peak_allocated_gb 30.56
+  inplace_hybrid: updates_total 800, chains_per_update 8, example_slots 25600, distinct_presentations 6400, residues 1172823, residues_squared 235901619, gpu_hours 2.504, step_seconds_median 2.401, step_seconds_p90 4.601, peak_allocated_gb 30.56
+  type_only_residual8: updates_total 800, chains_per_update 8, example_slots 25600, distinct_presentations 6400, residues 1172823, residues_squared 235901619, gpu_hours 2.678, step_seconds_median 2.584, step_seconds_p90 4.971, peak_allocated_gb 30.55

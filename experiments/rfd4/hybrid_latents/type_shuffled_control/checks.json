@@ -1,0 +1,27 @@
+{
+ "no_context": {
+  "passes": true,
+  "context_r2_both": [
+   -0.0038740956492067102,
+   -0.0038483444283130552
+  ],
+  "limit": 0.01,
+  "reference_context_r2_both": [
+   0.11740326433894521,
+   0.09806233231331274
+  ]
+ },
+ "type_structure_kept": {
+  "passes": true,
+  "alignment_gap": 0.008641792367771906,
+  "alignment_limit": 0.02,
+  "within_type_share_gaps": [
+   0.003968242267577526,
+   0.006906107744506146
+  ],
+  "share_limit": 0.01,
+  "control_alignment": 0.47716133697128205,
+  "reference_alignment": 0.48580312933905395
+ },
+ "passes": true
+}

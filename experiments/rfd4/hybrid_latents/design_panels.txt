@@ -1,0 +1,152 @@
+== set design_panel_primary: designable = within 2.0 A of the backbone the design was made for
+label     AtlasFold  ESMFold2   median scRMSD  mean pLDDT  mean TM  AtlasFold and >= 3.0 bits  ESMFold2 and >= 3.0 bits (descriptive)
+own              70         -            0.64        89.9        -                        7                        -
+native           61        63            0.62        89.1     0.89                       11                       11
+native_continuation          74        71            0.79        94.6     0.93                       44                       40
+contextual_hybrid            80        82            0.78        95.2     0.94                       65                       66
+native_identity_control              79        78            0.67        94.5     0.94                       41                       42
+type_shuffled_hybrid            79        78            0.73        95.3     0.94                       54                       53
+contextual_hybrid_seed2           67         -            0.89        90.8        -                       44                        -
+type_shuffled_hybrid_seed2           71         -            0.73        94.3        -                       63                        -
+ProteinMPNN             81         -            0.71        95.6        -                       59                        -
+-- paired by backbone; gained = designable in the second and not the first (AtlasFold)
+  native_continuation against native: lost 6, gained 19, exact p 0.0146; gain by the rule True, loss by the rule False
+  contextual_hybrid against native: lost 6, gained 25, exact p 0.000878; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 4, gained 22, exact p 0.000534; gain by the rule True, loss by the rule False
+  contextual_hybrid against native_continuation: lost 5, gained 11, exact p 0.21; gain by the rule False, loss by the rule False
+  native_identity_control against native_continuation: lost 2, gained 7, exact p 0.18; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 6, gained 5, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native: lost 4, gained 22, exact p 0.000534; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 6, gained 11, exact p 0.332; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 7, gained 7, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 6, gained 5, exact p 1; gain by the rule False, loss by the rule False
+  ProteinMPNN against native: lost 3, gained 23, exact p 8.8e-05; gain by the rule True, loss by the rule False
+  ProteinMPNN against native_continuation: lost 7, gained 14, exact p 0.189; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid: lost 9, gained 10, exact p 1; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native: lost 13, gained 19, exact p 0.377; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native: lost 7, gained 17, exact p 0.0639; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native_continuation: lost 14, gained 7, exact p 0.189; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_continuation: lost 12, gained 9, exact p 0.664; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native_identity_control: lost 16, gained 4, exact p 0.0118; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid_seed2 against native_identity_control: lost 12, gained 4, exact p 0.0768; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against contextual_hybrid_seed2: lost 8, gained 12, exact p 0.503; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against contextual_hybrid: lost 17, gained 4, exact p 0.0072; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 14, gained 6, exact p 0.115; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid_seed2: lost 4, gained 18, exact p 0.00434; gain by the rule True, loss by the rule False
+-- the same by ESMFold2
+  native_continuation against native: lost 7, gained 15, exact p 0.134; gain by the rule False, loss by the rule False
+  contextual_hybrid against native: lost 4, gained 23, exact p 0.000311; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 6, gained 21, exact p 0.00592; gain by the rule True, loss by the rule False
+  contextual_hybrid against native_continuation: lost 5, gained 16, exact p 0.0266; gain by the rule True, loss by the rule False
+  native_identity_control against native_continuation: lost 3, gained 10, exact p 0.0923; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 11, gained 7, exact p 0.481; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native: lost 6, gained 21, exact p 0.00592; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 10, gained 17, exact p 0.248; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 11, gained 11, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 10, gained 6, exact p 0.454; gain by the rule False, loss by the rule False
+-- the same for AtlasFold's designable and at least 3.0 bits of residue-composition entropy (descriptive; not a rule)
+  native_continuation against native: lost 4, gained 37, exact p 1.03e-07; gain by the rule True, loss by the rule False
+  contextual_hybrid against native: lost 2, gained 56, exact p 1.19e-14; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 2, gained 32, exact p 6.94e-08; gain by the rule True, loss by the rule False
+  contextual_hybrid against native_continuation: lost 4, gained 25, exact p 0.000104; gain by the rule True, loss by the rule False
+  native_identity_control against native_continuation: lost 11, gained 8, exact p 0.648; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 26, gained 2, exact p 3.03e-06; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid against native: lost 2, gained 45, exact p 1.6e-11; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 6, gained 16, exact p 0.0525; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 3, gained 16, exact p 0.00443; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 14, gained 3, exact p 0.0127; gain by the rule False, loss by the rule True
+  ProteinMPNN against native: lost 1, gained 49, exact p 9.06e-14; gain by the rule True, loss by the rule False
+  ProteinMPNN against native_continuation: lost 7, gained 22, exact p 0.00813; gain by the rule True, loss by the rule False
+  ProteinMPNN against contextual_hybrid: lost 14, gained 8, exact p 0.286; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native: lost 4, gained 37, exact p 1.03e-07; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid_seed2 against native: lost 3, gained 55, exact p 2.26e-13; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against native_continuation: lost 13, gained 13, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_continuation: lost 5, gained 24, exact p 0.000546; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against native_identity_control: lost 9, gained 12, exact p 0.664; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_identity_control: lost 4, gained 26, exact p 5.95e-05; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid_seed2 against contextual_hybrid_seed2: lost 4, gained 23, exact p 0.000311; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against contextual_hybrid: lost 24, gained 3, exact p 4.92e-05; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 7, gained 16, exact p 0.0931; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid_seed2: lost 7, gained 22, exact p 0.00813; gain by the rule True, loss by the rule False
+-- the same for ESMFold2's designable and at least 3.0 bits (descriptive)
+  native_continuation against native: lost 4, gained 33, exact p 1.08e-06; gain by the rule True, loss by the rule False
+  contextual_hybrid against native: lost 2, gained 57, exact p 6.14e-15; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 2, gained 33, exact p 3.67e-08; gain by the rule True, loss by the rule False
+  contextual_hybrid against native_continuation: lost 4, gained 30, exact p 6.16e-06; gain by the rule True, loss by the rule False
+  native_identity_control against native_continuation: lost 9, gained 11, exact p 0.824; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 27, gained 3, exact p 8.43e-06; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid against native: lost 2, gained 44, exact p 3.08e-11; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 6, gained 19, exact p 0.0146; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 5, gained 16, exact p 0.0266; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 17, gained 4, exact p 0.0072; gain by the rule False, loss by the rule True
+== set design_panel_replication: designable = within 2.0 A of the backbone the design was made for
+label     AtlasFold  ESMFold2   median scRMSD  mean pLDDT  mean TM  AtlasFold and >= 3.0 bits  ESMFold2 and >= 3.0 bits (descriptive)
+own              58         -            1.07        88.6        -                       13                        -
+native           62         -            0.78        89.4        -                        8                        -
+native_continuation          74         -            0.69        94.3        -                       48                        -
+contextual_hybrid            71         -            0.77        95.0        -                       57                        -
+native_identity_control              71         -            0.78        93.9        -                       44                        -
+type_shuffled_hybrid            71         -            0.75        94.3        -                       53                        -
+contextual_hybrid_seed2           68         -            0.95        91.9        -                       41                        -
+type_shuffled_hybrid_seed2           69         -            0.75        94.6        -                       60                        -
+ProteinMPNN             75         -            0.62        94.8        -                       54                        -
+-- paired by backbone; gained = designable in the second and not the first (AtlasFold)
+  native_continuation against native: lost 5, gained 17, exact p 0.0169; gain by the rule True, loss by the rule False
+  contextual_hybrid against native: lost 4, gained 13, exact p 0.049; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 7, gained 16, exact p 0.0931; gain by the rule False, loss by the rule False
+  contextual_hybrid against native_continuation: lost 8, gained 5, exact p 0.581; gain by the rule False, loss by the rule False
+  native_identity_control against native_continuation: lost 9, gained 6, exact p 0.607; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 10, gained 10, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native: lost 4, gained 13, exact p 0.049; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 7, gained 4, exact p 0.549; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 8, gained 8, exact p 1; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 7, gained 7, exact p 1; gain by the rule False, loss by the rule False
+  ProteinMPNN against native: lost 3, gained 16, exact p 0.00443; gain by the rule True, loss by the rule False
+  ProteinMPNN against native_continuation: lost 5, gained 6, exact p 1; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid: lost 4, gained 8, exact p 0.388; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native: lost 9, gained 15, exact p 0.307; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native: lost 4, gained 11, exact p 0.118; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native_continuation: lost 12, gained 6, exact p 0.238; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_continuation: lost 10, gained 5, exact p 0.302; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native_identity_control: lost 13, gained 10, exact p 0.678; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_identity_control: lost 10, gained 8, exact p 0.815; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against contextual_hybrid_seed2: lost 8, gained 9, exact p 1; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against contextual_hybrid: lost 10, gained 7, exact p 0.629; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 8, gained 6, exact p 0.791; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid_seed2: lost 5, gained 12, exact p 0.143; gain by the rule False, loss by the rule False
+-- the same for AtlasFold's designable and at least 3.0 bits of residue-composition entropy (descriptive; not a rule)
+  native_continuation against native: lost 1, gained 41, exact p 1.96e-11; gain by the rule True, loss by the rule False
+  contextual_hybrid against native: lost 2, gained 51, exact p 3.18e-13; gain by the rule True, loss by the rule False
+  native_identity_control against native: lost 1, gained 37, exact p 2.84e-10; gain by the rule True, loss by the rule False
+  contextual_hybrid against native_continuation: lost 11, gained 20, exact p 0.15; gain by the rule False, loss by the rule False
+  native_identity_control against native_continuation: lost 13, gained 9, exact p 0.523; gain by the rule False, loss by the rule False
+  native_identity_control against contextual_hybrid: lost 22, gained 9, exact p 0.0294; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid against native: lost 2, gained 47, exact p 4.36e-12; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid against native_continuation: lost 6, gained 11, exact p 0.332; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against native_identity_control: lost 6, gained 15, exact p 0.0784; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid against contextual_hybrid: lost 13, gained 9, exact p 0.523; gain by the rule False, loss by the rule False
+  ProteinMPNN against native: lost 1, gained 47, exact p 3.48e-13; gain by the rule True, loss by the rule False
+  ProteinMPNN against native_continuation: lost 11, gained 17, exact p 0.345; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid: lost 14, gained 11, exact p 0.69; gain by the rule False, loss by the rule False
+  contextual_hybrid_seed2 against native: lost 3, gained 36, exact p 3.61e-08; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid_seed2 against native: lost 0, gained 52, exact p 4.44e-16; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against native_continuation: lost 17, gained 10, exact p 0.248; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_continuation: lost 6, gained 18, exact p 0.0227; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against native_identity_control: lost 17, gained 14, exact p 0.72; gain by the rule False, loss by the rule False
+  type_shuffled_hybrid_seed2 against native_identity_control: lost 6, gained 22, exact p 0.00372; gain by the rule True, loss by the rule False
+  type_shuffled_hybrid_seed2 against contextual_hybrid_seed2: lost 5, gained 24, exact p 0.000546; gain by the rule True, loss by the rule False
+  contextual_hybrid_seed2 against contextual_hybrid: lost 22, gained 6, exact p 0.00372; gain by the rule False, loss by the rule True
+  type_shuffled_hybrid_seed2 against type_shuffled_hybrid: lost 7, gained 14, exact p 0.189; gain by the rule False, loss by the rule False
+  ProteinMPNN against contextual_hybrid_seed2: lost 6, gained 19, exact p 0.0146; gain by the rule True, loss by the rule False
+== rules
+learned_posterior_hybrid_not_below_native: {"design_panel_primary": null, "design_panel_replication": null}
+native_identity_control_not_below_native: {"design_panel_primary": {"holds": true, "gained": 22, "lost": 4, "p": 0.0005335211753845215}, "design_panel_replication": {"holds": true, "gained": 16, "lost": 7, "p": 0.0931396484375}}
+contextual_hybrid_against_native_continuation: {"design_panel_primary": {"outcome": "contextual_above_native_continuation", "gained": 25, "lost": 4, "p": 0.00010371580719947815, "status": "descriptive: the property was defined after the panel was read", "ESMFold2": {"on P": {"gained": 30, "lost": 4, "p": 6.16488978266716e-06, "native_continuation above by the rule": false}, "on the count": {"gained": 16, "lost": 5, "p": 0.02660369873046875, "native_continuation above by the rule": false}, "contradicts": false}}, "design_panel_replication": {"outcome": "contextual_level_with_native_continuation", "gained": 20, "lost": 11, "p": 0.14961278438568115, "status": "descriptive: the property was defined after the panel was read"}}
+contextual_hybrid_against_native_identity_control: {"design_panel_primary": {"outcome": "contextual_above_native_identity_control", "native_identity_control_gained": 2, "native_identity_control_lost": 26, "p": 3.032386302947998e-06, "status": "descriptive"}, "design_panel_replication": {"outcome": "contextual_above_native_identity_control", "native_identity_control_gained": 9, "native_identity_control_lost": 22, "p": 0.029449373483657837, "status": "descriptive"}}
+first_seed_comparison: {"design_panel_primary": {"outcome": "contextual_above_type_shuffled", "contextual_hybrid_only": 14, "type_shuffled_hybrid_only": 3, "net_contextual_hybrid_minus_type_shuffled_hybrid": 11, "net_interval_95": [2.2, 15.7], "p": 0.012725830078125, "type_shuffled_hybrid_not_below_the_release_by_the_rule": true, "status": "standard", "type_shuffled_against_native_identity_control": {"type_shuffled_hybrid_only": 16, "native_identity_control_only": 3, "p": 0.004425048828125, "outcome": "type_shuffled_hybrid above native_identity_control"}}, "design_panel_replication": {"outcome": "contextual_ahead_rule_not_met", "contextual_hybrid_only": 13, "type_shuffled_hybrid_only": 9, "net_contextual_hybrid_minus_type_shuffled_hybrid": 4, "net_interval_95": [-6.0, 12.9], "p": 0.5234670639038086, "type_shuffled_hybrid_not_below_the_release_by_the_rule": true, "status": "descriptive", "type_shuffled_against_native_identity_control": {"type_shuffled_hybrid_only": 15, "native_identity_control_only": 6, "p": 0.0783538818359375, "outcome": "neither"}}}
+second_seed_comparison: {"design_panel_primary": {"outcome": "contextual_not_ahead", "contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 23, "net_contextual_hybrid_minus_type_shuffled_hybrid": -19, "net_per_96": -19.0, "net_interval_95": [-24.7, -8.8], "p": 0.000310748815536499, "pairs": 96, "contextual_hybrid_seed2_not_below_the_release_by_the_rule": true, "type_shuffled_hybrid_seed2_not_below_the_release_by_the_rule": true, "status": "descriptive", "against_native_identity_control": {"type_shuffled_hybrid_seed2_only": 26, "native_identity_control_only": 4, "p": 5.947612226009369e-05, "outcome": "type_shuffled_hybrid_seed2 above native_identity_control"}}, "design_panel_replication": {"outcome": "contextual_not_ahead", "contextual_hybrid_only": 5, "type_shuffled_hybrid_only": 24, "net_contextual_hybrid_minus_type_shuffled_hybrid": -19, "net_per_96": -19.0, "net_interval_95": [-25.6, -8.3], "p": 0.0005461126565933228, "pairs": 96, "contextual_hybrid_seed2_not_below_the_release_by_the_rule": true, "type_shuffled_hybrid_seed2_not_below_the_release_by_the_rule": true, "status": "standard", "against_native_identity_control": {"type_shuffled_hybrid_seed2_only": 22, "native_identity_control_only": 6, "p": 0.0037191659212112427, "outcome": "type_shuffled_hybrid_seed2 above native_identity_control"}}}
+net_by_seed_and_panel: {"cells": {"s1,design_panel_primary": {"contextual_hybrid_only": 14, "type_shuffled_hybrid_only": 3, "net_contextual_hybrid_minus_type_shuffled_hybrid": 11, "net_per_96": 11.0, "net_interval_95": [2.2, 15.7], "p": 0.012725830078125, "pairs": 96}, "s1,design_panel_replication": {"contextual_hybrid_only": 13, "type_shuffled_hybrid_only": 9, "net_contextual_hybrid_minus_type_shuffled_hybrid": 4, "net_per_96": 4.0, "net_interval_95": [-6.0, 12.9], "p": 0.5234670639038086, "pairs": 96}, "s2,design_panel_primary": {"contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 23, "net_contextual_hybrid_minus_type_shuffled_hybrid": -19, "net_per_96": -19.0, "net_interval_95": [-24.7, -8.8], "p": 0.000310748815536499, "pairs": 96}, "s2,design_panel_replication": {"contextual_hybrid_only": 5, "type_shuffled_hybrid_only": 24, "net_contextual_hybrid_minus_type_shuffled_hybrid": -19, "net_per_96": -19.0, "net_interval_95": [-25.6, -8.3], "p": 0.0005461126565933228, "pairs": 96}}, "pooled_seed1_primary_and_seed2_replication": {"contextual_hybrid_only": 19, "type_shuffled_hybrid_only": 27, "net_contextual_hybrid_minus_type_shuffled_hybrid": -8, "net_per_96": -4.0, "net_interval_95": [-21.2, 6.2], "p": 0.3019956131896606, "pairs": 192}}
+net_by_seed_panel_and_length: {"s1,design_panel_primary": {"by_length": {"90": {"backbones": 24, "contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 0, "net": 4}, "130": {"backbones": 24, "contextual_hybrid_only": 3, "type_shuffled_hybrid_only": 1, "net": 2}, "170": {"backbones": 24, "contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 1, "net": 3}, "210": {"backbones": 24, "contextual_hybrid_only": 3, "type_shuffled_hybrid_only": 1, "net": 2}}, "bins": 4, "bins_with_a_positive_net": 4}, "s1,design_panel_replication": {"by_length": {"90": {"backbones": 24, "contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 4, "net": 0}, "130": {"backbones": 24, "contextual_hybrid_only": 2, "type_shuffled_hybrid_only": 1, "net": 1}, "170": {"backbones": 24, "contextual_hybrid_only": 3, "type_shuffled_hybrid_only": 3, "net": 0}, "210": {"backbones": 24, "contextual_hybrid_only": 4, "type_shuffled_hybrid_only": 1, "net": 3}}, "bins": 4, "bins_with_a_positive_net": 2}, "s2,design_panel_primary": {"by_length": {"90": {"backbones": 24, "contextual_hybrid_only": 0, "type_shuffled_hybrid_only": 7, "net": -7}, "130": {"backbones": 24, "contextual_hybrid_only": 0, "type_shuffled_hybrid_only": 8, "net": -8}, "170": {"backbones": 24, "contextual_hybrid_only": 3, "type_shuffled_hybrid_only": 5, "net": -2}, "210": {"backbones": 24, "contextual_hybrid_only": 1, "type_shuffled_hybrid_only": 3, "net": -2}}, "bins": 4, "bins_with_a_positive_net": 0}, "s2,design_panel_replication": {"by_length": {"90": {"backbones": 24, "contextual_hybrid_only": 1, "type_shuffled_hybrid_only": 7, "net": -6}, "130": {"backbones": 24, "contextual_hybrid_only": 2, "type_shuffled_hybrid_only": 6, "net": -4}, "170": {"backbones": 24, "contextual_hybrid_only": 1, "type_shuffled_hybrid_only": 5, "net": -4}, "210": {"backbones": 24, "contextual_hybrid_only": 1, "type_shuffled_hybrid_only": 6, "net": -5}}, "bins": 4, "bins_with_a_positive_net": 0}}
+joint_patterns: {"s1,design_panel_primary": {"order": ["native_identity_control", "type_shuffled_hybrid", "contextual_hybrid"], "counts": {"111": 38, "101": 1, "100": 2, "011": 13, "010": 3, "001": 13, "000": 26}}, "s1,design_panel_replication": {"order": ["native_identity_control", "type_shuffled_hybrid", "contextual_hybrid"], "counts": {"111": 31, "110": 7, "101": 4, "100": 2, "011": 13, "010": 2, "001": 9, "000": 28}}, "s2,design_panel_primary": {"order": ["native_identity_control", "type_shuffled_hybrid_seed2", "contextual_hybrid_seed2"], "counts": {"111": 30, "110": 7, "101": 2, "100": 2, "011": 10, "010": 16, "001": 2, "000": 27}}, "s2,design_panel_replication": {"order": ["native_identity_control", "type_shuffled_hybrid_seed2", "contextual_hybrid_seed2"], "counts": {"111": 25, "110": 13, "101": 2, "100": 4, "011": 11, "010": 11, "001": 3, "000": 27}}}
+native_continuation_offered_as_designer: {"outcome": "not read here: needs the earlier design set, which this record does not hold"}
+native_continuation_default_designer: {"outcome": "not read here: needs the earlier design set, which this record does not hold"}

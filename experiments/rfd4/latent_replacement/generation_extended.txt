@@ -1,0 +1,27 @@
+s1: unconditional usable of 192 after 1,600, 2,400, 3,200 updates: 2, 11, 0 (passes usable gate: False); 1,600 to 3,200: flat; scale_scan at 3,200 by scale {'1.0': 3, '4.0': 5, '8.0': 4} of 96, heat ratio 0.6 (passes heat gate: False)
+   1600_to_2400: lost 2, gained 11, exact p 0.0225 (rises)
+   2400_to_3200: lost 11, gained 0, exact p 0.000977 (falls)
+   1600_to_3200: lost 2, gained 0, exact p 0.5 (flat)
+   after 1600: chain 188 sequence 3 designable 19 usable 2
+   codes after 1600: channel mean at most 0.75 (abs), spread 0.23 to 0.54, participation ratio 8.7
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.11, 6-10 0.14, 11-20 0.13, 21-32 0.12; squared offset of the mean: 1-5 1.96, 6-10 0.61, 11-20 0.88, 21-32 0.71
+   after 2400: chain 181 sequence 22 designable 46 usable 11
+   codes after 2400: channel mean at most 0.57 (abs), spread 0.27 to 0.57, participation ratio 10.1
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.13, 6-10 0.15, 11-20 0.16, 21-32 0.17; squared offset of the mean: 1-5 0.07, 6-10 0.40, 11-20 0.65, 21-32 0.90
+   after 3200: chain 185 sequence 2 designable 8 usable 0
+   codes after 3200: channel mean at most 0.59 (abs), spread 0.14 to 0.36, participation ratio 6.4
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.04, 6-10 0.05, 11-20 0.06, 21-32 0.07; squared offset of the mean: 1-5 0.06, 6-10 0.38, 11-20 0.83, 21-32 0.75
+s2: unconditional usable of 192 after 1,600, 2,400, 3,200 updates: 43, 17, 1 (passes usable gate: False); 1,600 to 3,200: falls; scale_scan at 3,200 by scale {'1.0': 1, '4.0': 6, '8.0': 21} of 96, heat ratio 0.048 (passes heat gate: False)
+   1600_to_2400: lost 39, gained 13, exact p 0.00041 (falls)
+   2400_to_3200: lost 17, gained 1, exact p 0.000145 (falls)
+   1600_to_3200: lost 43, gained 1, exact p 5.12e-12 (falls)
+   after 1600: chain 189 sequence 91 designable 74 usable 43
+   codes after 1600: channel mean at most 0.35 (abs), spread 0.40 to 0.97, participation ratio 11.4
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.46, 6-10 0.36, 11-20 0.46, 21-32 0.24; squared offset of the mean: 1-5 0.25, 6-10 0.34, 11-20 0.37, 21-32 0.21
+   after 2400: chain 190 sequence 36 designable 30 usable 17
+   codes after 2400: channel mean at most 0.62 (abs), spread 0.27 to 0.68, participation ratio 10.1
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.23, 6-10 0.16, 11-20 0.23, 21-32 0.16; squared offset of the mean: 1-5 0.52, 6-10 0.57, 11-20 0.87, 21-32 0.51
+   after 3200: chain 191 sequence 1 designable 4 usable 1
+   codes after 3200: channel mean at most 0.63 (abs), spread 0.13 to 0.30, participation ratio 9.3
+      variance along the latent's own eigen-directions, as a share of the latent's, by eigenvalue rank: 1-5 0.04, 6-10 0.03, 11-20 0.04, 21-32 0.03; squared offset of the mean: 1-5 0.38, 6-10 0.64, 11-20 0.62, 21-32 0.78
+outcome neither_generates_neither_rises: neither seed generates and neither rises: more updates at this recipe are not what is missing

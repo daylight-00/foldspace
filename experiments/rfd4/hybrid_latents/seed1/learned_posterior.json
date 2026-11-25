@@ -1,0 +1,369 @@
+{
+ "threshold": 8,
+ "alpha": 0.05,
+ "update": 1600,
+ "counts": {
+  "learned_posterior_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 52,
+     "designable": 88,
+     "usable": 49
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 62,
+     "designable": 84,
+     "usable": 55
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 73,
+     "designable": 83,
+     "usable": 61
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 189,
+     "sequence": 107,
+     "designable": 173,
+     "usable": 89
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 191,
+     "sequence": 150,
+     "designable": 174,
+     "usable": 133
+    }
+   }
+  },
+  "contextual_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 86,
+     "sequence": 44,
+     "designable": 91,
+     "usable": 38
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 91,
+     "sequence": 62,
+     "designable": 91,
+     "usable": 57
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 89,
+     "sequence": 83,
+     "designable": 85,
+     "usable": 67
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 181,
+     "sequence": 84,
+     "designable": 178,
+     "usable": 72
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 184,
+     "sequence": 159,
+     "designable": 174,
+     "usable": 137
+    }
+   }
+  },
+  "native_continuation-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 68,
+     "designable": 95,
+     "usable": 67
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 77,
+     "designable": 93,
+     "usable": 74
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 94,
+     "sequence": 82,
+     "designable": 91,
+     "usable": 77
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 189,
+     "sequence": 148,
+     "designable": 184,
+     "usable": 142
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 191,
+     "sequence": 158,
+     "designable": 182,
+     "usable": 149
+    }
+   }
+  },
+  "identity_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 92,
+     "designable": 86,
+     "usable": 82
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 91,
+     "designable": 87,
+     "usable": 81
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 93,
+     "designable": 73,
+     "usable": 68
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 188,
+     "sequence": 170,
+     "designable": 174,
+     "usable": 151
+    }
+   }
+  }
+ },
+ "tuned_scale": {
+  "learned_posterior_hybrid": 8.0,
+  "contextual_hybrid": 8.0,
+  "native_continuation": 8.0,
+  "identity_hybrid": 1.0
+ },
+ "designable": {
+  "native-release": {
+   "designable": 80,
+   "chains": 96
+  },
+  "native_continuation-s1-release": {
+   "designable": 84,
+   "chains": 96
+  },
+  "contextual_hybrid-s1-release": {
+   "designable": 81,
+   "chains": 96
+  },
+  "contextual_hybrid_noise0.2-s1-release": {
+   "designable": 78,
+   "chains": 96
+  },
+  "identity_hybrid-s1-release": {
+   "designable": 2,
+   "chains": 96
+  },
+  "deterministic_hybrid-s1-release": {
+   "designable": 71,
+   "chains": 96
+  },
+  "learned_posterior_hybrid-s1-release": {
+   "designable": 83,
+   "chains": 96
+  }
+ },
+ "unconditional": {
+  "contextual_hybrid": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7135416666666666,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 99,
+     "lost": 38,
+     "gained": 34,
+     "never_had_it": 21,
+     "exact_p_two_sided": 0.723948145746914
+    },
+    "verdict": "level"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.375,
+     "share_after": 0.4635416666666667,
+     "had_it_and_kept_it": 40,
+     "lost": 32,
+     "gained": 49,
+     "never_had_it": 71,
+     "exact_p_two_sided": 0.07478815428283367
+    },
+    "verdict": "level"
+   }
+  },
+  "native_continuation": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7760416666666666,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 106,
+     "lost": 43,
+     "gained": 27,
+     "never_had_it": 16,
+     "exact_p_two_sided": 0.07223792719176259
+    },
+    "verdict": "level"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.4635416666666667,
+     "had_it_and_kept_it": 70,
+     "lost": 72,
+     "gained": 19,
+     "never_had_it": 31,
+     "exact_p_two_sided": 1.9671283608760133e-08
+    },
+    "verdict": "below"
+   }
+  },
+  "identity_hybrid": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7864583333333334,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 105,
+     "lost": 46,
+     "gained": 28,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.04739297550405179
+    },
+    "verdict": "below"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7864583333333334,
+     "share_after": 0.4635416666666667,
+     "had_it_and_kept_it": 70,
+     "lost": 81,
+     "gained": 19,
+     "never_had_it": 22,
+     "exact_p_two_sided": 2.702762522048789e-10
+    },
+    "verdict": "below"
+   }
+  }
+ },
+ "held_backbones": {
+  "native_continuation-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.875,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 81,
+    "lost": 3,
+    "gained": 2,
+    "never_had_it": 10,
+    "exact_p_two_sided": 1.0
+   },
+   "verdict": "level"
+  },
+  "contextual_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.84375,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 75,
+    "lost": 6,
+    "gained": 8,
+    "never_had_it": 7,
+    "exact_p_two_sided": 0.79052734375
+   },
+   "verdict": "level"
+  },
+  "contextual_hybrid_noise0.2-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.8125,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 75,
+    "lost": 3,
+    "gained": 8,
+    "never_had_it": 10,
+    "exact_p_two_sided": 0.2265625
+   },
+   "verdict": "level"
+  },
+  "identity_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.020833333333333332,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 2,
+    "lost": 0,
+    "gained": 81,
+    "never_had_it": 13,
+    "exact_p_two_sided": 8.271806125530277e-25
+   },
+   "verdict": "above"
+  },
+  "deterministic_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.7395833333333334,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 70,
+    "lost": 1,
+    "gained": 13,
+    "never_had_it": 12,
+    "exact_p_two_sided": 0.0018310546875
+   },
+   "verdict": "above"
+  },
+  "native-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.8333333333333334,
+    "share_after": 0.8645833333333334,
+    "had_it_and_kept_it": 76,
+    "lost": 4,
+    "gained": 7,
+    "never_had_it": 9,
+    "exact_p_two_sided": 0.548828125
+   },
+   "verdict": "level"
+  }
+ },
+ "heat_free": "fails",
+ "designer": "holds",
+ "outcome": "designer only"
+}

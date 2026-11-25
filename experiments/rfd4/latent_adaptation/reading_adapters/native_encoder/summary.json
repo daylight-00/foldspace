@@ -1,0 +1,31 @@
+{
+ "arm": "native",
+ "dev": {
+  "label": "native",
+  "all": {
+   "residues": 43931,
+   "per_residue_rmsd": 0.06969901878704972,
+   "backbone_rms": 0.06981915721819673,
+   "side_chain_rms": 0.08705596365215114,
+   "sequence_accuracy": 0.9943092576995743
+  },
+  "complete": {
+   "residues": 43675,
+   "per_residue_rmsd": 0.06906984609123394,
+   "backbone_rms": 0.06928508380187626,
+   "side_chain_rms": 0.0838825050246231,
+   "sequence_accuracy": 1.0
+  },
+  "truncated": {
+   "residues": 256,
+   "per_residue_rmsd": 0.17703932148140075,
+   "backbone_rms": 0.12334289933754561,
+   "side_chain_rms": 0.3247056479237509,
+   "sequence_accuracy": 0.0234375
+  },
+  "presence_f1": 0.9987755162615138,
+  "mean_relative_l2_to_release_posterior_mean": 0.0,
+  "seconds": 6.4
+ },
+ "ae": "/path/to/home/workspaces/models/hf/hub/blobs/d2/d248d00a8c4a8ab636450c08fc8dbf9a86e343f3dd3d6bc31da6fed97723dc74"
+}

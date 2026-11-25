@@ -1,0 +1,81 @@
+{
+ "seeds": {
+  "s1": {
+   "esmc_only_unconditional_usable_at_1": 2,
+   "type_only_unconditional_usable_at_1": 0,
+   "passes_usable_gate": false,
+   "type_only_passes_usable_gate": false,
+   "esmc_only_scale_scan_usable_by_scale": {
+    "1.0": 0,
+    "4.0": 2,
+    "8.0": 4
+   },
+   "heat_ratio": 0.0,
+   "passes_heat_gate": false,
+   "esmc_only_against_type_only": "level",
+   "esmc_only_only": 2,
+   "type_only_only": 0,
+   "p": 0.5,
+   "diagnostics": {
+    "esmc_only": {
+     "samples": 192,
+     "entropy_mean_bits": 2.407,
+     "below_3_bits": 163,
+     "readout_agrees_with_decoder": 0.583
+    },
+    "type_only": {
+     "samples": 192,
+     "entropy_mean_bits": 2.266,
+     "below_3_bits": 192,
+     "readout_agrees_with_decoder": 0.081
+    }
+   },
+   "esmc_only_against_native_continuation": {
+    "esmc_only_only": 2,
+    "native_continuation_only": 142,
+    "p": 9.363812650249866e-40
+   }
+  },
+  "s2": {
+   "esmc_only_unconditional_usable_at_1": 43,
+   "type_only_unconditional_usable_at_1": 0,
+   "passes_usable_gate": false,
+   "type_only_passes_usable_gate": false,
+   "esmc_only_scale_scan_usable_by_scale": {
+    "1.0": 19,
+    "4.0": 30,
+    "8.0": 19
+   },
+   "heat_ratio": 0.633,
+   "passes_heat_gate": false,
+   "esmc_only_against_type_only": "above",
+   "esmc_only_only": 43,
+   "type_only_only": 0,
+   "p": 2.2737367544323206e-13,
+   "diagnostics": {
+    "esmc_only": {
+     "samples": 192,
+     "entropy_mean_bits": 3.236,
+     "below_3_bits": 38,
+     "readout_agrees_with_decoder": 0.35
+    },
+    "type_only": {
+     "samples": 192,
+     "entropy_mean_bits": 2.496,
+     "below_3_bits": 190,
+     "readout_agrees_with_decoder": 0.186
+    }
+   },
+   "esmc_only_against_native_continuation": {
+    "esmc_only_only": 15,
+    "native_continuation_only": 114,
+    "p": 5.046110811696223e-20
+   }
+  }
+ },
+ "native": {
+  "unconditional_usable_at_1": 142
+ },
+ "outcome": "neither_generates",
+ "meaning": "neither the ESMC latent nor its control generates: the full-width layout cannot be retargeted by this recipe, with or without ESMC"
+}

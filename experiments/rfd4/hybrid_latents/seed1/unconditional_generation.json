@@ -1,0 +1,226 @@
+{
+ "threshold": 8,
+ "alpha": 0.05,
+ "update": 1600,
+ "counts": {
+  "deterministic_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 92,
+     "sequence": 36,
+     "designable": 88,
+     "usable": 31
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 89,
+     "sequence": 59,
+     "designable": 91,
+     "usable": 53
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 76,
+     "designable": 87,
+     "usable": 67
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 183,
+     "sequence": 67,
+     "designable": 186,
+     "usable": 62
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 181,
+     "sequence": 154,
+     "designable": 180,
+     "usable": 137
+    }
+   }
+  },
+  "contextual_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 86,
+     "sequence": 44,
+     "designable": 91,
+     "usable": 38
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 91,
+     "sequence": 62,
+     "designable": 91,
+     "usable": 57
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 89,
+     "sequence": 83,
+     "designable": 85,
+     "usable": 67
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 181,
+     "sequence": 84,
+     "designable": 178,
+     "usable": 72
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 184,
+     "sequence": 159,
+     "designable": 174,
+     "usable": 137
+    }
+   }
+  },
+  "identity_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 92,
+     "designable": 86,
+     "usable": 82
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 91,
+     "designable": 87,
+     "usable": 81
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 93,
+     "designable": 73,
+     "usable": 68
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 188,
+     "sequence": 170,
+     "designable": 174,
+     "usable": 151
+    }
+   }
+  },
+  "native_continuation-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 68,
+     "designable": 95,
+     "usable": 67
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 77,
+     "designable": 93,
+     "usable": 74
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 94,
+     "sequence": 82,
+     "designable": 91,
+     "usable": 77
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 189,
+     "sequence": 148,
+     "designable": 184,
+     "usable": 142
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 191,
+     "sequence": 158,
+     "designable": 182,
+     "usable": 149
+    }
+   }
+  }
+ },
+ "tuned_scale": {
+  "deterministic_hybrid-s1": 8.0,
+  "contextual_hybrid-s1": 8.0,
+  "identity_hybrid-s1": 1.0,
+  "native_continuation-s1": 8.0
+ },
+ "per_seed": {
+  "s1": {
+   "tuned_scale": {
+    "deterministic_hybrid": 8.0,
+    "contextual_hybrid": 8.0,
+    "identity_hybrid": 1.0,
+    "native_continuation": 8.0
+   },
+   "tables": {
+    "contextual_vs_deterministic": {
+     "pairs": 192,
+     "share_before": 0.7135416666666666,
+     "share_after": 0.7135416666666666,
+     "had_it_and_kept_it": 100,
+     "lost": 37,
+     "gained": 37,
+     "never_had_it": 18,
+     "exact_p_two_sided": 1.0
+    },
+    "contextual_vs_identity": {
+     "pairs": 192,
+     "share_before": 0.7864583333333334,
+     "share_after": 0.7135416666666666,
+     "had_it_and_kept_it": 107,
+     "lost": 44,
+     "gained": 30,
+     "never_had_it": 11,
+     "exact_p_two_sided": 0.13017768031912763
+    },
+    "contextual_vs_native_continuation": {
+     "pairs": 192,
+     "share_before": 0.7760416666666666,
+     "share_after": 0.7135416666666666,
+     "had_it_and_kept_it": 107,
+     "lost": 42,
+     "gained": 30,
+     "never_had_it": 13,
+     "exact_p_two_sided": 0.19450516586739908
+    }
+   },
+   "contextual_vs_deterministic": "neither",
+   "contextual_vs_identity": "no_difference",
+   "contextual_vs_native_continuation": "not_below",
+   "clusters": {
+    "contextual_hybrid": 121,
+    "native_continuation": 110
+   },
+   "diversity": "at_least_0.8_of_native_continuation"
+  }
+ },
+ "gate": {
+  "seeds_read": [
+   "s1"
+  ],
+  "second_seed_opens": false
+ }
+}

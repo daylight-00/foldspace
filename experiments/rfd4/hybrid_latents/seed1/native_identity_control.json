@@ -1,0 +1,445 @@
+{
+ "arm": "native_identity_control",
+ "threshold": 8,
+ "alpha": 0.05,
+ "update": 1600,
+ "counts": {
+  "native_identity_control-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 94,
+     "sequence": 67,
+     "designable": 89,
+     "usable": 62
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 92,
+     "sequence": 80,
+     "designable": 88,
+     "usable": 72
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 94,
+     "sequence": 86,
+     "designable": 84,
+     "usable": 75
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 192,
+     "sequence": 138,
+     "designable": 186,
+     "usable": 133
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 190,
+     "sequence": 170,
+     "designable": 173,
+     "usable": 152
+    }
+   }
+  },
+  "native_continuation-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 68,
+     "designable": 95,
+     "usable": 67
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 95,
+     "sequence": 77,
+     "designable": 93,
+     "usable": 74
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 94,
+     "sequence": 82,
+     "designable": 91,
+     "usable": 77
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 189,
+     "sequence": 148,
+     "designable": 184,
+     "usable": 142
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 191,
+     "sequence": 158,
+     "designable": 182,
+     "usable": 149
+    }
+   }
+  },
+  "identity_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 92,
+     "designable": 86,
+     "usable": 82
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 91,
+     "designable": 87,
+     "usable": 81
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 93,
+     "designable": 73,
+     "usable": 68
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 188,
+     "sequence": 170,
+     "designable": 174,
+     "usable": 151
+    }
+   }
+  },
+  "learned_posterior_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 52,
+     "designable": 88,
+     "usable": 49
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 93,
+     "sequence": 62,
+     "designable": 84,
+     "usable": 55
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 96,
+     "sequence": 73,
+     "designable": 83,
+     "usable": 61
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 189,
+     "sequence": 107,
+     "designable": 173,
+     "usable": 89
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 191,
+     "sequence": 150,
+     "designable": 174,
+     "usable": 133
+    }
+   }
+  },
+  "contextual_hybrid-s1": {
+   "scale_scan": {
+    "1.0": {
+     "samples": 96,
+     "chain": 86,
+     "sequence": 44,
+     "designable": 91,
+     "usable": 38
+    },
+    "4.0": {
+     "samples": 96,
+     "chain": 91,
+     "sequence": 62,
+     "designable": 91,
+     "usable": 57
+    },
+    "8.0": {
+     "samples": 96,
+     "chain": 89,
+     "sequence": 83,
+     "designable": 85,
+     "usable": 67
+    }
+   },
+   "unconditional": {
+    "1.0": {
+     "samples": 192,
+     "chain": 181,
+     "sequence": 84,
+     "designable": 178,
+     "usable": 72
+    },
+    "8.0": {
+     "samples": 192,
+     "chain": 184,
+     "sequence": 159,
+     "designable": 174,
+     "usable": 137
+    }
+   }
+  }
+ },
+ "tuned_scale": {
+  "native_identity_control": 8.0,
+  "native_continuation": 8.0,
+  "identity_hybrid": 1.0,
+  "learned_posterior_hybrid": 8.0,
+  "contextual_hybrid": 8.0
+ },
+ "designable": {
+  "native-release": {
+   "designable": 80,
+   "chains": 96
+  },
+  "native_continuation-s1-release": {
+   "designable": 84,
+   "chains": 96
+  },
+  "contextual_hybrid-s1-release": {
+   "designable": 81,
+   "chains": 96
+  },
+  "identity_hybrid-s1-release": {
+   "designable": 2,
+   "chains": 96
+  },
+  "deterministic_hybrid-s1-release": {
+   "designable": 71,
+   "chains": 96
+  },
+  "learned_posterior_hybrid-s1-release": {
+   "designable": 83,
+   "chains": 96
+  },
+  "native_identity_control-s1-release": {
+   "designable": 86,
+   "chains": 96
+  }
+ },
+ "unconditional": {
+  "native_continuation": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7760416666666666,
+     "share_after": 0.7916666666666666,
+     "had_it_and_kept_it": 121,
+     "lost": 28,
+     "gained": 31,
+     "never_had_it": 12,
+     "exact_p_two_sided": 0.7948436539828609
+    },
+    "verdict": "level"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7395833333333334,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 106,
+     "lost": 36,
+     "gained": 27,
+     "never_had_it": 23,
+     "exact_p_two_sided": 0.31350305329645284
+    },
+    "verdict": "level"
+   }
+  },
+  "identity_hybrid": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7864583333333334,
+     "share_after": 0.7916666666666666,
+     "had_it_and_kept_it": 123,
+     "lost": 28,
+     "gained": 29,
+     "never_had_it": 12,
+     "exact_p_two_sided": 1.0
+    },
+    "verdict": "level"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7864583333333334,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 107,
+     "lost": 44,
+     "gained": 26,
+     "never_had_it": 15,
+     "exact_p_two_sided": 0.04139142867391546
+    },
+    "verdict": "below"
+   }
+  },
+  "learned_posterior_hybrid": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.6927083333333334,
+     "share_after": 0.7916666666666666,
+     "had_it_and_kept_it": 107,
+     "lost": 26,
+     "gained": 45,
+     "never_had_it": 14,
+     "exact_p_two_sided": 0.03192716208321237
+    },
+    "verdict": "above"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.4635416666666667,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 61,
+     "lost": 28,
+     "gained": 72,
+     "never_had_it": 31,
+     "exact_p_two_sided": 1.2579150016678854e-05
+    },
+    "verdict": "above"
+   }
+  },
+  "contextual_hybrid": {
+   "star": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.7135416666666666,
+     "share_after": 0.7916666666666666,
+     "had_it_and_kept_it": 109,
+     "lost": 28,
+     "gained": 43,
+     "never_had_it": 12,
+     "exact_p_two_sided": 0.09592363141082376
+    },
+    "verdict": "level"
+   },
+   "one": {
+    "table": {
+     "pairs": 192,
+     "share_before": 0.375,
+     "share_after": 0.6927083333333334,
+     "had_it_and_kept_it": 53,
+     "lost": 19,
+     "gained": 80,
+     "never_had_it": 40,
+     "exact_p_two_sided": 4.394027829089421e-10
+    },
+    "verdict": "above"
+   }
+  }
+ },
+ "held_backbones": {
+  "native_continuation-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.875,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 82,
+    "lost": 2,
+    "gained": 4,
+    "never_had_it": 8,
+    "exact_p_two_sided": 0.6875
+   },
+   "verdict": "level"
+  },
+  "contextual_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.84375,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 76,
+    "lost": 5,
+    "gained": 10,
+    "never_had_it": 5,
+    "exact_p_two_sided": 0.3017578125
+   },
+   "verdict": "level"
+  },
+  "identity_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.020833333333333332,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 2,
+    "lost": 0,
+    "gained": 84,
+    "never_had_it": 10,
+    "exact_p_two_sided": 1.0339757656912846e-25
+   },
+   "verdict": "above"
+  },
+  "deterministic_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.7395833333333334,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 70,
+    "lost": 1,
+    "gained": 16,
+    "never_had_it": 9,
+    "exact_p_two_sided": 0.000274658203125
+   },
+   "verdict": "above"
+  },
+  "learned_posterior_hybrid-s1-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.8645833333333334,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 82,
+    "lost": 1,
+    "gained": 4,
+    "never_had_it": 9,
+    "exact_p_two_sided": 0.375
+   },
+   "verdict": "level"
+  },
+  "native-release": {
+   "table": {
+    "pairs": 96,
+    "share_before": 0.8333333333333334,
+    "share_after": 0.8958333333333334,
+    "had_it_and_kept_it": 77,
+    "lost": 3,
+    "gained": 9,
+    "never_had_it": 7,
+    "exact_p_two_sided": 0.14599609375
+   },
+   "verdict": "level"
+  }
+ },
+ "heat_free": "holds",
+ "designer": "holds",
+ "outcome": "heat_free and designer",
+ "learned_posterior_basis": {
+  "generation_at_tuned_scale": "above",
+  "design": "level"
+ },
+ "learned_posterior_vs_native_identity_control": "below"
+}

@@ -1,0 +1,68 @@
+{
+ "arm": "onehot",
+ "steps": 2048,
+ "epochs": 8,
+ "train_chains": 2048,
+ "dev_chains": 256,
+ "batch": 8,
+ "lr": 0.0001,
+ "lr_new": 0.001,
+ "match": 1.0,
+ "ae": "/path/to/home/workspaces/models/hf/hub/blobs/d2/d248d00a8c4a8ab636450c08fc8dbf9a86e343f3dd3d6bc31da6fed97723dc74",
+ "start": {
+  "label": "start",
+  "all": {
+   "residues": 43931,
+   "per_residue_rmsd": 1.6157317876493074,
+   "backbone_rms": 0.17767613954290545,
+   "side_chain_rms": 3.230622937367934,
+   "sequence_accuracy": 0.08520179372197309
+  },
+  "complete": {
+   "residues": 43675,
+   "per_residue_rmsd": 1.6222040986864057,
+   "backbone_rms": 0.17759287993854966,
+   "side_chain_rms": 3.2332685090937603,
+   "sequence_accuracy": 0.08570120206067544
+  },
+  "truncated": {
+   "residues": 256,
+   "per_residue_rmsd": 0.5115201292693429,
+   "backbone_rms": 0.183901170705315,
+   "side_chain_rms": 1.0878157018948396,
+   "sequence_accuracy": 0.0
+  },
+  "presence_f1": 0.998742113381695,
+  "mean_relative_l2_to_release_posterior_mean": 2.3645853358373783,
+  "seconds": 10.9
+ },
+ "end": {
+  "label": "epoch 8",
+  "all": {
+   "residues": 43931,
+   "per_residue_rmsd": 1.3176210117325342,
+   "backbone_rms": 0.6586092013821537,
+   "side_chain_rms": 2.3768476460314383,
+   "sequence_accuracy": 0.7207211308643099
+  },
+  "complete": {
+   "residues": 43675,
+   "per_residue_rmsd": 1.3218709680561278,
+   "backbone_rms": 0.6592503633423006,
+   "side_chain_rms": 2.379239493379475,
+   "sequence_accuracy": 0.720847166571265
+  },
+  "truncated": {
+   "residues": 256,
+   "per_residue_rmsd": 0.5925552209788235,
+   "backbone_rms": 0.5058187560843178,
+   "side_chain_rms": 0.8468515047588251,
+   "sequence_accuracy": 0.69921875
+  },
+  "presence_f1": 0.9987359310671812,
+  "mean_relative_l2_to_release_posterior_mean": 0.7903098506927057,
+  "seconds": 257.6
+ },
+ "seconds": 259.5,
+ "stack_commit": "8e6738520aa65fdf3c9666f4445dcdc115809df8"
+}

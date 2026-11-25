@@ -1,0 +1,94 @@
+{
+ "esmc_residual8": {
+  "legs": {
+   "800-update arm": {
+    "example_slots": 25600,
+    "distinct_presentations": 6400,
+    "residues": 1172823,
+    "residues_squared": 235901619,
+    "gpu_hours": 2.5435744573672614,
+    "updates": 800
+   },
+   "continuation 800 to 1,600": {
+    "example_slots": 25600,
+    "distinct_presentations": 6400,
+    "residues": 1189491,
+    "residues_squared": 241919805,
+    "gpu_hours": 2.7202146022849614,
+    "updates": 800
+   }
+  },
+  "total": {
+   "updates": 1600,
+   "example_slots": 51200,
+   "distinct_presentations": 12800,
+   "residues": 2362314,
+   "residues_squared": 477821424,
+   "gpu_hours": 5.263789059652223
+  }
+ },
+ "inplace_hybrid": {
+  "legs": {
+   "800-update arm": {
+    "example_slots": 25600,
+    "distinct_presentations": 6400,
+    "residues": 1172823,
+    "residues_squared": 235901619,
+    "gpu_hours": 2.5035541158252292,
+    "updates": 800
+   },
+   "continuation 800 to 1,600": {
+    "example_slots": 25600,
+    "distinct_presentations": 6400,
+    "residues": 1189491,
+    "residues_squared": 241919805,
+    "gpu_hours": 2.8265879329707886,
+    "updates": 800
+   }
+  },
+  "total": {
+   "updates": 1600,
+   "example_slots": 51200,
+   "distinct_presentations": 12800,
+   "residues": 2362314,
+   "residues_squared": 477821424,
+   "gpu_hours": 5.330142048796018
+  }
+ },
+ "type_only_residual8": {
+  "legs": {
+   "800-update arm": {
+    "example_slots": 25600,
+    "distinct_presentations": 6400,
+    "residues": 1172823,
+    "residues_squared": 235901619,
+    "gpu_hours": 2.677519464757707,
+    "updates": 800
+   },
+   "first continuation leg 800 to 1,000 (steps.csv)": {
+    "updates": 200,
+    "example_slots": 6400,
+    "distinct_presentations": 1600,
+    "residues": 300185,
+    "residues_squared": 61584587,
+    "gpu_hours": 0.6406541069348654
+   },
+   "resumed leg 1,000 to 1,600": {
+    "example_slots": 19200,
+    "distinct_presentations": 4800,
+    "residues": 889306,
+    "residues_squared": 180335218,
+    "gpu_hours": 2.0777951251135933,
+    "updates": 600
+   }
+  },
+  "total": {
+   "updates": 1600,
+   "example_slots": 51200,
+   "distinct_presentations": 12800,
+   "residues": 2362314,
+   "residues_squared": 477821424,
+   "gpu_hours": 5.3959686968061655
+  }
+ }
+}

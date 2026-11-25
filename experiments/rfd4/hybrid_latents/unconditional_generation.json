@@ -1,0 +1,84 @@
+{
+ "usable_of_192_at_scale_1": {
+  "native_continuation": 142,
+  "contextual_hybrid": 72,
+  "native_identity_control": 133,
+  "type_shuffled_hybrid": 117,
+  "contextual_hybrid_seed2": 43,
+  "type_shuffled_hybrid_seed2": 106
+ },
+ "pairs": {
+  "contextual_hybrid>type_shuffled_hybrid": {
+   "pairs": 192,
+   "share_before": 0.375,
+   "share_after": 0.609375,
+   "had_it_and_kept_it": 48,
+   "lost": 24,
+   "gained": 69,
+   "never_had_it": 51,
+   "exact_p_two_sided": 3.30289410703595e-06,
+   "gain_by_rule": true,
+   "loss_by_rule": false
+  },
+  "native_identity_control>type_shuffled_hybrid": {
+   "pairs": 192,
+   "share_before": 0.6927083333333334,
+   "share_after": 0.609375,
+   "had_it_and_kept_it": 86,
+   "lost": 47,
+   "gained": 31,
+   "never_had_it": 28,
+   "exact_p_two_sided": 0.08878242522208006,
+   "gain_by_rule": false,
+   "loss_by_rule": false
+  },
+  "native_continuation>type_shuffled_hybrid": {
+   "pairs": 192,
+   "share_before": 0.7395833333333334,
+   "share_after": 0.609375,
+   "had_it_and_kept_it": 89,
+   "lost": 53,
+   "gained": 28,
+   "never_had_it": 22,
+   "exact_p_two_sided": 0.007275502036308497,
+   "gain_by_rule": false,
+   "loss_by_rule": true
+  },
+  "contextual_hybrid_seed2>type_shuffled_hybrid_seed2": {
+   "pairs": 192,
+   "share_before": 0.22395833333333334,
+   "share_after": 0.5520833333333334,
+   "had_it_and_kept_it": 27,
+   "lost": 16,
+   "gained": 79,
+   "never_had_it": 70,
+   "exact_p_two_sided": 3.467543657796265e-11,
+   "gain_by_rule": true,
+   "loss_by_rule": false
+  },
+  "contextual_hybrid>contextual_hybrid_seed2": {
+   "pairs": 192,
+   "share_before": 0.375,
+   "share_after": 0.22395833333333334,
+   "had_it_and_kept_it": 22,
+   "lost": 50,
+   "gained": 21,
+   "never_had_it": 99,
+   "exact_p_two_sided": 0.0007667649897412907,
+   "gain_by_rule": false,
+   "loss_by_rule": true
+  },
+  "type_shuffled_hybrid>type_shuffled_hybrid_seed2": {
+   "pairs": 192,
+   "share_before": 0.609375,
+   "share_after": 0.5520833333333334,
+   "had_it_and_kept_it": 71,
+   "lost": 46,
+   "gained": 35,
+   "never_had_it": 40,
+   "exact_p_two_sided": 0.26641230967132035,
+   "gain_by_rule": false,
+   "loss_by_rule": false
+  }
+ }
+}

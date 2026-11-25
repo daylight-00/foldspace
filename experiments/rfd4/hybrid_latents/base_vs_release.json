@@ -1,0 +1,421 @@
+{
+ "counts": {
+  "design_panel_primary": {
+   "own": {
+    "designable": 70,
+    "p": 7
+   },
+   "native": {
+    "designable": 61,
+    "p": 11
+   },
+   "native_continuation": {
+    "designable": 74,
+    "p": 44
+   },
+   "native_identity_control": {
+    "designable": 79,
+    "p": 41
+   },
+   "contextual_hybrid": {
+    "designable": 80,
+    "p": 65
+   },
+   "type_shuffled_hybrid": {
+    "designable": 79,
+    "p": 54
+   },
+   "contextual_hybrid_seed2": {
+    "designable": 67,
+    "p": 44
+   },
+   "type_shuffled_hybrid_seed2": {
+    "designable": 71,
+    "p": 63
+   },
+   "ProteinMPNN": {
+    "designable": 81,
+    "p": 59
+   },
+   "release-scale1": {
+    "designable": 65,
+    "p": 27
+   },
+   "release-official": {
+    "designable": 63,
+    "p": 26
+   },
+   "base-official": {
+    "designable": 67,
+    "p": 10
+   },
+   "native_continuation-official": {
+    "designable": 71,
+    "p": 45
+   },
+   "ProteinMPNN-T0.2": {
+    "designable": 80,
+    "p": 59
+   },
+   "ProteinMPNN-T0.3": {
+    "designable": 80,
+    "p": 65
+   }
+  },
+  "design_panel_replication": {
+   "own": {
+    "designable": 58,
+    "p": 13
+   },
+   "native": {
+    "designable": 62,
+    "p": 8
+   },
+   "native_continuation": {
+    "designable": 74,
+    "p": 48
+   },
+   "native_identity_control": {
+    "designable": 71,
+    "p": 44
+   },
+   "contextual_hybrid": {
+    "designable": 71,
+    "p": 57
+   },
+   "type_shuffled_hybrid": {
+    "designable": 71,
+    "p": 53
+   },
+   "contextual_hybrid_seed2": {
+    "designable": 68,
+    "p": 41
+   },
+   "type_shuffled_hybrid_seed2": {
+    "designable": 69,
+    "p": 60
+   },
+   "ProteinMPNN": {
+    "designable": 75,
+    "p": 54
+   },
+   "release-scale1": {
+    "designable": 66,
+    "p": 37
+   },
+   "release-official": {
+    "designable": 62,
+    "p": 36
+   },
+   "base-official": {
+    "designable": 58,
+    "p": 8
+   },
+   "native_continuation-official": {
+    "designable": 72,
+    "p": 48
+   },
+   "ProteinMPNN-T0.2": {
+    "designable": 76,
+    "p": 61
+   },
+   "ProteinMPNN-T0.3": {
+    "designable": 73,
+    "p": 58
+   }
+  }
+ },
+ "thresholds": {
+  "design_panel_primary": {
+   "own": {
+    "2.0": 60,
+    "2.5": 38,
+    "3.0": 7,
+    "3.5": 0
+   },
+   "native": {
+    "2.0": 50,
+    "2.5": 33,
+    "3.0": 11,
+    "3.5": 0
+   },
+   "native_continuation": {
+    "2.0": 72,
+    "2.5": 65,
+    "3.0": 44,
+    "3.5": 5
+   },
+   "native_identity_control": {
+    "2.0": 75,
+    "2.5": 64,
+    "3.0": 41,
+    "3.5": 6
+   },
+   "contextual_hybrid": {
+    "2.0": 80,
+    "2.5": 78,
+    "3.0": 65,
+    "3.5": 12
+   },
+   "type_shuffled_hybrid": {
+    "2.0": 79,
+    "2.5": 74,
+    "3.0": 54,
+    "3.5": 13
+   },
+   "contextual_hybrid_seed2": {
+    "2.0": 64,
+    "2.5": 59,
+    "3.0": 44,
+    "3.5": 11
+   },
+   "type_shuffled_hybrid_seed2": {
+    "2.0": 71,
+    "2.5": 69,
+    "3.0": 63,
+    "3.5": 22
+   },
+   "ProteinMPNN": {
+    "2.0": 81,
+    "2.5": 77,
+    "3.0": 59,
+    "3.5": 7
+   },
+   "release-scale1": {
+    "2.0": 62,
+    "2.5": 52,
+    "3.0": 27,
+    "3.5": 5
+   },
+   "release-official": {
+    "2.0": 61,
+    "2.5": 51,
+    "3.0": 26,
+    "3.5": 6
+   },
+   "base-official": {
+    "2.0": 56,
+    "2.5": 34,
+    "3.0": 10,
+    "3.5": 0
+   },
+   "native_continuation-official": {
+    "2.0": 70,
+    "2.5": 65,
+    "3.0": 45,
+    "3.5": 9
+   },
+   "ProteinMPNN-T0.2": {
+    "2.0": 80,
+    "2.5": 77,
+    "3.0": 59,
+    "3.5": 6
+   },
+   "ProteinMPNN-T0.3": {
+    "2.0": 80,
+    "2.5": 80,
+    "3.0": 65,
+    "3.5": 10
+   }
+  },
+  "design_panel_replication": {
+   "own": {
+    "2.0": 51,
+    "2.5": 37,
+    "3.0": 13,
+    "3.5": 0
+   },
+   "native": {
+    "2.0": 52,
+    "2.5": 37,
+    "3.0": 8,
+    "3.5": 1
+   },
+   "native_continuation": {
+    "2.0": 72,
+    "2.5": 66,
+    "3.0": 48,
+    "3.5": 11
+   },
+   "native_identity_control": {
+    "2.0": 69,
+    "2.5": 60,
+    "3.0": 44,
+    "3.5": 10
+   },
+   "contextual_hybrid": {
+    "2.0": 71,
+    "2.5": 70,
+    "3.0": 57,
+    "3.5": 17
+   },
+   "type_shuffled_hybrid": {
+    "2.0": 71,
+    "2.5": 68,
+    "3.0": 53,
+    "3.5": 13
+   },
+   "contextual_hybrid_seed2": {
+    "2.0": 68,
+    "2.5": 61,
+    "3.0": 41,
+    "3.5": 7
+   },
+   "type_shuffled_hybrid_seed2": {
+    "2.0": 69,
+    "2.5": 68,
+    "3.0": 60,
+    "3.5": 25
+   },
+   "ProteinMPNN": {
+    "2.0": 75,
+    "2.5": 72,
+    "3.0": 54,
+    "3.5": 8
+   },
+   "release-scale1": {
+    "2.0": 64,
+    "2.5": 53,
+    "3.0": 37,
+    "3.5": 12
+   },
+   "release-official": {
+    "2.0": 60,
+    "2.5": 52,
+    "3.0": 36,
+    "3.5": 9
+   },
+   "base-official": {
+    "2.0": 49,
+    "2.5": 33,
+    "3.0": 8,
+    "3.5": 0
+   },
+   "native_continuation-official": {
+    "2.0": 70,
+    "2.5": 66,
+    "3.0": 48,
+    "3.5": 14
+   },
+   "ProteinMPNN-T0.2": {
+    "2.0": 76,
+    "2.5": 74,
+    "3.0": 61,
+    "3.5": 9
+   },
+   "ProteinMPNN-T0.3": {
+    "2.0": 73,
+    "2.5": 73,
+    "3.0": 58,
+    "3.5": 19
+   }
+  }
+ },
+ "controls": {
+  "regression (base under the arms' recipe against the stored reading)": {
+   "design_panel_primary": null,
+   "design_panel_replication": {
+    "designs": 96,
+    "identical": 96,
+    "residues": 14400,
+    "residues_differing": 0,
+    "valid": true
+   }
+  },
+  "the weights each new reading stands on": {
+   "design_panel_primary": {
+    "release-scale1": {
+     "ok": true,
+     "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0",
+     "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"
+    },
+    "release-official": {
+     "ok": true,
+     "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0",
+     "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"
+    },
+    "base-official": {
+     "ok": true,
+     "bundle": null,
+     "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"
+    },
+    "native_continuation-official": {
+     "ok": true,
+     "bundle": null,
+     "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"
+    }
+   },
+   "design_panel_replication": {
+    "release-scale1": {
+     "ok": true,
+     "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0",
+     "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"
+    },
+    "release-official": {
+     "ok": true,
+     "bundle": "5b549dd61adb2f6c6b5cb95bda13f40f5e31556b4e6c755edc0ca6f011c68fb0",
+     "flow": "c1c8b7068e87c41a334ec5b77e7d7cdda30bd31ed4504909d93bd72f7742afe4"
+    },
+    "base-official": {
+     "ok": true,
+     "bundle": null,
+     "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"
+    },
+    "base-scale1": {
+     "ok": true,
+     "bundle": null,
+     "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"
+    },
+    "native_continuation-official": {
+     "ok": true,
+     "bundle": null,
+     "flow": "561bbbe3e97f37ded11ddc934ff2184adcd98038396f7aa1f16e6f9d57f0f8b2"
+    }
+   }
+  }
+ },
+ "rules": {
+  "designer_default": {
+   "outcome": "native_continuation stays the default",
+   "native_continuation_above_release_official_on_P": {
+    "design_panel_primary": true,
+    "design_panel_replication": true
+   },
+   "native_continuation_above_release_scale1_on_P": {
+    "design_panel_primary": true,
+    "design_panel_replication": true
+   }
+  },
+  "scale_proposal_gate": {
+   "outcome": "no scale proposal for contextual_hybrid",
+   "contextual_hybrid_above_release_on_P": {
+    "design_panel_primary": true,
+    "design_panel_replication": true
+   },
+   "contextual_hybrid_seed2_above_release_on_P": {
+    "design_panel_primary": true,
+    "design_panel_replication": false
+   },
+   "type_shuffled_hybrid_both_seeds_above_release_on_P": {
+    "design_panel_primary": true,
+    "design_panel_replication": true
+   },
+   "seed_mean_net_contextual_hybrid_over_type_shuffled_hybrid": {
+    "design_panel_primary": {
+     "nets": [
+      11,
+      -19
+     ],
+     "mean": -4.0
+    },
+    "design_panel_replication": {
+     "nets": [
+      4,
+      -19
+     ],
+     "mean": -7.5
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+GPU information: NVIDIA RTX A6000, 8, 6, 45, 84, 300, 2100
+8 of 64 chains, 49 s
+16 of 64 chains, 63 s
+24 of 64 chains, 94 s
+32 of 64 chains, 123 s
+40 of 64 chains, 160 s
+48 of 64 chains, 194 s
+56 of 64 chains, 236 s
+64 of 64 chains, 264 s
+64 dev chains
+true chains: ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.462, ca_c 1.525, c_n_next 1.330
+release/mean  : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.465, ca_c 1.525, c_n_next 1.323; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+esmc_only_seed1/mean    : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.458, ca_c 1.524, c_n_next 1.318; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+esmc_only_seed1/noisy   : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.458, ca_c 1.523, c_n_next 1.321; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+esmc_only_seed2/mean    : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.455, ca_c 1.508, c_n_next 1.332; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+esmc_only_seed2/noisy   : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.454, ca_c 1.507, c_n_next 1.334; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+type_only_seed1/mean    : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.266, ca_c 1.345, c_n_next 1.914; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+type_only_seed1/noisy   : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.261, ca_c 1.341, c_n_next 1.914; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+type_only_seed2/mean    : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.307, ca_c 1.374, c_n_next 1.837; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
+type_only_seed2/noisy   : ca_step_mean 3.806, ca_step_std 0.053, ca_step_in_window 0.997, n_ca 1.303, ca_c 1.370, c_n_next 1.843; Ca given vs returned: mean 0.000, 90th percentile 0.000 A
