@@ -1,0 +1,26 @@
+{
+  "label": "upstream bump of 2026-11-11: what a stack made for the ESM-derived-latent work runs from",
+  "provenance": {
+    "esmfold2_atomworks": "8deb4c21350d52ee308b139d400d0feb85b44073",
+    "esm": "fddac936fc921445da2d099a3e4f7ae928717292",
+    "atomworks": "1a9fa25fec3709b73493edfaba31d131dabddbbc",
+    "rfd4_proteina": "68058693cb88762a8aaf806571e13b291ce6318a"
+  },
+  "tags": {
+    "esmfold2_atomworks": "v0.5.0",
+    "esm": "v3.4.3",
+    "atomworks": "v3.0.4"
+  },
+  "run_beside_the_stack": {
+    "rfd4_proteina": "its source (main, in the stack's RFD4-Proteina tree; src/rfproteina identical to the 0.0.3 wheel and to aaccdd2, only pyproject.toml differs) is put on the path of RFD4's own environment (.venv-rfd4); weights nvidia/RFD4-Proteina at 48377e45, model.safetensors sha256 5b549dd61adb... unchanged at the repository head 621b785a (2026-10-30 added an antibody checkpoint only)"
+  },
+  "not_moved": {
+    "atlasfold": "v1.0.4 (6df9f45), the ruler's judge; its source imports neither atomworks nor esm",
+    "rf3": "rc-foundry 0.2.0 in .venv-foundry, the second judge of the panel"
+  },
+  "previous": {
+    "esmfold2_atomworks": "e32b2eb5aabf2ca4dc6572946b29a46623782a31",
+    "esm": "43b4548b86762edfa747b07d5f440aad3c33acee",
+    "atomworks": "fcf7af8c127e0de62a460dab5230c649a25a78d4"
+  }
+}
