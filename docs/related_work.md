@@ -1,6 +1,6 @@
 # Related work
 
-## Models used
+## Models and tools used
 
 | model | role here |
 |---|---|
@@ -10,6 +10,9 @@
 | [La-Proteina](https://arxiv.org/abs/2507.09466) | joint atomistic sequence–structure flow matching over an explicit coarse backbone and per-residue latents; the partially latent design that RFD4 latent adaptation modifies |
 | [AtlasFold](https://sciety.org/articles/activity/10.64898/2026.09.04.749352) | independent MSA-free folder (built on AtlasLM, not ESMC) that scores generated sequences |
 | [ProteinMPNN](https://www.science.org/doi/10.1126/science.add2187) | external sequence-design baseline for the hybrid-latent design panels |
+| [RF3](https://github.com/RosettaCommons/foundry) | second structure judge for the RFD4 design panels |
+| [US-align](https://github.com/pylelab/USalign) | structural alignment and TM-score evaluation (Zhang, Freddolino and Zhang, *Nat Protoc* 21, 2026; Zhang, Shine, Pyle and Zhang, *Nat Methods* 19, 2022; Zhang and Pyle, *iScience* 25, 2022) |
+| [MMseqs2](https://github.com/soedinglab/MMseqs2) ([Steinegger and Söding, 2017](https://doi.org/10.1038/nbt.3988)) | sequence search and clustering for the novelty and cluster-split checks |
 
 ## Closest prior work
 
