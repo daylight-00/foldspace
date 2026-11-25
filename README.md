@@ -41,4 +41,4 @@ Exploratory computational research. Neither architecture achieved reliable uncon
 
 ## License
 
-MIT, see [LICENSE](LICENSE). External models and dependencies (ESM, AtomWorks, RFD4-Proteina, the weights) retain their own licenses.
+Code is released under the [MIT License](LICENSE). External software and model weights retain their respective licenses. Reference structures are derived from the [PDB archive](https://www.rcsb.org/pages/policies) (CC0).
